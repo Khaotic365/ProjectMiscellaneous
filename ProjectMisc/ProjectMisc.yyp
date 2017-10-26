@@ -167,11 +167,35 @@
             }
         },
         {
+            "Key": "8b936b83-be63-40bd-9599-8f9cf439c598",
+            "Value": {
+                "id": "f22abe73-4c42-4a9c-b8ec-3d0a99fd84b7",
+                "resourcePath": "sprites\\sprShark\\sprShark.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "8e11af40-ec5a-47b9-abc8-d5710bd34b20",
             "Value": {
                 "id": "5e16b4ff-aae3-45ae-a30e-d51287a7cb7e",
                 "resourcePath": "rooms\\rmStory2\\rmStory2.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "a607fe32-8608-4f47-ad45-d07e5ce54580",
+            "Value": {
+                "id": "ea995ebd-e518-4570-8181-a360679aa74d",
+                "resourcePath": "sprites\\SprPlayer\\SprPlayer.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "a9188620-a624-4a5a-83ae-a1b53faf038b",
+            "Value": {
+                "id": "a56a2507-f818-4f13-bb0c-133e681a710a",
+                "resourcePath": "options\\linux\\options_linux.yy",
+                "resourceType": "GMLinuxOptions"
             }
         },
         {
@@ -259,6 +283,22 @@
             "Value": {
                 "id": "f6a00f26-9919-4bf0-8ca6-b50063922c8b",
                 "resourcePath": "objects\\objStory1\\objStory1.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "f418569b-3bdd-4706-a0e4-364317f54032",
+            "Value": {
+                "id": "c9151371-ac9c-45b6-879a-fad035dc5936",
+                "resourcePath": "options\\mac\\options_mac.yy",
+                "resourceType": "GMMacOptions"
+            }
+        },
+        {
+            "Key": "f48d74c7-b58f-4720-8255-8ce7b66d7a3f",
+            "Value": {
+                "id": "a728a1b4-a2e8-440e-8264-5eb7309e115c",
+                "resourcePath": "objects\\ObjPlayer\\ObjPlayer.yy",
                 "resourceType": "GMObject"
             }
         },
