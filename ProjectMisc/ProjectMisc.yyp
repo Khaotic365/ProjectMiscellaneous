@@ -31,14 +31,6 @@
     },
     "resources": [
         {
-            "Key": "0edbc47f-12aa-4432-968c-c6472a13ff79",
-            "Value": {
-                "id": "8dd30bbd-9a3f-4f5c-b773-c04badbcf5da",
-                "resourcePath": "objects\\objStory4\\objStory4.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "1179d420-c7df-45bc-9e14-91d2bde4eb8e",
             "Value": {
                 "id": "a6eb5918-f9b1-4c40-8bd3-6b5ade1b44e6",
@@ -108,6 +100,14 @@
                 "id": "8090f010-13a6-491a-a81d-7e04dc0fe340",
                 "resourcePath": "sprites\\sprStory3\\sprStory3.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "446e71e5-7396-464e-90e0-dee9719dac92",
+            "Value": {
+                "id": "69785705-bbaa-4ff9-a4d5-b8ecbeb2744f",
+                "resourcePath": "rooms\\rmStory4\\rmStory4.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -279,6 +279,14 @@
             }
         },
         {
+            "Key": "db8085d7-fe56-48e6-9e69-d60b7bb825dc",
+            "Value": {
+                "id": "9c93c561-3faf-4304-bab5-bec25d210e51",
+                "resourcePath": "sprites\\sprStory4\\sprStory4.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "dec624eb-6735-45be-94d6-1b5487b570c3",
             "Value": {
                 "id": "ef70f4a2-1561-43b6-81fe-5a9d32b00c24",
@@ -295,18 +303,18 @@
             }
         },
         {
-            "Key": "e68ccc1c-63ec-42f4-b9db-be440fdfe6a6",
-            "Value": {
-                "id": "e6276ba6-acc5-4fb9-bd5c-bdc49c6ce784",
-                "resourcePath": "sprites\\sprStory4\\sprStory4.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "e981224b-8a10-4f23-ab25-739726aec1f1",
             "Value": {
                 "id": "f6a00f26-9919-4bf0-8ca6-b50063922c8b",
                 "resourcePath": "objects\\objStory1\\objStory1.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "f32a49ae-6665-4af6-94cf-d2f3729de034",
+            "Value": {
+                "id": "17fc44f9-c3da-4fa4-ae05-e0682183be15",
+                "resourcePath": "objects\\objStory4\\objStory4.yy",
                 "resourceType": "GMObject"
             }
         },
