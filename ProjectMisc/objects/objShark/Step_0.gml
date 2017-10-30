@@ -25,23 +25,33 @@ if ordinary == 1
    image_xscale = 1;
    if distance_to_point(room_width, starty) == 0
    {
-      backwards = 1;
+      diagonal = 1;
 	  ordinary = 0;
    }
 }
 
+if diagonal == 1
+{
+   move_towards_point(room_width/2, starty + room_height/5, spd);
+   image_xscale = -1;
+   if distance_to_point(room_width/2, starty + room_height/5) == 0
+   {
+      diagonal = 0;
+	  backwards = 1; 
+   }
+   
+}
+
 if backwards == 1
 {
-   move_towards_point(startx, starty, spd);
+   move_towards_point(0, starty, spd);
    image_xscale = -1;
-   if distance_to_point(startx, starty) == 0
+   if distance_to_point(0, starty) == 0
    {
       ordinary = 1;
 	  backwards = 0;
    }
 }
-
-
 
 if follow == 1
 {
