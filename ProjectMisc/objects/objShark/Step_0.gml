@@ -21,7 +21,7 @@ if distance_to_object(objPlayer) <= sharkrange
 
 if ordinary == 1
 {
-   move_towards_point(room_width, starty, spd);
+   move_towards_point(room_width, starty, patrolspd);
    image_xscale = 1;
    if distance_to_point(room_width, starty) == 0
    {
@@ -32,7 +32,7 @@ if ordinary == 1
 
 if diagonal == 1
 {
-   move_towards_point(room_width/2, starty + room_height/5, spd);
+   move_towards_point(room_width/2, starty + room_height/5, patrolspd);
    image_xscale = -1;
    if distance_to_point(room_width/2, starty + room_height/5) == 0
    {
@@ -44,7 +44,7 @@ if diagonal == 1
 
 if backwards == 1
 {
-   move_towards_point(0, starty, spd);
+   move_towards_point(0, starty, patrolspd);
    image_xscale = -1;
    if distance_to_point(0, starty) == 0
    {
@@ -55,7 +55,7 @@ if backwards == 1
 
 if follow == 1
 {
-   move_towards_point(objPlayer.x, objPlayer.y, spd);
+   move_towards_point(objPlayer.x, objPlayer.y, followspd);
 }
 
 //Place debug messages below
