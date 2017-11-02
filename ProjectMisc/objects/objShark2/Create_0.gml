@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-followspd = 4;
+followspd = 3.8;
 patrolspd = 10;
 maxspeed = 20;
 ordinary = 0;
