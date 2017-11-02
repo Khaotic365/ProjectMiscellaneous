@@ -56,6 +56,14 @@ if backwards == 1
 if follow == 1
 {
    move_towards_point(objPlayer.x, objPlayer.y, followspd);
+   if x >= objPlayer.x 
+   {
+      image_xscale = -1;
+   }
+   if x <= objPlayer.x 
+   {
+      image_xscale = 1;
+   }
 }
 
 //Place debug messages below
