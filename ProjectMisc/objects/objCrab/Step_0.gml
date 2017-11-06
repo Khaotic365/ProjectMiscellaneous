@@ -48,8 +48,7 @@ if timer2 == 0
 	ordinary = 0;
 	backwards = 0;
 	jumppoint = starty - 200;
-	move_towards_point(x, jumppoint, 10);
-	show_debug_message("TimerTimerTimer");
+	move_towards_point(x, jumppoint, 20);
 }
 
 if bJumping == true
@@ -58,7 +57,7 @@ if bJumping == true
 	{
 		bJumping = false;
 		bFalling = true;
-		move_towards_point(x, starty, 10);
+		move_towards_point(x, starty, 20);
 	}
 }
 
@@ -89,6 +88,7 @@ if patrolspd != targetspd
 }
 
 //Debug Messasges
+//show_debug_message("TimerTimerTimer");
 //show_debug_message(timer2);
 //show_debug_message("Jump point: " + string(jumppoint));
 //show_debug_message("Start Y: " + string(starty));
