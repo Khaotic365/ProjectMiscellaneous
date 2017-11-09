@@ -383,6 +383,14 @@
             }
         },
         {
+            "Key": "f48d74c7-b58f-4720-8255-8ce7b66d7a3f",
+            "Value": {
+                "id": "4cf25cd0-2623-4a63-ba83-d38e67fa7434",
+                "resourcePath": "objects\\objPlayer\\objPlayer.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "fb006931-5b0b-4acb-9976-71d3314eaf99",
             "Value": {
                 "id": "294395a1-d6d9-437c-a25d-07c40d46d8fd",

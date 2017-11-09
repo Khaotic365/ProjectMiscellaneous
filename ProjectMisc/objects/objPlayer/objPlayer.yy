@@ -5,7 +5,7 @@
     "name": "objPlayer",
     "eventList": [
         {
-            "id": "36ba7998-9f9a-49f1-8454-cb2995871fd9",
+            "id": "f2e5bcf5-88e4-496c-a9e5-5a7778776091",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
@@ -15,7 +15,7 @@
             "m_owner": "f48d74c7-b58f-4720-8255-8ce7b66d7a3f"
         },
         {
-            "id": "5cc5ef25-7986-492c-a119-47709576f38c",
+            "id": "cfe86420-fb32-4b19-aef3-af676f34cf59",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
@@ -40,7 +40,7 @@
     "physicsShape": 1,
     "physicsShapePoints": null,
     "physicsStartAwake": true,
-    "solid": false,
+    "solid": true,
     "spriteId": "a607fe32-8608-4f47-ad45-d07e5ce54580",
     "visible": true
 }
