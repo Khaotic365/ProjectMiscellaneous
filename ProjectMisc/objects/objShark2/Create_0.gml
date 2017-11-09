@@ -1,5 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
+
+//Defining variables
+
 iFollowspd = 3.8;
 iPatrolspd = 10;
 iMaxspeed = 20;

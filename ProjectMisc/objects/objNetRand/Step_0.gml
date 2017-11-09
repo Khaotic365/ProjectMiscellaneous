@@ -8,6 +8,9 @@ if iTimer != 75
 	iTimer += 1;
 }
 
+//If the timer is at 75 and boolean go is false (i.e. it's not time to go)
+//Set target x and y coordinates
+
 if iTimer == 75 && bGo == false
 {
 	iTargetx = random_range((2 * sprite_width), (room_width - (sprite_width * 2)));
@@ -15,6 +18,9 @@ if iTimer == 75 && bGo == false
 	bGo = true;
 	iTimer = 0;
 }
+
+//If boolean go is true (i.e. it's time to go)
+//Move toward the target x and y coordinates
 
 if bGo == true
 {

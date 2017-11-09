@@ -24,6 +24,8 @@ else
 }
 */
 
+//Set timer so that the shark will change speeds over time
+
 if iTimer != delta_time * 3000000
 {
    iTimer += 1;
@@ -34,6 +36,8 @@ if iTimer == 100
    iTargetspd = random_range(0, iMaxspeed);
    iTimer = 0;
 }
+
+//Setting the patrol speed gradually to target speed
 
 if iPatrolspd != iTargetspd
 {
@@ -47,6 +51,8 @@ if iPatrolspd != iTargetspd
    }
 }
 
+//Checking to see if the shark is within rnage of the player
+
 if distance_to_object(objPlayer) > iSharkrange
 {
    bForward = true;
@@ -59,6 +65,9 @@ if distance_to_object(objPlayer) <= iSharkrange
    bForward = false;
 }
 
+//If the shark should be moving forward, move towards the end of the room
+//If the shark reaches the end of the room it starts to go back diagonally
+
 if bForward == true
 {
    move_towards_point(room_width, iStarty, iPatrolspd);
@@ -69,6 +78,8 @@ if bForward == true
 	  bForward = false;
    }
 }
+
+//The shark moves diagonally to the half way point of the room
 
 if bDiagonal == true
 {
@@ -82,6 +93,8 @@ if bDiagonal == true
    
 }
 
+//The shark moves to the beginning of the room
+
 if bBackward == true
 {
    move_towards_point(0, iStarty, iPatrolspd);
@@ -92,6 +105,8 @@ if bBackward == true
 	  bBackward = false;
    }
 }
+
+//The shark will follow the player if it gets in range
 
 if bFollow == true
 {
