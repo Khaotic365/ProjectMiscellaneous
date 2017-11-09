@@ -8,64 +8,92 @@ if distance_to_object(objPlayer) != 20
 }
 */
 
-//Checking to see if the player is within range of the shark. 
-//If it is the shark will follow the player.
+/*
+if patrolspd <= maxspeed
+{
+   patrolspd += .1;
+}
+
+if patrolspd == maxspeed && iterations == 10
+{
+   patrolspd = maxspeed / 5;
+}
+else
+{
+  iterations += 1;
+}
+*/
+
+if timer != delta_time * 3000000
+{
+   timer += 1;
+}
+
+if timer == 100
+{
+   targetspd = random_range(0, maxspeed);
+   timer = 0;
+}
+
+if patrolspd != targetspd
+{
+   if patrolspd <= targetspd
+   {
+      patrolspd += .5;
+   }
+   if patrolspd >= targetspd
+   {
+      patrolspd -= .5;
+   }
+}
 
 if distance_to_object(objPlayer) > sharkrange
 {
-   bForward = true;
-   bFollow = false;
+   ordinary = 1;
+   follow = 0;
 }
 
 if distance_to_object(objPlayer) <= sharkrange
 {
-   bFollow = true;
-   bForward = false;
+   follow = 1;
+   ordinary = 0;
 }
 
-//Making the shark patrol toward the right edge of the screen.
-
-if bForward == true
+if ordinary == 1
 {
    move_towards_point(room_width, starty, patrolspd);
    image_xscale = 1;
    if distance_to_point(room_width, starty) == 0
    {
-      bDiagonal = true;
-	  bForward = false;
+      diagonal = 1;
+	  ordinary = 0;
    }
 }
 
-//Makes the shark move on a diagonal toward the center of the screen.
-
-if bDiagonal == true
+if diagonal == 1
 {
    move_towards_point(room_width/2, starty + room_height/5, patrolspd);
    image_xscale = -1;
    if distance_to_point(room_width/2, starty + room_height/5) == 0
    {
-      bDiagonal = false;
-	  bBackward = true; 
+      diagonal = 0;
+	  backwards = 1; 
    }
    
 }
 
-//Makes the shark patrol backward to the left edge of the screen.
-
-if bBackward == true
+if backwards == 1
 {
    move_towards_point(0, starty, patrolspd);
    image_xscale = -1;
    if distance_to_point(0, starty) == 0
    {
-      bForward = true;
-	  bBackward = false;
+      ordinary = 1;
+	  backwards = 0;
    }
 }
 
-//Makes the shark follow the player until he or she is out of range.
-
-if bFollow == true
+if follow == 1
 {
    move_towards_point(objPlayer.x, objPlayer.y, followspd);
    if x >= objPlayer.x 
@@ -77,6 +105,7 @@ if bFollow == true
       image_xscale = 1;
    }
 }
+
 
 //Place debug messages below
 //show_debug_message(string(id) + ": " + string(distance_to_point(startx, starty)));
