@@ -26,8 +26,8 @@ if bGo == true
 }
 
 //Debug messages
-show_debug_message("MouseX: " + string(mouse_x));
-show_debug_message("MouseY: " + string(mouse_y));
-show_debug_message("RoomWidth: " + string(room_width));
-show_debug_message("RoomHeight: " + string(room_height));
+//show_debug_message("MouseX: " + string(mouse_x));
+//show_debug_message("MouseY: " + string(mouse_y));
+//show_debug_message("RoomWidth: " + string(room_width));
+//show_debug_message("RoomHeight: " + string(room_height));
 //show_debug_message(iTimer);

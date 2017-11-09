@@ -2,15 +2,15 @@
 // You can write your code in this editor
 if keyboard_check_pressed(vk_anykey)
    {
-   bAnyKeyPressed = 1;
+   bAnyKeyPressed = true;
    }
 
-if bAnyKeyPressed == 0
+if bAnyKeyPressed == false
    {
    image_alpha = min(image_alpha + 0.02, 1);
    }
    
-if bAnyKeyPressed == 1
+if bAnyKeyPressed == true
    {
    image_alpha = max(image_alpha - 0.02, 0);
    if image_alpha == 0

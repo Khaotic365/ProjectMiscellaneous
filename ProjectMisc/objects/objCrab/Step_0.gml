@@ -1,89 +1,89 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-if ordinary == 1
+if bForward == true
 {
-   move_towards_point(room_width, starty, patrolspd);
+   move_towards_point(room_width, iStarty, iPatrolspd);
    image_xscale = 1;
-   if distance_to_point(room_width, starty) == 0
+   if distance_to_point(room_width, iStarty) == 0
    {
-      backwards = 1;
-	  ordinary = 0;
-	  blink = 1;
+      bBackward = true;
+	  bForward = false;
+	  bSwitch = true;
    }
 }
 
-if backwards == 1
+if bBackward == true
 {
-   move_towards_point(0, starty, patrolspd);
+   move_towards_point(0, iStarty, iPatrolspd);
    image_xscale = -1;
-   if distance_to_point(0, starty) == 0
+   if distance_to_point(0, iStarty) == 0
    {
-      ordinary = 1;
-	  backwards = 0;
-	  blink = 0;
+      bForward = true;
+	  bBackward = false;
+	  bSwitch = false;
    }
 }
 
-if timer != 0
+if iTimer != 0
 {
-   timer -= 1;
+   iTimer -= 1;
 }
 
-if timer == 0
+if iTimer == 0
 {
-   targetspd = random_range(0, maxspeed);
-   timer = 100;
+   iTargetspd = random_range(0, iMaxspeed);
+   iTimer = 100;
 }
 
-if timer2 != 0
+if iTimer2 != 0
 {
-   timer2 -= 1;
+   iTimer2 -= 1;
 }
 
-if timer2 == 0
+if iTimer2 == 0
 {
-	timer2 = 125;
+	iTimer2 = 125;
 	bJumping = true;
-	ordinary = 0;
-	backwards = 0;
-	jumppoint = starty - 200;
-	move_towards_point(x, jumppoint, 20);
+	bForward = false;
+	bBackward = false;
+	iJumppoint = iStarty - 200;
+	move_towards_point(x, iJumppoint, 20);
 }
 
 if bJumping == true
 {
-	if distance_to_point(x, jumppoint) == 0
+	if distance_to_point(x, iJumppoint) == 0
 	{
 		bJumping = false;
 		bFalling = true;
-		move_towards_point(x, starty, 20);
+		move_towards_point(x, iStarty, 20);
 	}
 }
 
 if bFalling == true
 {
-	if distance_to_point(x, starty) == 0 && blink == 0
+	if distance_to_point(x, iStarty) == 0 && bSwitch == 0
 	{
 		bFalling = false;
-		ordinary = 1;
+		bForward = 1;
 	}	
-	if distance_to_point(x, starty) == 0 && blink == 1
+	if distance_to_point(x, iStarty) == 0 && bSwitch == 1
 	{
 		bFalling = false;
-		backwards = 1;
+		bBackward = 1;
 	}
 }
 
-if patrolspd != targetspd
+if iPatrolspd != iTargetspd
 {
-   if patrolspd <= targetspd
+   if iPatrolspd <= iTargetspd
    {
-      patrolspd += .5;
+      iPatrolspd += .5;
    }
-   if patrolspd >= targetspd
+   if iPatrolspd >= iTargetspd
    {
-      patrolspd -= .5;
+      iPatrolspd -= .5;
    }
 }
 

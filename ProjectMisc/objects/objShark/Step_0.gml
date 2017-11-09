@@ -11,13 +11,13 @@ if distance_to_object(objPlayer) != 20
 //Checking to see if the player is within range of the shark. 
 //If it is the shark will follow the player.
 
-if distance_to_object(objPlayer) > sharkrange
+if distance_to_object(objPlayer) > iSharkrange
 {
    bForward = true;
    bFollow = false;
 }
 
-if distance_to_object(objPlayer) <= sharkrange
+if distance_to_object(objPlayer) <= iSharkrange
 {
    bFollow = true;
    bForward = false;
@@ -27,9 +27,9 @@ if distance_to_object(objPlayer) <= sharkrange
 
 if bForward == true
 {
-   move_towards_point(room_width, starty, patrolspd);
+   move_towards_point(room_width, iStarty, iPatrolspd);
    image_xscale = 1;
-   if distance_to_point(room_width, starty) == 0
+   if distance_to_point(room_width, iStarty) == 0
    {
       bDiagonal = true;
 	  bForward = false;
@@ -40,9 +40,9 @@ if bForward == true
 
 if bDiagonal == true
 {
-   move_towards_point(room_width/2, starty + room_height/5, patrolspd);
+   move_towards_point(room_width/2, iStarty + room_height/5, iPatrolspd);
    image_xscale = -1;
-   if distance_to_point(room_width/2, starty + room_height/5) == 0
+   if distance_to_point(room_width/2, iStarty + room_height/5) == 0
    {
       bDiagonal = false;
 	  bBackward = true; 
@@ -54,9 +54,9 @@ if bDiagonal == true
 
 if bBackward == true
 {
-   move_towards_point(0, starty, patrolspd);
+   move_towards_point(0, iStarty, iPatrolspd);
    image_xscale = -1;
-   if distance_to_point(0, starty) == 0
+   if distance_to_point(0, iStarty) == 0
    {
       bForward = true;
 	  bBackward = false;
@@ -67,7 +67,7 @@ if bBackward == true
 
 if bFollow == true
 {
-   move_towards_point(objPlayer.x, objPlayer.y, followspd);
+   move_towards_point(objPlayer.x, objPlayer.y, iFollowspd);
    if x >= objPlayer.x 
    {
       image_xscale = -1;
