@@ -1,2 +1,2 @@
-hp = 3;
+ hp = 3;
 if (hp <= 0) instance_destroy();
