@@ -1,6 +1,9 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+//If the crab is supposed to be moving forward
+//Move toward the end of the room
+
 if bForward == true
 {
    move_towards_point(room_width, iStarty, iPatrolspd);
@@ -13,6 +16,9 @@ if bForward == true
    }
 }
 
+//If the crab is supposed to be moving backward
+//Move towards the start of the room
+
 if bBackward == true
 {
    move_towards_point(0, iStarty, iPatrolspd);
@@ -24,6 +30,8 @@ if bBackward == true
 	  bSwitch = false;
    }
 }
+
+//Using timers to time when the crab jumps upward
 
 if iTimer != 0
 {
@@ -51,6 +59,9 @@ if iTimer2 == 0
 	move_towards_point(x, iJumppoint, 20);
 }
 
+//If the crab has jumped
+//Move to starting y position
+
 if bJumping == true
 {
 	if distance_to_point(x, iJumppoint) == 0
@@ -60,6 +71,9 @@ if bJumping == true
 		move_towards_point(x, iStarty, 20);
 	}
 }
+
+//If the crab is falling
+//Sets crab movement to forward or backward depending on the direction it was going before jumping
 
 if bFalling == true
 {
@@ -74,6 +88,8 @@ if bFalling == true
 		bBackward = 1;
 	}
 }
+
+//Setting patrol speed gradually to target speed
 
 if iPatrolspd != iTargetspd
 {
