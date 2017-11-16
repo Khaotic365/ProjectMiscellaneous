@@ -4,6 +4,6 @@
 //If any key is pressed, go to room6
 
 if keyboard_check_pressed(vk_anykey)
-   {
-   room_goto(room6);
-   }
+{
+	room_goto(room6);
+}

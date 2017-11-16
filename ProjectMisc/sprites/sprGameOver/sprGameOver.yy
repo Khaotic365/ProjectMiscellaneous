@@ -1,5 +1,5 @@
 {
-    "id": "ac014af5-33da-4661-a84e-b7e00b83414b",
+    "id": "6fdab801-b13f-4a2a-8820-e04a3a6bd195",
     "modelName": "GMSprite",
     "mvc": "1.12",
     "name": "sprGameOver",
@@ -15,24 +15,24 @@
     "coltolerance": 0,
     "frames": [
         {
-            "id": "cb592dde-e059-4631-8d3e-3e6fbf2c894d",
+            "id": "37db4263-6cc0-4cc3-8fb1-4ef885a93b49",
             "modelName": "GMSpriteFrame",
             "mvc": "1.0",
-            "SpriteId": "ac014af5-33da-4661-a84e-b7e00b83414b",
+            "SpriteId": "6fdab801-b13f-4a2a-8820-e04a3a6bd195",
             "compositeImage": {
-                "id": "5e756957-9aa8-405f-8be0-05d198543aab",
+                "id": "6bf3b9ae-d929-4202-9fe7-89d19d013efa",
                 "modelName": "GMSpriteImage",
                 "mvc": "1.0",
-                "FrameId": "cb592dde-e059-4631-8d3e-3e6fbf2c894d",
+                "FrameId": "37db4263-6cc0-4cc3-8fb1-4ef885a93b49",
                 "LayerId": "00000000-0000-0000-0000-000000000000"
             },
             "images": [
                 {
-                    "id": "29c93ed2-4f1f-4b2d-86b1-5d71c1aaff24",
+                    "id": "7af426a2-c7be-41c3-8e51-63b9ad5eb653",
                     "modelName": "GMSpriteImage",
                     "mvc": "1.0",
-                    "FrameId": "cb592dde-e059-4631-8d3e-3e6fbf2c894d",
-                    "LayerId": "2c62d9d7-a92b-4db5-89e1-cf4b52eecaa7"
+                    "FrameId": "37db4263-6cc0-4cc3-8fb1-4ef885a93b49",
+                    "LayerId": "2f50c115-59dc-4ce1-80d4-7b41d99ad7c8"
                 }
             ]
         }
@@ -42,10 +42,10 @@
     "height": 768,
     "layers": [
         {
-            "id": "2c62d9d7-a92b-4db5-89e1-cf4b52eecaa7",
+            "id": "2f50c115-59dc-4ce1-80d4-7b41d99ad7c8",
             "modelName": "GMImageLayer",
             "mvc": "1.0",
-            "SpriteId": "ac014af5-33da-4661-a84e-b7e00b83414b",
+            "SpriteId": "6fdab801-b13f-4a2a-8820-e04a3a6bd195",
             "blendMode": 0,
             "isLocked": false,
             "name": "default",
