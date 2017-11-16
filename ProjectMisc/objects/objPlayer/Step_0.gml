@@ -19,4 +19,4 @@ if (x >= iRmMaxX) x = iRmMaxX;
 if y <= iRmMinY	y = 0;
 if y >= iRmMaxY	y = iRmMaxY;
 
-show_debug_message(x);
+show_debug_message(x); 
