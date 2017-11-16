@@ -31,6 +31,22 @@
     },
     "resources": [
         {
+            "Key": "00140f81-47c3-4f3e-829d-742520678d4d",
+            "Value": {
+                "id": "a5157e17-048a-47ea-a22e-3edf60fccf68",
+                "resourcePath": "objects\\objGameOver\\objGameOver.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "07af386f-c77c-43ec-b669-6c13df83b2dd",
+            "Value": {
+                "id": "0a0879e7-5577-4849-b741-1f5bdd2f78e9",
+                "resourcePath": "rooms\\rmGameOver\\rmGameOver.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "1179d420-c7df-45bc-9e14-91d2bde4eb8e",
             "Value": {
                 "id": "a6eb5918-f9b1-4c40-8bd3-6b5ade1b44e6",
@@ -156,6 +172,14 @@
                 "id": "c62f753b-3e0d-465c-8074-f3b6ca0b66b7",
                 "resourcePath": "views\\6529c730-04ff-496b-8d6d-6ca6c673eece.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "6fdab801-b13f-4a2a-8820-e04a3a6bd195",
+            "Value": {
+                "id": "f7dd2bbe-af97-416f-9104-e55d707231bc",
+                "resourcePath": "sprites\\sprGameOver\\sprGameOver.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
