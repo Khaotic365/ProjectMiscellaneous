@@ -3,7 +3,7 @@
 
 //Defining variables
 
-iFollowspd = 3;
+iFollowspd = 2;
 iPatrolspd = 10;
 bForward = false;
 bFollow = false;
