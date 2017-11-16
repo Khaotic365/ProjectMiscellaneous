@@ -15,5 +15,5 @@ if iCollideTimer <= 0
 }
 
 //Debug messages
-show_debug_message(iHp);
+//show_debug_message(iHp);
 
