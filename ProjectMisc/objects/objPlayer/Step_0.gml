@@ -1,4 +1,4 @@
-  //Setting up keyboard controls for player
+   //Setting up keyboard controls for player
 
 if (keyboard_check(vk_right)) x = x + 4;
 	if (keyboard_check(vk_right)) image_xscale = +1;
@@ -18,10 +18,7 @@ if (x <= iRmMinX) x = 0;
 if (x >= iRmMaxX) x = iRmMaxX;
 if y <= iRmMinY	y = 0;
 if y >= iRmMaxY	y = iRmMaxY;
-
-<<<<<<< HEAD
-show_debug_message(x); 
-=======
+ 
 //show_debug_message(x);
 
 iSlowTimer -= 1;
@@ -84,4 +81,3 @@ if iCollideTimer == 60 && bSharkCollide == true
 //Debug
 //show_debug_message(objCurrentNet);
 //show_debug_message(solid);
->>>>>>> 56cf8b412bb517ff1b9d624b842e3ad57890398a
