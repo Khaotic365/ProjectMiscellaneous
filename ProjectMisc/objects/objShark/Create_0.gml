@@ -3,12 +3,12 @@
 
 //Defining variables
 
-iFollowspd = 4;
+iFollowspd = 3;
 iPatrolspd = 10;
 bForward = false;
 bFollow = false;
 bDiagonal = false;
-iSharkrange = 300;
+iSharkrange = 180;
 bBackward = false;
 iStartx = x - (sprite_width / 2);
 iStarty = y;

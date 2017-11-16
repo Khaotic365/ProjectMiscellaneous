@@ -1,18 +1,18 @@
    //Setting up keyboard controls for player
 
-if (keyboard_check(vk_right)) x = x + 4;
+if (keyboard_check(vk_right)) x = x + iSpd;
 	if (keyboard_check(vk_right)) image_xscale = +1;
-if (keyboard_check(vk_left)) x = x - 4;
+if (keyboard_check(vk_left)) x = x - iSpd;
 	if (keyboard_check(vk_left)) image_xscale = -1;
-if (keyboard_check(vk_up)) y = y - 4;
-if (keyboard_check(vk_down)) y = y + 4;
+if (keyboard_check(vk_up)) y = y - iSpd;
+if (keyboard_check(vk_down)) y = y + iSpd;
 
-if (keyboard_check(ord("D"))) x = x + 4;
+if (keyboard_check(ord("D"))) x = x + iSpd;
 	if (keyboard_check(ord("D"))) image_xscale = +1;
-if (keyboard_check(ord("A"))) x = x - 4;
+if (keyboard_check(ord("A"))) x = x - iSpd;
 	if (keyboard_check(ord("A"))) image_xscale = -1;
-if (keyboard_check(ord("W"))) y = y - 4;
-if (keyboard_check(ord("S"))) y = y + 4;
+if (keyboard_check(ord("W"))) y = y - iSpd;
+if (keyboard_check(ord("S"))) y = y + iSpd;
 
 if (x <= iRmMinX) x = 0;
 if (x >= iRmMaxX) x = iRmMaxX;
@@ -33,6 +33,8 @@ bSpeedDecrease = false;
 iSpd = 4;
 objCurrentNet.bCaughtPlayer = false;
 }
+
+show_debug_message(iSpd);
 
 if objCurrentNet != objPlayer && objCurrentNet.bCanCollide ==  true
 {
