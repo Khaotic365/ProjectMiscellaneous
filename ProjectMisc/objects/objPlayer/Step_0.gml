@@ -34,7 +34,7 @@ iSpd = 4;
 objCurrentNet.bCaughtPlayer = false;
 }
 
-show_debug_message(iSpd);
+//show_debug_message(iSpd);
 
 if objCurrentNet != objPlayer && objCurrentNet.bCanCollide ==  true
 {

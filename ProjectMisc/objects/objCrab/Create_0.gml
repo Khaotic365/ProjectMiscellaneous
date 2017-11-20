@@ -16,3 +16,5 @@ iJumppoint = 0;
 bJumping = false;
 bFalling = false;
 bSwitch = false;
+
+motion_set(choose(0, 180), iPatrolspd);
