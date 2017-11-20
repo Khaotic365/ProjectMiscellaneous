@@ -68,6 +68,21 @@ if iCollideTimer <= 0
 //	iCollideTimer = 60;
 }
 
+if iCollideTimer2 > 0
+{
+	iCollideTimer -= 1;
+	solid = false;
+	image_alpha = .35;
+}
+	
+if iCollideTimer2 <= 0
+{
+	//solid = true;
+	image_alpha = 1;
+//	bSharkCollide = false;
+//	iCollideTimer = 60;
+}
+
 if iCollideTimerCrab > 0
 {
 	iCollideTimerCrab -= 1;
