@@ -23,9 +23,34 @@ if distance_to_object(objPlayer) <= iSharkrange
    bForward = false;
 }
 
+if position_meeting(x - 64, y - 32, objOuterwall)
+{
+	motion_set(0, iPatrolspd);
+	image_xscale = 1;
+	//show_debug_message("Wall to the left");
+}
+
+if position_meeting(x + 64, y - 32, objOuterwall)
+{
+	motion_set(215, iPatrolspd);
+	image_xscale = -1;
+	//show_debug_message("Wall to the right");
+}
+
+if position_meeting(x, y + 32, objOuterwall)
+{
+	motion_set(145, iPatrolspd);
+}
+
+if position_meeting(x, y - 32, objOuterwall)
+{
+	motion_set(215, iPatrolspd);
+}
+
+
 //Making the shark patrol toward the right edge of the screen.
 
-if bForward == true
+/*if bForward == true
 {
    move_towards_point(room_width, iStarty, iPatrolspd);
    image_xscale = 1;
@@ -64,7 +89,7 @@ if bBackward == true
 }
 
 //Makes the shark follow the player until he or she is out of range.
-
+*/
 if bFollow == true
 {
    move_towards_point(objPlayer.x, objPlayer.y, iFollowspd);
@@ -78,6 +103,12 @@ if bFollow == true
    }
 }
 
+if y >= 768
+{
+	motion_set(145, iPatrolspd);
+}
+
 //Place debug messages below
 //show_debug_message(string(id) + ": " + string(distance_to_point(startx, starty)));
 //show_debug_message(distance_to_object(objPlayer));
+show_debug_message(y);

@@ -3,16 +3,28 @@
 
 //Defining variables
 
-iFollowspd = 3.8;
+iFollowspd = 2;
 iPatrolspd = 10;
 iMaxspeed = 20;
 bForward = false;
 bFollow = false;
 bDiagonal = false;
-iSharkrange = 300;
+iSharkrange = 150;
 bBackward = false;
 iStartx = x - (sprite_width / 2);
 iStarty = y;
 iIterations = 0;
-iTimer = 0;
+iTimer = 100;
 iTargetspd = 10;
+
+motion_set(choose(0, 180), iPatrolspd);
+
+if direction == 0
+{
+	image_xscale = 1;
+}
+
+if direction == 180
+{
+	image_xscale = -1;
+}

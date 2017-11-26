@@ -26,15 +26,39 @@ else
 
 //Set timer so that the shark will change speeds over time
 
-if iTimer != delta_time * 3000000
+if position_meeting(x - 64, y - 32, objOuterwall)
 {
-   iTimer += 1;
+	motion_set(0, iPatrolspd);
+	image_xscale = 1;
+	//show_debug_message("Wall to the left");
 }
 
-if iTimer == 100
+if position_meeting(x + 64, y - 32, objOuterwall)
 {
-   iTargetspd = random_range(0, iMaxspeed);
-   iTimer = 0;
+	motion_set(215, iPatrolspd);
+	image_xscale = -1;
+	//show_debug_message("Wall to the right");
+}
+
+if position_meeting(x, y + 32, objOuterwall)
+{
+	motion_set(145, iPatrolspd);
+}
+
+if position_meeting(x, y - 32, objOuterwall)
+{
+	motion_set(215, iPatrolspd);
+}
+
+if iTimer != 0
+{
+   iTimer -= 1;
+}
+
+if iTimer == 0
+{
+   iTargetspd = random_range(4, iMaxspeed);
+   iTimer = 100;
 }
 
 //Setting the patrol speed gradually to target speed
@@ -67,7 +91,7 @@ if distance_to_object(objPlayer) <= iSharkrange
 
 //If the shark should be moving forward, move towards the end of the room
 //If the shark reaches the end of the room it starts to go back diagonally
-
+/*
 if bForward == true
 {
    move_towards_point(room_width, iStarty, iPatrolspd);
@@ -105,7 +129,7 @@ if bBackward == true
 	  bBackward = false;
    }
 }
-
+*/
 //The shark will follow the player if it gets in range
 
 if bFollow == true
@@ -121,6 +145,10 @@ if bFollow == true
    }
 }
 
+if y >= 768
+{
+	motion_set(145, iPatrolspd);
+}
 
 //Place debug messages below
 //show_debug_message(string(id) + ": " + string(distance_to_point(startx, starty)));
