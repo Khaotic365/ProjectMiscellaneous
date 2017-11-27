@@ -1,6 +1,6 @@
 //Creating hitpoints for player
 
-iHp = 15;
+iHp = 3;
 iSpd = 4;
 iSlowTimer = 0;
 bSpeedDecrease = false;
@@ -15,5 +15,5 @@ iCollideTimerCrab = 0;
 
 iRmMinX = 0;
 iRmMinY = 0;
-iRmMaxX = room_width;
-iRmMaxY = room_height;
+iRmMaxX = 6144;
+iRmMaxY = 6144;
