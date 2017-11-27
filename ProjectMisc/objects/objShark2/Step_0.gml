@@ -57,7 +57,7 @@ if distance_to_object(objPlayer) > iSharkrange
 {
 	bForward = true;
 	bFollow = false;
-	if bAfter = true
+	if bAfter == true
 	{
 		motion_set(choose(0, 180), iPatrolspd);
 		if direction == 0
@@ -162,10 +162,10 @@ if bFollow == true
    bAfter = true;
 }
 
-if y >= 3072
-{
-	motion_set(145, iPatrolspd);
-}
+//if y >= 3072
+//{
+//	motion_set(145, iPatrolspd);
+//}
 
 //Place debug messages below
 //show_debug_message(string(id) + ": " + string(distance_to_point(startx, starty)));

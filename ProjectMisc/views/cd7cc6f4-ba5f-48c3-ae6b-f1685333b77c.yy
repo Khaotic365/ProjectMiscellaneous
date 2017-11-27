@@ -4,8 +4,14 @@
     "mvc": "1.1",
     "name": "cd7cc6f4-ba5f-48c3-ae6b-f1685333b77c",
     "children": [
-        "aae74480-6b75-4ec2-9af8-c8975fc83827",
         "0ed6bd46-e702-4900-a6d2-81cbd53e0c5d",
+        "b6c5e71f-4b44-49ec-98a8-1f6a279ccba2",
+        "98425c47-bfbf-41ce-92fb-4d21ac1e20a3",
+        "facd7ce5-e25b-4ae2-9fb8-fecab49f507c",
+        "368de59c-da6c-4ec0-8f2f-79577495981a",
+        "707f5d0f-57a7-4c1d-9ccf-8fbe95f493b4",
+        "19956afd-fe2b-4100-9607-37adab91b57a",
+        "aae74480-6b75-4ec2-9af8-c8975fc83827",
         "5a6d795b-cf1d-487c-b226-ac57ebb7ed15",
         "086f4913-f68c-48e1-a11c-0dfab03c0975",
         "c252bcb9-502a-41b0-af3e-3cd3c1552315",
@@ -18,7 +24,9 @@
         "824333b7-85ad-4361-ae51-3622e9adf1eb",
         "07af386f-c77c-43ec-b669-6c13df83b2dd",
         "b7cfa22c-46bc-4234-972f-5f1aa0d45e13",
-        "a1b5b417-d6ec-4afd-83ee-18c444d4000f"
+        "a1b5b417-d6ec-4afd-83ee-18c444d4000f",
+        "bedd2a38-26d2-4e59-8a70-b59bedba0b7c",
+        "4ca8cac7-e60a-4372-b5e7-9551b3214ea3"
     ],
     "filterType": "GMRoom",
     "folderName": "rooms",
