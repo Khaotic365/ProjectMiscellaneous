@@ -1,4 +1,4 @@
-  //Setting up keyboard controls for player
+   //Setting up keyboard controls for player
 
 if (keyboard_check(vk_right)) x = x + iSpd;
 	if (keyboard_check(vk_right)) image_xscale = +1;
@@ -18,7 +18,7 @@ if (x <= iRmMinX) x = 0;
 if (x >= iRmMaxX) x = iRmMaxX;
 if y <= iRmMinY	y = 0;
 if y >= iRmMaxY	y = iRmMaxY;
-
+ 
 //show_debug_message(x);
 
 iSlowTimer -= 1;
