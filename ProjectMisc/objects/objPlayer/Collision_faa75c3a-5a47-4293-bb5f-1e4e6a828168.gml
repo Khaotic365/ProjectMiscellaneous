@@ -7,6 +7,15 @@
 //Elliminating player if damaged below 3 hitpoints
 
 //scrInvulnernable(true);
+/*
+if iCollideTimer <= 0
+{
+	iCollideTimer = 60;
+	iHp -= 1;
+//	bSharkCollide = true;
+}
+*/
+
 if iCollideTimer <= 0
 {
 	iCollideTimer = 60;

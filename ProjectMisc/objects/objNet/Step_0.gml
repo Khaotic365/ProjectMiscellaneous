@@ -4,7 +4,21 @@
 //If the net is supposed to be moving forward
 //Move toward the end of the room
 
-if bFordward == true
+if position_meeting(x - 64, y - 32, objOuterwall)
+{
+	motion_set(0, iSpd);
+	image_xscale = 1;
+	//show_debug_message("Wall to the left");
+}
+
+if position_meeting(x + 64, y - 32, objOuterwall)
+{
+	motion_set(180, iSpd);
+	image_xscale = -1;
+	//show_debug_message("Wall to the right");
+}
+
+/*if bFordward == true
 {
 	move_towards_point(room_width, starty, spd);
 	if distance_to_point(room_width, starty) == 0
@@ -26,3 +40,4 @@ if bBackward == true
 		bForward = true;
 	}
 }
+*/

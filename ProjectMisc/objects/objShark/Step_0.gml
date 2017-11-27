@@ -111,4 +111,4 @@ if y >= 768
 //Place debug messages below
 //show_debug_message(string(id) + ": " + string(distance_to_point(startx, starty)));
 //show_debug_message(distance_to_object(objPlayer));
-show_debug_message(y);
+//show_debug_message(y);

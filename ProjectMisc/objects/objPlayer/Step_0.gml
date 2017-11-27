@@ -52,6 +52,39 @@ if bSharkCollide == true
 	image_alpha = .35;
 }
 */
+/*
+if iCollideTimer > 0
+{
+	iCollideTimer -= 1;
+	solid = false;
+	image_alpha = .35;
+}
+	
+if iCollideTimer <= 0
+{
+	//solid = true;
+	image_alpha = 1;
+//	bSharkCollide = false;
+//	iCollideTimer = 60;
+}
+
+show_debug_message(image_alpha);
+
+if iCollideTimer2 > 0
+{
+	iCollideTimer2 -= 1;
+	solid = false;
+	image_alpha = .35;
+}
+	
+if iCollideTimer2 <= 0
+{
+	//solid = true;
+	image_alpha = 1;
+//	bSharkCollide = false;
+//	iCollideTimer = 60;
+}
+*/
 
 if iCollideTimer > 0
 {
@@ -68,9 +101,11 @@ if iCollideTimer <= 0
 //	iCollideTimer = 60;
 }
 
+show_debug_message(iCollideTimer2);
+
 if iCollideTimer2 > 0
 {
-	iCollideTimer -= 1;
+	iCollideTimer2 -= 1;
 	solid = false;
 	image_alpha = .35;
 }
