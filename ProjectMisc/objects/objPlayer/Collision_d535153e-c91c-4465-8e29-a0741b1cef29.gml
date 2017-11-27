@@ -1,4 +1,6 @@
- /// @description Insert description here
+/// @description Insert description here
+// You can write your code in this editor
+/// @description Insert description here
 // You can write your code in this editor
 
 //x = x + 25;
@@ -8,21 +10,20 @@
 
 //scrInvulnernable(true);
 /*
-if iCollideTimer <= 0
+if iCollideTimer2 <= 0
 {
-	iCollideTimer = 60;
+	iCollideTimer2 = 60;
 	iHp -= 1;
 //	bSharkCollide = true;
 }
 */
 
-if iCollideTimer <= 0
+if iCollideTimer2 <= 0
 {
-	iCollideTimer = 60;
+	iCollideTimer2 = 60;
 	iHp -= 1;
 //	bSharkCollide = true;
 }
 
 //Debug messages
 //show_debug_message(iHp);
-
