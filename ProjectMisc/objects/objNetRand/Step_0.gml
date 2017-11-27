@@ -36,10 +36,28 @@ if bCaughtPlayer == false
 
 	if bGo == true
 	{
-		move_towards_point(iTargetx, iTargety, iSpd);
-		if distance_to_point(iTargetx, iTargety) == 0
+		if position_meeting(x - 64, y - 32, objOuterwall)
 		{
-			bGo = false;
+			motion_set(random_range(-90, 90), iSpd);
+			image_xscale = 1;
+			//show_debug_message("Wall to the left");
+		}
+
+		if position_meeting(x + 64, y - 32, objOuterwall)
+		{
+			motion_set(random_range(90, 270), iSpd);
+			image_xscale = -1;
+			//show_debug_message("Wall to the right");
+		}
+		
+		if position_meeting(x, y + 32, objOuterwall)
+		{
+			motion_set(random_range(0, 180), iSpd);
+		}
+
+		if position_meeting(x, y - 32, objOuterwall)
+		{
+			motion_set(random_range(180,260), iSpd);
 		}
 	}
 }
