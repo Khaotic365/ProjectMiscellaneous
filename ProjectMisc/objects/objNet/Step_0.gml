@@ -41,3 +41,65 @@ if bBackward == true
 	}
 }
 */
+
+iNetCollisionTimer -= 1;
+
+if iNetCollisionTimer <= 0
+{
+bCanCollide = true;
+}
+
+if bCaughtPlayer == false
+{
+    if iNetCollisionTimer == 0
+	{
+	image_alpha = 1;
+	}
+	iSpd = 10;
+	//Setting the timer so that it goes from 0 to 75
+	if iTimer != 75
+	{
+		iTimer += 1;
+	}
+
+	//If the timer is at 75 and boolean go is false (i.e. it's not time to go)
+	//Set target x and y coordinates
+
+	if iTimer == 75 && bGo == false
+	{
+		bGo = true;
+		iTimer = 0;
+	}
+
+	//If boolean go is true (i.e. it's time to go)
+	//Move toward the target x and y coordinates
+
+	if bGo == true
+	{
+		if position_meeting(x - 64, y - 32, objOuterwall)
+		{
+			motion_set(0, iSpd);
+			image_xscale = 1;
+			//show_debug_message("Wall to the left");
+		}
+
+		if position_meeting(x + 64, y - 32, objOuterwall)
+		{
+			motion_set(180, iSpd);
+			image_xscale = -1;
+			//show_debug_message("Wall to the right");
+		}
+	}
+}
+
+if bCaughtPlayer == true
+{
+    if iNetCollisionTimer == 120
+	{
+	image_alpha = .35;
+	}
+	iSpd = 0;
+	bCanCollide = false;
+	x = objPlayer.x;
+	y = objPlayer.y;
+}

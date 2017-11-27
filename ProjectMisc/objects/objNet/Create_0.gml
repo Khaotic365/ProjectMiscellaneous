@@ -8,6 +8,12 @@ iStartx = x - (sprite_width / 2);
 iStarty = y;
 bForward = true;
 bBackward = false;
+bGo = 0;
+iTimer = 75;
+bCaughtPlayer = false;
+bCanCollide = true;
+iNetCollisionTimer = 0;
+bStart = false;
 
 motion_set(choose(0, 180), iSpd);
 

@@ -3,6 +3,8 @@
 
 //Defining variables
 
+randomize();
+
 iSpd = 10;
 iTargetx = room_width;
 iTargety = room_height;
@@ -12,3 +14,7 @@ bCaughtPlayer = false;
 bCanCollide = true;
 iNetCollisionTimer = 0;
 bStart = false;
+fRand = random_range(0,360);
+
+motion_set(fRand, iSpd);
+show_debug_message(fRand);
