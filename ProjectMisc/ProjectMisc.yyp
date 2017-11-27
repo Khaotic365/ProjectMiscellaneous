@@ -55,6 +55,14 @@
             }
         },
         {
+            "Key": "0ed6bd46-e702-4900-a6d2-81cbd53e0c5d",
+            "Value": {
+                "id": "62b9886a-043d-4734-ad13-2dd15246333b",
+                "resourcePath": "rooms\\rmGradualLevel\\rmGradualLevel.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "1179d420-c7df-45bc-9e14-91d2bde4eb8e",
             "Value": {
                 "id": "a6eb5918-f9b1-4c40-8bd3-6b5ade1b44e6",

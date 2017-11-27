@@ -145,7 +145,7 @@ if bFollow == true
    }
 }
 
-if y >= 768
+if y >= 3072
 {
 	motion_set(145, iPatrolspd);
 }
