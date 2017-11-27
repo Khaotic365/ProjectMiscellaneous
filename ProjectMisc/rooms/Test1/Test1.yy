@@ -2,7 +2,7 @@
     "id": "da5aace4-b943-4cbb-bed5-6c5375d22569",
     "modelName": "GMRoom",
     "mvc": "1.0",
-    "name": "Test",
+    "name": "Test1",
     "IsDnD": false,
     "creationCodeFile": "",
     "inheritCode": false,
