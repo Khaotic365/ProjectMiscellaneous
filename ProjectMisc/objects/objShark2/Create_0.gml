@@ -16,6 +16,7 @@ iStarty = y;
 iIterations = 0;
 iTimer = 100;
 iTargetspd = 10;
+bAfter = false;
 
 motion_set(choose(0, 180), iPatrolspd);
 
