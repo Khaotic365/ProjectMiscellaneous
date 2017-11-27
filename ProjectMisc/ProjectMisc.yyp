@@ -183,6 +183,14 @@
             }
         },
         {
+            "Key": "577fc0a3-53e6-440e-ac25-3861870f4269",
+            "Value": {
+                "id": "d18a6333-2439-4adc-9c28-aed97998c137",
+                "resourcePath": "sprites\\sprBackground4\\sprBackground4.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "5a6d795b-cf1d-487c-b226-ac57ebb7ed15",
             "Value": {
                 "id": "923dbb6b-09e8-4228-acfa-59de8a0e42fd",
@@ -359,11 +367,27 @@
             }
         },
         {
+            "Key": "b7cfa22c-46bc-4234-972f-5f1aa0d45e13",
+            "Value": {
+                "id": "4761c1e5-32ae-4d80-8168-8bd40f03cb86",
+                "resourcePath": "rooms\\rmBigLevel\\rmBigLevel.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "bd63a0de-032c-4ad8-be80-043e6fbdd2d2",
             "Value": {
                 "id": "597b59c7-72a9-4d97-ba0f-1b8e8d5882ed",
                 "resourcePath": "rooms\\room6\\room6.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "bf52c259-be17-4729-ae31-5ed8994c875b",
+            "Value": {
+                "id": "f2076857-59cb-40a8-9751-ecd9adc4562b",
+                "resourcePath": "objects\\objBackground4\\objBackground4.yy",
+                "resourceType": "GMObject"
             }
         },
         {
