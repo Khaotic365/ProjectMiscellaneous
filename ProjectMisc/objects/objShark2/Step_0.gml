@@ -26,30 +26,6 @@ else
 
 //Set timer so that the shark will change speeds over time
 
-if position_meeting(x - 64, y - 32, objOuterwall)
-{
-	motion_set(0, iPatrolspd);
-	image_xscale = 1;
-	//show_debug_message("Wall to the left");
-}
-
-if position_meeting(x + 64, y - 32, objOuterwall)
-{
-	motion_set(215, iPatrolspd);
-	image_xscale = -1;
-	//show_debug_message("Wall to the right");
-}
-
-if position_meeting(x, y + 32, objOuterwall)
-{
-	motion_set(145, iPatrolspd);
-}
-
-if position_meeting(x, y - 32, objOuterwall)
-{
-	motion_set(215, iPatrolspd);
-}
-
 if iTimer != 0
 {
    iTimer -= 1;
@@ -79,15 +55,55 @@ if iPatrolspd != iTargetspd
 
 if distance_to_object(objPlayer) > iSharkrange
 {
-   bForward = true;
-   bFollow = false;
+	bForward = true;
+	bFollow = false;
+	if bAfter == true
+	{
+		motion_set(choose(0, 180), iPatrolspd);
+		if direction == 0
+		{
+			image_xscale = 1;
+		}
+
+		if direction == 180
+		{
+			image_xscale = -1;
+		}
+		bAfter = false;
+	}
+	if position_meeting(x - 64, y - 32, objOuterwall)
+	{
+		motion_set(0, iPatrolspd);
+		image_xscale = 1;
+		//show_debug_message("Wall to the left");
+	}
+
+	if position_meeting(x + 64, y - 32, objOuterwall)
+	{
+		motion_set(215, iPatrolspd);
+		image_xscale = -1;
+		//show_debug_message("Wall to the right");
+	}
+
+	if position_meeting(x, y + 32, objOuterwall)
+	{
+		motion_set(145, iPatrolspd);
+	}
+
+	if position_meeting(x, y - 32, objOuterwall)
+	{
+	motion_set(215, iPatrolspd);
+	}
 }
 
 if distance_to_object(objPlayer) <= iSharkrange
 {
-   bFollow = true;
-   bForward = false;
+	bFollow = true;
+	bForward = false;
 }
+
+show_debug_message(distance_to_object(objPlayer));
+show_debug_message(bFollow);
 
 //If the shark should be moving forward, move towards the end of the room
 //If the shark reaches the end of the room it starts to go back diagonally
@@ -143,12 +159,13 @@ if bFollow == true
    {
       image_xscale = 1;
    }
+   bAfter = true;
 }
 
-if y >= 3072
-{
-	motion_set(145, iPatrolspd);
-}
+//if y >= 3072
+//{
+//	motion_set(145, iPatrolspd);
+//}
 
 //Place debug messages below
 //show_debug_message(string(id) + ": " + string(distance_to_point(startx, starty)));
