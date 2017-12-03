@@ -102,8 +102,8 @@ if distance_to_object(objPlayer) <= iSharkrange
 	bForward = false;
 }
 
-show_debug_message(distance_to_object(objPlayer));
-show_debug_message(bFollow);
+//show_debug_message(distance_to_object(objPlayer));
+//show_debug_message(bFollow);
 
 //If the shark should be moving forward, move towards the end of the room
 //If the shark reaches the end of the room it starts to go back diagonally

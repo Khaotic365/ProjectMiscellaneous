@@ -10,6 +10,7 @@ bSharkCollide = false;
 iCollideTimer = 0;
 iCollideTimer2 = 0;
 iCollideTimerCrab = 0;
+iCollideTimerSnake = 0;
 
 //Elliminating player if damaged below 3 hitpoints
 
