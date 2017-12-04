@@ -84,6 +84,20 @@ if distance_to_object(objPlayer) > iSharkrange
 		image_xscale = -1;
 		//show_debug_message("Wall to the right");
 	}
+	
+	if position_meeting(x - 64, y + 32, objOuterwall)
+	{
+		motion_set(0, iPatrolspd);
+		image_xscale = 1;
+		//show_debug_message("Wall to the left");
+	}
+
+	if position_meeting(x + 64, y + 32, objOuterwall)
+	{
+		motion_set(215, iPatrolspd);
+		image_xscale = -1;
+		//show_debug_message("Wall to the right");
+	}
 
 	if position_meeting(x, y + 32, objOuterwall)
 	{

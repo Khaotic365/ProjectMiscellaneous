@@ -50,6 +50,20 @@ if bCaughtPlayer == false
 			//show_debug_message("Wall to the right");
 		}
 		
+		if position_meeting(x - 64, y + 32, objOuterwall)
+		{
+			motion_set(0, iSpd);
+			image_xscale = 1;
+			//show_debug_message("Wall to the left");
+		}
+
+		if position_meeting(x + 64, y + 32, objOuterwall)
+		{
+			motion_set(215, iSpd);
+			image_xscale = -1;
+			//show_debug_message("Wall to the right");
+		}
+		
 		if position_meeting(x, y + 32, objOuterwall)
 		{
 			motion_set(random_range(0, 180), iSpd);
