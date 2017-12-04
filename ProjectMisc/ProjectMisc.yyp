@@ -263,6 +263,14 @@
             }
         },
         {
+            "Key": "6ee5cbfd-b18b-45a1-9f83-a7f84d093459",
+            "Value": {
+                "id": "ad9f3104-5f1a-4eda-b777-38f1fb60b159",
+                "resourcePath": "objects\\objBigBarnacle1\\objBigBarnacle1.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "6fdab801-b13f-4a2a-8820-e04a3a6bd195",
             "Value": {
                 "id": "f7dd2bbe-af97-416f-9104-e55d707231bc",
@@ -539,6 +547,14 @@
             "Value": {
                 "id": "d2870150-7fe2-4b4f-a0fd-8169b9bbff45",
                 "resourcePath": "sprites\\sprCamera\\sprCamera.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "d5dc07b1-e96f-488b-969a-28a998c7fb1f",
+            "Value": {
+                "id": "f1e80292-9eae-4998-a8ee-1918139384c8",
+                "resourcePath": "sprites\\sprBigBarnacle1\\sprBigBarnacle1.yy",
                 "resourceType": "GMSprite"
             }
         },
