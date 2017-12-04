@@ -151,6 +151,14 @@
             }
         },
         {
+            "Key": "268fcbf5-8aef-4990-8954-72afac4b948a",
+            "Value": {
+                "id": "25222972-d538-4f07-973b-2e9fd54955c4",
+                "resourcePath": "objects\\objCornerTopRight\\objCornerTopRight.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "2843571f-0868-4059-8db6-44fcd7ab456a",
             "Value": {
                 "id": "4f7d519c-c750-4d85-9ac1-8c5bd88990ad",
@@ -172,6 +180,14 @@
                 "id": "50643d42-a9ee-4c7a-8cfe-5dadf474db94",
                 "resourcePath": "views\\2e58f70c-fb85-4125-bc25-41c560f97530.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "2eda11bb-a76a-4c86-adc2-46c41186ff42",
+            "Value": {
+                "id": "6ea6a7b0-7194-4783-817c-b9493d604634",
+                "resourcePath": "objects\\objCornerBotLeft\\objCornerBotLeft.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -227,6 +243,14 @@
             "Value": {
                 "id": "03016215-5c61-479d-8046-e2872ab5b76e",
                 "resourcePath": "objects\\objCrab\\objCrab.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "4155288a-7691-4049-9857-c196cec5a8ea",
+            "Value": {
+                "id": "3ea30faa-d7c0-477c-afa6-956008fe18d1",
+                "resourcePath": "objects\\objWallBot3\\objWallBot3.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -292,6 +316,22 @@
                 "id": "2f174820-0298-45b5-8a7e-5e8afc20af08",
                 "resourcePath": "sprites\\sprNet\\sprNet.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "528bf6a1-9fa7-47e4-bf70-e1a13afcd53d",
+            "Value": {
+                "id": "c7b190fa-888c-498d-bed1-a584b9c18e86",
+                "resourcePath": "objects\\objWallBot2\\objWallBot2.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "53daca1f-c204-4124-b673-e9d63c2b6f9e",
+            "Value": {
+                "id": "2777a78c-d240-45cd-ba32-6fd414c855ad",
+                "resourcePath": "objects\\objWallBot1\\objWallBot1.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -591,6 +631,14 @@
             }
         },
         {
+            "Key": "bd229ec6-db0f-4b46-a5ef-63c98ebb8726",
+            "Value": {
+                "id": "cfa51025-879a-4cdf-8e58-4217efd1c684",
+                "resourcePath": "objects\\objCornerBotRight\\objCornerBotRight.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "bd63a0de-032c-4ad8-be80-043e6fbdd2d2",
             "Value": {
                 "id": "597b59c7-72a9-4d97-ba0f-1b8e8d5882ed",
@@ -852,6 +900,14 @@
                 "id": "0c42324d-3cb3-4bdf-98f1-d4841d37955f",
                 "resourcePath": "views\\fdc8f57c-ec0c-45a5-8293-0675d4acbd8d.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "fe422ca7-3e92-4367-8e16-31558b1f4208",
+            "Value": {
+                "id": "93c8f20f-5ee6-43bb-be61-c89872641f4d",
+                "resourcePath": "objects\\objCornerTopLeft\\objCornerTopLeft.yy",
+                "resourceType": "GMObject"
             }
         }
     ],
