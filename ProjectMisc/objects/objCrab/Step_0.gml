@@ -37,13 +37,25 @@ if bBackward == true
 
 */
 
-if position_meeting(x - 64, y - 32, objOuterwall)
+if position_meeting(x - 32, y, objWallLeftSide1)
 {
 	motion_set(0, iPatrolspd);
 	//show_debug_message("Wall to the left");
 }
 
-if position_meeting(x + 64, y - 32, objOuterwall)
+if position_meeting(x + 32, y, objWallRightSide1)
+{
+	motion_set(0, iPatrolspd);
+	//show_debug_message("Wall to the left");
+}
+
+if position_meeting(x - 32, y, objCornerBotLeft)
+{
+	motion_set(0, iPatrolspd);
+	//show_debug_message("Wall to the right");
+}
+
+if position_meeting(x + 32, y, objCornerBotRight)
 {
 	motion_set(180, iPatrolspd);
 	//show_debug_message("Wall to the right");

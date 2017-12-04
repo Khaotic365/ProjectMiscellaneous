@@ -1,11 +1,11 @@
 /// @description Insert description here
 // You can write your code in this editor
-if position_meeting(x, y + 32, objOuterwall)
+if position_meeting(x, y + 32, objWallBot2)
 {
 	motion_set(90, iPatrolspd);
 }
 
-if position_meeting(x, y - 32, objOuterwall)
+if position_meeting(x, y - 32, objCornerTopRight)
 {
 motion_set(270, iPatrolspd);
 }
