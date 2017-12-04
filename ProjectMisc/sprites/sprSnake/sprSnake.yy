@@ -1,5 +1,5 @@
 {
-    "id": "0ee21afa-aff0-4f9f-83f3-72df7f9196d5",
+    "id": "7a41a2c6-6ba0-4b07-8767-6954c50dd536",
     "modelName": "GMSprite",
     "mvc": "1.12",
     "name": "sprSnake",
@@ -13,27 +13,26 @@
     "bboxmode": 0,
     "colkind": 1,
     "coltolerance": 0,
-    "edgeFiltering": false,
     "frames": [
         {
-            "id": "3b098bd2-834a-4979-bd2d-00db997d7abe",
+            "id": "7072b6e6-8a22-4f19-908b-797a934a98f0",
             "modelName": "GMSpriteFrame",
             "mvc": "1.0",
-            "SpriteId": "0ee21afa-aff0-4f9f-83f3-72df7f9196d5",
+            "SpriteId": "7a41a2c6-6ba0-4b07-8767-6954c50dd536",
             "compositeImage": {
-                "id": "7ff3d618-8534-4c19-a9af-265036b23c87",
+                "id": "82f77ddf-c911-469e-947b-5beb5bb2569c",
                 "modelName": "GMSpriteImage",
                 "mvc": "1.0",
-                "FrameId": "3b098bd2-834a-4979-bd2d-00db997d7abe",
+                "FrameId": "7072b6e6-8a22-4f19-908b-797a934a98f0",
                 "LayerId": "00000000-0000-0000-0000-000000000000"
             },
             "images": [
                 {
-                    "id": "e8cea026-ade3-455a-9d76-6af981d31669",
+                    "id": "d7f0d7c0-bc5b-4d5a-b94e-46519ed82be5",
                     "modelName": "GMSpriteImage",
                     "mvc": "1.0",
-                    "FrameId": "3b098bd2-834a-4979-bd2d-00db997d7abe",
-                    "LayerId": "0637deb7-a4ea-41aa-bed7-82e651f10fec"
+                    "FrameId": "7072b6e6-8a22-4f19-908b-797a934a98f0",
+                    "LayerId": "7525f84d-0123-4ad7-8b78-f4a04250ba75"
                 }
             ]
         }
@@ -43,10 +42,10 @@
     "height": 64,
     "layers": [
         {
-            "id": "0637deb7-a4ea-41aa-bed7-82e651f10fec",
+            "id": "7525f84d-0123-4ad7-8b78-f4a04250ba75",
             "modelName": "GMImageLayer",
             "mvc": "1.0",
-            "SpriteId": "0ee21afa-aff0-4f9f-83f3-72df7f9196d5",
+            "SpriteId": "7a41a2c6-6ba0-4b07-8767-6954c50dd536",
             "blendMode": 0,
             "isLocked": false,
             "name": "default",
@@ -55,10 +54,8 @@
         }
     ],
     "origin": 0,
-    "originLocked": false,
     "playbackSpeed": 15,
     "playbackSpeedType": 0,
-    "premultiplyAlpha": false,
     "sepmasks": false,
     "swatchColours": null,
     "swfPrecision": 2.525,
