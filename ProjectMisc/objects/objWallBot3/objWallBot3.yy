@@ -1,5 +1,5 @@
 {
-    "id": "4155288a-7691-4049-9857-c196cec5a8ea",
+    "id": "abf1139d-388c-42b9-bc2d-9ccfc28b148c",
     "modelName": "GMObject",
     "mvc": "1.0",
     "name": "objWallBot3",

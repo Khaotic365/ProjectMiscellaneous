@@ -1,8 +1,8 @@
 {
-    "id": "59305581-df1d-4d08-9374-2c375ba26ca2",
+    "id": "7f703d22-c93e-401d-914f-b79611831321",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "objWallBot1",
+    "name": "objWallRoof1",
     "eventList": [
         
     ],
@@ -22,6 +22,6 @@
     "physicsShapePoints": null,
     "physicsStartAwake": true,
     "solid": false,
-    "spriteId": "efb52a91-193f-421d-babe-cb57f99f1f63",
+    "spriteId": "4b0f4d5d-be46-44b6-96e8-cfd48e101824",
     "visible": true
 }

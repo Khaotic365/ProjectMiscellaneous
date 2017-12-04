@@ -1,4 +1,4 @@
-/// @description Insert description here
+obj/// @description Insert description here
 // You can write your code in this editor
 iNetCollisionTimer -= 1;
 

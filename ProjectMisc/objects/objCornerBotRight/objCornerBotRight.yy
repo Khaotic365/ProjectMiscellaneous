@@ -1,5 +1,5 @@
 {
-    "id": "bd229ec6-db0f-4b46-a5ef-63c98ebb8726",
+    "id": "6957d75c-269d-472c-96fb-170e8b43edbd",
     "modelName": "GMObject",
     "mvc": "1.0",
     "name": "objCornerBotRight",
