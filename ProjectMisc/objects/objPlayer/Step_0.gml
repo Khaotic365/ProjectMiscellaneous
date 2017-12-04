@@ -1,4 +1,4 @@
-   //Setting up keyboard controls for player
+//Setting up keyboard controls for player
 
 if (keyboard_check(vk_right)) x = x + iSpd;
 	if (keyboard_check(vk_right)) image_xscale = +1;
@@ -134,11 +134,20 @@ if iCollideTimerCrab <= 0
 //	iCollideTimer = 60;
 }
 
-if iCollideTimerCrab > 0 || iCollideTimer2 > 0 || iCollideTimer > 0
+if iCollideTimerSnake <= 0
+{
+	//solid = true;
+	image_alpha = 1;
+//	bSharkCollide = false;
+//	iCollideTimer = 60;
+}
+
+if iCollideTimerCrab > 0 || iCollideTimer2 > 0 || iCollideTimer > 0 || iCollideTimerSnake > 0
 {
 	iCollideTimerCrab -= 1;
 	iCollideTimer2 -= 1;
 	iCollideTimer -= 1;
+	iCollideTimerSnake -= 1;
 	solid = false;
 	image_alpha = .35;
 }
