@@ -4,18 +4,36 @@
 //If the net is supposed to be moving forward
 //Move toward the end of the room
 
-if position_meeting(x - 64, y - 32, objOuterwall)
+if position_meeting(x - 64, y + 32, objCornerBotLeft)
 {
 	motion_set(0, iSpd);
 	image_xscale = 1;
 	//show_debug_message("Wall to the left");
 }
 
-if position_meeting(x + 64, y - 32, objOuterwall)
+if position_meeting(x + 64, y + 32, objCornerBotRight)
 {
 	motion_set(180, iSpd);
 	image_xscale = -1;
 	//show_debug_message("Wall to the right");
+}
+
+if position_meeting(x - 64, y - 32, objCornerTopLeft)
+{
+	motion_set(0, iSpd);
+	image_xscale = 1;
+}
+
+if position_meeting(x + 64, y - 32, objCornerTopRight)
+{
+	motion_set(180, iSpd);
+	image_xscale = -1;
+}
+
+if position_meeting(x - 64, y, objWallLeftSide1)
+{
+	motion_set(0, iSpd);
+	image_xscale = 1;
 }
 
 /*if bFordward == true
