@@ -26,14 +26,14 @@ if distance_to_object(objPlayer) <= iSharkrange
 if position_meeting(x - 64, y - 32, objOuterwall)
 {
 	motion_set(0, iPatrolspd);
-	image_xscale = 1;
+	image_xscale = -1;
 	//show_debug_message("Wall to the left");
 }
 
 if position_meeting(x + 64, y - 32, objOuterwall)
 {
 	motion_set(215, iPatrolspd);
-	image_xscale = -1;
+	image_xscale = 1;
 	//show_debug_message("Wall to the right");
 }
 
@@ -95,11 +95,11 @@ if bFollow == true
    move_towards_point(objPlayer.x, objPlayer.y, iFollowspd);
    if x >= objPlayer.x 
    {
-      image_xscale = -1;
+      image_xscale = 1;
    }
    if x <= objPlayer.x 
    {
-      image_xscale = 1;
+      image_xscale = -1;
    }
 }
 
