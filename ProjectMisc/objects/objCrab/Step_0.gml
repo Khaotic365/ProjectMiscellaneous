@@ -68,21 +68,25 @@ if position_meeting(x + 32, y, objCornerBotRight)
 if position_meeting(x - 32, y, objCornerBarnBotLeft)
 {
 	motion_set(0, iPatrolspd);
+	image_xscale = 1;
 }
 
 if position_meeting(x - 32, y, objCornerBarnTopLeft)
 {
 	motion_set(0, iPatrolspd);
+	image_xscale = 1;
 }
 
 if position_meeting(x + 32, y, objCornerBarnBotRIght)
 {
 	motion_set(180, iPatrolspd);
+	image_xscale = -1;
 }
 
 if position_meeting(x + 32, y, objCornerBarnTopRight)
 {
 	motion_set(180, iPatrolspd);
+	image_xscale = -1;
 }
 
 /*

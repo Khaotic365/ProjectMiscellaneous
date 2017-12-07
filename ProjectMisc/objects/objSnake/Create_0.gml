@@ -4,4 +4,6 @@ iPatrolspd = 10;
 iTargetspd = 10;
 iTimer = 100;
 iMaxspeed = 20;
-motion_set(choose(90, 270), iPatrolspd);
+//motion_set(choose(90, 270), iPatrolspd);
+
+motion_set(choose(0, 180), iPatrolspd);
