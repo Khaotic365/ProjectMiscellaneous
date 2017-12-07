@@ -158,7 +158,7 @@ show_debug_message(iHp);
 
 if (iHp <= 0) 
 {
-room_goto(rmGameOver);
+room_goto(rmGameOverNonStretch);
 }
 
 /*
