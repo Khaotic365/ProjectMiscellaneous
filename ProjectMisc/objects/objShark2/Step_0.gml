@@ -33,7 +33,7 @@ if iTimer != 0
 
 if iTimer == 0
 {
-   iTargetspd = random_range(4, iMaxspeed);
+   iTargetspd = random_range(1, iMaxspeed);
    iTimer = 100;
 }
 
