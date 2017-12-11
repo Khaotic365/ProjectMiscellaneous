@@ -3,7 +3,7 @@ y += (yTo - y)/25;
 
 if (follow != noone)
 {
-	xTo = clamp(follow.x, (207), (6144 - 207));
+	xTo = clamp(follow.x, (207), (1024 - 207));
 	yTo = clamp(follow.y, (368), (6144 - 368));
 }
 
