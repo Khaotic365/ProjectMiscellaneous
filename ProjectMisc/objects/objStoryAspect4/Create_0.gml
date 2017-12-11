@@ -5,3 +5,4 @@
 
 image_alpha = 0;
 bAnyKeyPressed = false;
+fFadeSpeed = 0.05;
