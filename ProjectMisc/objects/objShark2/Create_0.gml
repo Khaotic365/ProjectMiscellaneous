@@ -3,9 +3,9 @@
 
 //Defining variables
 
-iFollowspd = 2;
-iPatrolspd = 10;
-iMaxspeed = 20;
+iFollowspd = 3;
+iPatrolspd = 1;
+iMaxspeed = 5;
 bForward = false;
 bFollow = false;
 bDiagonal = false;
