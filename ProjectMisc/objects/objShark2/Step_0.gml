@@ -168,7 +168,19 @@ if distance_to_object(objPlayer) > iSharkrange
 		image_xscale = -1;
 	}
 	
+	if position_meeting(x - 32, y, objCornerBarnBotLeft)
+	{
+		motion_set(45, iPatrolspd);
+		image_xscale = -1;
+	}
+	
 	if position_meeting(x - 32, y - 32, objCornerBarnTopLeft)
+	{
+		motion_set(315, iPatrolspd);
+		image_xscale = -1;
+	}
+	
+	if position_meeting(x - 32, y, objCornerBarnTopLeft)
 	{
 		motion_set(315, iPatrolspd);
 		image_xscale = -1;
