@@ -359,6 +359,14 @@
             }
         },
         {
+            "Key": "4b0f328c-bb2d-411f-9961-7546b1edf100",
+            "Value": {
+                "id": "1f2a3190-ffea-4aa8-a5ac-cd7520874a10",
+                "resourcePath": "objects\\objBlackBackgroundALT2\\objBlackBackgroundALT2.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "4b0f4d5d-be46-44b6-96e8-cfd48e101824",
             "Value": {
                 "id": "f214b365-1daa-46fb-afd3-2b1e25cb18ca",
@@ -719,6 +727,14 @@
             }
         },
         {
+            "Key": "8a2fe761-e54d-4dd2-8752-bc45e4e35c16",
+            "Value": {
+                "id": "c01aa43e-fdac-43fd-afde-0ea708a11122",
+                "resourcePath": "objects\\objBlackBackgroundALT\\objBlackBackgroundALT.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "8b936b83-be63-40bd-9599-8f9cf439c598",
             "Value": {
                 "id": "f22abe73-4c42-4a9c-b8ec-3d0a99fd84b7",
@@ -1055,6 +1071,14 @@
             }
         },
         {
+            "Key": "ce592c70-29d9-442d-bae6-14eb0d9729ae",
+            "Value": {
+                "id": "628302e9-a2f9-40f2-a493-45794721cf08",
+                "resourcePath": "sprites\\sprBlackBackgroundALT2\\sprBlackBackgroundALT2.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "cf1a148a-7c3e-41b4-aa1e-9af4213bfa39",
             "Value": {
                 "id": "65ba823f-3bcf-4622-a12c-5872937dc527",
@@ -1196,6 +1220,14 @@
                 "id": "7b33b05e-2720-4340-8313-c36d80583a35",
                 "resourcePath": "rooms\\rmStoryAspect3\\rmStoryAspect3.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "e9f587f1-b7d0-4249-a090-88f99992f1f0",
+            "Value": {
+                "id": "0a48fe06-4235-48c1-b6b6-b8167ca10eeb",
+                "resourcePath": "sprites\\sprBlackBackgroundALT\\sprBlackBackgroundALT.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
