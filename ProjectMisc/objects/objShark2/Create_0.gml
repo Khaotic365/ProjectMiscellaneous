@@ -22,10 +22,10 @@ motion_set(choose(0, 180), iPatrolspd);
 
 if direction == 0
 {
-	image_xscale = 1;
+	image_xscale = -1;
 }
 
 if direction == 180
 {
-	image_xscale = -1;
+	image_xscale = 1;
 }
