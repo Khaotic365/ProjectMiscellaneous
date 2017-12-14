@@ -1,6 +1,7 @@
 //Creating hitpoints for player
 
 iHp = 3;
+iHpmax = 3;
 iSpd = 4;
 iSlowTimer = 0;
 bSpeedDecrease = false;
