@@ -98,7 +98,29 @@ if distance_to_object(objPlayer) > iSharkrange
 		image_xscale = 1;
 		//show_debug_message("Wall to the right");
 	}
+	
+		if position_meeting(x + 32, y, objCornerTopRight)
+	{
+		motion_set(215, iPatrolspd);
+		image_xscale = 1;
+		//show_debug_message("Wall to the left");
+	}
+
+	if position_meeting(x + 32, y, objCornerBotRight)
+	{
+		motion_set(145, iPatrolspd);
+		image_xscale = 1;
+		//show_debug_message("Wall to the right");
+	}
+	
 	if position_meeting(x - 64, y, objWallLeftSide1)
+	{
+		motion_set(0, iPatrolspd);
+		image_xscale = -1;
+		//show_debug_message("Wall to the left");
+	}
+	
+		if position_meeting(x - 32, y, objWallLeftSide1)
 	{
 		motion_set(0, iPatrolspd);
 		image_xscale = -1;
@@ -146,7 +168,19 @@ if distance_to_object(objPlayer) > iSharkrange
 		image_xscale = -1;
 	}
 	
+	if position_meeting(x - 32, y, objCornerBarnBotLeft)
+	{
+		motion_set(45, iPatrolspd);
+		image_xscale = -1;
+	}
+	
 	if position_meeting(x - 32, y - 32, objCornerBarnTopLeft)
+	{
+		motion_set(315, iPatrolspd);
+		image_xscale = -1;
+	}
+	
+	if position_meeting(x - 32, y, objCornerBarnTopLeft)
 	{
 		motion_set(315, iPatrolspd);
 		image_xscale = -1;
