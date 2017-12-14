@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-if keyboard_check_pressed(vk_anykey)
-{
-	room_goto(rmCredits);
-}
+
+image_alpha = 0;
+bAnyKeyPressed = false;
+fFadeSpeed = 0.05;
