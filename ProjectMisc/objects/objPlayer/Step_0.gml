@@ -1,18 +1,23 @@
-//Setting up keyboard controls for player
+ //Setting up keyboard controls for player
 
-if (keyboard_check(vk_right)) x = x + iSpd;
-	if (keyboard_check(vk_right)) image_xscale = +1;
-if (keyboard_check(vk_left)) x = x - iSpd;
-	if (keyboard_check(vk_left)) image_xscale = -1;
-if (keyboard_check(vk_up)) y = y - iSpd;
-if (keyboard_check(vk_down)) y = y + iSpd;
-
-if (keyboard_check(ord("D"))) x = x + iSpd;
-	if (keyboard_check(ord("D"))) image_xscale = +1;
-if (keyboard_check(ord("A"))) x = x - iSpd;
-	if (keyboard_check(ord("A"))) image_xscale = -1;
-if (keyboard_check(ord("W"))) y = y - iSpd;
-if (keyboard_check(ord("S"))) y = y + iSpd;
+if (keyboard_check(vk_right)) || (keyboard_check(ord("D")))
+{
+	x = x + iSpd;
+	image_xscale = +1;
+}
+if (keyboard_check(vk_left)) || (keyboard_check(ord("A")))
+{
+	x = x - iSpd;
+	image_xscale = -1;
+}
+if (keyboard_check(vk_up)) || (keyboard_check(ord("W")))
+{
+y = y - iSpd;
+}
+if (keyboard_check(vk_down)) || (keyboard_check(ord("S")))
+{
+y = y + iSpd;
+}
 
 if (x <= iRmMinX) x = 0;
 if (x >= iRmMaxX) x = iRmMaxX;
