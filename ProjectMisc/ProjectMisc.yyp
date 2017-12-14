@@ -730,7 +730,7 @@
             "Key": "7a6263c8-5da5-4830-b42c-47f7d8709d97",
             "Value": {
                 "id": "f2705985-76a7-478f-98aa-d93c79857e66",
-                "resourcePath": "rooms\\TitleScreen\\TitleScreen.yy",
+                "resourcePath": "rooms\\rmTitleScreen\\rmTitleScreen.yy",
                 "resourceType": "GMRoom"
             }
         },
