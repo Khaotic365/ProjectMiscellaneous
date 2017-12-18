@@ -6,3 +6,8 @@ if iCollideTimerCrab <= 0
 	iHp -= 1;
 //	bSharkCollide = true;
 }
+
+//if solid == true
+//{
+//audio_play_sound(sndDamage2, 0, false);
+//}

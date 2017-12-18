@@ -21,8 +21,13 @@ if iCollideTimer <= 0
 	iCollideTimer = 60;
 	iHp -= 1;
 //	bSharkCollide = true;
+	audio_play_sound(sndDamage2, 0, false);
 }
 
 //Debug messages
 //show_debug_message(iHp);
 
+//if solid == true
+//{
+//audio_play_sound(sndDamage2, 0, false);
+//}
