@@ -679,6 +679,14 @@
             }
         },
         {
+            "Key": "7274c3d4-817e-4ad3-92e4-748deed55a98",
+            "Value": {
+                "id": "c06ca396-72ff-4156-9d51-4a040a5326fe",
+                "resourcePath": "sounds\\msLab\\msLab.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "73a1a8d0-3fb0-44ab-a568-30f7eb8f2aff",
             "Value": {
                 "id": "607abb26-f1ca-4494-a01e-4a0992d17aa0",
