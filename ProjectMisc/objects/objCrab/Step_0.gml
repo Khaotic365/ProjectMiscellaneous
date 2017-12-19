@@ -37,6 +37,8 @@ if bBackward == true
 
 */
 
+randomize();
+
 if position_meeting(x - 32, y, objWallLeftSide1)
 {
 	motion_set(0, iPatrolspd);

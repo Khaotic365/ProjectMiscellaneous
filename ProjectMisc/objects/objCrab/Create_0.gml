@@ -3,6 +3,8 @@
 
 //Defining variables
 
+randomize();
+
 bForward = true;
 bBackward = false;
 iPatrolspd = 10;
