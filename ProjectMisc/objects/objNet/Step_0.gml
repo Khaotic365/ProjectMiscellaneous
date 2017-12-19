@@ -4,6 +4,8 @@
 //If the net is supposed to be moving forward
 //Move toward the end of the room
 
+randomize();
+
 if position_meeting(x - 64, y + 32, objCornerBotLeft)
 {
 	motion_set(0, iSpd);
