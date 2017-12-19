@@ -11,6 +11,8 @@ if distance_to_object(objPlayer) != 20
 //Checking to see if the player is within range of the shark. 
 //If it is the shark will follow the player.
 
+randomize();
+
 if distance_to_object(objPlayer) > iSharkrange
 {
    bForward = true;

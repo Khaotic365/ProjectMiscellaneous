@@ -3,6 +3,8 @@
 
 //Defining variables
 
+randomize();
+
 iFollowspd = 2;
 iPatrolspd = 10;
 bForward = false;
