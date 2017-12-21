@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-audio_stop_sound(msLab);
+audio_stop_sound(msFountain);
 
 if keyboard_check_pressed(vk_anykey)
    {
