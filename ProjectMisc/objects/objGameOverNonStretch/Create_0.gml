@@ -1,7 +1,5 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-if keyboard_check_pressed(vk_anykey)
-{
-	room_goto(rmGradualLevel);
-}
+audio_stop_sound(msLab);
+audio_play_sound(sndGameOver, 0, false);

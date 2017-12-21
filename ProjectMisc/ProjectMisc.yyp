@@ -55,6 +55,14 @@
             }
         },
         {
+            "Key": "0777e6a2-6adf-4929-aee7-a4dccf839a45",
+            "Value": {
+                "id": "b2badcf3-3294-4f8f-adbd-57649a979a9b",
+                "resourcePath": "sounds\\sndGameOver\\sndGameOver.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "07af386f-c77c-43ec-b669-6c13df83b2dd",
             "Value": {
                 "id": "0a0879e7-5577-4849-b741-1f5bdd2f78e9",
