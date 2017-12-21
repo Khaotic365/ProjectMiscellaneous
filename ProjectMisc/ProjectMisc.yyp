@@ -1287,6 +1287,14 @@
             }
         },
         {
+            "Key": "d4cd1562-38e7-460e-bc2f-163162bd96bb",
+            "Value": {
+                "id": "0ee4e8d8-21cf-4619-8028-dd6f9571d0a3",
+                "resourcePath": "sounds\\sndGameOver2\\sndGameOver2.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "d5dc07b1-e96f-488b-969a-28a998c7fb1f",
             "Value": {
                 "id": "f1e80292-9eae-4998-a8ee-1918139384c8",
