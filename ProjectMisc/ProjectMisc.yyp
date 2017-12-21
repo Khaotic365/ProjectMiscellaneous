@@ -823,6 +823,14 @@
             }
         },
         {
+            "Key": "88cb55c1-51cc-45d3-8a47-e2e3b1094314",
+            "Value": {
+                "id": "3c2522b6-feca-4100-be81-ef45d156ecef",
+                "resourcePath": "sprites\\sprStoryAspect3Fixed\\sprStoryAspect3Fixed.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "8a2fe761-e54d-4dd2-8752-bc45e4e35c16",
             "Value": {
                 "id": "c01aa43e-fdac-43fd-afde-0ea708a11122",
