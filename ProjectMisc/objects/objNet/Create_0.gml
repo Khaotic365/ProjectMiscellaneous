@@ -3,6 +3,8 @@
 
 //Defining variables
 
+randomize();
+
 iSpd = 7;
 iStartx = x - (sprite_width / 2);
 iStarty = y;

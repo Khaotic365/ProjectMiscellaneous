@@ -26,6 +26,8 @@ else
 
 //Set timer so that the shark will change speeds over time
 
+randomize();
+
 if iTimer != 0
 {
    iTimer -= 1;

@@ -157,13 +157,11 @@ if iCollideTimerCrab > 0 || iCollideTimer2 > 0 || iCollideTimer > 0 || iCollideT
 	image_alpha = .35;
 }
 
-show_debug_message(iHp);
-
 //show_debug_message(image_alpha);
 
 if (iHp <= 0) 
 {
-room_goto(rmGameOverNonStretch);
+	room_goto(rmGameOverNonStretch);
 }
 
 /*

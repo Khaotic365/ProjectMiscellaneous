@@ -9,4 +9,10 @@ if other.bCanCollide == true
 	solid = false;
 	bSpeedDecrease = true;
 	iSlowTimer = 60;
+	audio_play_sound(sndDamage2, 0, false);
 }
+
+//if solid == true
+//{
+//audio_play_sound(sndDamage2, 0, false);
+//}
