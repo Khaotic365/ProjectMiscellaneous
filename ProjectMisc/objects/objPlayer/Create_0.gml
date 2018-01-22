@@ -1,5 +1,7 @@
 //Creating hitpoints for player
 
+iDashTimer = 10;
+iTimesUp = 1;
 iHp = 3;
 iHpmax = 3;
 iSpd = 4;

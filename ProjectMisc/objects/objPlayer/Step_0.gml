@@ -16,8 +16,46 @@ y = y - iSpd;
 }
 if (keyboard_check(vk_down)) || (keyboard_check(ord("S")))
 {
-y = y + iSpd;
+	if keyboard_check(vk_shift) && iDashTimer >= 20 && iTimesUp == 0
+	{
+		y = y + 2*iSpd;
+		iDashTimer -= 1;
+		if iTimesUp == 0 && iDashTimer == 20
+		{
+			iTimesUp = 1;
+			iDashTimer = 0;
+		}
+	}
+	else
+	{
+		if iDashTimer < 30 && iTimesUp == 1
+		{
+			y = y + iSpd;
+			iDashTimer += 1;
+			if iDashTimer == 30
+			{
+				iTimesUp = 0;
+			}
+		}
+		else
+		{
+			y = y + iSpd;
+		}
+	}
 }
+else
+{
+	if iDashTimer < 30 && iTimesUp == 1
+		{
+			iDashTimer += 1;
+			if iDashTimer == 30
+			{
+				iTimesUp = 0;
+			}
+		}
+}
+
+show_debug_message(iDashTimer);
 
 if (x <= iRmMinX) x = 0;
 if (x >= iRmMaxX) x = iRmMaxX;
