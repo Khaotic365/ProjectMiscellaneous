@@ -2,36 +2,36 @@
 
 if (keyboard_check(vk_right)) || (keyboard_check(ord("D")))
 {
-	if keyboard_check(vk_shift) && iDashTimerRight >= 20 && iTimesUp == 0
+	if keyboard_check(vk_shift) && iDashTimerRight >= 20 && iTimesUpRight == 0
 	{
 		x = x + 2*iSpd;
 		image_xscale = 1;
-		iDashTimer -= 1;
-		if iTimesUp == 0 && iDashTimer == 20
+		iDashTimerRight -= 1;
+		if iTimesUpRight == 0 && iDashTimerRight == 20
 		{
-			iTimesUp = 1;
-			iDashTimer = 0;
+			iTimesUpRight = 1;
+			iDashTimerRight = 0;
 		}
 	}
 	else
 	{
-		if iDashTimer < 30 && iTimesUp == 1
+		if iDashTimerRight < 30 && iTimesUpRight == 1
 		{
 			x = x + iSpd;
 			image_xscale = 1;
-			iDashTimer += 1;
-			if iDashTimer == 30
+			iDashTimerRight += 1;
+			if iDashTimerRight == 30
 			{
-				iTimesUp = 0;
+				iTimesUpRight = 0;
 			}
 		}
 		else
 		{
-			if iDashTimer < 30
+			if iDashTimerRight < 30
 			{
 				x = x + iSpd;
 				image_xscale = 1;
-				iDashTimer += 1;
+				iDashTimerRight += 1;
 			}
 			x = x + iSpd;
 			image_xscale = 1;
@@ -40,47 +40,47 @@ if (keyboard_check(vk_right)) || (keyboard_check(ord("D")))
 }
 else
 {
-	if iDashTimer < 30 && iTimesUp == 1
+	if iDashTimerRight < 30 && iTimesUpRight == 1
 		{
-			iDashTimer += 1;
-			if iDashTimer == 30
+			iDashTimerRight += 1;
+			if iDashTimerRight == 30
 			{
-				iTimesUp = 0;
+				iTimesUpRight = 0;
 			}
 		}
 }
 if (keyboard_check(vk_left)) || (keyboard_check(ord("A")))
 {
-	if keyboard_check(vk_shift) && iDashTimer >= 20 && iTimesUp == 0
+	if keyboard_check(vk_shift) && iDashTimerLeft >= 20 && iTimesUpLeft == 0
 	{
 		x = x - 2*iSpd;
 		image_xscale = -1;
-		iDashTimer -= 1;
-		if iTimesUp == 0 && iDashTimer == 20
+		iDashTimerLeft -= 1;
+		if iTimesUpLeft == 0 && iDashTimerLeft == 20
 		{
-			iTimesUp = 1;
-			iDashTimer = 0;
+			iTimesUpLeft = 1;
+			iDashTimerLeft = 0;
 		}
 	}
 	else
 	{
-		if iDashTimer < 30 && iTimesUp == 1
+		if iDashTimerLeft < 30 && iTimesUpLeft == 1
 		{
 			x = x - iSpd;
 			image_xscale = -1;
-			iDashTimer += 1;
-			if iDashTimer == 30
+			iDashTimerLeft += 1;
+			if iDashTimerLeft == 30
 			{
-				iTimesUp = 0;
+				iTimesUpLeft = 0;
 			}
 		}
 		else
 		{
-		if iDashTimer < 30
+		if iDashTimerLeft < 30
 		{
 			x = x - iSpd;
 			image_xscale = -1;
-			iDashTimer += 1;
+			iDashTimerLeft += 1;
 		}
 			x = x - iSpd;
 			image_xscale = -1;
@@ -89,44 +89,44 @@ if (keyboard_check(vk_left)) || (keyboard_check(ord("A")))
 }
 else
 {
-	if iDashTimer < 30 && iTimesUp == 1
+	if iDashTimerLeft < 30 && iTimesUpLeft == 1
 		{
-			iDashTimer += 1;
-			if iDashTimer == 30
+			iDashTimerLeft += 1;
+			if iDashTimerLeft == 30
 			{
-				iTimesUp = 0;
+				iTimesUpLeft = 0;
 			}
 		}
 }
 if (keyboard_check(vk_up)) || (keyboard_check(ord("W")))
 {
-	if keyboard_check(vk_shift) && iDashTimer >= 20 && iTimesUp == 0
+	if keyboard_check(vk_shift) && iDashTimerUp >= 20 && iTimesUpUp == 0
 	{
 		y = y - 2*iSpd;
-		iDashTimer -= 1;
-		if iTimesUp == 0 && iDashTimer == 20
+		iDashTimerUp -= 1;
+		if iTimesUpUp == 0 && iDashTimerUp == 20
 		{
-			iTimesUp = 1;
-			iDashTimer = 0;
+			iTimesUpUp = 1;
+			iDashTimerUp = 0;
 		}
 	}
 	else
 	{
-		if iDashTimer < 30 && iTimesUp == 1
+		if iDashTimerUp < 30 && iTimesUpUp == 1
 		{
 			y = y - iSpd;
-			iDashTimer += 1;
-			if iDashTimer == 30
+			iDashTimerUp += 1;
+			if iDashTimerUp == 30
 			{
-				iTimesUp = 0;
+				iTimesUpUp = 0;
 			}
 		}
 		else
 		{
-		if iDashTimer < 30
+		if iDashTimerUp < 30
 		{
 			y = y - iSpd;
-			iDashTimer += 1;
+			iDashTimerUp += 1;
 		}
 			y = y - iSpd;
 		}
@@ -134,44 +134,44 @@ if (keyboard_check(vk_up)) || (keyboard_check(ord("W")))
 }
 else
 {
-	if iDashTimer < 30 && iTimesUp == 1
+	if iDashTimerUp < 30 && iTimesUpUp == 1
 		{
-			iDashTimer += 1;
-			if iDashTimer == 30
+			iDashTimerUp += 1;
+			if iDashTimerUp == 30
 			{
-				iTimesUp = 0;
+				iTimesUpUp = 0;
 			}
 		}
 }
 if (keyboard_check(vk_down)) || (keyboard_check(ord("S")))
 {
-	if keyboard_check(vk_shift) && iDashTimer >= 20 && iTimesUp == 0
+	if keyboard_check(vk_shift) && iDashTimerDown >= 20 && iTimesUpDown == 0
 	{
 		y = y + 2*iSpd;
-		iDashTimer -= 1;
-		if iTimesUp == 0 && iDashTimer == 20
+		iDashTimerDown -= 1;
+		if iTimesUpDown == 0 && iDashTimerDown == 20
 		{
-			iTimesUp = 1;
-			iDashTimer = 0;
+			iTimesUpDown = 1;
+			iDashTimerDown = 0;
 		}
 	}
 	else
 	{
-		if iDashTimer < 30 && iTimesUp == 1
+		if iDashTimerDown < 30 && iTimesUpDown == 1
 		{
 			y = y + iSpd;
-			iDashTimer += 1;
-			if iDashTimer == 30
+			iDashTimerDown += 1;
+			if iDashTimerDown == 30
 			{
-				iTimesUp = 0;
+				iTimesUpDown = 0;
 			}
 		}
 		else
 		{
-		if iDashTimer < 30
+		if iDashTimerDown < 30
 		{
 			y = y + iSpd;
-			iDashTimer += 1;
+			iDashTimerDown += 1;
 		}
 			y = y + iSpd;
 		}
@@ -179,17 +179,20 @@ if (keyboard_check(vk_down)) || (keyboard_check(ord("S")))
 }
 else
 {
-	if iDashTimer < 30 && iTimesUp == 1
+	if iDashTimerDown < 30 && iTimesUpDown == 1
 		{
-			iDashTimer += 1;
-			if iDashTimer == 30
+			iDashTimerDown += 1;
+			if iDashTimerDown == 30
 			{
-				iTimesUp = 0;
+				iTimesUpDown = 0;
 			}
 		}
 }
 
-show_debug_message(iDashTimer);
+show_debug_message(iDashTimerRight);
+show_debug_message(iDashTimerLeft);
+show_debug_message(iDashTimerUp);
+show_debug_message(iDashTimerDown);
 
 if (x <= iRmMinX) x = 0;
 if (x >= iRmMaxX) x = iRmMaxX;

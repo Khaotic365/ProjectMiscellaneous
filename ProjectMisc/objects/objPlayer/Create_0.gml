@@ -3,7 +3,7 @@
 iDashTimerRight = 10;
 iDashTimerLeft = 10;
 iDashTimerUp = 10;
-IDashTimerDown = 10;
+iDashTimerDown = 10;
 iTimesUpRight = 1;
 iTimesUpLeft = 1;
 iTimesUpUp = 1;
