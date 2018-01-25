@@ -24,8 +24,8 @@ if bAnyKeyPressed == false
    }
    }
    
-show_debug_message(iTimer);
-show_debug_message(image_alpha);
+//show_debug_message(iTimer);
+//show_debug_message(image_alpha);
 //If a keyr has been pressed, the storyboard fades out
    
 if bAnyKeyPressed == true

@@ -2,22 +2,197 @@
 
 if (keyboard_check(vk_right)) || (keyboard_check(ord("D")))
 {
-	x = x + iSpd;
-	image_xscale = +1;
+	if keyboard_check(vk_shift) && iDashTimerRight >= 40 && iDashTimerLeft >= 60 && iDashTimerUp >= 60 && iDashTimerDown >= 60 && iTimesUpRight == 0
+	{
+		x = x + 2*iSpd;
+		image_xscale = 1;
+		iDashTimerRight -= 2;
+		if iTimesUpRight == 0 && iDashTimerRight == 40
+		{
+			iTimesUpRight = 1;
+			iDashTimerRight = 0;
+		}
+	}
+	else
+	{
+		if iDashTimerRight < 60 && iTimesUpRight == 1
+		{
+			x = x + iSpd;
+			image_xscale = 1;
+			iDashTimerRight += 1;
+			if iDashTimerRight == 60
+			{
+				iTimesUpRight = 0;
+			}
+		}
+		else
+		{
+			if iDashTimerRight < 60
+			{
+				x = x + iSpd;
+				image_xscale = 1;
+				iDashTimerRight += 1;
+			}
+			x = x + iSpd;
+			image_xscale = 1;
+		}
+	}
+}
+else
+{
+	if iDashTimerRight < 60 && iTimesUpRight == 1
+		{
+			iDashTimerRight += 1;
+			if iDashTimerRight == 60
+			{
+				iTimesUpRight = 0;
+			}
+		}
 }
 if (keyboard_check(vk_left)) || (keyboard_check(ord("A")))
 {
-	x = x - iSpd;
-	image_xscale = -1;
+	if keyboard_check(vk_shift) && iDashTimerRight >= 60 && iDashTimerLeft >= 40 && iDashTimerUp >= 60 && iDashTimerDown >= 60 && iTimesUpLeft == 0
+	{
+		x = x - 2*iSpd;
+		image_xscale = -1;
+		iDashTimerLeft -= 2;
+		if iTimesUpLeft == 0 && iDashTimerLeft == 40
+		{
+			iTimesUpLeft = 1;
+			iDashTimerLeft = 0;
+		}
+	}
+	else
+	{
+		if iDashTimerLeft < 60 && iTimesUpLeft == 1
+		{
+			x = x - iSpd;
+			image_xscale = -1;
+			iDashTimerLeft += 1;
+			if iDashTimerLeft == 60
+			{
+				iTimesUpLeft = 0;
+			}
+		}
+		else
+		{
+		if iDashTimerLeft < 60
+		{
+			x = x - iSpd;
+			image_xscale = -1;
+			iDashTimerLeft += 1;
+		}
+			x = x - iSpd;
+			image_xscale = -1;
+		}
+	}
+}
+else
+{
+	if iDashTimerLeft < 60 && iTimesUpLeft == 1
+		{
+			iDashTimerLeft += 1;
+			if iDashTimerLeft == 60
+			{
+				iTimesUpLeft = 0;
+			}
+		}
 }
 if (keyboard_check(vk_up)) || (keyboard_check(ord("W")))
 {
-y = y - iSpd;
+	if keyboard_check(vk_shift) && iDashTimerRight >= 60 && iDashTimerLeft >= 60 && iDashTimerUp >= 40 && iDashTimerDown >= 60 && iTimesUpUp == 0
+	{
+		y = y - 2*iSpd;
+		iDashTimerUp -= 2;
+		if iTimesUpUp == 0 && iDashTimerUp == 40
+		{
+			iTimesUpUp = 1;
+			iDashTimerUp = 0;
+		}
+	}
+	else
+	{
+		if iDashTimerUp < 60 && iTimesUpUp == 1
+		{
+			y = y - iSpd;
+			iDashTimerUp += 1;
+			if iDashTimerUp == 60
+			{
+				iTimesUpUp = 0;
+			}
+		}
+		else
+		{
+		if iDashTimerUp < 60
+		{
+			y = y - iSpd;
+			iDashTimerUp += 1;
+		}
+			y = y - iSpd;
+		}
+	}
+}
+else
+{
+	if iDashTimerUp < 60 && iTimesUpUp == 1
+		{
+			iDashTimerUp += 1;
+			if iDashTimerUp == 60
+			{
+				iTimesUpUp = 0;
+			}
+		}
 }
 if (keyboard_check(vk_down)) || (keyboard_check(ord("S")))
 {
-y = y + iSpd;
+	if keyboard_check(vk_shift) && iDashTimerRight >= 60 && iDashTimerLeft >= 60 && iDashTimerUp >= 60 && iDashTimerDown >= 40 && iTimesUpDown == 0
+	{
+		y = y + 2*iSpd;
+		iDashTimerDown -= 2;
+		if iTimesUpDown == 0 && iDashTimerDown == 40
+		{
+			iTimesUpDown = 1;
+			iDashTimerDown = 0;
+		}
+	}
+	else
+	{
+		if iDashTimerDown < 60 && iTimesUpDown == 1
+		{
+			y = y + iSpd;
+			iDashTimerDown += 1;
+			if iDashTimerDown == 60
+			{
+				iTimesUpDown = 0;
+			}
+		}
+		else
+		{
+		if iDashTimerDown < 60
+		{
+			y = y + iSpd;
+			iDashTimerDown += 1;
+		}
+			y = y + iSpd;
+		}
+	}
 }
+else
+{
+	if iDashTimerDown < 60 && iTimesUpDown == 1
+		{
+			iDashTimerDown += 1;
+			if iDashTimerDown == 60
+			{
+				iTimesUpDown = 0;
+			}
+		}
+}
+
+//show_debug_message(iDashTimerRight);
+//show_debug_message(iDashTimerLeft);
+//show_debug_message(iDashTimerUp);
+//show_debug_message(iDashTimerDown);
 
 if (x <= iRmMinX) x = 0;
 if (x >= iRmMaxX) x = iRmMaxX;
@@ -25,6 +200,53 @@ if y <= iRmMinY	y = 0;
 if y >= iRmMaxY	y = iRmMaxY;
  
 //show_debug_message(x);
+
+if point_direction(x,y,mouse_x,mouse_y) > 270 || point_direction(x,y,mouse_x,mouse_y) < 90
+{
+	image_yscale = 1;
+}
+else
+{
+	image_yscale = -1;
+}
+
+image_angle = point_direction(x,y,mouse_x,mouse_y);
+
+/*
+
+if mouse_check_button(mb_left)
+{
+	move_towards_point(mouse_x,mouse_y,iSpd);
+	if direction > 270 && direction < 90
+	{
+		image_yscale = 1;
+	}
+	else
+	{
+		image_yscale = -1;
+	}
+	//if x = mouse_x && y = mouse_y
+	//{
+	//	speed = 0;
+	//}
+}
+else
+{
+	speed = 0;
+}
+*/
+if mouse_check_button_pressed(mb_left)
+{
+	iClickX = mouse_x;
+	iClickY = mouse_y;
+	move_towards_point(iClickX,iClickY,iSpd);
+}
+if point_distance(x,y,iClickX,iClickY) <= 15
+{
+	speed = 0;
+}
+
+
 
 iSlowTimer -= 1;
 

@@ -17,4 +17,4 @@ bStart = false;
 fRand = random_range(0,360);
 
 motion_set(fRand, iSpd);
-show_debug_message(fRand);
+//show_debug_message(fRand);
