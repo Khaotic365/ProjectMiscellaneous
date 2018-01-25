@@ -1,5 +1,7 @@
  //Creating hitpoints for player
 
+iMiddle = 0;
+i = 10;
 iClickX = 0;
 iClickY = 0;
 iDashTimerRight = 10;

@@ -1,10 +1,43 @@
-  //Setting up keyboard controls for player
+ //Setting up keyboard controls for player
+/*
+if (keyboard_check(vk_right)) || (keyboard_check(ord("D")))
+{
+	if keyboard_check_pressed(vk_space)
+	{
+		if i >= 0
+		{
+			x = x + 2*iSpd;
+			i -= 1;
+		}
+	}
+	else
+	{
+		x = x + iSpd;
+	}
+}
+*/
 
 if (keyboard_check(vk_right)) || (keyboard_check(ord("D")))
 {
-	if (keyboard_key_press(vk_space))
-		iSpd = iSpd+2
-	/*if keyboard_check(vk_shift) && iDashTimerRight >= 40 && iDashTimerLeft >= 60 && iDashTimerUp >= 60 && iDashTimerDown >= 60 && iTimesUpRight == 0
+	//if keyboard_check_pressed(vk_shift)
+	//{
+	//	x = x + iSpd;
+	//	image_xscale = 1;
+	//	iDashTimerRight = 0;
+	//	iTimesUpRight = 1;
+	//}
+	//if iDashTimerRight < 60 && iDashTimerRight >= 0 && iTimesUpRight == 0 && iMiddle == 1
+	//{
+	//	iDashTimerRight = 0;
+	//	iTimesUpRight = 1;
+	//	iMiddle = 0;
+	//}
+	if keyboard_check(vk_shift) != 1 && iDashTimerRight < 60 && iDashTimerRight >= 0 && iTimesUpRight == 0
+	{
+		iDashTimerRight = 0;
+		iTimesUpRight = 1;
+	}
+	if keyboard_check(vk_shift) && iDashTimerRight >= 40 && iDashTimerLeft >= 60 && iDashTimerUp >= 60 && iDashTimerDown >= 60 && iTimesUpRight == 0
 	{
 		x = x + 2*iSpd;
 		image_xscale = 1;
@@ -49,11 +82,16 @@ else
 			{
 				iTimesUpRight = 0;
 			}
-		}*/
+		}
 }
 if (keyboard_check(vk_left)) || (keyboard_check(ord("A")))
 {
-	/*if keyboard_check(vk_shift) && iDashTimerRight >= 60 && iDashTimerLeft >= 40 && iDashTimerUp >= 60 && iDashTimerDown >= 60 && iTimesUpLeft == 0
+	if keyboard_check(vk_shift) != 1 && iDashTimerLeft < 60 && iDashTimerLeft >= 0 && iTimesUpLeft == 0
+	{
+		iDashTimerLeft = 0;
+		iTimesUpLeft = 1;
+	}
+	if keyboard_check(vk_shift) && iDashTimerRight >= 60 && iDashTimerLeft >= 40 && iDashTimerUp >= 60 && iDashTimerDown >= 60 && iTimesUpLeft == 0
 	{
 		x = x - 2*iSpd;
 		image_xscale = -1;
@@ -98,11 +136,16 @@ else
 			{
 				iTimesUpLeft = 0;
 			}
-		}*/
+		}
 }
 if (keyboard_check(vk_up)) || (keyboard_check(ord("W")))
 {
-	/*if keyboard_check(vk_shift) && iDashTimerRight >= 60 && iDashTimerLeft >= 60 && iDashTimerUp >= 40 && iDashTimerDown >= 60 && iTimesUpUp == 0
+	if keyboard_check(vk_shift) != 1 && iDashTimerUp < 60 && iDashTimerUp >= 0 && iTimesUpUp == 0
+	{
+		iDashTimerUp = 0;
+		iTimesUpUp = 1;
+	}
+	if keyboard_check(vk_shift) && iDashTimerRight >= 60 && iDashTimerLeft >= 60 && iDashTimerUp >= 40 && iDashTimerDown >= 60 && iTimesUpUp == 0
 	{
 		y = y - 2*iSpd;
 		iDashTimerUp -= 2;
@@ -143,11 +186,16 @@ else
 			{
 				iTimesUpUp = 0;
 			}
-		}*/
+		}
 }
 if (keyboard_check(vk_down)) || (keyboard_check(ord("S")))
 {
-	/*if keyboard_check(vk_shift) && iDashTimerRight >= 60 && iDashTimerLeft >= 60 && iDashTimerUp >= 60 && iDashTimerDown >= 40 && iTimesUpDown == 0
+	if keyboard_check(vk_shift) != 1 && iDashTimerDown < 60 && iDashTimerDown >= 0 && iTimesUpDown == 0
+	{
+		iDashTimerDown = 0;
+		iTimesUpDown = 1;
+	}
+	if keyboard_check(vk_shift) && iDashTimerRight >= 60 && iDashTimerLeft >= 60 && iDashTimerUp >= 60 && iDashTimerDown >= 40 && iTimesUpDown == 0
 	{
 		y = y + 2*iSpd;
 		iDashTimerDown -= 2;
@@ -188,13 +236,13 @@ else
 			{
 				iTimesUpDown = 0;
 			}
-		}*/
+		}
 }
 
-//show_debug_message(iDashTimerRight);
-//show_debug_message(iDashTimerLeft);
-//show_debug_message(iDashTimerUp);
-//show_debug_message(iDashTimerDown);
+show_debug_message(iDashTimerRight);
+show_debug_message(iDashTimerLeft);
+show_debug_message(iDashTimerUp);
+show_debug_message(iDashTimerDown);
 
 if (x <= iRmMinX) x = 0;
 if (x >= iRmMaxX) x = iRmMaxX;
