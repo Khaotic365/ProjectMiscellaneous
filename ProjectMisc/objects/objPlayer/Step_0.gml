@@ -1,8 +1,10 @@
- //Setting up keyboard controls for player
+  //Setting up keyboard controls for player
 
 if (keyboard_check(vk_right)) || (keyboard_check(ord("D")))
 {
-	if keyboard_check(vk_shift) && iDashTimerRight >= 40 && iDashTimerLeft >= 60 && iDashTimerUp >= 60 && iDashTimerDown >= 60 && iTimesUpRight == 0
+	if (keyboard_key_press(vk_space))
+		iSpd = iSpd+2
+	/*if keyboard_check(vk_shift) && iDashTimerRight >= 40 && iDashTimerLeft >= 60 && iDashTimerUp >= 60 && iDashTimerDown >= 60 && iTimesUpRight == 0
 	{
 		x = x + 2*iSpd;
 		image_xscale = 1;
@@ -47,11 +49,11 @@ else
 			{
 				iTimesUpRight = 0;
 			}
-		}
+		}*/
 }
 if (keyboard_check(vk_left)) || (keyboard_check(ord("A")))
 {
-	if keyboard_check(vk_shift) && iDashTimerRight >= 60 && iDashTimerLeft >= 40 && iDashTimerUp >= 60 && iDashTimerDown >= 60 && iTimesUpLeft == 0
+	/*if keyboard_check(vk_shift) && iDashTimerRight >= 60 && iDashTimerLeft >= 40 && iDashTimerUp >= 60 && iDashTimerDown >= 60 && iTimesUpLeft == 0
 	{
 		x = x - 2*iSpd;
 		image_xscale = -1;
@@ -96,11 +98,11 @@ else
 			{
 				iTimesUpLeft = 0;
 			}
-		}
+		}*/
 }
 if (keyboard_check(vk_up)) || (keyboard_check(ord("W")))
 {
-	if keyboard_check(vk_shift) && iDashTimerRight >= 60 && iDashTimerLeft >= 60 && iDashTimerUp >= 40 && iDashTimerDown >= 60 && iTimesUpUp == 0
+	/*if keyboard_check(vk_shift) && iDashTimerRight >= 60 && iDashTimerLeft >= 60 && iDashTimerUp >= 40 && iDashTimerDown >= 60 && iTimesUpUp == 0
 	{
 		y = y - 2*iSpd;
 		iDashTimerUp -= 2;
@@ -141,11 +143,11 @@ else
 			{
 				iTimesUpUp = 0;
 			}
-		}
+		}*/
 }
 if (keyboard_check(vk_down)) || (keyboard_check(ord("S")))
 {
-	if keyboard_check(vk_shift) && iDashTimerRight >= 60 && iDashTimerLeft >= 60 && iDashTimerUp >= 60 && iDashTimerDown >= 40 && iTimesUpDown == 0
+	/*if keyboard_check(vk_shift) && iDashTimerRight >= 60 && iDashTimerLeft >= 60 && iDashTimerUp >= 60 && iDashTimerDown >= 40 && iTimesUpDown == 0
 	{
 		y = y + 2*iSpd;
 		iDashTimerDown -= 2;
@@ -186,7 +188,7 @@ else
 			{
 				iTimesUpDown = 0;
 			}
-		}
+		}*/
 }
 
 //show_debug_message(iDashTimerRight);

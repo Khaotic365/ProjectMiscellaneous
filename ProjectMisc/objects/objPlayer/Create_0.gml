@@ -1,4 +1,4 @@
-//Creating hitpoints for player
+ //Creating hitpoints for player
 
 iClickX = 0;
 iClickY = 0;
