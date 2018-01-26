@@ -1,4 +1,4 @@
-//Creating hitpoints for player
+ //Creating hitpoints for player
 
 bOnly = 0;
 iStartX = 0;

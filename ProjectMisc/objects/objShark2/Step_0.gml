@@ -276,3 +276,21 @@ if bFollow == true
 //Place debug messages below
 //show_debug_message(string(id) + ": " + string(distance_to_point(startx, starty)));
 //show_debug_message(distance_to_object(objPlayer));
+iSlowTimer -= 1;
+
+if bSpeedDecrease == true && iSlowTimer >= 0
+{
+	iSpd = 1;
+}
+else
+{
+bSpeedDecrease = false;
+objCurrentNet.bCaughtShark2 = false;
+}
+
+//show_debug_message(iSpd);
+
+if objCurrentNet != objShark2 && objCurrentNet.bCanCollide ==  true
+{
+solid = true;
+}
