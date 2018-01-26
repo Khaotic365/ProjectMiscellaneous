@@ -239,10 +239,10 @@ else
 		}
 }
 
-show_debug_message(iDashTimerRight);
-show_debug_message(iDashTimerLeft);
-show_debug_message(iDashTimerUp);
-show_debug_message(iDashTimerDown);
+//show_debug_message(iDashTimerRight);
+//show_debug_message(iDashTimerLeft);
+//show_debug_message(iDashTimerUp);
+//show_debug_message(iDashTimerDown);
 
 if (x <= iRmMinX) x = 0;
 if (x >= iRmMaxX) x = iRmMaxX;
@@ -296,7 +296,22 @@ if point_distance(x,y,iClickX,iClickY) <= 15
 	speed = 0;
 }
 
+if mouse_check_button_pressed(mb_right)
+{
+	iClickRX = mouse_x;
+	iClickRY = mouse_y;
+	iStartX = x;
+	iStartY = y;
+	move_towards_point(iClickRX,iClickRY,2*iSpd);
+	bOnly = 1;
+}
+if point_distance(iStartX,iStartY,x,y) >= 80 && bOnly == 1
+{
+		speed = 0;
+		bOnly = 0;
+}
 
+//show_debug_message(iClickTimer);
 
 iSlowTimer -= 1;
 
