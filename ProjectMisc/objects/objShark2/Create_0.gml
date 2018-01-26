@@ -23,6 +23,10 @@ fRand = random_range(0,360);
 
 motion_set(fRand, iPatrolspd);
 
+iSlowTimer = 0;
+bSpeedDecrease = false;
+objCurrentNet = objShark2;
+
 //motion_set(choose(0, 180), iPatrolspd);
 
 if direction >= -90 && direction <= 90
