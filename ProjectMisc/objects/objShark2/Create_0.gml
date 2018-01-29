@@ -5,6 +5,7 @@
 
 randomize();
 
+bAfterFollow = false;
 iFollowspd = 3;
 iPatrolspd = 1;
 iMaxspeed = 5;
