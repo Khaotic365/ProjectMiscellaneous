@@ -1,9 +1,20 @@
  //Creating hitpoints for player
 
+bClicked = 0;
+iDashTimer = 0;
+bNormal = true;
+iClickTimer = 0;
+bCanDash = true;
+bOnly = 0;
+iStartX = 0;
+iStartY = 0;
+//iClickTimer = 60;
 iMiddle = 0;
 i = 10;
 iClickX = 0;
 iClickY = 0;
+iClickRX = 0;
+iClickRY = 0;
 iDashTimerRight = 10;
 iDashTimerLeft = 10;
 iDashTimerUp = 10;
