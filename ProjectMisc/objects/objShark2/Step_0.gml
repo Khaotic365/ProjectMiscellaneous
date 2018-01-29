@@ -30,67 +30,6 @@ randomize();
 
 //image_angle = point_direction(x,y,objPlayer.x,objPlayer.y)
 
-if point_direction(x,y,objPlayer.x,objPlayer.y) > 0 && point_direction(x,y,objPlayer.x,objPlayer.y) < 90
-{
-	if point_direction(x,y,objPlayer.x,objPlayer.y) > 0 && point_direction(x,y,objPlayer.x,objPlayer.y) < 25
-	{
-		image_angle = point_direction(x,y,objPlayer.x,objPlayer.y);
-		image_xscale = -1;
-		image_yscale = 1;
-	}
-}
-if point_direction(x,y,objPlayer.x,objPlayer.y) > 25 && point_direction(x,y,objPlayer.x,objPlayer.y) < 90
-{
-	image_angle = 25;
-	image_xscale = -1;
-	image_yscale = 1;
-}
-if point_direction(x,y,objPlayer.x,objPlayer.y) > 90 && point_direction(x,y,objPlayer.x,objPlayer.y) < 180
-{
-	if point_direction(x,y,objPlayer.x,objPlayer.y) > 155 && point_direction(x,y,objPlayer.x,objPlayer.y) < 180
-	{
-		image_angle = point_direction(x,y,objPlayer.x,objPlayer.y);
-		image_xscale = -1;
-		image_yscale = -1;
-	}
-}
-if point_direction(x,y,objPlayer.x,objPlayer.y) > 90 && point_direction(x,y,objPlayer.x,objPlayer.y) < 155
-{
-	image_angle = 155;
-	image_xscale = -1;
-	image_yscale = -1;
-}
-if point_direction(x,y,objPlayer.x,objPlayer.y) > 180 && point_direction(x,y,objPlayer.x,objPlayer.y) < 270
-{
-	if point_direction(x,y,objPlayer.x,objPlayer.y) > 180 && point_direction(x,y,objPlayer.x,objPlayer.y) < 205
-	{
-		image_angle = point_direction(x,y,objPlayer.x,objPlayer.y);
-		image_xscale = 1;
-		image_yscale = -1;
-	}
-}
-if point_direction(x,y,objPlayer.x,objPlayer.y) > 205 && point_direction(x,y,objPlayer.x,objPlayer.y) < 270
-{
-	image_angle = 205;
-	image_xscale = 1;
-	image_yscale = -1;
-}
-if point_direction(x,y,objPlayer.x,objPlayer.y) > 270 && point_direction(x,y,objPlayer.x,objPlayer.y) < 360
-{
-	if point_direction(x,y,objPlayer.x,objPlayer.y) > 335 && point_direction(x,y,objPlayer.x,objPlayer.y) < 360
-	{
-		image_angle = point_direction(x,y,objPlayer.x,objPlayer.y);
-		image_xscale = -1;
-		image_yscale = 1;
-	}
-}
-if point_direction(x,y,objPlayer.x,objPlayer.y) > 270 && point_direction(x,y,objPlayer.x,objPlayer.y) < 335
-{
-	image_angle = 335;
-	image_xscale = -1;
-	image_yscale = 1;
-}
-
 if iTimer != 0
 {
    iTimer -= 1;
@@ -122,6 +61,12 @@ if distance_to_object(objPlayer) > iSharkrange
 {
 	bForward = true;
 	bFollow = false;
+	if bAfterFollow == true
+	{
+		image_angle = 0;
+		image_xscale = 1;
+		bAfterFollow = false;
+	}
 	if bAfter == true
 	{
 		motion_set(choose(0, 180), iPatrolspd);
@@ -319,6 +264,69 @@ if bBackward == true
 
 if bFollow == true
 {
+	bAfterFollow = true;
+
+	if point_direction(x,y,objPlayer.x,objPlayer.y) > 0 && point_direction(x,y,objPlayer.x,objPlayer.y) < 90
+{
+	if point_direction(x,y,objPlayer.x,objPlayer.y) > 0 && point_direction(x,y,objPlayer.x,objPlayer.y) < 25
+	{
+		image_angle = point_direction(x,y,objPlayer.x,objPlayer.y);
+		image_xscale = -1;
+		image_yscale = 1;
+	}
+}
+if point_direction(x,y,objPlayer.x,objPlayer.y) > 25 && point_direction(x,y,objPlayer.x,objPlayer.y) < 90
+{
+	image_angle = 25;
+	image_xscale = -1;
+	image_yscale = 1;
+}
+if point_direction(x,y,objPlayer.x,objPlayer.y) > 90 && point_direction(x,y,objPlayer.x,objPlayer.y) < 180
+{
+	if point_direction(x,y,objPlayer.x,objPlayer.y) > 155 && point_direction(x,y,objPlayer.x,objPlayer.y) < 180
+	{
+		image_angle = point_direction(x,y,objPlayer.x,objPlayer.y);
+		image_xscale = -1;
+		image_yscale = -1;
+	}
+}
+if point_direction(x,y,objPlayer.x,objPlayer.y) > 90 && point_direction(x,y,objPlayer.x,objPlayer.y) < 155
+{
+	image_angle = 155;
+	image_xscale = -1;
+	image_yscale = -1;
+}
+if point_direction(x,y,objPlayer.x,objPlayer.y) > 180 && point_direction(x,y,objPlayer.x,objPlayer.y) < 270
+{
+	if point_direction(x,y,objPlayer.x,objPlayer.y) > 180 && point_direction(x,y,objPlayer.x,objPlayer.y) < 205
+	{
+		image_angle = point_direction(x,y,objPlayer.x,objPlayer.y);
+		image_xscale = 1;
+		image_yscale = -1;
+	}
+}
+if point_direction(x,y,objPlayer.x,objPlayer.y) > 205 && point_direction(x,y,objPlayer.x,objPlayer.y) < 270
+{
+	image_angle = 205;
+	image_xscale = 1;
+	image_yscale = -1;
+}
+if point_direction(x,y,objPlayer.x,objPlayer.y) > 270 && point_direction(x,y,objPlayer.x,objPlayer.y) < 360
+{
+	if point_direction(x,y,objPlayer.x,objPlayer.y) > 335 && point_direction(x,y,objPlayer.x,objPlayer.y) < 360
+	{
+		image_angle = point_direction(x,y,objPlayer.x,objPlayer.y);
+		image_xscale = -1;
+		image_yscale = 1;
+	}
+}
+if point_direction(x,y,objPlayer.x,objPlayer.y) > 270 && point_direction(x,y,objPlayer.x,objPlayer.y) < 335
+{
+	image_angle = 335;
+	image_xscale = -1;
+	image_yscale = 1;
+}
+	
    move_towards_point(objPlayer.x, objPlayer.y, iFollowspd);
    if x >= objPlayer.x 
    {
