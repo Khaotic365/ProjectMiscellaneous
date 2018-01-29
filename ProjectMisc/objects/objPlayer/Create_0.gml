@@ -1,5 +1,10 @@
  //Creating hitpoints for player
 
+bClicked = 0;
+iDashTimer = 0;
+bNormal = true;
+iClickTimer = 0;
+bCanDash = true;
 bOnly = 0;
 iStartX = 0;
 iStartY = 0;

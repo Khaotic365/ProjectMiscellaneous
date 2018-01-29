@@ -285,18 +285,21 @@ else
 	speed = 0;
 }
 */
-if mouse_check_button_pressed(mb_left)
+
+if mouse_check_button_pressed(mb_left) 
 {
 	iClickX = mouse_x;
 	iClickY = mouse_y;
 	move_towards_point(iClickX,iClickY,iSpd);
+	bClicked = 0;
 }
-if point_distance(x,y,iClickX,iClickY) <= 15
+if point_distance(x,y,iClickX,iClickY) <= 5
 {
 	speed = 0;
+	bClicked = 0;
 }
 
-if mouse_check_button_pressed(mb_right)
+if mouse_check_button_pressed(mb_right) && bCanDash == true
 {
 	iClickRX = mouse_x;
 	iClickRY = mouse_y;
@@ -304,14 +307,52 @@ if mouse_check_button_pressed(mb_right)
 	iStartY = y;
 	move_towards_point(iClickRX,iClickRY,2*iSpd);
 	bOnly = 1;
+	bCanDash = false;
+	iClickTimer = 0;
+}
+if iClickTimer < 60
+{
+	iClickTimer += 1;
+}
+if iClickTimer == 60
+{
+	bCanDash = true;
 }
 if point_distance(iStartX,iStartY,x,y) >= 80 && bOnly == 1
 {
+	/*move_towards_point(iClickRX,iClickRY,iSpd);
+	if point_distance(x,y,iClickRX,iClickRY) <= 5
+	{
+		bOnly = 0;
+		speed = 0;
+	}
+	*/
+	if mouse_check_button(mb_left) || mouse_check_button_pressed(mb_left)
+	{
+		iClickX = mouse_x;
+		iClickY = mouse_y;
+		move_towards_point(iClickX,iClickY,iSpd);
+		bClicked = 1;
+	}
+	if point_distance(x,y,iClickX,iClickY) <= 5
+	{
 		speed = 0;
 		bOnly = 0;
+		bClicked = 0;
+	}
+	if bClicked == 0
+	{
+		speed = 0;
+		bOnly = 0;
+	}
+	else
+	{
+		bClicked = 0;
+	}
 }
 
-//show_debug_message(iClickTimer);
+show_debug_message(iClickTimer);
+show_debug_message(bClicked);
 
 iSlowTimer -= 1;
 
