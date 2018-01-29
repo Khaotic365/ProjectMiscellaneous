@@ -13,7 +13,6 @@ bBackward = false;
 bGo = 0;
 iTimer = 75;
 bCaughtPlayer = false;
-bCaughtShark2 = false;
 bCanCollide = true;
 iNetCollisionTimer = 0;
 bStart = false;
