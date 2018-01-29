@@ -15,6 +15,7 @@ iSharkrange = 150;
 bBackward = false;
 iStartx = x - (sprite_width / 2);
 iStarty = y;
+objCurrentNet = objShark2;
 iIterations = 0;
 iTimer = 100;
 iTargetspd = 10;
