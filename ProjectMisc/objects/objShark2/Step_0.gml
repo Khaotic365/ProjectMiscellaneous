@@ -165,7 +165,13 @@ if distance_to_object(objPlayer) > iSharkrange
 		motion_set(145, iPatrolspd);
 		image_xscale = 1;
 	}
-
+	
+	if position_meeting(x, y - 32, objWallRoof1)
+	{
+		motion_set(215, iPatrolspd);
+		image_xscale = 1;
+	}
+	
 	if position_meeting(x, y - 32, objWallRoof2)
 	{
 		motion_set(215, iPatrolspd);
@@ -347,21 +353,21 @@ if point_direction(x,y,objPlayer.x,objPlayer.y) > 270 && point_direction(x,y,obj
 //Place debug messages below
 //show_debug_message(string(id) + ": " + string(distance_to_point(startx, starty)));
 //show_debug_message(distance_to_object(objPlayer));
-iSlowTimer -= 1;
+iSlowTimerShark -= 1;
 
-if bSpeedDecrease == true && iSlowTimer >= 0
+if bSpeedDecreaseShark == true && iSlowTimerShark >= 0
 {
 	iSpd = 1;
 }
 else
 {
-bSpeedDecrease = false;
-objCurrentNet.bCaughtShark2 = false;
+bSpeedDecreaseShark = false;
+objCurrentNetShark.bCaughtShark = false;
 }
 
 //show_debug_message(iSpd);
 
-if objCurrentNet != objShark2 && objCurrentNet.bCanCollide ==  true
+if objCurrentNetShark != objShark2 && objCurrentNetShark.bCanCollideShark ==  true
 {
 solid = true;
 }

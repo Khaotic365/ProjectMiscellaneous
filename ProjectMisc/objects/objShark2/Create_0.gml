@@ -16,7 +16,7 @@ iSharkrange = 150;
 bBackward = false;
 iStartx = x - (sprite_width / 2);
 iStarty = y;
-objCurrentNet = objShark2;
+objCurrentNetShark = objShark2;
 iIterations = 0;
 iTimer = 100;
 iTargetspd = 10;
@@ -25,9 +25,8 @@ fRand = random_range(0,360);
 
 motion_set(fRand, iPatrolspd);
 
-iSlowTimer = 0;
-bSpeedDecrease = false;
-objCurrentNet = objShark2;
+iSlowTimerShark = 0;
+bSpeedDecreaseShark = false;
 
 //motion_set(choose(0, 180), iPatrolspd);
 
