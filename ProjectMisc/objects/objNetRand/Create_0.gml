@@ -11,8 +11,11 @@ iTargety = room_height;
 bGo = 0;
 iTimer = 75;
 bCaughtPlayer = false;
+bCaughtShark = false;
 bCanCollide = true;
+bCanCollideShark = true;
 iNetCollisionTimer = 0;
+iNetCollisionTimerShark = 0;
 bStart = false;
 fRand = random_range(0,360);
 
