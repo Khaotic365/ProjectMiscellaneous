@@ -1311,6 +1311,14 @@
             }
         },
         {
+            "Key": "d56db520-3a64-4547-93b0-68649f5c77c5",
+            "Value": {
+                "id": "fa174df0-cace-4052-aba8-3cbe17b6a90a",
+                "resourcePath": "rooms\\rmShore\\rmShore.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "d5dc07b1-e96f-488b-969a-28a998c7fb1f",
             "Value": {
                 "id": "f1e80292-9eae-4998-a8ee-1918139384c8",
