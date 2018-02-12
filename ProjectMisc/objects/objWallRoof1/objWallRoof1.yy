@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "objWallRoof1",
     "eventList": [
-        
+        {
+            "id": "ceb29793-3eee-4f6b-9daf-13421d8f6d22",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "7f703d22-c93e-401d-914f-b79611831321"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "parentObjectId": "00000000-0000-0000-0000-000000000000",

@@ -357,17 +357,22 @@ iSlowTimerShark -= 1;
 
 if bSpeedDecreaseShark == true && iSlowTimerShark >= 0
 {
-	iSpd = 1;
+	iPatrolspd = 0.5;
+	iFollowspd = 0.5;
 }
 else
 {
-bSpeedDecreaseShark = false;
-objCurrentNetShark.bCaughtShark = false;
+	bSpeedDecreaseShark = false;
+	iPatrolspd = 2;
+	iFollowspd = 2;
+	objCurrentNetShark.bCaughtShark = false;
 }
 
+//show_debug_message(iSlowTimerShark);
+//show_debug_message(bSpeedDecreaseShark);
 //show_debug_message(iSpd);
 
-if objCurrentNetShark != objShark2 && objCurrentNetShark.bCanCollideShark ==  true
+if objCurrentNetShark != instance_nearest(x,y,objShark2) && objCurrentNetShark.bCanCollideShark == true
 {
 solid = true;
 }

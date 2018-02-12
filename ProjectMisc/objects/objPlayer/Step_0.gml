@@ -351,8 +351,8 @@ if point_distance(iStartX,iStartY,x,y) >= 80 && bOnly == 1
 	}
 }
 
-show_debug_message(iClickTimer);
-show_debug_message(bClicked);
+//show_debug_message(iClickTimer);
+//show_debug_message(bClicked);
 
 iSlowTimer -= 1;
 
@@ -369,7 +369,7 @@ objCurrentNet.bCaughtPlayer = false;
 
 //show_debug_message(iSpd);
 
-if objCurrentNet != objPlayer && objCurrentNet.bCanCollide ==  true
+if objCurrentNet != objPlayer && objCurrentNet.bCanCollide == true
 {
 solid = true;
 }

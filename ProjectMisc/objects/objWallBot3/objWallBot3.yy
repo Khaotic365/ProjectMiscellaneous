@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "objWallBot3",
     "eventList": [
-        
+        {
+            "id": "1c0596f9-81a7-4879-9953-d94978085a22",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "abf1139d-388c-42b9-bc2d-9ccfc28b148c"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "parentObjectId": "00000000-0000-0000-0000-000000000000",

@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "objBigBarnacle1",
     "eventList": [
-        
+        {
+            "id": "fe4e72c1-bf82-46bb-927a-434a694493d0",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "6ee5cbfd-b18b-45a1-9f83-a7f84d093459"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "parentObjectId": "00000000-0000-0000-0000-000000000000",
