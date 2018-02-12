@@ -5,29 +5,54 @@ randomize();
 iNetCollisionTimer -= 1;
 iNetCollisionTimerShark -= 1;
 
-if iNetCollisionTimer <= 0
+if iNetCollisionTimer <= 0 && iNetCollisionTimerShark <= 0
 {
 bCanCollide = true;
 }
-
-if iNetCollisionTimerShark <= 0
+//else
+//{
+//bCanCollide = false;
+//}
+if iNetCollisionTimerShark <= 119 //<= 60 && iNetCollisionTimerShark >= 0
+{
+bCaughtShark = false;
+}
+if iNetCollisionTimerShark <= 0 && iNetCollisionTimer <= 0
 {
 bCanCollideShark = true;
 }
+//else
+//{
+//bCanCollide = false;
+//}
+//if iNetCollisionTimerShark < 0
+//{
+//bCanCollideShark = true;
+//}
 
-if bCaughtPlayer == false || bCaughtShark == false
+
+//show_debug_message(iNetCollisionTimerShark);
+//show_debug_message(iNetCollisionTimer);
+//show_debug_message(iNetCollisionTimer);
+
+if bCaughtPlayer == false && bCaughtShark == false
 {
     if iNetCollisionTimer == 0
 	{
 	image_alpha = 1;
+	bCanCollide = true;
+	bCanCollideShark = true;
 	}
 	
 	if iNetCollisionTimerShark == 0
 	{
 	image_alpha = 1;
+	bCanCollide = true;
+	bCanCollideShark = true;
 	}
 	
 	iSpd = 10;
+	
 	//Setting the timer so that it goes from 0 to 75
 	if iTimer != 75
 	{
@@ -218,7 +243,13 @@ if bCaughtPlayer == true
 	x = objPlayer.x;
 	y = objPlayer.y;
 }
+/*
+var i;
 
+for (i = 0; i < instance_number(objShark2); i += 1)
+{
+	enemy[i] = instance_find(objShark2,i);
+}*/
 if bCaughtShark == true
 {
 	if iNetCollisionTimerShark == 120
@@ -227,8 +258,8 @@ if bCaughtShark == true
 	}
 	iSpd = 0;
 	bCanCollideShark = false;
-	x = objShark2.x;
-	y = objShark2.y;
+	x = instance_nearest(x,y,objShark2).x;
+	y = instance_nearest(x,y,objShark2).y;
 }
 
 

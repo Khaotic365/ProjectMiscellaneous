@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "objBlackBackgroundALT4",
     "eventList": [
-        
+        {
+            "id": "7c85f0fc-5315-4ee1-9cfe-21ce0ed2b9c0",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "c04a03c9-1a09-4fed-b2d1-758c0662e0e7"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "parentObjectId": "00000000-0000-0000-0000-000000000000",

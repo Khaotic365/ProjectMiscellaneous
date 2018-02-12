@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-objCurrentNetShark = other;
+objCurrentNetShark = instance_nearest(x,y,objShark2);
 
 if other.bCanCollideShark == true
 {
