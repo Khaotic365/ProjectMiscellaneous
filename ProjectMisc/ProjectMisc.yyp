@@ -1015,14 +1015,6 @@
             }
         },
         {
-            "Key": "9412aca6-269a-46c4-9023-e8c53cc809cf",
-            "Value": {
-                "id": "478b4b5c-09b2-4d4f-a0f4-fb6485df3973",
-                "resourcePath": "rooms\\rmGradualLevelParallaxTest\\rmGradualLevelParallaxTest.yy",
-                "resourceType": "GMRoom"
-            }
-        },
-        {
             "Key": "945f954a-d884-49c6-9f20-eda3c2402829",
             "Value": {
                 "id": "bbe6b2c7-a8c2-4b40-81b6-f2d5275c6372",
@@ -1492,6 +1484,14 @@
                 "id": "f1e80292-9eae-4998-a8ee-1918139384c8",
                 "resourcePath": "sprites\\sprBigBarnacle1\\sprBigBarnacle1.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "d6ba0cda-cad0-4abd-8e46-9f7f1d687b76",
+            "Value": {
+                "id": "d9811f81-ddda-475e-bfd2-2f88fc3435d5",
+                "resourcePath": "rooms\\rmGradualLevelParallaxTest\\rmGradualLevelParallaxTest.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
