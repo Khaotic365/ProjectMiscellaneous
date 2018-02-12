@@ -4,7 +4,7 @@
     "mvc": "1.0",
     "name": "rmGradualLevel",
     "IsDnD": false,
-    "creationCodeFile": "",
+    "creationCodeFile": "RoomCreationCode.gml",
     "inheritCode": false,
     "inheritCreationOrder": false,
     "inheritLayers": false,
@@ -55150,7 +55150,7 @@
         "mvc": "1.0",
         "clearDisplayBuffer": true,
         "clearViewBackground": true,
-        "enableViews": false,
+        "enableViews": true,
         "inheritViewSettings": false
     },
     "views": [
