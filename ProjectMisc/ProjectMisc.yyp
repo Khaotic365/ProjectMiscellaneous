@@ -543,6 +543,14 @@
             }
         },
         {
+            "Key": "52d62ffc-af5c-48ff-99b4-57af1f8bf2da",
+            "Value": {
+                "id": "525ab85f-3af1-4359-9b24-f1b342a3fecb",
+                "resourcePath": "rooms\\rmGradualTestMovement\\rmGradualTestMovement.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "54658952-5f48-4d91-bcb9-c0a83c3f117f",
             "Value": {
                 "id": "ad8b5405-9d7d-481b-be3f-7566643879ae",
@@ -652,6 +660,14 @@
                 "id": "97612487-7c45-4dec-83df-c392a3bee910",
                 "resourcePath": "rooms\\rmStoryAspect4\\rmStoryAspect4.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "6581d0d0-87ea-41a9-9aa1-44c3bc64852c",
+            "Value": {
+                "id": "90545287-22d8-457d-a787-22319d01db5d",
+                "resourcePath": "objects\\objTest\\objTest.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1647,6 +1663,14 @@
             }
         },
         {
+            "Key": "f4e56a1d-5a20-4f9b-bfc8-63f0bf733d3f",
+            "Value": {
+                "id": "53e443b7-b181-440b-a03b-f71e385c5a55",
+                "resourcePath": "scripts\\scrNPCMove\\scrNPCMove.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "f7190826-6149-4d09-94f9-87fba8cbd5b6",
             "Value": {
                 "id": "74c26869-0f28-443a-9f1f-f507a2cb7379",
@@ -1696,7 +1720,7 @@
         }
     ],
     "script_order": [
-        
+        "f4e56a1d-5a20-4f9b-bfc8-63f0bf733d3f"
     ],
     "tutorial": ""
 }
