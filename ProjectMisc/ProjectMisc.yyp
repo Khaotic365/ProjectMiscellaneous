@@ -1282,7 +1282,7 @@
             "Key": "ba5e05db-265d-4da7-a832-6cce5dac7ca0",
             "Value": {
                 "id": "2300cb6b-e12c-4839-9e89-4dd5447afadf",
-                "resourcePath": "tilesets\\tileset2\\tileset2.yy",
+                "resourcePath": "tilesets\\tilSand\\tilSand.yy",
                 "resourceType": "GMTileSet"
             }
         },
@@ -1299,14 +1299,6 @@
             "Value": {
                 "id": "597b59c7-72a9-4d97-ba0f-1b8e8d5882ed",
                 "resourcePath": "rooms\\room6\\room6.yy",
-                "resourceType": "GMRoom"
-            }
-        },
-        {
-            "Key": "bedd2a38-26d2-4e59-8a70-b59bedba0b7c",
-            "Value": {
-                "id": "646dcb09-327d-4d9b-bd12-e3540b86b2a7",
-                "resourcePath": "rooms\\rmGradualLevel2\\rmGradualLevel2.yy",
                 "resourceType": "GMRoom"
             }
         },
