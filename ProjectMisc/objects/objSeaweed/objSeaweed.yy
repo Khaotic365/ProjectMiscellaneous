@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "objSeaweed",
     "eventList": [
-        
+        {
+            "id": "822cd007-c804-4b94-b080-f40631cf0542",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "48171a01-acb2-415c-b8eb-47ca58321cd9"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "parentObjectId": "00000000-0000-0000-0000-000000000000",

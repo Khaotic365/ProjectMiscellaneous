@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "objSeaGrass",
     "eventList": [
-        
+        {
+            "id": "cb064b2c-831e-43cc-bcbe-962805e8c0da",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "13113c7b-8a91-4097-953a-b90c0513c94f"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "parentObjectId": "00000000-0000-0000-0000-000000000000",
