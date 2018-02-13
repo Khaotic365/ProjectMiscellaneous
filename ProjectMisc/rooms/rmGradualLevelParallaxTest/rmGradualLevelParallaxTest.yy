@@ -600,7 +600,9 @@
         "6f4cb2f4-d7c7-4a45-985d-a2fdcafa10dd",
         "056cd4ae-e859-41a1-a409-a6a44e602bcd",
         "4bd97f27-e3f1-480c-9cd8-894efd3654be",
-        "a7d62026-9a2f-4b01-b62d-fff37b79d37c"
+        "a7d62026-9a2f-4b01-b62d-fff37b79d37c",
+        "1f70f6e6-a0fa-4c46-813f-eab0908b2f6e",
+        "0ee470df-27d3-4edc-867c-24f598ef0007"
     ],
     "layers": [
         {
@@ -12910,6 +12912,54 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_5979A989",
                     "objId": "a9e1f5ea-9519-4186-aeb4-a900e3a1ece5",
+                    "rotation": 0,
+                    "scaleX": 1,
+                    "scaleY": 1
+                },
+                {
+                    "id": "1f70f6e6-a0fa-4c46-813f-eab0908b2f6e",
+                    "modelName": "GMRInstance",
+                    "mvc": "1.0",
+                    "ignore": false,
+                    "inheritItemSettings": false,
+                    "m_originalParentID": "00000000-0000-0000-0000-000000000000",
+                    "m_serialiseFrozen": false,
+                    "name": "inst_172E748B",
+                    "x": 736,
+                    "y": 2272,
+                    "IsDnD": false,
+                    "colour": {
+                        "Value": 4294967295
+                    },
+                    "creationCodeFile": "",
+                    "creationCodeType": "",
+                    "inheritCode": false,
+                    "name_with_no_file_rename": "inst_172E748B",
+                    "objId": "6581d0d0-87ea-41a9-9aa1-44c3bc64852c",
+                    "rotation": 0,
+                    "scaleX": 1,
+                    "scaleY": 1
+                },
+                {
+                    "id": "0ee470df-27d3-4edc-867c-24f598ef0007",
+                    "modelName": "GMRInstance",
+                    "mvc": "1.0",
+                    "ignore": false,
+                    "inheritItemSettings": false,
+                    "m_originalParentID": "00000000-0000-0000-0000-000000000000",
+                    "m_serialiseFrozen": false,
+                    "name": "inst_144EF452",
+                    "x": 256,
+                    "y": 4416,
+                    "IsDnD": false,
+                    "colour": {
+                        "Value": 4294967295
+                    },
+                    "creationCodeFile": "",
+                    "creationCodeType": "",
+                    "inheritCode": false,
+                    "name_with_no_file_rename": "inst_144EF452",
+                    "objId": "6581d0d0-87ea-41a9-9aa1-44c3bc64852c",
                     "rotation": 0,
                     "scaleX": 1,
                     "scaleY": 1
@@ -39536,7 +39586,7 @@
         "mvc": "1.0",
         "clearDisplayBuffer": true,
         "clearViewBackground": true,
-        "enableViews": true,
+        "enableViews": false,
         "inheritViewSettings": false
     },
     "views": [
