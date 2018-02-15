@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "objCaveSpire",
     "eventList": [
-        
+        {
+            "id": "e2caaa6f-d96e-4a1f-adf1-c1dd2ba40890",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "00c45ae6-6fda-40c7-b057-681c5b650a52"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "parentObjectId": "00000000-0000-0000-0000-000000000000",

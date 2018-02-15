@@ -3,18 +3,42 @@ iFollowspd = 2;
 
 //if !is_undefined(instance_position(x - 32, y, all)).sObjType
 //{
+if position_meeting(x - 32, y, all)
+{
 instLeftColl = instance_position(x - 32, y, all);
+}
+if position_meeting(x - 32, y - 32, all)
+{
 instTopLeftColl = instance_position(x - 32, y - 32, all);
+}
+if position_meeting(x - 32, y + 32, all)
+{
 instBotLeftColl = instance_position(x - 32, y + 32, all);
+}
 //}
 //if !is_undefined(instance_position(x + 32, y, all)).sObjType
 //{
+if position_meeting(x + 32, y, all)
+{
 instRightColl = instance_position(x + 32, y, all);
+}
+if position_meeting(x + 32, y - 32, all)
+{
 instTopRightColl = instance_position(x + 32, y - 32, all);
+}
+if position_meeting(x + 32, y + 32, all)
+{
 instBotRightColl = instance_position(x + 32, y + 32, all);
+}
 //}
+if position_meeting(x, y - 32, all)
+{
 instTopColl = instance_position(x, y - 32, all);
+}
+if position_meeting(x, y + 32, all)
+{
 instBotColl = instance_position(x, y + 32, all);
+}
 
 if sMoveMode == "BackForth"
 {
@@ -23,7 +47,7 @@ if sMoveMode == "BackForth"
 		motion_set(choose(0, 180), random_range(iMinSpeed,iMaxSpeed));
 	}
 	
-	if !is_undefined(instLeftColl.sObjType)
+	if position_meeting(x - 32, y, all)
 	{
 	if instLeftColl.sObjType == "Wall"
 	{ 
@@ -31,7 +55,7 @@ if sMoveMode == "BackForth"
 		image_xscale = -1;
 	}
 	}
-	if !is_undefined(instRightColl.sObjType)
+	if position_meeting(x + 32, y, all)
 	{
 	if instRightColl.sObjType == "Wall"
 	{
@@ -82,7 +106,7 @@ if sMoveMode = "Jump"
 		motion_set(choose(0, 180), random_range(iMinSpeed,iMaxSpeed));
 	}
 	
-	if !is_undefined(instLeftColl.sObjType)
+	if position_meeting(x - 32, y, all)
 	{
 	if instLeftColl.sObjType == "Wall"
 	{ 
@@ -90,7 +114,7 @@ if sMoveMode = "Jump"
 		image_xscale = -1;
 	}
 	}
-	if !is_undefined(instRightColl.sObjType)
+	if position_meeting(x + 32, y, all)
 	{
 	if instRightColl.sObjType == "Wall"
 	{
@@ -191,7 +215,7 @@ if sMoveMode == "Triangle"
 		}
 	}
 	
-	if !is_undefined(instLeftColl.sObjType)
+	if position_meeting(x - 32, y, all)
 	{
 	if instLeftColl.sObjType == "Wall"
 	{ 
@@ -199,7 +223,7 @@ if sMoveMode == "Triangle"
 		image_xscale = -1;
 	}
 	}
-	if !is_undefined(instTopLeftColl.sObjType)
+	if position_meeting(x - 32, y - 32, all)
 	{
 	if instTopLeftColl.sObjType == "Wall"
 	{
@@ -207,7 +231,7 @@ if sMoveMode == "Triangle"
 		image_xscale = -1;
 	}
 	}
-	if !is_undefined(instBotLeftColl.sObjType)
+	if position_meeting(x - 32, y + 32, all)
 	{
 	if instBotLeftColl.sObjType == "Wall"
 	{
@@ -215,7 +239,7 @@ if sMoveMode == "Triangle"
 		image_xscale = -1;
 	}
 	}
-	if !is_undefined(instRightColl.sObjType)
+	if position_meeting(x + 32, y, all)
 	{
 	if instRightColl.sObjType == "Wall"
 	{
@@ -223,7 +247,7 @@ if sMoveMode == "Triangle"
 		image_xscale = 1;
 	}
 	}
-	if !is_undefined(instTopRightColl.sObjType)
+	if position_meeting(x + 32, y - 32, all)
 	{
 	if instTopRightColl.sObjType == "Wall"
 	{
@@ -231,7 +255,7 @@ if sMoveMode == "Triangle"
 		image_xscale = 1;
 	}
 	}
-	if !is_undefined(instBotRightColl.sObjType)
+	if position_meeting(x + 32, y + 32, all)
 	{
 	if instBotRightColl.sObjType == "Wall"
 	{
@@ -239,7 +263,7 @@ if sMoveMode == "Triangle"
 		image_xscale = 1;
 	}
 	}
-	if !is_undefined(instTopColl.sObjType)
+	if position_meeting(x, y - 32, all)
 	{
 	if instTopColl.sObjType == "Wall"
 	{
@@ -247,7 +271,7 @@ if sMoveMode == "Triangle"
 		image_xscale = 1;
 	}
 	}
-	if !is_undefined(instBotColl.sObjType)
+	if position_meeting(x, y + 32, all)
 	{
 	if instBotColl.sObjType == "Wall"
 	{
@@ -285,6 +309,112 @@ if sMoveMode == "Triangle"
 if sMoveMode == "Follow"
 {
 	bAfter = true;
+	
+	if position_meeting(x - 32, y, all)
+	{
+	if instLeftColl.sObjType == "Wall"
+	{ 
+		motion_set(0, iMoveSpd);
+		//speed = 0;
+		image_xscale = -1;
+	}
+	}
+	else
+	{
+	move_towards_point(objPlayer.x, objPlayer.y, iFollowspd);
+	}
+	if position_meeting(x - 32, y - 32, all)
+	{
+	if instTopLeftColl.sObjType == "Wall"
+	{
+		motion_set(315, iMoveSpd);
+		//speed = 0;
+		image_xscale = -1;
+	}
+	}
+	else
+	{
+	move_towards_point(objPlayer.x, objPlayer.y, iFollowspd);
+	}
+	if position_meeting(x - 32, y + 32, all)
+	{
+	if instBotLeftColl.sObjType == "Wall"
+	{
+		motion_set(45, iMoveSpd);
+		//speed = 0;
+		image_xscale = -1;
+	}
+	}
+	else
+	{
+	move_towards_point(objPlayer.x, objPlayer.y, iFollowspd);
+	}
+	if position_meeting(x + 32, y, all)
+	{
+	if instRightColl.sObjType == "Wall"
+	{
+		motion_set(180, iMoveSpd);
+		//speed = 0;
+		image_xscale = 1;
+	}
+	}
+	else
+	{
+	move_towards_point(objPlayer.x, objPlayer.y, iFollowspd);
+	}
+	if position_meeting(x + 32, y - 32, all)
+	{
+	if instTopRightColl.sObjType == "Wall"
+	{
+		motion_set(225, iMoveSpd);
+		//speed = 0;
+		image_xscale = 1;
+	}
+	}
+	else
+	{
+	move_towards_point(objPlayer.x, objPlayer.y, iFollowspd);
+	}
+	if position_meeting(x + 32, y + 32, all)
+	{
+	if instBotRightColl.sObjType == "Wall"
+	{
+		motion_set(135, iMoveSpd);
+		//speed = 0;
+		image_xscale = 1;
+	}
+	}
+	else
+	{
+	move_towards_point(objPlayer.x, objPlayer.y, iFollowspd);
+	}
+	if position_meeting(x, y - 32, all)
+	{
+	if instTopColl.sObjType == "Wall"
+	{
+		motion_set(270, iMoveSpd);
+		//speed = 0;
+		image_xscale = 1;
+	}
+	}
+	else
+	{
+	move_towards_point(objPlayer.x, objPlayer.y, iFollowspd);
+	}
+	if position_meeting(x, y + 32, all)
+	{
+	if instBotColl.sObjType == "Wall"
+	{
+		motion_set(90, iMoveSpd);
+		//speed = 0;
+		image_xscale = 1;
+	}
+	}
+	else
+	{
+	move_towards_point(objPlayer.x, objPlayer.y, iFollowspd);
+	}
+	
 	if point_direction(x,y,objPlayer.x,objPlayer.y) > 0 && point_direction(x,y,objPlayer.x,objPlayer.y) < 90
 	{
 		if point_direction(x,y,objPlayer.x,objPlayer.y) > 0 && point_direction(x,y,objPlayer.x,objPlayer.y) < 25
@@ -345,8 +475,7 @@ if sMoveMode == "Follow"
 		image_xscale = -1;
 		image_yscale = 1;
 	}
-	
-   move_towards_point(objPlayer.x, objPlayer.y, iFollowspd);
+
    if x >= objPlayer.x 
    {
       image_xscale = -1;
@@ -355,6 +484,89 @@ if sMoveMode == "Follow"
    {
       image_xscale = -1;
    }
+}
+
+if sMoveMode == "Random"
+{
+	if speed == 0
+	{
+		motion_set(random_range(0,360), iMoveSpd);
+	}
+	if direction > 270 || direction < 90
+	{
+		image_xscale = -1;
+	}
+	if direction > 90 && direction < 270
+	{
+		image_xscale = 1;
+	}
+	
+	
+	if position_meeting(x - 32, y, all)
+	{
+	if instLeftColl.sObjType == "Wall"
+	{ 
+		motion_set(random_range(-90,90), iMoveSpd);
+		//image_xscale = -1;
+	}
+	}
+	if position_meeting(x - 32, y - 32, all)
+	{
+	if instTopLeftColl.sObjType == "Wall"
+	{
+		motion_set(random_range(-225,45), iMoveSpd);
+		//image_xscale = -1;
+	}
+	}
+	if position_meeting(x - 32, y + 32, all)
+	{
+	if instBotLeftColl.sObjType == "Wall"
+	{
+		motion_set(random_range(-45,135), iMoveSpd);
+		//image_xscale = -1;
+	}
+	}
+	if position_meeting(x + 32, y, all)
+	{
+	if instRightColl.sObjType == "Wall"
+	{
+		motion_set(random_range(90,270), iMoveSpd);
+		//image_xscale = 1;
+	}
+	}
+	if position_meeting(x + 32, y - 32, all)
+	{
+	if instTopRightColl.sObjType == "Wall"
+	{
+		motion_set(random_range(135,315), iMoveSpd);
+		//image_xscale = 1;
+	}
+	}
+	if position_meeting(x + 32, y + 32, all)
+	{
+	if instBotRightColl.sObjType == "Wall"
+	{
+		motion_set(random_range(45,225), iMoveSpd);
+		//image_xscale = 1;
+	}
+	}
+	if position_meeting(x, y - 32, all)
+	{
+	if instTopColl.sObjType == "Wall"
+	{
+		motion_set(random_range(180,360), iMoveSpd);
+		//image_xscale = 1;
+	}
+	}
+	if position_meeting(x, y + 32, all)
+	{
+	if instBotColl.sObjType == "Wall"
+	{
+		motion_set(random_range(0,180), iMoveSpd);
+		//image_xscale = 1;
+	}
+	}
+	
 }
 
 //show_debug_message(iJumpPoint);
