@@ -2,7 +2,7 @@
     "id": "f7575e72-a2f5-4816-a40a-85a5e3ad714d",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "objSandCornerSevere",
+    "name": "objSandCornerSevereTEST",
     "eventList": [
         
     ],
