@@ -47,14 +47,6 @@
             }
         },
         {
-            "Key": "040dceaa-04ef-4e24-bec2-cb84cc8fc689",
-            "Value": {
-                "id": "ffd8f959-d762-4112-a296-b0624a7588cd",
-                "resourcePath": "sprites\\sprSand\\sprSand.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "04151681-08b9-4197-9571-f1b4168a0b32",
             "Value": {
                 "id": "938e0f8b-054b-4e3f-a4ce-fd8d7f51b1bd",
@@ -983,6 +975,14 @@
             }
         },
         {
+            "Key": "8b7159e2-6ab4-4628-b271-61d923571b37",
+            "Value": {
+                "id": "46d52fff-bef4-47d1-926c-3aa1cf8b9a37",
+                "resourcePath": "views\\8b7159e2-6ab4-4628-b271-61d923571b37.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "8b8ca6ce-8aa9-4cfe-92f5-339f3a613193",
             "Value": {
                 "id": "61480a16-b9f8-48b7-bca2-e77b75272206",
@@ -1036,14 +1036,6 @@
                 "id": "03d28485-b67b-4bc6-a085-ea2d82393267",
                 "resourcePath": "sprites\\sprExpression\\sprExpression.yy",
                 "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "9412aca6-269a-46c4-9023-e8c53cc809cf",
-            "Value": {
-                "id": "478b4b5c-09b2-4d4f-a0f4-fb6485df3973",
-                "resourcePath": "rooms\\rmGradualLevelParallaxTest\\rmGradualLevelParallaxTest.yy",
-                "resourceType": "GMRoom"
             }
         },
         {
@@ -1119,11 +1111,11 @@
             }
         },
         {
-            "Key": "a1b5b417-d6ec-4afd-83ee-18c444d4000f",
+            "Key": "a47cb94a-c771-45ef-a92b-0f2ddbf2a23b",
             "Value": {
-                "id": "256e8e6a-2b42-4f37-8f6e-7623a5467fcf",
-                "resourcePath": "rooms\\Test2\\Test2.yy",
-                "resourceType": "GMRoom"
+                "id": "5af79139-71e7-4c37-9cb4-c661e4e46463",
+                "resourcePath": "sprites\\sprSandTile\\sprSandTile.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1287,10 +1279,10 @@
             }
         },
         {
-            "Key": "ba663e24-53cf-49a7-a93d-87c7a32d00a1",
+            "Key": "ba5e05db-265d-4da7-a832-6cce5dac7ca0",
             "Value": {
-                "id": "7148fff0-18f3-4dcc-8959-37d1a2bbf5ae",
-                "resourcePath": "tilesets\\tileset2\\tileset2.yy",
+                "id": "2300cb6b-e12c-4839-9e89-4dd5447afadf",
+                "resourcePath": "tilesets\\tilSand\\tilSand.yy",
                 "resourceType": "GMTileSet"
             }
         },
@@ -1307,14 +1299,6 @@
             "Value": {
                 "id": "597b59c7-72a9-4d97-ba0f-1b8e8d5882ed",
                 "resourcePath": "rooms\\room6\\room6.yy",
-                "resourceType": "GMRoom"
-            }
-        },
-        {
-            "Key": "bedd2a38-26d2-4e59-8a70-b59bedba0b7c",
-            "Value": {
-                "id": "646dcb09-327d-4d9b-bd12-e3540b86b2a7",
-                "resourcePath": "rooms\\rmGradualLevel2\\rmGradualLevel2.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -1527,6 +1511,14 @@
             }
         },
         {
+            "Key": "d6ba0cda-cad0-4abd-8e46-9f7f1d687b76",
+            "Value": {
+                "id": "d9811f81-ddda-475e-bfd2-2f88fc3435d5",
+                "resourcePath": "rooms\\rmGradualLevelParallaxTest\\rmGradualLevelParallaxTest.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "d78d861b-970c-471e-a798-974cc146efbd",
             "Value": {
                 "id": "0bbe3f2f-7919-47c3-a615-ecf236449b03",
@@ -1556,14 +1548,6 @@
                 "id": "d28507c7-2118-417b-b9be-783a5770a180",
                 "resourcePath": "rooms\\Test1\\Test1.yy",
                 "resourceType": "GMRoom"
-            }
-        },
-        {
-            "Key": "da841624-e2da-496e-a597-0ee33a54cfd5",
-            "Value": {
-                "id": "79381821-04b8-4998-a58a-67bd61144f2d",
-                "resourcePath": "objects\\objSand\\objSand.yy",
-                "resourceType": "GMObject"
             }
         },
         {

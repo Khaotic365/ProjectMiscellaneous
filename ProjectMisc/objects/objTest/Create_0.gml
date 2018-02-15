@@ -3,8 +3,8 @@
 randomize();
 sMoveMode = "BackForth";
 //sMoveMode = "Jump";
-iMinSpeed = 4;
-iMaxSpeed = 20;
+iMinSpeed = 2;
+iMaxSpeed = 5;
 iMoveSpd = random_range(iMinSpeed,iMaxSpeed);
 iSpeedTimer = 100;
 iTargetSpd = 4;
