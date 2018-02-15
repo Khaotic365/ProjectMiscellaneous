@@ -617,7 +617,8 @@
         "9dc58161-42ed-4b50-98c8-e526946c9dad",
         "26ec300f-5c9b-4240-bb34-dbb21e62f0ec",
         "943a3175-7e37-4952-931d-1970b91c12cd",
-        "b2e34539-a787-4d22-80e3-5353e52a96f4"
+        "b2e34539-a787-4d22-80e3-5353e52a96f4",
+        "428db915-1c52-4d0a-bd42-d17b6adadc5f"
     ],
     "layers": [
         {
@@ -11669,8 +11670,8 @@
                     "m_originalParentID": "00000000-0000-0000-0000-000000000000",
                     "m_serialiseFrozen": false,
                     "name": "inst_59912A57",
-                    "x": 288,
-                    "y": 192,
+                    "x": 640,
+                    "y": 224,
                     "IsDnD": false,
                     "colour": {
                         "Value": 4294967295
@@ -13359,6 +13360,30 @@
                     "creationCodeType": "",
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_144EF452",
+                    "objId": "6581d0d0-87ea-41a9-9aa1-44c3bc64852c",
+                    "rotation": 0,
+                    "scaleX": 1,
+                    "scaleY": 1
+                },
+                {
+                    "id": "428db915-1c52-4d0a-bd42-d17b6adadc5f",
+                    "modelName": "GMRInstance",
+                    "mvc": "1.0",
+                    "ignore": false,
+                    "inheritItemSettings": false,
+                    "m_originalParentID": "00000000-0000-0000-0000-000000000000",
+                    "m_serialiseFrozen": false,
+                    "name": "inst_5AC32913",
+                    "x": 352,
+                    "y": 192,
+                    "IsDnD": false,
+                    "colour": {
+                        "Value": 4294967295
+                    },
+                    "creationCodeFile": "",
+                    "creationCodeType": "",
+                    "inheritCode": false,
+                    "name_with_no_file_rename": "inst_5AC32913",
                     "objId": "6581d0d0-87ea-41a9-9aa1-44c3bc64852c",
                     "rotation": 0,
                     "scaleX": 1,
