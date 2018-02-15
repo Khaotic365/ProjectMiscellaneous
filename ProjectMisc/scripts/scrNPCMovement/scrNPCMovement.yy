@@ -1,5 +1,5 @@
 {
-    "id": "e5b45a34-0811-4664-89c7-a7337fec2fd7",
+    "id": "f4e56a1d-5a20-4f9b-bfc8-63f0bf733d3f",
     "modelName": "GMScript",
     "mvc": "1.0",
     "name": "scrNPCMovement",

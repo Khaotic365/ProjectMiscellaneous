@@ -16,5 +16,5 @@ iJumpPoint = iStartY - 200;
 //instLeftColl = 0;
 //instRightColl = 0;
 sObjType = "NotWall";
-iSharkRange = 150;
+iSharkRange = 300;
 bAfter = false;

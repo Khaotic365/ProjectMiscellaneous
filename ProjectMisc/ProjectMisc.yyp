@@ -1746,7 +1746,7 @@
             "Key": "f4e56a1d-5a20-4f9b-bfc8-63f0bf733d3f",
             "Value": {
                 "id": "53e443b7-b181-440b-a03b-f71e385c5a55",
-                "resourcePath": "scripts\\scrNPCMove\\scrNPCMove.yy",
+                "resourcePath": "scripts\\scrNPCMovement\\scrNPCMovement.yy",
                 "resourceType": "GMScript"
             }
         },
