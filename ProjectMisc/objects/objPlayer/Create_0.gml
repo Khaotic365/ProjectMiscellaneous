@@ -1,5 +1,6 @@
  //Creating hitpoints for player
 
+sObjType = "NotWall";
 bClicked = 0;
 iDashTimer = 0;
 bNormal = true;

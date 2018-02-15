@@ -24,7 +24,8 @@
         "06f115f7-1701-4274-a815-15d27e58b3b3",
         "39695ba9-fb16-4652-ab09-2b2a9e82a8c2",
         "13113c7b-8a91-4097-953a-b90c0513c94f",
-        "48171a01-acb2-415c-b8eb-47ca58321cd9"
+        "48171a01-acb2-415c-b8eb-47ca58321cd9",
+        "00c45ae6-6fda-40c7-b057-681c5b650a52"
     ],
     "filterType": "GMObject",
     "folderName": "CaveWalls",

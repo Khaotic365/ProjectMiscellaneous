@@ -12,6 +12,7 @@ if distance_to_object(objPlayer) <= iSharkRange
 */
 
 //sMoveMode = "BackForth";
-sMoveMode = "Jump";
+//sMoveMode = "Jump";
+sMoveMode = "Random";
 
-script_execute(scrNPCMove,sMoveMode,iMoveSpd,iSpeedTimer,iTargetSpd,iJumpTimer,iStartY,bJumping,bFalling,iMinSpeed,iMaxSpeed,bAfter)//,instLeftColl,instRightColl);
+script_execute(scrNPCMovement,sMoveMode,iMoveSpd,iSpeedTimer,iTargetSpd,iJumpTimer,iStartY,bJumping,bFalling,iMinSpeed,iMaxSpeed,bAfter)//,instLeftColl,instRightColl);

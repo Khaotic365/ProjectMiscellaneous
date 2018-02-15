@@ -28,7 +28,8 @@
         "26c2ae79-d2d6-4388-83ba-c9943625173b",
         "fb0b7412-31f4-4cab-86da-f6658f6db25f",
         "19dfc6d5-04b2-45c0-a055-8e5c1efb4864",
-        "40483d17-58af-4c7c-a44b-23f86438942d"
+        "40483d17-58af-4c7c-a44b-23f86438942d",
+        "0ebe2fee-beef-46ac-a4db-84152ab4e8e9"
     ],
     "filterType": "GMSprite",
     "folderName": "CaveWalls",
