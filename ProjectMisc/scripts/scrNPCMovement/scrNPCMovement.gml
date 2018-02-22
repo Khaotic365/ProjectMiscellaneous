@@ -595,7 +595,7 @@ if sMoveMode = "CaughtNet"
 		objNet.image_alpha = 1;
 		sMoveMode = "BackForth";
 		objNet.sMoveMode = "BackForth";
-		objNet.x += 128;
+		objNet.x += 0;
 		objNet.y += 0;
 	}
 	
