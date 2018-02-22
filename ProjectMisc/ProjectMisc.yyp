@@ -87,6 +87,14 @@
             }
         },
         {
+            "Key": "084cc925-cc47-4e68-ba41-9546369cd843",
+            "Value": {
+                "id": "f2084ca1-39a0-455d-82b2-0e03f6153472",
+                "resourcePath": "objects\\objBottle\\objBottle.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "086f4913-f68c-48e1-a11c-0dfab03c0975",
             "Value": {
                 "id": "ad60b2de-4d57-46dd-b9ce-a1e1d528eeb6",
@@ -204,6 +212,14 @@
                 "id": "334ad33b-199c-4987-a72b-d6fb02e2a42b",
                 "resourcePath": "sprites\\sprVictoryScreen\\sprVictoryScreen.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "1ce89e07-df4f-4c0d-aea0-35012ad93657",
+            "Value": {
+                "id": "c1ddd206-034f-41a0-ae8c-f13552f19ade",
+                "resourcePath": "objects\\objLobster\\objLobster.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -396,6 +412,14 @@
                 "id": "50656533-bfe2-454b-8721-8846e50226f5",
                 "resourcePath": "objects\\objWallRightSide2\\objWallRightSide2.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "39be69b5-ddb7-4ba3-b10a-01c79a3be2a1",
+            "Value": {
+                "id": "5435462c-27d0-412e-adbe-afefda00abf4",
+                "resourcePath": "sprites\\sprLobster\\sprLobster.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -700,6 +724,14 @@
                 "id": "3eeb4e01-bd7a-48b6-bd1b-c6646f41fd83",
                 "resourcePath": "views\\61ac8fa4-dcc4-407e-b1c4-afafceb90a65.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "62781edc-d943-4c3f-ba03-8412cac84a90",
+            "Value": {
+                "id": "c27bfc60-c97a-4377-932c-7f84882f4b68",
+                "resourcePath": "sprites\\sprSixring\\sprSixring.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1095,6 +1127,14 @@
             }
         },
         {
+            "Key": "92a1b586-e576-4030-bc13-55683ecc9802",
+            "Value": {
+                "id": "50eb9b2d-b236-4f58-844b-9c3824be57cf",
+                "resourcePath": "objects\\objSixring\\objSixring.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "932e5234-ad56-4332-9165-01403056e3b1",
             "Value": {
                 "id": "ea3d318b-482e-4159-aa9a-239507b87676",
@@ -1123,6 +1163,14 @@
             "Value": {
                 "id": "45e3867b-4de1-4a49-af73-47a3175acda9",
                 "resourcePath": "sprites\\sprOuterwall\\sprOuterwall.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "95c41f86-3abb-494d-9fdc-d621a58b08cd",
+            "Value": {
+                "id": "5b8e6d5c-ed20-4472-b21d-6a6efd4365f2",
+                "resourcePath": "sprites\\sprBag\\sprBag.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1356,6 +1404,14 @@
                 "id": "782bbc08-b3a0-448e-9580-1e8c77581040",
                 "resourcePath": "rooms\\rmGradualLevelTest7\\rmGradualLevelTest7.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "b7804a68-cdc8-4e28-a01a-378e1d46d868",
+            "Value": {
+                "id": "8830b203-9a7f-4690-b2d8-8ae67e0d8b7b",
+                "resourcePath": "objects\\objBag\\objBag.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1955,6 +2011,14 @@
             "Value": {
                 "id": "97413bf2-c642-4630-a8da-a320e3756984",
                 "resourcePath": "sprites\\sprSandFloor2\\sprSandFloor2.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "ff813a5a-ef8a-46de-b560-acc33bef00ed",
+            "Value": {
+                "id": "ab4e53c9-4b16-4fd3-83fb-adc1f293a0bd",
+                "resourcePath": "sprites\\sprBottle\\sprBottle.yy",
                 "resourceType": "GMSprite"
             }
         }
