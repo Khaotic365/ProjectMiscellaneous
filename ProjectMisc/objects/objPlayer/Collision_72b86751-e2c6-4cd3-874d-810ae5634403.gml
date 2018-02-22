@@ -2,7 +2,7 @@
 // You can write your code in this editor
 objCurrentNet = other;
 
-if other.bCanCollide == true
+if other.bCanCollide == true && other.bCaughtShark == false && other.iNetCollisionTimer <= 0 && other.iNetCollisionTimerShark <= 0
 {
 	other.bCaughtPlayer = true;
 	other.iNetCollisionTimer = 180;

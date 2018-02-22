@@ -17,6 +17,37 @@ if (keyboard_check(vk_right)) || (keyboard_check(ord("D")))
 }
 */
 
+iInvCounterPlayer -= 1;
+
+//script_execute(scrNPCMovement,sMoveMode,iMoveSpd,iSpeedTimer,iTargetSpd,iJumpTimer,iStartY,bJumping,bFalling,iMinSpeed,iMaxSpeed,bAfter,iCaughtTimer,bCaughtNet,iInvCounter)//,instLeftColl,instRightColl)
+
+if bCaughtNetPlayer == true
+{
+	iInvCounterPlayer = 100;
+	solid = false;
+	//speed = 0.5;
+	iSpd = 0.5;
+	objNet.image_alpha = 0.35;
+	objNet.x = self.x;
+	objNet.y = self.y;
+	iCaughtTimerPlayer -= 1;
+	if iCaughtTimerPlayer <= 0
+	{
+		iInvCounterPlayer = 100;
+		iCaughtTimerPlayer = 100;
+		bCaughtNetPlayer = false;
+		objNet.image_alpha = 1;
+		objNet.sMoveMode = "BackForth";
+		objNet.x += 0;
+		objNet.y += 0;
+		iSpd = 4;
+	}
+	
+}
+
+//show_debug_message(iInvCounterPlayer);
+
+
 if (keyboard_check(vk_right)) || (keyboard_check(ord("D")))
 {
 	//if keyboard_check_pressed(vk_shift)
@@ -353,7 +384,7 @@ if point_distance(iStartX,iStartY,x,y) >= 80 && bOnly == 1
 
 //show_debug_message(iClickTimer);
 //show_debug_message(bClicked);
-
+/*
 iSlowTimer -= 1;
 
 if bSpeedDecrease == true && iSlowTimer >= 0
@@ -373,7 +404,7 @@ if objCurrentNet != objPlayer && objCurrentNet.bCanCollide == true
 {
 solid = true;
 }
-
+*/
 //Debug
 //show_debug_message(objCurrentNet);
 //show_debug_message(solid);
