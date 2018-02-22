@@ -8,10 +8,10 @@
     "VTile": false,
     "bbox_bottom": 63,
     "bbox_left": 48,
-    "bbox_right": 208,
-    "bbox_top": 19,
+    "bbox_right": 206,
+    "bbox_top": 3,
     "bboxmode": 2,
-    "colkind": 1,
+    "colkind": 2,
     "coltolerance": 0,
     "frames": [
         {
