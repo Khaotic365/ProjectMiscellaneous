@@ -18,3 +18,6 @@ iJumpPoint = iStartY - 200;
 sObjType = "NotWall";
 iSharkRange = 300;
 bAfter = false;
+bCaughtNet = false;
+iCaughtTimer = 100;
+iInvCounter = 0;

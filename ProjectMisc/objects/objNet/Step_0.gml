@@ -4,6 +4,7 @@
 //If the net is supposed to be moving forward
 //Move toward the end of the room
 
+/*
 randomize();
 
 if position_meeting(x - 64, y + 32, objCornerBotLeft)
@@ -47,10 +48,10 @@ if position_meeting(x - 64, y, objWallLeftSide1)
 		bBackward = true;
 	}
 }
-
+*/
 //If the net is supposed to be moving backward
 //MOve towards the start of the room
-
+/*
 if bBackward == true
 {
 	move_towards_point(startx, starty, spd);
@@ -61,19 +62,21 @@ if bBackward == true
 	}
 }
 */
-
+/*
 iNetCollisionTimer -= 1;
 
 if iNetCollisionTimer <= 0
 {
 bCanCollide = true;
 }
+*/
 
+/*
 if bCaughtPlayer == false
 {
-    if iNetCollisionTimer == 0
-	{
-	image_alpha = 1;
+    //if iNetCollisionTimer == 0
+	//{
+	//image_alpha = 1;
 	}
 	iSpd = 10;
 	//Setting the timer so that it goes from 0 to 75
@@ -111,7 +114,8 @@ if bCaughtPlayer == false
 		}
 	}
 }
-
+*/
+/*
 if bCaughtPlayer == true
 {
     if iNetCollisionTimer == 120
@@ -123,5 +127,8 @@ if bCaughtPlayer == true
 	x = objPlayer.x;
 	y = objPlayer.y;
 }
+*/
 
+sMoveMode = "BackForth";
 
+script_execute(scrNPCMovement,sMoveMode,iMoveSpd,iSpeedTimer,iTargetSpd,iJumpTimer,iStartY,bJumping,bFalling,iMinSpeed,iMaxSpeed,bAfter)//,instLeftColl,instRightColl);

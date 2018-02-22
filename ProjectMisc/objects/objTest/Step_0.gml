@@ -13,6 +13,14 @@ if distance_to_object(objPlayer) <= iSharkRange
 
 //sMoveMode = "BackForth";
 //sMoveMode = "Jump";
-sMoveMode = "Random";
+if bCaughtNet == false
+{
+	sMoveMode = "BackForth";
+}
 
-script_execute(scrNPCMovement,sMoveMode,iMoveSpd,iSpeedTimer,iTargetSpd,iJumpTimer,iStartY,bJumping,bFalling,iMinSpeed,iMaxSpeed,bAfter)//,instLeftColl,instRightColl);
+iInvCounter -= 1;
+
+script_execute(scrNPCMovement,sMoveMode,iMoveSpd,iSpeedTimer,iTargetSpd,iJumpTimer,iStartY,bJumping,bFalling,iMinSpeed,iMaxSpeed,bAfter,iCaughtTimer,bCaughtNet,iInvCounter)//,instLeftColl,instRightColl)
+
+show_debug_message(iInvCounter);
+
