@@ -42,7 +42,6 @@ if bCaughtNetPlayer == true
 		objNet.y += 0;
 		iSpd = 4;
 	}
-	
 }
 
 //show_debug_message(iInvCounterPlayer);
