@@ -1,8 +1,8 @@
 {
-    "id": "95d9b289-a279-4d60-b94d-ed2de96bb441",
+    "id": "ca61f2d5-49a7-4c42-8804-3bf229094495",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "objSandCorner",
+    "name": "objSandWall",
     "eventList": [
         
     ],
@@ -22,6 +22,6 @@
     "physicsShapePoints": null,
     "physicsStartAwake": true,
     "solid": false,
-    "spriteId": "243d1c6c-1821-4e04-b0ed-fb02fde6b8e7",
+    "spriteId": "aa5118e0-41d4-477d-8cb7-c1e123dff76a",
     "visible": true
 }
