@@ -582,9 +582,10 @@ if sMoveMode == "CaughtNet"
 {
 	solid = false;
 	speed = 0.5;
-	objNet.image_alpha = 0.35;
-	objNet.x = self.x;
-	objNet.y = self.y;
+	iNetNearest = instance_nearest(objPlayer.x,objPlayer.y,objNet);
+	iNetNearest.image_alpha = 0.35;
+	iNetNearest.x = self.x;
+	iNetNearest.y = self.y;
 	iCaughtTimer -= 1;
 	iInvCounter = 100;
 	if iCaughtTimer <= 0
@@ -592,11 +593,11 @@ if sMoveMode == "CaughtNet"
 		iInvCounter = 100;
 		iCaughtTimer = 100;
 		bCaughtNet = false;
-		objNet.image_alpha = 1;
+		iNetNearest.image_alpha = 1;
 		sMoveMode = "BackForth";
-		objNet.sMoveMode = "BackForth";
-		objNet.x += 0;
-		objNet.y += 0;
+		iNetNearest.sMoveMode = "BackForth";
+		iNetNearest.x += 0;
+		iNetNearest.y += 0;
 	}
 	
 }
@@ -605,9 +606,10 @@ if sMoveMode == "CaughtNetRand"
 {
 	solid = false;
 	speed = 0.5;
-	objNetRand.image_alpha = 0.35;
-	objNetRand.x = self.x;
-	objNetRand.y = self.y;
+	iNetNearestRand = instance_nearest(objPlayer.x,objPlayer.y,objNetRand);
+	iNetNearestRand.image_alpha = 0.35;
+	iNetNearestRand.x = self.x;
+	iNetNearestRand.y = self.y;
 	iCaughtTimerRand -= 1;
 	iInvCounterRand = 100;
 	if iCaughtTimerRand <= 0
@@ -615,9 +617,11 @@ if sMoveMode == "CaughtNetRand"
 		iInvCounterRand = 100;
 		iCaughtTimerRand = 100;
 		bCaughtNetRand = false;
-		objNetRand.image_alpha = 1;
+		iNetNearestRand.image_alpha = 1;
 		sMoveMode = "BackForth";
-		objNetRand.sMoveMode = "Random";
+		iNetNearestRand.sMoveMode = "Random";
+		iNetNearestRand.x += 0;
+		iNetNearestRand.y += 0;
 	}
 	
 }

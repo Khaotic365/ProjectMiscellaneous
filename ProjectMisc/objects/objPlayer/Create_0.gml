@@ -73,4 +73,5 @@ bCaughtNetPlayerRand = false;
 iCaughtTimerPlayerRand = 100;
 
 iNetNearest = instance_nearest(objPlayer.x,objPlayer.y,objNet);
+iNetNearestRand = instance_nearest(objPlayer.x,objPlayer.y,objNetRand);
 

@@ -28,16 +28,16 @@ if bCaughtNetPlayer == true
 	solid = false;
 	//speed = 0.5;
 	iSpd = 0.5;
-	objNet.image_alpha = 0.35;
-	objNet.x = self.x;
-	objNet.y = self.y;
+	iNetNearest = instance_nearest(objPlayer.x,objPlayer.y,objNet);
+	iNetNearest.image_alpha = 0.35;
+	iNetNearest.x = self.x;
+	iNetNearest.y = self.y;
 	iCaughtTimerPlayer -= 1;
 	if iCaughtTimerPlayer <= 0
 	{
 		iInvCounterPlayer = 100;
 		iCaughtTimerPlayer = 100;
 		bCaughtNetPlayer = false;
-		iNetNearest = instance_nearest(objPlayer.x,objPlayer.y,objNet);
 		iNetNearest.image_alpha = 1;
 		iNetNearest.sMoveMode = "BackForth";
 		iSpd = 4;
@@ -50,24 +50,25 @@ if bCaughtNetPlayerRand == true
 	solid = false;
 	//speed = 0.5;
 	iSpd = 0.5;
-	objNetRand.image_alpha = 0.35;
-	objNetRand.x = self.x;
-	objNetRand.y = self.y;
+	iNetNearestRand = instance_nearest(objPlayer.x,objPlayer.y,objNetRand);
+	iNetNearestRand.image_alpha = 0.35;
+	iNetNearestRand.x = self.x;
+	iNetNearestRand.y = self.y;
 	iCaughtTimerPlayerRand -= 1;
 	if iCaughtTimerPlayerRand <= 0
 	{
 		iInvCounterPlayerRand = 100;
 		iCaughtTimerPlayerRand = 100;
 		bCaughtNetPlayerRand = false;
-		iNetNearest = instance_nearest(objPlayer.x,objPlayer.y,objNetRand);
-		iNetNearest.image_alpha = 1;
-		iNetNearest.sMoveMode = "BackForth";
+		iNetNearestRand.image_alpha = 1;
+		iNetNearestRand.sMoveMode = "Random";
 		iSpd = 4;
 	}
 }
 
 //show_debug_message(iInvCounterPlayer);
-show_debug_message(iInvCounterPlayerRand);
+//show_debug_message(iInvCounterPlayerRand);
+show_debug_message(iCaughtTimerPlayerRand);
 
 
 if (keyboard_check(vk_right)) || (keyboard_check(ord("D")))
