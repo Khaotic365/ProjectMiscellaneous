@@ -36,7 +36,7 @@ if bBackward == true
 //show_debug_message(x);
 
 */
-
+/*
 randomize();
 
 if position_meeting(x - 32, y, objWallLeftSide1)
@@ -90,7 +90,7 @@ if position_meeting(x + 32, y, objCornerBarnTopRight)
 	motion_set(180, iPatrolspd);
 	image_xscale = -1;
 }
-
+*/
 /*
 
 if position_meeting(x - 64, y + 32, objOuterwall) && bJumping == false && bFalling == false
@@ -114,7 +114,7 @@ else
 */
 
 //Using timers to time when the crab jumps upward
-
+/*
 if iTimer != 0
 {
    iTimer -= 1;
@@ -172,7 +172,7 @@ if bFalling == true
 		bFalling = false;
 		//bBackward = 1;
 	}
-	*/
+	*//*
 }
 
 
@@ -189,7 +189,7 @@ if iPatrolspd != iTargetspd
       iPatrolspd -= .5;
    }
 }
-
+*/
 //Debug Messasges
 //show_debug_message(iStarty);
 //show_debug_message(y);
@@ -197,3 +197,10 @@ if iPatrolspd != iTargetspd
 //show_debug_message(timer2);
 //show_debug_message("Jump point: " + string(jumppoint));
 //show_debug_message("Start Y: " + string(starty));
+
+sMoveMode = "Jump"
+
+iInvCounter -= 1;
+iInvCounterRand -= 1;
+
+script_execute(scrNPCMovement,sMoveMode,iMoveSpd,iSpeedTimer,iTargetSpd,iJumpTimer,iStartY,bJumping,bFalling,iMinSpeed,iMaxSpeed,bAfter,iCaughtTimer,bCaughtNet,iInvCounter,bCaughtNetRand,iCaughtTimerRand,iInvCounterRand)//,instLeftColl,instRightColl)

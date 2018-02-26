@@ -18,9 +18,13 @@ if distance_to_object(objPlayer) <= iSharkRange
 //	sMoveMode = "BackForth";
 //}
 
-if bCaughtNet == false && bCaughtNetRand == false
+if bCaughtNet == false && bCaughtNetRand == false && distance_to_object(objPlayer) > iSharkRange
 {
 	sMoveMode = "Random";
+}
+if distance_to_object(objPlayer) <= iSharkRange
+{
+	sMoveMode = "Follow";
 }
 
 iInvCounter -= 1;
