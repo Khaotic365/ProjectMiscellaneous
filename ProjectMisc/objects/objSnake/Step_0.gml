@@ -106,3 +106,12 @@ if iPatrolspd != iTargetspd
 }
 */
 
+if bCaughtNet == false && bCaughtNetRand == false
+{
+	sMoveMode = "BackForth";
+}
+
+iInvCounter -= 1;
+iInvCounterRand -= 1;
+
+script_execute(scrNPCMovement,sMoveMode,iMoveSpd,iSpeedTimer,iTargetSpd,iJumpTimer,iStartY,bJumping,bFalling,iMinSpeed,iMaxSpeed,bAfter,iCaughtTimer,bCaughtNet,iInvCounter,bCaughtNetRand,iCaughtTimerRand,iInvCounterRand)
