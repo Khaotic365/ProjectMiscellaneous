@@ -68,5 +68,9 @@ bAfter = false;
 bCaughtNetPlayer = false;
 iCaughtTimerPlayer = 100;
 iInvCounterPlayer = 0;
-bCaughtBag = false
-objCurrentBag = objPlayer
+iInvCounterPlayerRand = 0;
+bCaughtNetPlayerRand = false;
+iCaughtTimerPlayerRand = 100;
+
+iNetNearest = instance_nearest(objPlayer.x,objPlayer.y,objNet);
+

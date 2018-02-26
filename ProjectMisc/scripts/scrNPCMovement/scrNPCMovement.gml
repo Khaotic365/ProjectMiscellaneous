@@ -108,7 +108,7 @@ if sMoveMode == "BackForth"
 //show_debug_message(iSpeedTimer);
 //show_debug_message(speed);
 
-if sMoveMode = "Jump"
+if sMoveMode == "Jump"
 {
 	if speed == 0
 	{
@@ -535,7 +535,7 @@ if sMoveMode == "Random"
 		//image_xscale = -1;
 	}
 	}
-	if position_meeting(x + 32, y, all)
+	if position_meeting(x + 64, y, all)
 	{
 	if instRightColl.sObjType == "Wall"
 	{
@@ -578,7 +578,7 @@ if sMoveMode == "Random"
 	
 }
 
-if sMoveMode = "CaughtNet"
+if sMoveMode == "CaughtNet"
 {
 	solid = false;
 	speed = 0.5;
@@ -597,6 +597,27 @@ if sMoveMode = "CaughtNet"
 		objNet.sMoveMode = "BackForth";
 		objNet.x += 0;
 		objNet.y += 0;
+	}
+	
+}
+
+if sMoveMode == "CaughtNetRand"
+{
+	solid = false;
+	speed = 0.5;
+	objNetRand.image_alpha = 0.35;
+	objNetRand.x = self.x;
+	objNetRand.y = self.y;
+	iCaughtTimerRand -= 1;
+	iInvCounterRand = 100;
+	if iCaughtTimerRand <= 0
+	{
+		iInvCounterRand = 100;
+		iCaughtTimerRand = 100;
+		bCaughtNetRand = false;
+		objNetRand.image_alpha = 1;
+		sMoveMode = "BackForth";
+		objNetRand.sMoveMode = "Random";
 	}
 	
 }
