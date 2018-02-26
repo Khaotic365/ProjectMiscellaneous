@@ -198,7 +198,10 @@ if iPatrolspd != iTargetspd
 //show_debug_message("Jump point: " + string(jumppoint));
 //show_debug_message("Start Y: " + string(starty));
 
-sMoveMode = "Jump"
+if bCaughtNet == false && bCaughtNetRand == false
+{
+	sMoveMode = "Jump";
+}
 
 iInvCounter -= 1;
 iInvCounterRand -= 1;

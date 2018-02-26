@@ -3,17 +3,17 @@ iFollowspd = 2;
 
 //if !is_undefined(instance_position(x - 32, y, all)).sObjType
 //{
-if position_meeting(x - 32, y, all)
+if position_meeting(x - 64, y, all)
 {
-instLeftColl = instance_position(x - 32, y, all);
+instLeftColl = instance_position(x - 64, y, all);
 }
-if position_meeting(x - 32, y - 32, all)
+if position_meeting(x - 64, y - 64, all)
 {
-instTopLeftColl = instance_position(x - 32, y - 32, all);
+instTopLeftColl = instance_position(x - 64, y - 64, all);
 }
-if position_meeting(x - 32, y + 32, all)
+if position_meeting(x - 64, y + 64, all)
 {
-instBotLeftColl = instance_position(x - 32, y + 32, all);
+instBotLeftColl = instance_position(x - 64, y + 64, all);
 }
 //}
 //if !is_undefined(instance_position(x + 32, y, all)).sObjType
@@ -22,22 +22,22 @@ if position_meeting(x + 64, y, all)
 {
 instRightColl = instance_position(x + 64, y, all);
 }
-if position_meeting(x + 32, y - 32, all)
+if position_meeting(x + 64, y - 64, all)
 {
-instTopRightColl = instance_position(x + 32, y - 32, all);
+instTopRightColl = instance_position(x + 64, y - 64, all);
 }
 if position_meeting(x + 64, y + 64, all)
 {
 instBotRightColl = instance_position(x + 64, y + 64, all);
 }
 //}
-if position_meeting(x, y - 32, all)
+if position_meeting(x, y - 64, all)
 {
-instTopColl = instance_position(x, y - 32, all);
+instTopColl = instance_position(x, y - 64, all);
 }
-if position_meeting(x, y + 32, all)
+if position_meeting(x, y + 64, all)
 {
-instBotColl = instance_position(x, y + 32, all);
+instBotColl = instance_position(x, y + 64, all);
 }
 
 if sMoveMode == "BackForth"
@@ -56,7 +56,7 @@ if sMoveMode == "BackForth"
 		image_xscale = 1;
 	}
 	
-	if position_meeting(x - 32, y, all)
+	if position_meeting(x - 64, y, all)
 	{
 	if instLeftColl.sObjType == "Wall"
 	{ 
@@ -115,7 +115,7 @@ if sMoveMode == "Jump"
 		motion_set(choose(0, 180), random_range(iMinSpeed,iMaxSpeed));
 	}
 	
-	if position_meeting(x - 32, y, all)
+	if position_meeting(x - 64, y, all)
 	{
 	if instLeftColl.sObjType == "Wall"
 	{ 
@@ -123,7 +123,7 @@ if sMoveMode == "Jump"
 		image_xscale = -1;
 	}
 	}
-	if position_meeting(x + 32, y, all)
+	if position_meeting(x + 64, y, all)
 	{
 	if instRightColl.sObjType == "Wall"
 	{
@@ -224,7 +224,7 @@ if sMoveMode == "Triangle"
 		}
 	}
 	
-	if position_meeting(x - 32, y, all)
+	if position_meeting(x - 64, y, all)
 	{
 	if instLeftColl.sObjType == "Wall"
 	{ 
@@ -232,7 +232,7 @@ if sMoveMode == "Triangle"
 		image_xscale = -1;
 	}
 	}
-	if position_meeting(x - 32, y - 32, all)
+	if position_meeting(x - 64, y - 64, all)
 	{
 	if instTopLeftColl.sObjType == "Wall"
 	{
@@ -240,7 +240,7 @@ if sMoveMode == "Triangle"
 		image_xscale = -1;
 	}
 	}
-	if position_meeting(x - 32, y + 32, all)
+	if position_meeting(x - 64, y + 64, all)
 	{
 	if instBotLeftColl.sObjType == "Wall"
 	{
@@ -256,7 +256,7 @@ if sMoveMode == "Triangle"
 		image_xscale = 1;
 	}
 	}
-	if position_meeting(x + 32, y - 32, all)
+	if position_meeting(x + 64, y - 64, all)
 	{
 	if instTopRightColl.sObjType == "Wall"
 	{
@@ -264,7 +264,7 @@ if sMoveMode == "Triangle"
 		image_xscale = 1;
 	}
 	}
-	if position_meeting(x + 32, y + 32, all)
+	if position_meeting(x + 64, y + 64, all)
 	{
 	if instBotRightColl.sObjType == "Wall"
 	{
@@ -272,7 +272,7 @@ if sMoveMode == "Triangle"
 		image_xscale = 1;
 	}
 	}
-	if position_meeting(x, y - 32, all)
+	if position_meeting(x, y - 64, all)
 	{
 	if instTopColl.sObjType == "Wall"
 	{
@@ -280,7 +280,7 @@ if sMoveMode == "Triangle"
 		image_xscale = 1;
 	}
 	}
-	if position_meeting(x, y + 32, all)
+	if position_meeting(x, y + 64, all)
 	{
 	if instBotColl.sObjType == "Wall"
 	{
@@ -319,7 +319,7 @@ if sMoveMode == "Follow"
 {
 	bAfter = true;
 	
-	if position_meeting(x - 32, y, all)
+	if position_meeting(x - 64, y, all)
 	{
 	if instLeftColl.sObjType == "Wall"
 	{ 
@@ -332,7 +332,7 @@ if sMoveMode == "Follow"
 	{
 	move_towards_point(objPlayer.x, objPlayer.y, iFollowspd);
 	}
-	if position_meeting(x - 32, y - 32, all)
+	if position_meeting(x - 64, y - 64, all)
 	{
 	if instTopLeftColl.sObjType == "Wall"
 	{
@@ -345,7 +345,7 @@ if sMoveMode == "Follow"
 	{
 	move_towards_point(objPlayer.x, objPlayer.y, iFollowspd);
 	}
-	if position_meeting(x - 32, y + 32, all)
+	if position_meeting(x - 64, y + 64, all)
 	{
 	if instBotLeftColl.sObjType == "Wall"
 	{
@@ -371,7 +371,7 @@ if sMoveMode == "Follow"
 	{
 	move_towards_point(objPlayer.x, objPlayer.y, iFollowspd);
 	}
-	if position_meeting(x + 32, y - 32, all)
+	if position_meeting(x + 64, y - 64, all)
 	{
 	if instTopRightColl.sObjType == "Wall"
 	{
@@ -384,7 +384,7 @@ if sMoveMode == "Follow"
 	{
 	move_towards_point(objPlayer.x, objPlayer.y, iFollowspd);
 	}
-	if position_meeting(x + 32, y + 32, all)
+	if position_meeting(x + 64, y + 64, all)
 	{
 	if instBotRightColl.sObjType == "Wall"
 	{
@@ -397,7 +397,7 @@ if sMoveMode == "Follow"
 	{
 	move_towards_point(objPlayer.x, objPlayer.y, iFollowspd);
 	}
-	if position_meeting(x, y - 32, all)
+	if position_meeting(x, y - 64, all)
 	{
 	if instTopColl.sObjType == "Wall"
 	{
@@ -410,7 +410,7 @@ if sMoveMode == "Follow"
 	{
 	move_towards_point(objPlayer.x, objPlayer.y, iFollowspd);
 	}
-	if position_meeting(x, y + 32, all)
+	if position_meeting(x, y + 64, all)
 	{
 	if instBotColl.sObjType == "Wall"
 	{
@@ -511,7 +511,7 @@ if sMoveMode == "Random"
 	}
 	
 	
-	if position_meeting(x - 32, y, all)
+	if position_meeting(x - 64, y, all)
 	{
 	if instLeftColl.sObjType == "Wall"
 	{ 
@@ -519,7 +519,7 @@ if sMoveMode == "Random"
 		//image_xscale = -1;
 	}
 	}
-	if position_meeting(x - 32, y - 32, all)
+	if position_meeting(x - 64, y - 64, all)
 	{
 	if instTopLeftColl.sObjType == "Wall"
 	{
@@ -527,7 +527,7 @@ if sMoveMode == "Random"
 		//image_xscale = -1;
 	}
 	}
-	if position_meeting(x - 32, y + 32, all)
+	if position_meeting(x - 64, y + 64, all)
 	{
 	if instBotLeftColl.sObjType == "Wall"
 	{
@@ -543,7 +543,7 @@ if sMoveMode == "Random"
 		//image_xscale = 1;
 	}
 	}
-	if position_meeting(x + 32, y - 32, all)
+	if position_meeting(x + 64, y - 64, all)
 	{
 	if instTopRightColl.sObjType == "Wall"
 	{
@@ -559,7 +559,7 @@ if sMoveMode == "Random"
 		//image_xscale = 1;
 	}
 	}
-	if position_meeting(x, y - 32, all)
+	if position_meeting(x, y - 64, all)
 	{
 	if instTopColl.sObjType == "Wall"
 	{
@@ -567,7 +567,7 @@ if sMoveMode == "Random"
 		//image_xscale = 1;
 	}
 	}
-	if position_meeting(x, y + 32, all)
+	if position_meeting(x, y + 64, all)
 	{
 	if instBotColl.sObjType == "Wall"
 	{

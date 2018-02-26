@@ -11,7 +11,7 @@ if position_meeting(x, y - 32, objCornerTopRight)
 motion_set(270, iPatrolspd);
 }
 */
-
+/*
 randomize();
 
 if position_meeting(x - 32, y, objWallLeftSide1)
@@ -104,3 +104,5 @@ if iPatrolspd != iTargetspd
       iPatrolspd -= .5;
    }
 }
+*/
+
