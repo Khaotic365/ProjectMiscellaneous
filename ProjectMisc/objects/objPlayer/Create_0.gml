@@ -68,3 +68,5 @@ bAfter = false;
 bCaughtNetPlayer = false;
 iCaughtTimerPlayer = 100;
 iInvCounterPlayer = 0;
+bCaughtBag = false
+objCurrentBag = objPlayer
