@@ -25,7 +25,7 @@ else
 */
 
 //Set timer so that the shark will change speeds over time
-
+/*
 randomize();
 
 //image_angle = point_direction(x,y,objPlayer.x,objPlayer.y)
@@ -159,7 +159,7 @@ if distance_to_object(objPlayer) > iSharkrange
 		image_xscale = -1;
 		//show_debug_message("Wall to the right");
 	}
-	*/
+	*//*
 	if position_meeting(x, y + 32, objWallBot2)
 	{
 		motion_set(145, iPatrolspd);
@@ -267,7 +267,7 @@ if bBackward == true
 }
 */
 //The shark will follow the player if it gets in range
-
+/*
 if bFollow == true
 {
 	bAfterFollow = true;
@@ -376,3 +376,19 @@ if objCurrentNetShark != instance_nearest(x,y,objShark2) && objCurrentNetShark.b
 {
 solid = true;
 }
+*/
+
+if bCaughtNet == false && bCaughtNetRand == false && distance_to_object(objPlayer) > iSharkRange
+{
+	sMoveMode = "Triangle";
+	image_yscale = 1;
+}
+else if distance_to_object(objPlayer) <= iSharkRange
+{
+	sMoveMode = "Follow";
+}
+
+iInvCounter -= 1;
+iInvCounterRand -= 1;
+
+script_execute(scrNPCMovement,sMoveMode,iMoveSpd,iSpeedTimer,iTargetSpd,iJumpTimer,iStartY,bJumping,bFalling,iMinSpeed,iMaxSpeed,bAfter,iCaughtTimer,bCaughtNet,iInvCounter,bCaughtNetRand,iCaughtTimerRand,iInvCounterRand)//,instLeftColl,instRightColl)

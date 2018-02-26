@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-objCurrentNetShark = instance_nearest(x,y,objShark2);
+/*objCurrentNetShark = instance_nearest(x,y,objShark2);
 
 if other.bCanCollideShark == true
 {
@@ -12,7 +12,15 @@ if other.bCanCollideShark == true
 	audio_play_sound(sndDamage2, 0, false);
 }
 
+*/
+
 //if solid == true
 //{
 //audio_play_sound(sndDamage2, 0, false);
 //}
+
+if iInvCounter <= 0 && objPlayer.iInvCounterPlayer <= 0
+{
+	bCaughtNet = true;
+	sMoveMode = "CaughtNet";
+}
