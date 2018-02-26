@@ -21,3 +21,6 @@ bAfter = false;
 bCaughtNet = false;
 iCaughtTimer = 100;
 iInvCounter = 0;
+bCaughtNetRand = false;
+iCaughtTimerRand = 100;
+iInvCounterRand = 0;
