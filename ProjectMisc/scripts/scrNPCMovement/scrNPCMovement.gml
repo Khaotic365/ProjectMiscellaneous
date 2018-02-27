@@ -194,6 +194,47 @@ if sMoveMode == "Jump"
 	}
 }
 
+if sMoveMode == "JumpWithoutMoving"
+{
+	//if instance_position(x - 32, y, all).sObjType == "NotWall" || instance_position(x + 32, y, all).sObjType == "NotWall"
+	//{
+	//	speed = iMoveSpd;
+	//}
+	
+	if iJumpTimer != 0
+	{
+		iJumpTimer -= 1;
+	}
+	
+	if iJumpTimer == 0
+	{
+		iJumpTimer = 100;
+		bJumping = true;
+		//bForward = false;
+		//bBackward = false;
+		move_towards_point(x, iJumpPoint, 20);
+	}
+	
+	if bJumping == true
+	{
+		if point_distance(x, y, x, iJumpPoint) == 0
+		{
+			bJumping = false;
+			bFalling = true;
+			move_towards_point(x, iStartY, 20);
+		}
+	}
+	
+	if bFalling == true
+	{
+		if point_distance(x, y, x, iStartY) == 0
+		{
+			speed = 0;
+			bFalling = false;
+		}
+	}
+}
+
 if sMoveMode == "Triangle"
 {
 	if bAfter == true
