@@ -4,7 +4,7 @@
 randomize();
 
 enemy = 0;
-iSpd = 4;
+iSpd = 7;
 iTargetx = room_width;
 iTargety = room_height;
 bGo = 0;
