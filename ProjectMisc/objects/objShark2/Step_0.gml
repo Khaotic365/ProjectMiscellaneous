@@ -380,7 +380,7 @@ solid = true;
 
 if bCaughtNet == false && bCaughtNetRand == false && distance_to_object(objPlayer) > iSharkRange
 {
-	sMoveMode = "Triangle";
+	sMoveMode = "Random";
 	image_yscale = 1;
 }
 else if distance_to_object(objPlayer) <= iSharkRange
