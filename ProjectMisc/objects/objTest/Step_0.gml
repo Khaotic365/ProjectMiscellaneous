@@ -13,14 +13,24 @@ if distance_to_object(objPlayer) <= iSharkRange
 
 //sMoveMode = "BackForth";
 //sMoveMode = "Jump";
-if bCaughtNet == false
+//if bCaughtNet == false
+//{
+//	sMoveMode = "BackForth";
+//}
+
+if bCaughtNet == false && bCaughtNetRand == false && distance_to_object(objPlayer) > iSharkRange
 {
-	sMoveMode = "BackForth";
+	sMoveMode = "Random";
+}
+if distance_to_object(objPlayer) <= iSharkRange
+{
+	sMoveMode = "Follow";
 }
 
 iInvCounter -= 1;
+iInvCounterRand -= 1;
 
-script_execute(scrNPCMovement,sMoveMode,iMoveSpd,iSpeedTimer,iTargetSpd,iJumpTimer,iStartY,bJumping,bFalling,iMinSpeed,iMaxSpeed,bAfter,iCaughtTimer,bCaughtNet,iInvCounter)//,instLeftColl,instRightColl)
+script_execute(scrNPCMovement,sMoveMode,iMoveSpd,iSpeedTimer,iTargetSpd,iJumpTimer,iStartY,bJumping,bFalling,iMinSpeed,iMaxSpeed,bAfter,iCaughtTimer,bCaughtNet,iInvCounter,bCaughtNetRand,iCaughtTimerRand,iInvCounterRand)//,instLeftColl,instRightColl)
 
-show_debug_message(iInvCounter);
+//show_debug_message(iInvCounter);
 

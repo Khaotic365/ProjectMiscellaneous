@@ -2,7 +2,7 @@
     "id": "d6ba0cda-cad0-4abd-8e46-9f7f1d687b76",
     "modelName": "GMRoom",
     "mvc": "1.0",
-    "name": "rmGradualLevelParallaxTest",
+    "name": "rmCave",
     "IsDnD": false,
     "creationCodeFile": "RoomCreationCode.gml",
     "inheritCode": false,
@@ -601,8 +601,6 @@
         "056cd4ae-e859-41a1-a409-a6a44e602bcd",
         "4bd97f27-e3f1-480c-9cd8-894efd3654be",
         "a7d62026-9a2f-4b01-b62d-fff37b79d37c",
-        "1f70f6e6-a0fa-4c46-813f-eab0908b2f6e",
-        "0ee470df-27d3-4edc-867c-24f598ef0007",
         "36721f46-c29a-4b4c-af8f-cb51642021b3",
         "3246cfcf-c2eb-4bcc-bdad-66b114334c35",
         "5b1104a2-eb0b-4632-b01c-4621eccbf0a6",
@@ -618,8 +616,12 @@
         "26ec300f-5c9b-4240-bb34-dbb21e62f0ec",
         "943a3175-7e37-4952-931d-1970b91c12cd",
         "b2e34539-a787-4d22-80e3-5353e52a96f4",
-        "f289e29d-da09-48c8-8d88-41dbde2a4aeb",
-        "ecd415b8-b8d3-4289-9500-33da1b99d9f2"
+        "106922e6-623b-40a2-a80c-9445cfb5b2a1",
+        "47cc947d-94ef-4e04-91ce-19b54efc3dc5",
+        "c8db4ecb-6966-4d4c-b835-e90d8fd62a16",
+        "f310ab59-5731-4746-b61b-51f2d53ce566",
+        "31a65131-2530-49ba-bfa6-64fdaf29719c",
+        "2b02d64f-ff7f-4beb-b43f-dc24bc934b9a"
     ],
     "layers": [
         {
@@ -665,7 +667,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_5ECD0B14",
                     "objId": "00c45ae6-6fda-40c7-b057-681c5b650a52",
-                    "rotation": 35.7528763,
+                    "rotation": 35.75288,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -713,7 +715,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_534BFBFB",
                     "objId": "00c45ae6-6fda-40c7-b057-681c5b650a52",
-                    "rotation": -168.683838,
+                    "rotation": -168.6838,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -761,7 +763,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_1886184F",
                     "objId": "00c45ae6-6fda-40c7-b057-681c5b650a52",
-                    "rotation": 27.4259357,
+                    "rotation": 27.42594,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -809,7 +811,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_5201CB25",
                     "objId": "00c45ae6-6fda-40c7-b057-681c5b650a52",
-                    "rotation": 175.334274,
+                    "rotation": 175.3343,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -833,7 +835,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_5B32AA90",
                     "objId": "00c45ae6-6fda-40c7-b057-681c5b650a52",
-                    "rotation": 160.537689,
+                    "rotation": 160.5377,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -857,7 +859,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_4EFEBF66",
                     "objId": "00c45ae6-6fda-40c7-b057-681c5b650a52",
-                    "rotation": 58.5013466,
+                    "rotation": 58.50135,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -905,7 +907,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_300DF132",
                     "objId": "00c45ae6-6fda-40c7-b057-681c5b650a52",
-                    "rotation": -36.2357063,
+                    "rotation": -36.23571,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -953,7 +955,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_2A9E5C2D",
                     "objId": "00c45ae6-6fda-40c7-b057-681c5b650a52",
-                    "rotation": 158.94548,
+                    "rotation": 158.9455,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -1001,7 +1003,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_458704D4",
                     "objId": "00c45ae6-6fda-40c7-b057-681c5b650a52",
-                    "rotation": -10.0098162,
+                    "rotation": -10.00982,
                     "scaleX": 1,
                     "scaleY": 1
                 }
@@ -1170,7 +1172,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_670DE803",
                     "objId": "4dfa5cb1-d4ea-4cc4-a3ba-5a4fbdb466c4",
-                    "rotation": -7.22183752,
+                    "rotation": -7.221838,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -1194,7 +1196,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_1B64D884",
                     "objId": "6957d75c-269d-472c-96fb-170e8b43edbd",
-                    "rotation": 24.8130341,
+                    "rotation": 24.81303,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -1650,7 +1652,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_57BDCC6F",
                     "objId": "31ba8457-54fa-4ba0-9ab3-19232d57d16f",
-                    "rotation": -22.3087044,
+                    "rotation": -22.3087,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -1674,7 +1676,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_21CA6E86",
                     "objId": "13113c7b-8a91-4097-953a-b90c0513c94f",
-                    "rotation": 33.5119247,
+                    "rotation": 33.51192,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -1722,7 +1724,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_69FBACDB",
                     "objId": "2db79684-96d2-4a95-af3e-a4e5613f1eb9",
-                    "rotation": 34.2236481,
+                    "rotation": 34.22365,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -1770,7 +1772,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_3922D270",
                     "objId": "67934ed5-d7f9-40f0-ada4-4617931df01b",
-                    "rotation": -22.7200966,
+                    "rotation": -22.7201,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -1794,7 +1796,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_7551E5C7",
                     "objId": "824c46e5-ff27-4742-8d93-feb50d593138",
-                    "rotation": -29.2032127,
+                    "rotation": -29.20321,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -1890,7 +1892,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_6E049CE9",
                     "objId": "2db79684-96d2-4a95-af3e-a4e5613f1eb9",
-                    "rotation": -15.7876921,
+                    "rotation": -15.78769,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -2154,7 +2156,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_65ED17A2",
                     "objId": "4aa46264-d0e1-41a1-a182-60865c9a299f",
-                    "rotation": 11.7299881,
+                    "rotation": 11.72999,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -2178,7 +2180,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_3B11A6B1",
                     "objId": "4e719c33-7c93-4e2f-bb09-17a81a5e87f0",
-                    "rotation": 5.00245333,
+                    "rotation": 5.002453,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -2226,7 +2228,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_29F82495",
                     "objId": "4dfa5cb1-d4ea-4cc4-a3ba-5a4fbdb466c4",
-                    "rotation": 19.2561054,
+                    "rotation": 19.25611,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -2250,7 +2252,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_1920652F",
                     "objId": "31ba8457-54fa-4ba0-9ab3-19232d57d16f",
-                    "rotation": -6.45798063,
+                    "rotation": -6.457981,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -2418,7 +2420,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_36F0F69E",
                     "objId": "59305581-df1d-4d08-9374-2c375ba26ca2",
-                    "rotation": 35.7533646,
+                    "rotation": 35.75336,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -2442,7 +2444,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_685EE580",
                     "objId": "abf1139d-388c-42b9-bc2d-9ccfc28b148c",
-                    "rotation": 4.54857969,
+                    "rotation": 4.54858,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -2490,7 +2492,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_4543797D",
                     "objId": "abf1139d-388c-42b9-bc2d-9ccfc28b148c",
-                    "rotation": 44.2777176,
+                    "rotation": 44.27772,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -2538,7 +2540,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_23CD6C46",
                     "objId": "31ba8457-54fa-4ba0-9ab3-19232d57d16f",
-                    "rotation": -10.3264542,
+                    "rotation": -10.32645,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -2586,7 +2588,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_6CED253C",
                     "objId": "d9c58abb-655c-4dca-b3d3-1a7304a51ce5",
-                    "rotation": -15.2701893,
+                    "rotation": -15.27019,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -2634,7 +2636,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_4A44EB78",
                     "objId": "67934ed5-d7f9-40f0-ada4-4617931df01b",
-                    "rotation": 7.82792044,
+                    "rotation": 7.82792,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -2682,7 +2684,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_3DF0D63D",
                     "objId": "1a9b5bfa-86a7-47d4-bb93-5b2f48d18ec6",
-                    "rotation": 23.7050476,
+                    "rotation": 23.70505,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -2706,7 +2708,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_58A31D3A",
                     "objId": "4e719c33-7c93-4e2f-bb09-17a81a5e87f0",
-                    "rotation": 11.8575373,
+                    "rotation": 11.85754,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -2754,7 +2756,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_1A47E296",
                     "objId": "7f703d22-c93e-401d-914f-b79611831321",
-                    "rotation": 11.7383614,
+                    "rotation": 11.73836,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -2778,7 +2780,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_41E7EB01",
                     "objId": "c7575127-4995-439c-9102-e207ade550b4",
-                    "rotation": 14.2121525,
+                    "rotation": 14.21215,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -2802,7 +2804,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_2133BEEB",
                     "objId": "4aa46264-d0e1-41a1-a182-60865c9a299f",
-                    "rotation": -14.8603563,
+                    "rotation": -14.86036,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -2826,7 +2828,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_5AAE9F41",
                     "objId": "1a9b5bfa-86a7-47d4-bb93-5b2f48d18ec6",
-                    "rotation": -6.56034756,
+                    "rotation": -6.560348,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -2922,7 +2924,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_22417C9F",
                     "objId": "4aa46264-d0e1-41a1-a182-60865c9a299f",
-                    "rotation": 75.0881042,
+                    "rotation": 75.0881,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -3018,7 +3020,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_5F69C7A1",
                     "objId": "31ba8457-54fa-4ba0-9ab3-19232d57d16f",
-                    "rotation": -38.3917122,
+                    "rotation": -38.39171,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -3138,7 +3140,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_C3F77C1",
                     "objId": "59305581-df1d-4d08-9374-2c375ba26ca2",
-                    "rotation": -12.2636118,
+                    "rotation": -12.26361,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -3162,7 +3164,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_8E615D",
                     "objId": "59305581-df1d-4d08-9374-2c375ba26ca2",
-                    "rotation": 16.4691277,
+                    "rotation": 16.46913,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -3186,7 +3188,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_1643308A",
                     "objId": "ac040c10-8c9e-4171-879c-9955f7d9b752",
-                    "rotation": -21.6847343,
+                    "rotation": -21.68473,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -3344,7 +3346,7 @@
                     "m_serialiseFrozen": false,
                     "name": "inst_B13F9F7",
                     "x": 576,
-                    "y": 1001.81049,
+                    "y": 1001.81,
                     "IsDnD": false,
                     "colour": {
                         "Value": 4294967295
@@ -3354,7 +3356,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_B13F9F7",
                     "objId": "ac040c10-8c9e-4171-879c-9955f7d9b752",
-                    "rotation": -29.7775936,
+                    "rotation": -29.77759,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -3392,7 +3394,7 @@
                     "m_serialiseFrozen": false,
                     "name": "inst_32CA8E59",
                     "x": 640,
-                    "y": 1001.81049,
+                    "y": 1001.81,
                     "IsDnD": false,
                     "colour": {
                         "Value": 4294967295
@@ -3402,7 +3404,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_32CA8E59",
                     "objId": "59305581-df1d-4d08-9374-2c375ba26ca2",
-                    "rotation": 23.2795582,
+                    "rotation": 23.27956,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -3450,7 +3452,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_551D92CF",
                     "objId": "4dfa5cb1-d4ea-4cc4-a3ba-5a4fbdb466c4",
-                    "rotation": 20.7771416,
+                    "rotation": 20.77714,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -3474,7 +3476,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_77A73DE4",
                     "objId": "4dfa5cb1-d4ea-4cc4-a3ba-5a4fbdb466c4",
-                    "rotation": -10.5762043,
+                    "rotation": -10.5762,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -3488,7 +3490,7 @@
                     "m_serialiseFrozen": false,
                     "name": "inst_7D20D073",
                     "x": 832,
-                    "y": 1065.81055,
+                    "y": 1065.811,
                     "IsDnD": false,
                     "colour": {
                         "Value": 4294967295
@@ -3512,7 +3514,7 @@
                     "m_serialiseFrozen": false,
                     "name": "inst_28E92BBD",
                     "x": 640,
-                    "y": 1129.81055,
+                    "y": 1129.811,
                     "IsDnD": false,
                     "colour": {
                         "Value": 4294967295
@@ -3522,7 +3524,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_28E92BBD",
                     "objId": "7f703d22-c93e-401d-914f-b79611831321",
-                    "rotation": 16.171751,
+                    "rotation": 16.17175,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -3536,7 +3538,7 @@
                     "m_serialiseFrozen": false,
                     "name": "inst_17314FC2",
                     "x": 672,
-                    "y": 1129.81055,
+                    "y": 1129.811,
                     "IsDnD": false,
                     "colour": {
                         "Value": 4294967295
@@ -3546,7 +3548,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_17314FC2",
                     "objId": "67934ed5-d7f9-40f0-ada4-4617931df01b",
-                    "rotation": -33.1333237,
+                    "rotation": -33.13332,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -3560,7 +3562,7 @@
                     "m_serialiseFrozen": false,
                     "name": "inst_7ED88298",
                     "x": 576,
-                    "y": 1129.81055,
+                    "y": 1129.811,
                     "IsDnD": false,
                     "colour": {
                         "Value": 4294967295
@@ -3584,7 +3586,7 @@
                     "m_serialiseFrozen": false,
                     "name": "inst_2D51071F",
                     "x": 512,
-                    "y": 1129.81055,
+                    "y": 1129.811,
                     "IsDnD": false,
                     "colour": {
                         "Value": 4294967295
@@ -3608,7 +3610,7 @@
                     "m_serialiseFrozen": false,
                     "name": "inst_D5E995C",
                     "x": 416,
-                    "y": 1193.81055,
+                    "y": 1193.811,
                     "IsDnD": false,
                     "colour": {
                         "Value": 4294967295
@@ -3642,7 +3644,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_33F84594",
                     "objId": "1a9b5bfa-86a7-47d4-bb93-5b2f48d18ec6",
-                    "rotation": 24.623457,
+                    "rotation": 24.62346,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -3714,7 +3716,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_36C02504",
                     "objId": "2db79684-96d2-4a95-af3e-a4e5613f1eb9",
-                    "rotation": -20.1071243,
+                    "rotation": -20.10712,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -3762,7 +3764,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_37DEA32B",
                     "objId": "6957d75c-269d-472c-96fb-170e8b43edbd",
-                    "rotation": 24.8481865,
+                    "rotation": 24.84819,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -3834,7 +3836,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_5B050048",
                     "objId": "4dfa5cb1-d4ea-4cc4-a3ba-5a4fbdb466c4",
-                    "rotation": 13.352541,
+                    "rotation": 13.35254,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -4002,7 +4004,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_27ADA5B3",
                     "objId": "7f703d22-c93e-401d-914f-b79611831321",
-                    "rotation": 17.2887535,
+                    "rotation": 17.28875,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -4520,7 +4522,7 @@
                     "m_serialiseFrozen": false,
                     "name": "inst_3A606603",
                     "x": 544,
-                    "y": 1717.71631,
+                    "y": 1717.716,
                     "IsDnD": false,
                     "colour": {
                         "Value": 4294967295
@@ -4544,7 +4546,7 @@
                     "m_serialiseFrozen": false,
                     "name": "inst_D1C34DA",
                     "x": 544,
-                    "y": 1781.71631,
+                    "y": 1781.716,
                     "IsDnD": false,
                     "colour": {
                         "Value": 4294967295
@@ -4568,7 +4570,7 @@
                     "m_serialiseFrozen": false,
                     "name": "inst_60B4FD4",
                     "x": 544,
-                    "y": 1781.71631,
+                    "y": 1781.716,
                     "IsDnD": false,
                     "colour": {
                         "Value": 4294967295
@@ -4578,7 +4580,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_60B4FD4",
                     "objId": "13113c7b-8a91-4097-953a-b90c0513c94f",
-                    "rotation": 33.5119247,
+                    "rotation": 33.51192,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -4592,7 +4594,7 @@
                     "m_serialiseFrozen": false,
                     "name": "inst_4179DCAB",
                     "x": 512,
-                    "y": 1877.71631,
+                    "y": 1877.716,
                     "IsDnD": false,
                     "colour": {
                         "Value": 4294967295
@@ -4602,7 +4604,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_4179DCAB",
                     "objId": "2db79684-96d2-4a95-af3e-a4e5613f1eb9",
-                    "rotation": 34.2236481,
+                    "rotation": 34.22365,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -4616,7 +4618,7 @@
                     "m_serialiseFrozen": false,
                     "name": "inst_4096867E",
                     "x": 544,
-                    "y": 1877.71631,
+                    "y": 1877.716,
                     "IsDnD": false,
                     "colour": {
                         "Value": 4294967295
@@ -4640,7 +4642,7 @@
                     "m_serialiseFrozen": false,
                     "name": "inst_271EA86A",
                     "x": 736,
-                    "y": 1941.71631,
+                    "y": 1941.716,
                     "IsDnD": false,
                     "colour": {
                         "Value": 4294967295
@@ -4650,7 +4652,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_271EA86A",
                     "objId": "67934ed5-d7f9-40f0-ada4-4617931df01b",
-                    "rotation": -22.7200966,
+                    "rotation": -22.7201,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -4698,7 +4700,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_66388505",
                     "objId": "2db79684-96d2-4a95-af3e-a4e5613f1eb9",
-                    "rotation": -20.1071243,
+                    "rotation": -20.10712,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -4735,7 +4737,7 @@
                     "m_originalParentID": "00000000-0000-0000-0000-000000000000",
                     "m_serialiseFrozen": false,
                     "name": "inst_34FCCDAF",
-                    "x": 460.003418,
+                    "x": 460.0034,
                     "y": 2016,
                     "IsDnD": false,
                     "colour": {
@@ -4759,7 +4761,7 @@
                     "m_originalParentID": "00000000-0000-0000-0000-000000000000",
                     "m_serialiseFrozen": false,
                     "name": "inst_17181F18",
-                    "x": 460.003418,
+                    "x": 460.0034,
                     "y": 2048,
                     "IsDnD": false,
                     "colour": {
@@ -4770,7 +4772,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_17181F18",
                     "objId": "4dfa5cb1-d4ea-4cc4-a3ba-5a4fbdb466c4",
-                    "rotation": 13.352541,
+                    "rotation": 13.35254,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -4783,7 +4785,7 @@
                     "m_originalParentID": "00000000-0000-0000-0000-000000000000",
                     "m_serialiseFrozen": false,
                     "name": "inst_9EFC584",
-                    "x": 460.003418,
+                    "x": 460.0034,
                     "y": 2208,
                     "IsDnD": false,
                     "colour": {
@@ -4807,7 +4809,7 @@
                     "m_originalParentID": "00000000-0000-0000-0000-000000000000",
                     "m_serialiseFrozen": false,
                     "name": "inst_55732AC0",
-                    "x": 460.003418,
+                    "x": 460.0034,
                     "y": 2176,
                     "IsDnD": false,
                     "colour": {
@@ -4866,7 +4868,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_263629C8",
                     "objId": "2db79684-96d2-4a95-af3e-a4e5613f1eb9",
-                    "rotation": -21.3114338,
+                    "rotation": -21.31143,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -4904,7 +4906,7 @@
                     "m_serialiseFrozen": false,
                     "name": "inst_3441381F",
                     "x": 448,
-                    "y": 2157.10571,
+                    "y": 2157.106,
                     "IsDnD": false,
                     "colour": {
                         "Value": 4294967295
@@ -4914,7 +4916,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_3441381F",
                     "objId": "4dfa5cb1-d4ea-4cc4-a3ba-5a4fbdb466c4",
-                    "rotation": 11.8163815,
+                    "rotation": 11.81638,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -4927,8 +4929,8 @@
                     "m_originalParentID": "00000000-0000-0000-0000-000000000000",
                     "m_serialiseFrozen": false,
                     "name": "inst_B4C1298",
-                    "x": 461.105652,
-                    "y": 2219.74951,
+                    "x": 461.1057,
+                    "y": 2219.75,
                     "IsDnD": false,
                     "colour": {
                         "Value": 4294967295
@@ -4938,7 +4940,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_B4C1298",
                     "objId": "4dfa5cb1-d4ea-4cc4-a3ba-5a4fbdb466c4",
-                    "rotation": 11.8163815,
+                    "rotation": 11.81638,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -4951,8 +4953,8 @@
                     "m_originalParentID": "00000000-0000-0000-0000-000000000000",
                     "m_serialiseFrozen": false,
                     "name": "inst_5B6D4F05",
-                    "x": 462.547455,
-                    "y": 2382.91187,
+                    "x": 462.5475,
+                    "y": 2382.912,
                     "IsDnD": false,
                     "colour": {
                         "Value": 4294967295
@@ -4975,8 +4977,8 @@
                     "m_originalParentID": "00000000-0000-0000-0000-000000000000",
                     "m_serialiseFrozen": false,
                     "name": "inst_74EA7E24",
-                    "x": 533.186768,
-                    "y": 2564.29028,
+                    "x": 533.1868,
+                    "y": 2564.29,
                     "IsDnD": false,
                     "colour": {
                         "Value": 4294967295
@@ -4986,7 +4988,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_74EA7E24",
                     "objId": "7f703d22-c93e-401d-914f-b79611831321",
-                    "rotation": 108.966431,
+                    "rotation": 108.9664,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -5000,7 +5002,7 @@
                     "m_serialiseFrozen": false,
                     "name": "inst_6D6B692C",
                     "x": 513.5283,
-                    "y": 2470.32446,
+                    "y": 2470.324,
                     "IsDnD": false,
                     "colour": {
                         "Value": 4294967295
@@ -5010,7 +5012,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_6D6B692C",
                     "objId": "4dfa5cb1-d4ea-4cc4-a3ba-5a4fbdb466c4",
-                    "rotation": 11.8163815,
+                    "rotation": 11.81638,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -5024,7 +5026,7 @@
                     "m_serialiseFrozen": false,
                     "name": "inst_2366C680",
                     "x": 526.6339,
-                    "y": 2532.96826,
+                    "y": 2532.968,
                     "IsDnD": false,
                     "colour": {
                         "Value": 4294967295
@@ -5034,7 +5036,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_2366C680",
                     "objId": "4dfa5cb1-d4ea-4cc4-a3ba-5a4fbdb466c4",
-                    "rotation": 11.8163815,
+                    "rotation": 11.81638,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -5058,7 +5060,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_94FD222",
                     "objId": "31ba8457-54fa-4ba0-9ab3-19232d57d16f",
-                    "rotation": -31.7618484,
+                    "rotation": -31.76185,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -5071,8 +5073,8 @@
                     "m_originalParentID": "00000000-0000-0000-0000-000000000000",
                     "m_serialiseFrozen": false,
                     "name": "inst_5C7BF3A5",
-                    "x": 917.267151,
-                    "y": 1182.81372,
+                    "x": 917.2672,
+                    "y": 1182.814,
                     "IsDnD": false,
                     "colour": {
                         "Value": 4294967295
@@ -5096,7 +5098,7 @@
                     "m_serialiseFrozen": false,
                     "name": "inst_D34C86E",
                     "x": 911.5878,
-                    "y": 1246.56128,
+                    "y": 1246.561,
                     "IsDnD": false,
                     "colour": {
                         "Value": 4294967295
@@ -5120,7 +5122,7 @@
                     "m_serialiseFrozen": false,
                     "name": "inst_74F2BA47",
                     "x": 972.4957,
-                    "y": 1284.11438,
+                    "y": 1284.114,
                     "IsDnD": false,
                     "colour": {
                         "Value": 4294967295
@@ -5143,8 +5145,8 @@
                     "m_originalParentID": "00000000-0000-0000-0000-000000000000",
                     "m_serialiseFrozen": false,
                     "name": "inst_24846464",
-                    "x": 926.423645,
-                    "y": 1440.64343,
+                    "x": 926.4236,
+                    "y": 1440.643,
                     "IsDnD": false,
                     "colour": {
                         "Value": 4294967295
@@ -5154,7 +5156,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_24846464",
                     "objId": "2db79684-96d2-4a95-af3e-a4e5613f1eb9",
-                    "rotation": -20.8787746,
+                    "rotation": -20.87877,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -5168,7 +5170,7 @@
                     "m_serialiseFrozen": false,
                     "name": "inst_3AF7AB7B",
                     "x": 888.8706,
-                    "y": 1501.55139,
+                    "y": 1501.551,
                     "IsDnD": false,
                     "colour": {
                         "Value": 4294967295
@@ -5192,7 +5194,7 @@
                     "m_serialiseFrozen": false,
                     "name": "inst_60894B40",
                     "x": 883.1913,
-                    "y": 1565.29883,
+                    "y": 1565.299,
                     "IsDnD": false,
                     "colour": {
                         "Value": 4294967295
@@ -5250,7 +5252,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_288412EE",
                     "objId": "ac040c10-8c9e-4171-879c-9955f7d9b752",
-                    "rotation": -20.3756733,
+                    "rotation": -20.37567,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -5274,7 +5276,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_65BE418A",
                     "objId": "ac040c10-8c9e-4171-879c-9955f7d9b752",
-                    "rotation": -27.4243488,
+                    "rotation": -27.42435,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -5322,7 +5324,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_7B0063C1",
                     "objId": "2db79684-96d2-4a95-af3e-a4e5613f1eb9",
-                    "rotation": -19.8414841,
+                    "rotation": -19.84148,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -5370,7 +5372,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_63DEF11F",
                     "objId": "2db79684-96d2-4a95-af3e-a4e5613f1eb9",
-                    "rotation": 67.0842743,
+                    "rotation": 67.08427,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -5407,8 +5409,8 @@
                     "m_originalParentID": "00000000-0000-0000-0000-000000000000",
                     "m_serialiseFrozen": false,
                     "name": "inst_3795F254",
-                    "x": 940.368347,
-                    "y": 2061.72949,
+                    "x": 940.3683,
+                    "y": 2061.729,
                     "IsDnD": false,
                     "colour": {
                         "Value": 4294967295
@@ -5418,7 +5420,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_3795F254",
                     "objId": "67934ed5-d7f9-40f0-ada4-4617931df01b",
-                    "rotation": -38.075676,
+                    "rotation": -38.07568,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -5432,7 +5434,7 @@
                     "m_serialiseFrozen": false,
                     "name": "inst_417C0045",
                     "x": 979.6999,
-                    "y": 2039.3457,
+                    "y": 2039.346,
                     "IsDnD": false,
                     "colour": {
                         "Value": 4294967295
@@ -5442,7 +5444,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_417C0045",
                     "objId": "824c46e5-ff27-4742-8d93-feb50d593138",
-                    "rotation": -44.5587921,
+                    "rotation": -44.55879,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -5455,7 +5457,7 @@
                     "m_originalParentID": "00000000-0000-0000-0000-000000000000",
                     "m_serialiseFrozen": false,
                     "name": "inst_316C4E24",
-                    "x": 962.752136,
+                    "x": 962.7521,
                     "y": 2101.061,
                     "IsDnD": false,
                     "colour": {
@@ -5480,7 +5482,7 @@
                     "m_serialiseFrozen": false,
                     "name": "inst_3294B4AE",
                     "x": 945.8044,
-                    "y": 2162.77637,
+                    "y": 2162.776,
                     "IsDnD": false,
                     "colour": {
                         "Value": 4294967295
@@ -5504,7 +5506,7 @@
                     "m_serialiseFrozen": false,
                     "name": "inst_15F20066",
                     "x": 999.0458,
-                    "y": 2210.58154,
+                    "y": 2210.582,
                     "IsDnD": false,
                     "colour": {
                         "Value": 4294967295
@@ -5527,8 +5529,8 @@
                     "m_originalParentID": "00000000-0000-0000-0000-000000000000",
                     "m_serialiseFrozen": false,
                     "name": "inst_3921518",
-                    "x": 209.037949,
-                    "y": 2174.81372,
+                    "x": 209.0379,
+                    "y": 2174.814,
                     "IsDnD": false,
                     "colour": {
                         "Value": 4294967295
@@ -5551,8 +5553,8 @@
                     "m_originalParentID": "00000000-0000-0000-0000-000000000000",
                     "m_serialiseFrozen": false,
                     "name": "inst_5662DA2D",
-                    "x": 203.358627,
-                    "y": 2238.56128,
+                    "x": 203.3586,
+                    "y": 2238.561,
                     "IsDnD": false,
                     "colour": {
                         "Value": 4294967295
@@ -5575,8 +5577,8 @@
                     "m_originalParentID": "00000000-0000-0000-0000-000000000000",
                     "m_serialiseFrozen": false,
                     "name": "inst_444A906D",
-                    "x": 264.266541,
-                    "y": 2276.11426,
+                    "x": 264.2665,
+                    "y": 2276.114,
                     "IsDnD": false,
                     "colour": {
                         "Value": 4294967295
@@ -5634,7 +5636,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_1424CCA0",
                     "objId": "2db79684-96d2-4a95-af3e-a4e5613f1eb9",
-                    "rotation": -19.8414841,
+                    "rotation": -19.84148,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -5648,7 +5650,7 @@
                     "m_serialiseFrozen": false,
                     "name": "inst_751A0259",
                     "x": 198.6854,
-                    "y": 2497.14014,
+                    "y": 2497.14,
                     "IsDnD": false,
                     "colour": {
                         "Value": 4294967295
@@ -5658,7 +5660,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_751A0259",
                     "objId": "2db79684-96d2-4a95-af3e-a4e5613f1eb9",
-                    "rotation": -1.48923445,
+                    "rotation": -1.489234,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -5672,7 +5674,7 @@
                     "m_serialiseFrozen": false,
                     "name": "inst_29C0EBC",
                     "x": 197.0221,
-                    "y": 2561.11841,
+                    "y": 2561.118,
                     "IsDnD": false,
                     "colour": {
                         "Value": 4294967295
@@ -5682,7 +5684,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_29C0EBC",
                     "objId": "2db79684-96d2-4a95-af3e-a4e5613f1eb9",
-                    "rotation": -1.48923445,
+                    "rotation": -1.489234,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -5695,7 +5697,7 @@
                     "m_originalParentID": "00000000-0000-0000-0000-000000000000",
                     "m_serialiseFrozen": false,
                     "name": "inst_110D007B",
-                    "x": 260.168884,
+                    "x": 260.1689,
                     "y": 2594.771,
                     "IsDnD": false,
                     "colour": {
@@ -5706,7 +5708,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_110D007B",
                     "objId": "7f703d22-c93e-401d-914f-b79611831321",
-                    "rotation": -87.5976944,
+                    "rotation": -87.59769,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -5719,7 +5721,7 @@
                     "m_originalParentID": "00000000-0000-0000-0000-000000000000",
                     "m_serialiseFrozen": false,
                     "name": "inst_6857A110",
-                    "x": 207.461243,
+                    "x": 207.4612,
                     "y": 2465.713,
                     "IsDnD": false,
                     "colour": {
@@ -5730,7 +5732,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_6857A110",
                     "objId": "ac040c10-8c9e-4171-879c-9955f7d9b752",
-                    "rotation": 3.6018486,
+                    "rotation": 3.601849,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -5743,8 +5745,8 @@
                     "m_originalParentID": "00000000-0000-0000-0000-000000000000",
                     "m_serialiseFrozen": false,
                     "name": "inst_2E14E18C",
-                    "x": 913.037964,
-                    "y": 2846.81372,
+                    "x": 913.038,
+                    "y": 2846.814,
                     "IsDnD": false,
                     "colour": {
                         "Value": 4294967295
@@ -5767,8 +5769,8 @@
                     "m_originalParentID": "00000000-0000-0000-0000-000000000000",
                     "m_serialiseFrozen": false,
                     "name": "inst_7CD9E326",
-                    "x": 907.358643,
-                    "y": 2910.56128,
+                    "x": 907.3586,
+                    "y": 2910.561,
                     "IsDnD": false,
                     "colour": {
                         "Value": 4294967295
@@ -5792,7 +5794,7 @@
                     "m_serialiseFrozen": false,
                     "name": "inst_3CDA9A6D",
                     "x": 968.2666,
-                    "y": 2948.11426,
+                    "y": 2948.114,
                     "IsDnD": false,
                     "colour": {
                         "Value": 4294967295
@@ -5850,7 +5852,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_16F99F83",
                     "objId": "2db79684-96d2-4a95-af3e-a4e5613f1eb9",
-                    "rotation": -19.8414841,
+                    "rotation": -19.84148,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -5864,7 +5866,7 @@
                     "m_serialiseFrozen": false,
                     "name": "inst_3CC62B8",
                     "x": 896,
-                    "y": 2312.43677,
+                    "y": 2312.437,
                     "IsDnD": false,
                     "colour": {
                         "Value": 4294967295
@@ -5874,7 +5876,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_3CC62B8",
                     "objId": "2db79684-96d2-4a95-af3e-a4e5613f1eb9",
-                    "rotation": 7.57512474,
+                    "rotation": 7.575125,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -5888,7 +5890,7 @@
                     "m_serialiseFrozen": false,
                     "name": "inst_298F5C2E",
                     "x": 963.6599,
-                    "y": 2335.7207,
+                    "y": 2335.721,
                     "IsDnD": false,
                     "colour": {
                         "Value": 4294967295
@@ -5912,7 +5914,7 @@
                     "m_serialiseFrozen": false,
                     "name": "inst_3445143D",
                     "x": 953.0313,
-                    "y": 2498.54272,
+                    "y": 2498.543,
                     "IsDnD": false,
                     "colour": {
                         "Value": 4294967295
@@ -5935,8 +5937,8 @@
                     "m_originalParentID": "00000000-0000-0000-0000-000000000000",
                     "m_serialiseFrozen": false,
                     "name": "inst_4BA3CC36",
-                    "x": 929.747437,
-                    "y": 2566.20264,
+                    "x": 929.7474,
+                    "y": 2566.203,
                     "IsDnD": false,
                     "colour": {
                         "Value": 4294967295
@@ -5946,7 +5948,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_4BA3CC36",
                     "objId": "2db79684-96d2-4a95-af3e-a4e5613f1eb9",
-                    "rotation": 7.57512474,
+                    "rotation": 7.575125,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -5970,7 +5972,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_29A4406",
                     "objId": "2db79684-96d2-4a95-af3e-a4e5613f1eb9",
-                    "rotation": 7.57512474,
+                    "rotation": 7.575125,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -5984,7 +5986,7 @@
                     "m_serialiseFrozen": false,
                     "name": "inst_6C526A7B",
                     "x": 946.6212,
-                    "y": 2693.08545,
+                    "y": 2693.085,
                     "IsDnD": false,
                     "colour": {
                         "Value": 4294967295
@@ -5994,7 +5996,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_6C526A7B",
                     "objId": "2db79684-96d2-4a95-af3e-a4e5613f1eb9",
-                    "rotation": 7.57512474,
+                    "rotation": 7.575125,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -6007,8 +6009,8 @@
                     "m_originalParentID": "00000000-0000-0000-0000-000000000000",
                     "m_serialiseFrozen": false,
                     "name": "inst_5AF39C5",
-                    "x": 1014.28107,
-                    "y": 2716.36938,
+                    "x": 1014.281,
+                    "y": 2716.369,
                     "IsDnD": false,
                     "colour": {
                         "Value": 4294967295
@@ -6031,8 +6033,8 @@
                     "m_originalParentID": "00000000-0000-0000-0000-000000000000",
                     "m_serialiseFrozen": false,
                     "name": "inst_95CDDAF",
-                    "x": 198.047424,
-                    "y": 2749.54541,
+                    "x": 198.0474,
+                    "y": 2749.545,
                     "IsDnD": false,
                     "colour": {
                         "Value": 4294967295
@@ -6042,7 +6044,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_95CDDAF",
                     "objId": "2db79684-96d2-4a95-af3e-a4e5613f1eb9",
-                    "rotation": -11.6824446,
+                    "rotation": -11.68244,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -6055,8 +6057,8 @@
                     "m_originalParentID": "00000000-0000-0000-0000-000000000000",
                     "m_serialiseFrozen": false,
                     "name": "inst_C78BAC1",
-                    "x": 185.088226,
-                    "y": 2812.21973,
+                    "x": 185.0882,
+                    "y": 2812.22,
                     "IsDnD": false,
                     "colour": {
                         "Value": 4294967295
@@ -6066,7 +6068,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_C78BAC1",
                     "objId": "2db79684-96d2-4a95-af3e-a4e5613f1eb9",
-                    "rotation": -11.6824446,
+                    "rotation": -11.68244,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -6079,8 +6081,8 @@
                     "m_originalParentID": "00000000-0000-0000-0000-000000000000",
                     "m_serialiseFrozen": false,
                     "name": "inst_3159DD8D",
-                    "x": 241.28299,
-                    "y": 2856.51587,
+                    "x": 241.283,
+                    "y": 2856.516,
                     "IsDnD": false,
                     "colour": {
                         "Value": 4294967295
@@ -6138,7 +6140,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_5A72C6FE",
                     "objId": "4dfa5cb1-d4ea-4cc4-a3ba-5a4fbdb466c4",
-                    "rotation": -34.2271042,
+                    "rotation": -34.2271,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -6186,7 +6188,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_425738A8",
                     "objId": "67934ed5-d7f9-40f0-ada4-4617931df01b",
-                    "rotation": -35.8746567,
+                    "rotation": -35.87466,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -6354,7 +6356,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_1FD4B168",
                     "objId": "c7575127-4995-439c-9102-e207ade550b4",
-                    "rotation": -6.28054142,
+                    "rotation": -6.280541,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -6402,7 +6404,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_18316338",
                     "objId": "4aa46264-d0e1-41a1-a182-60865c9a299f",
-                    "rotation": 99.0520248,
+                    "rotation": 99.05202,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -6450,7 +6452,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_60CDEDA7",
                     "objId": "59305581-df1d-4d08-9374-2c375ba26ca2",
-                    "rotation": 15.9683952,
+                    "rotation": 15.9684,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -6474,7 +6476,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_2F6A620A",
                     "objId": "abf1139d-388c-42b9-bc2d-9ccfc28b148c",
-                    "rotation": -6.97920942,
+                    "rotation": -6.979209,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -6522,7 +6524,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_4F7C4AC5",
                     "objId": "d9c58abb-655c-4dca-b3d3-1a7304a51ce5",
-                    "rotation": 0.645130157,
+                    "rotation": 0.6451302,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -6546,7 +6548,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_1E12CAAC",
                     "objId": "abf1139d-388c-42b9-bc2d-9ccfc28b148c",
-                    "rotation": -31.9772949,
+                    "rotation": -31.97729,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -6618,7 +6620,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_7F17C560",
                     "objId": "4dfa5cb1-d4ea-4cc4-a3ba-5a4fbdb466c4",
-                    "rotation": 34.3226242,
+                    "rotation": 34.32262,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -6642,7 +6644,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_3BBE8AFD",
                     "objId": "4dfa5cb1-d4ea-4cc4-a3ba-5a4fbdb466c4",
-                    "rotation": 15.7144489,
+                    "rotation": 15.71445,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -6666,7 +6668,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_16288CAC",
                     "objId": "4dfa5cb1-d4ea-4cc4-a3ba-5a4fbdb466c4",
-                    "rotation": -49.2512436,
+                    "rotation": -49.25124,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -6834,7 +6836,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_1042C6A1",
                     "objId": "67934ed5-d7f9-40f0-ada4-4617931df01b",
-                    "rotation": -23.293972,
+                    "rotation": -23.29397,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -6906,7 +6908,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_12F0B2E0",
                     "objId": "4dfa5cb1-d4ea-4cc4-a3ba-5a4fbdb466c4",
-                    "rotation": -30.8298588,
+                    "rotation": -30.82986,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -7063,8 +7065,8 @@
                     "m_originalParentID": "00000000-0000-0000-0000-000000000000",
                     "m_serialiseFrozen": false,
                     "name": "inst_6444CF39",
-                    "x": 3.41021729,
-                    "y": 3207.17065,
+                    "x": 3.410217,
+                    "y": 3207.171,
                     "IsDnD": false,
                     "colour": {
                         "Value": 4294967295
@@ -7074,7 +7076,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_6444CF39",
                     "objId": "4dfa5cb1-d4ea-4cc4-a3ba-5a4fbdb466c4",
-                    "rotation": 37.7372437,
+                    "rotation": 37.73724,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -7088,7 +7090,7 @@
                     "m_serialiseFrozen": false,
                     "name": "inst_52D8E245",
                     "x": 179.6781,
-                    "y": 3434.92847,
+                    "y": 3434.928,
                     "IsDnD": false,
                     "colour": {
                         "Value": 4294967295
@@ -7098,7 +7100,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_52D8E245",
                     "objId": "7f703d22-c93e-401d-914f-b79611831321",
-                    "rotation": 134.577042,
+                    "rotation": 134.577,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -7112,7 +7114,7 @@
                     "m_serialiseFrozen": false,
                     "name": "inst_7A84D0F6",
                     "x": 96,
-                    "y": 3352.70337,
+                    "y": 3352.703,
                     "IsDnD": false,
                     "colour": {
                         "Value": 4294967295
@@ -7122,7 +7124,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_7A84D0F6",
                     "objId": "4dfa5cb1-d4ea-4cc4-a3ba-5a4fbdb466c4",
-                    "rotation": 62.3738022,
+                    "rotation": 62.3738,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -7135,8 +7137,8 @@
                     "m_originalParentID": "00000000-0000-0000-0000-000000000000",
                     "m_serialiseFrozen": false,
                     "name": "inst_67C86FFD",
-                    "x": 152.70343,
-                    "y": 3382.38013,
+                    "x": 152.7034,
+                    "y": 3382.38,
                     "IsDnD": false,
                     "colour": {
                         "Value": 4294967295
@@ -7146,7 +7148,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_67C86FFD",
                     "objId": "4dfa5cb1-d4ea-4cc4-a3ba-5a4fbdb466c4",
-                    "rotation": 62.3738022,
+                    "rotation": 62.3738,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -7183,7 +7185,7 @@
                     "m_originalParentID": "00000000-0000-0000-0000-000000000000",
                     "m_serialiseFrozen": false,
                     "name": "inst_50DF6AC3",
-                    "x": 352.000031,
+                    "x": 352,
                     "y": 3360,
                     "IsDnD": false,
                     "colour": {
@@ -7290,7 +7292,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_532FE1FB",
                     "objId": "2db79684-96d2-4a95-af3e-a4e5613f1eb9",
-                    "rotation": -14.7596626,
+                    "rotation": -14.75966,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -7303,8 +7305,8 @@
                     "m_originalParentID": "00000000-0000-0000-0000-000000000000",
                     "m_serialiseFrozen": false,
                     "name": "inst_33F6CDBC",
-                    "x": 633.384949,
-                    "y": 3197.88818,
+                    "x": 633.3849,
+                    "y": 3197.888,
                     "IsDnD": false,
                     "colour": {
                         "Value": 4294967295
@@ -7314,7 +7316,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_33F6CDBC",
                     "objId": "2db79684-96d2-4a95-af3e-a4e5613f1eb9",
-                    "rotation": -14.7596626,
+                    "rotation": -14.75966,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -7327,8 +7329,8 @@
                     "m_originalParentID": "00000000-0000-0000-0000-000000000000",
                     "m_serialiseFrozen": false,
                     "name": "inst_3632EEFF",
-                    "x": 687.120667,
-                    "y": 3245.13745,
+                    "x": 687.1207,
+                    "y": 3245.137,
                     "IsDnD": false,
                     "colour": {
                         "Value": 4294967295
@@ -7338,7 +7340,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_3632EEFF",
                     "objId": "7f703d22-c93e-401d-914f-b79611831321",
-                    "rotation": -100.868126,
+                    "rotation": -100.8681,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -7399,7 +7401,7 @@
                     "m_originalParentID": "00000000-0000-0000-0000-000000000000",
                     "m_serialiseFrozen": false,
                     "name": "inst_48757F29",
-                    "x": 1026.82544,
+                    "x": 1026.825,
                     "y": 3200,
                     "IsDnD": false,
                     "colour": {
@@ -7423,7 +7425,7 @@
                     "m_originalParentID": "00000000-0000-0000-0000-000000000000",
                     "m_serialiseFrozen": false,
                     "name": "inst_4EE5A054",
-                    "x": 994.825439,
+                    "x": 994.8254,
                     "y": 3360,
                     "IsDnD": false,
                     "colour": {
@@ -7434,7 +7436,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_4EE5A054",
                     "objId": "2db79684-96d2-4a95-af3e-a4e5613f1eb9",
-                    "rotation": -15.7876921,
+                    "rotation": -15.78769,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -7447,7 +7449,7 @@
                     "m_originalParentID": "00000000-0000-0000-0000-000000000000",
                     "m_serialiseFrozen": false,
                     "name": "inst_1EB43C01",
-                    "x": 962.825439,
+                    "x": 962.8254,
                     "y": 3424,
                     "IsDnD": false,
                     "colour": {
@@ -7471,7 +7473,7 @@
                     "m_originalParentID": "00000000-0000-0000-0000-000000000000",
                     "m_serialiseFrozen": false,
                     "name": "inst_7E1BE0AE",
-                    "x": 962.825439,
+                    "x": 962.8254,
                     "y": 3488,
                     "IsDnD": false,
                     "colour": {
@@ -7495,7 +7497,7 @@
                     "m_originalParentID": "00000000-0000-0000-0000-000000000000",
                     "m_serialiseFrozen": false,
                     "name": "inst_6244AA40",
-                    "x": 962.825439,
+                    "x": 962.8254,
                     "y": 3552,
                     "IsDnD": false,
                     "colour": {
@@ -7530,7 +7532,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_1F64AFAB",
                     "objId": "39695ba9-fb16-4652-ab09-2b2a9e82a8c2",
-                    "rotation": 16.394989,
+                    "rotation": 16.39499,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -7554,7 +7556,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_795A67B3",
                     "objId": "2db79684-96d2-4a95-af3e-a4e5613f1eb9",
-                    "rotation": 18.4581985,
+                    "rotation": 18.4582,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -7698,7 +7700,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_6902D887",
                     "objId": "7f703d22-c93e-401d-914f-b79611831321",
-                    "rotation": 102.466171,
+                    "rotation": 102.4662,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -7711,7 +7713,7 @@
                     "m_originalParentID": "00000000-0000-0000-0000-000000000000",
                     "m_serialiseFrozen": false,
                     "name": "inst_540B058",
-                    "x": 224.187225,
+                    "x": 224.1872,
                     "y": 3456,
                     "IsDnD": false,
                     "colour": {
@@ -7735,7 +7737,7 @@
                     "m_originalParentID": "00000000-0000-0000-0000-000000000000",
                     "m_serialiseFrozen": false,
                     "name": "inst_7ABECB5B",
-                    "x": 160.187225,
+                    "x": 160.1872,
                     "y": 3392,
                     "IsDnD": false,
                     "colour": {
@@ -7842,7 +7844,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_A973D8A",
                     "objId": "2db79684-96d2-4a95-af3e-a4e5613f1eb9",
-                    "rotation": 34.2236481,
+                    "rotation": 34.22365,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -7890,7 +7892,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_162A6228",
                     "objId": "67934ed5-d7f9-40f0-ada4-4617931df01b",
-                    "rotation": -22.7200966,
+                    "rotation": -22.7201,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -7914,7 +7916,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_160B7C1E",
                     "objId": "2db79684-96d2-4a95-af3e-a4e5613f1eb9",
-                    "rotation": 34.2236481,
+                    "rotation": 34.22365,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -7986,7 +7988,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_1F039E91",
                     "objId": "4dfa5cb1-d4ea-4cc4-a3ba-5a4fbdb466c4",
-                    "rotation": -10.446022,
+                    "rotation": -10.44602,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -8010,7 +8012,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_F3323A4",
                     "objId": "4dfa5cb1-d4ea-4cc4-a3ba-5a4fbdb466c4",
-                    "rotation": -3.51390767,
+                    "rotation": -3.513908,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -8034,7 +8036,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_1B654A9E",
                     "objId": "4e719c33-7c93-4e2f-bb09-17a81a5e87f0",
-                    "rotation": 17.1373463,
+                    "rotation": 17.13735,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -8130,7 +8132,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_124B7C76",
                     "objId": "2db79684-96d2-4a95-af3e-a4e5613f1eb9",
-                    "rotation": -23.9291229,
+                    "rotation": -23.92912,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -8144,7 +8146,7 @@
                     "m_serialiseFrozen": false,
                     "name": "inst_5A0FD7A1",
                     "x": 810.9757,
-                    "y": 3797.26538,
+                    "y": 3797.265,
                     "IsDnD": false,
                     "colour": {
                         "Value": 4294967295
@@ -8154,7 +8156,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_5A0FD7A1",
                     "objId": "2db79684-96d2-4a95-af3e-a4e5613f1eb9",
-                    "rotation": -23.9291229,
+                    "rotation": -23.92912,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -8168,7 +8170,7 @@
                     "m_serialiseFrozen": false,
                     "name": "inst_EEB2466",
                     "x": 856.4955,
-                    "y": 3852.47363,
+                    "y": 3852.474,
                     "IsDnD": false,
                     "colour": {
                         "Value": 4294967295
@@ -8178,7 +8180,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_EEB2466",
                     "objId": "7f703d22-c93e-401d-914f-b79611831321",
-                    "rotation": -103.133743,
+                    "rotation": -103.1337,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -8191,8 +8193,8 @@
                     "m_originalParentID": "00000000-0000-0000-0000-000000000000",
                     "m_serialiseFrozen": false,
                     "name": "inst_37E0960D",
-                    "x": 857.042053,
-                    "y": 3713.0686,
+                    "x": 857.0421,
+                    "y": 3713.069,
                     "IsDnD": false,
                     "colour": {
                         "Value": 4294967295
@@ -8215,8 +8217,8 @@
                     "m_originalParentID": "00000000-0000-0000-0000-000000000000",
                     "m_serialiseFrozen": false,
                     "name": "inst_4A7B33B6",
-                    "x": 907.993164,
-                    "y": 3662.82935,
+                    "x": 907.9932,
+                    "y": 3662.829,
                     "IsDnD": false,
                     "colour": {
                         "Value": 4294967295
@@ -8226,7 +8228,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_4A7B33B6",
                     "objId": "2db79684-96d2-4a95-af3e-a4e5613f1eb9",
-                    "rotation": -38.6795235,
+                    "rotation": -38.67952,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -8263,8 +8265,8 @@
                     "m_originalParentID": "00000000-0000-0000-0000-000000000000",
                     "m_serialiseFrozen": false,
                     "name": "inst_1AFDC9A0",
-                    "x": 757.718567,
-                    "y": 4017.29346,
+                    "x": 757.7186,
+                    "y": 4017.293,
                     "IsDnD": false,
                     "colour": {
                         "Value": 4294967295
@@ -8274,7 +8276,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_1AFDC9A0",
                     "objId": "39695ba9-fb16-4652-ab09-2b2a9e82a8c2",
-                    "rotation": -2.44305038,
+                    "rotation": -2.44305,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -8298,7 +8300,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_62B9B44F",
                     "objId": "67934ed5-d7f9-40f0-ada4-4617931df01b",
-                    "rotation": -35.8746567,
+                    "rotation": -35.87466,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -8370,7 +8372,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_7251F391",
                     "objId": "c7575127-4995-439c-9102-e207ade550b4",
-                    "rotation": -6.28054142,
+                    "rotation": -6.280541,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -8383,8 +8385,8 @@
                     "m_originalParentID": "00000000-0000-0000-0000-000000000000",
                     "m_serialiseFrozen": false,
                     "name": "inst_104CF0F6",
-                    "x": 68.444046,
-                    "y": 3520.98657,
+                    "x": 68.44405,
+                    "y": 3520.987,
                     "IsDnD": false,
                     "colour": {
                         "Value": 4294967295
@@ -8514,7 +8516,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_67DC923B",
                     "objId": "59305581-df1d-4d08-9374-2c375ba26ca2",
-                    "rotation": -49.0820732,
+                    "rotation": -49.08207,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -8562,7 +8564,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_1C8B31D7",
                     "objId": "4dfa5cb1-d4ea-4cc4-a3ba-5a4fbdb466c4",
-                    "rotation": -34.2271042,
+                    "rotation": -34.2271,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -8610,7 +8612,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_49B14F0",
                     "objId": "67934ed5-d7f9-40f0-ada4-4617931df01b",
-                    "rotation": -35.8746567,
+                    "rotation": -35.87466,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -8658,7 +8660,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_2B9BB175",
                     "objId": "c7575127-4995-439c-9102-e207ade550b4",
-                    "rotation": -6.28054142,
+                    "rotation": -6.280541,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -8730,7 +8732,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_326A030B",
                     "objId": "d9c58abb-655c-4dca-b3d3-1a7304a51ce5",
-                    "rotation": -2.52807045,
+                    "rotation": -2.52807,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -8863,7 +8865,7 @@
                     "m_originalParentID": "00000000-0000-0000-0000-000000000000",
                     "m_serialiseFrozen": false,
                     "name": "inst_D5386D0",
-                    "x": -11.085495,
+                    "x": -11.08549,
                     "y": 4277.709,
                     "IsDnD": false,
                     "colour": {
@@ -8887,7 +8889,7 @@
                     "m_originalParentID": "00000000-0000-0000-0000-000000000000",
                     "m_serialiseFrozen": false,
                     "name": "inst_48F588C3",
-                    "x": 20.914505,
+                    "x": 20.91451,
                     "y": 4181.71,
                     "IsDnD": false,
                     "colour": {
@@ -8911,7 +8913,7 @@
                     "m_originalParentID": "00000000-0000-0000-0000-000000000000",
                     "m_serialiseFrozen": false,
                     "name": "inst_1F8CCEA0",
-                    "x": 20.914505,
+                    "x": 20.91451,
                     "y": 4245.709,
                     "IsDnD": false,
                     "colour": {
@@ -8935,7 +8937,7 @@
                     "m_originalParentID": "00000000-0000-0000-0000-000000000000",
                     "m_serialiseFrozen": false,
                     "name": "inst_69C802CD",
-                    "x": 20.914505,
+                    "x": 20.91451,
                     "y": 4309.709,
                     "IsDnD": false,
                     "colour": {
@@ -8959,7 +8961,7 @@
                     "m_originalParentID": "00000000-0000-0000-0000-000000000000",
                     "m_serialiseFrozen": false,
                     "name": "inst_6D26CA83",
-                    "x": 52.914505,
+                    "x": 52.91451,
                     "y": 4373.709,
                     "IsDnD": false,
                     "colour": {
@@ -8983,7 +8985,7 @@
                     "m_originalParentID": "00000000-0000-0000-0000-000000000000",
                     "m_serialiseFrozen": false,
                     "name": "inst_16B45599",
-                    "x": -11.085495,
+                    "x": -11.08549,
                     "y": 4565.709,
                     "IsDnD": false,
                     "colour": {
@@ -9007,7 +9009,7 @@
                     "m_originalParentID": "00000000-0000-0000-0000-000000000000",
                     "m_serialiseFrozen": false,
                     "name": "inst_3122427A",
-                    "x": -1.29440308,
+                    "x": -1.294403,
                     "y": 4737.799,
                     "IsDnD": false,
                     "colour": {
@@ -9018,7 +9020,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_3122427A",
                     "objId": "7f703d22-c93e-401d-914f-b79611831321",
-                    "rotation": 84.4869461,
+                    "rotation": 84.48695,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -9031,7 +9033,7 @@
                     "m_originalParentID": "00000000-0000-0000-0000-000000000000",
                     "m_serialiseFrozen": false,
                     "name": "inst_3AC57CA1",
-                    "x": 12.1717911,
+                    "x": 12.17179,
                     "y": 4637.506,
                     "IsDnD": false,
                     "colour": {
@@ -9042,7 +9044,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_3AC57CA1",
                     "objId": "4dfa5cb1-d4ea-4cc4-a3ba-5a4fbdb466c4",
-                    "rotation": 10.7876644,
+                    "rotation": 10.78766,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -9055,7 +9057,7 @@
                     "m_originalParentID": "00000000-0000-0000-0000-000000000000",
                     "m_serialiseFrozen": false,
                     "name": "inst_27682002",
-                    "x": 24.1506729,
+                    "x": 24.15067,
                     "y": 4700.375,
                     "IsDnD": false,
                     "colour": {
@@ -9066,7 +9068,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_27682002",
                     "objId": "4dfa5cb1-d4ea-4cc4-a3ba-5a4fbdb466c4",
-                    "rotation": 10.7876644,
+                    "rotation": 10.78766,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -9080,7 +9082,7 @@
                     "m_serialiseFrozen": false,
                     "name": "inst_C1E1E66",
                     "x": 36.12952,
-                    "y": 4763.24365,
+                    "y": 4763.244,
                     "IsDnD": false,
                     "colour": {
                         "Value": 4294967295
@@ -9090,7 +9092,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_C1E1E66",
                     "objId": "4dfa5cb1-d4ea-4cc4-a3ba-5a4fbdb466c4",
-                    "rotation": 10.7876644,
+                    "rotation": 10.78766,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -9103,8 +9105,8 @@
                     "m_originalParentID": "00000000-0000-0000-0000-000000000000",
                     "m_serialiseFrozen": false,
                     "name": "inst_6BDB18BB",
-                    "x": 79.5428848,
-                    "y": 4820.12354,
+                    "x": 79.54288,
+                    "y": 4820.124,
                     "IsDnD": false,
                     "colour": {
                         "Value": 4294967295
@@ -9114,7 +9116,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_6BDB18BB",
                     "objId": "31ba8457-54fa-4ba0-9ab3-19232d57d16f",
-                    "rotation": -30.771616,
+                    "rotation": -30.77162,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -9127,8 +9129,8 @@
                     "m_originalParentID": "00000000-0000-0000-0000-000000000000",
                     "m_serialiseFrozen": false,
                     "name": "inst_1A169AD9",
-                    "x": 52.610527,
-                    "y": 5020.70947,
+                    "x": 52.61053,
+                    "y": 5020.709,
                     "IsDnD": false,
                     "colour": {
                         "Value": 4294967295
@@ -9138,7 +9140,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_1A169AD9",
                     "objId": "4aa46264-d0e1-41a1-a182-60865c9a299f",
-                    "rotation": 68.7039948,
+                    "rotation": 68.70399,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -9186,7 +9188,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_40147BD4",
                     "objId": "824c46e5-ff27-4742-8d93-feb50d593138",
-                    "rotation": -44.5587921,
+                    "rotation": -44.55879,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -9199,8 +9201,8 @@
                     "m_originalParentID": "00000000-0000-0000-0000-000000000000",
                     "m_serialiseFrozen": false,
                     "name": "inst_5DD7132",
-                    "x": 936.862244,
-                    "y": 4285.71533,
+                    "x": 936.8622,
+                    "y": 4285.715,
                     "IsDnD": false,
                     "colour": {
                         "Value": 4294967295
@@ -9224,7 +9226,7 @@
                     "m_serialiseFrozen": false,
                     "name": "inst_3E61909B",
                     "x": 919.9145,
-                    "y": 4347.43066,
+                    "y": 4347.431,
                     "IsDnD": false,
                     "colour": {
                         "Value": 4294967295
@@ -9282,7 +9284,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_33644D27",
                     "objId": "2db79684-96d2-4a95-af3e-a4e5613f1eb9",
-                    "rotation": -10.0192547,
+                    "rotation": -10.01925,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -9306,7 +9308,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_4D7E2A75",
                     "objId": "2db79684-96d2-4a95-af3e-a4e5613f1eb9",
-                    "rotation": 7.57512474,
+                    "rotation": 7.575125,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -9344,7 +9346,7 @@
                     "m_serialiseFrozen": false,
                     "name": "inst_F480200",
                     "x": 927.1414,
-                    "y": 4683.19727,
+                    "y": 4683.197,
                     "IsDnD": false,
                     "colour": {
                         "Value": 4294967295
@@ -9367,7 +9369,7 @@
                     "m_originalParentID": "00000000-0000-0000-0000-000000000000",
                     "m_serialiseFrozen": false,
                     "name": "inst_4F7BAF0C",
-                    "x": 903.857544,
+                    "x": 903.8575,
                     "y": 4750.857,
                     "IsDnD": false,
                     "colour": {
@@ -9378,7 +9380,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_4F7BAF0C",
                     "objId": "2db79684-96d2-4a95-af3e-a4e5613f1eb9",
-                    "rotation": 7.57512474,
+                    "rotation": 7.575125,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -9391,8 +9393,8 @@
                     "m_originalParentID": "00000000-0000-0000-0000-000000000000",
                     "m_serialiseFrozen": false,
                     "name": "inst_47485EF7",
-                    "x": 912.294434,
-                    "y": 4814.29834,
+                    "x": 912.2944,
+                    "y": 4814.298,
                     "IsDnD": false,
                     "colour": {
                         "Value": 4294967295
@@ -9402,7 +9404,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_47485EF7",
                     "objId": "2db79684-96d2-4a95-af3e-a4e5613f1eb9",
-                    "rotation": 7.57512474,
+                    "rotation": 7.575125,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -9416,7 +9418,7 @@
                     "m_serialiseFrozen": false,
                     "name": "inst_57071332",
                     "x": 920.7313,
-                    "y": 4877.73975,
+                    "y": 4877.74,
                     "IsDnD": false,
                     "colour": {
                         "Value": 4294967295
@@ -9426,7 +9428,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_57071332",
                     "objId": "2db79684-96d2-4a95-af3e-a4e5613f1eb9",
-                    "rotation": 7.57512474,
+                    "rotation": 7.575125,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -9463,8 +9465,8 @@
                     "m_originalParentID": "00000000-0000-0000-0000-000000000000",
                     "m_serialiseFrozen": false,
                     "name": "inst_2E74262C",
-                    "x": 20.914505,
-                    "y": 5173.70947,
+                    "x": 20.91451,
+                    "y": 5173.709,
                     "IsDnD": false,
                     "colour": {
                         "Value": 4294967295
@@ -9487,8 +9489,8 @@
                     "m_originalParentID": "00000000-0000-0000-0000-000000000000",
                     "m_serialiseFrozen": false,
                     "name": "inst_560780C9",
-                    "x": 52.914505,
-                    "y": 5077.71045,
+                    "x": 52.91451,
+                    "y": 5077.71,
                     "IsDnD": false,
                     "colour": {
                         "Value": 4294967295
@@ -9511,8 +9513,8 @@
                     "m_originalParentID": "00000000-0000-0000-0000-000000000000",
                     "m_serialiseFrozen": false,
                     "name": "inst_3C016ED6",
-                    "x": 52.914505,
-                    "y": 5141.70947,
+                    "x": 52.91451,
+                    "y": 5141.709,
                     "IsDnD": false,
                     "colour": {
                         "Value": 4294967295
@@ -9535,8 +9537,8 @@
                     "m_originalParentID": "00000000-0000-0000-0000-000000000000",
                     "m_serialiseFrozen": false,
                     "name": "inst_181130AB",
-                    "x": 52.914505,
-                    "y": 5205.70947,
+                    "x": 52.91451,
+                    "y": 5205.709,
                     "IsDnD": false,
                     "colour": {
                         "Value": 4294967295
@@ -9559,8 +9561,8 @@
                     "m_originalParentID": "00000000-0000-0000-0000-000000000000",
                     "m_serialiseFrozen": false,
                     "name": "inst_903FF6F",
-                    "x": 84.914505,
-                    "y": 5269.70947,
+                    "x": 84.91451,
+                    "y": 5269.709,
                     "IsDnD": false,
                     "colour": {
                         "Value": 4294967295
@@ -9583,8 +9585,8 @@
                     "m_originalParentID": "00000000-0000-0000-0000-000000000000",
                     "m_serialiseFrozen": false,
                     "name": "inst_503FA89E",
-                    "x": 20.914505,
-                    "y": 5461.70947,
+                    "x": 20.91451,
+                    "y": 5461.709,
                     "IsDnD": false,
                     "colour": {
                         "Value": 4294967295
@@ -9607,8 +9609,8 @@
                     "m_originalParentID": "00000000-0000-0000-0000-000000000000",
                     "m_serialiseFrozen": false,
                     "name": "inst_3A17232",
-                    "x": 30.7055969,
-                    "y": 5633.79932,
+                    "x": 30.7056,
+                    "y": 5633.799,
                     "IsDnD": false,
                     "colour": {
                         "Value": 4294967295
@@ -9618,7 +9620,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_3A17232",
                     "objId": "7f703d22-c93e-401d-914f-b79611831321",
-                    "rotation": 84.4869461,
+                    "rotation": 84.48695,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -9631,8 +9633,8 @@
                     "m_originalParentID": "00000000-0000-0000-0000-000000000000",
                     "m_serialiseFrozen": false,
                     "name": "inst_AEEA536",
-                    "x": 44.1717834,
-                    "y": 5533.50635,
+                    "x": 44.17178,
+                    "y": 5533.506,
                     "IsDnD": false,
                     "colour": {
                         "Value": 4294967295
@@ -9642,7 +9644,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_AEEA536",
                     "objId": "4dfa5cb1-d4ea-4cc4-a3ba-5a4fbdb466c4",
-                    "rotation": 10.7876644,
+                    "rotation": 10.78766,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -9655,8 +9657,8 @@
                     "m_originalParentID": "00000000-0000-0000-0000-000000000000",
                     "m_serialiseFrozen": false,
                     "name": "inst_2180F883",
-                    "x": 56.1506653,
-                    "y": 5596.37549,
+                    "x": 56.15067,
+                    "y": 5596.375,
                     "IsDnD": false,
                     "colour": {
                         "Value": 4294967295
@@ -9666,7 +9668,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_2180F883",
                     "objId": "4dfa5cb1-d4ea-4cc4-a3ba-5a4fbdb466c4",
-                    "rotation": 10.7876644,
+                    "rotation": 10.78766,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -9690,7 +9692,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_64FE6CC1",
                     "objId": "31ba8457-54fa-4ba0-9ab3-19232d57d16f",
-                    "rotation": -30.771616,
+                    "rotation": -30.77162,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -9727,8 +9729,8 @@
                     "m_originalParentID": "00000000-0000-0000-0000-000000000000",
                     "m_serialiseFrozen": false,
                     "name": "inst_381D1CE2",
-                    "x": 511.71582,
-                    "y": 4380.15869,
+                    "x": 511.7158,
+                    "y": 4380.159,
                     "IsDnD": false,
                     "colour": {
                         "Value": 4294967295
@@ -9776,7 +9778,7 @@
                     "m_serialiseFrozen": false,
                     "name": "inst_336B0354",
                     "x": 689.4818,
-                    "y": 4396.00439,
+                    "y": 4396.004,
                     "IsDnD": false,
                     "colour": {
                         "Value": 4294967295
@@ -9800,7 +9802,7 @@
                     "m_serialiseFrozen": false,
                     "name": "inst_3AD11E82",
                     "x": 685.0309,
-                    "y": 4427.69336,
+                    "y": 4427.693,
                     "IsDnD": false,
                     "colour": {
                         "Value": 4294967295
@@ -9823,7 +9825,7 @@
                     "m_originalParentID": "00000000-0000-0000-0000-000000000000",
                     "m_serialiseFrozen": false,
                     "name": "inst_36BA4FC1",
-                    "x": 662.776367,
+                    "x": 662.7764,
                     "y": 4586.138,
                     "IsDnD": false,
                     "colour": {
@@ -9847,7 +9849,7 @@
                     "m_originalParentID": "00000000-0000-0000-0000-000000000000",
                     "m_serialiseFrozen": false,
                     "name": "inst_5157CBFC",
-                    "x": 667.227234,
+                    "x": 667.2272,
                     "y": 4554.449,
                     "IsDnD": false,
                     "colour": {
@@ -9871,7 +9873,7 @@
                     "m_originalParentID": "00000000-0000-0000-0000-000000000000",
                     "m_serialiseFrozen": false,
                     "name": "inst_752311D4",
-                    "x": 657.968567,
+                    "x": 657.9686,
                     "y": 4534.069,
                     "IsDnD": false,
                     "colour": {
@@ -9882,7 +9884,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_752311D4",
                     "objId": "4dfa5cb1-d4ea-4cc4-a3ba-5a4fbdb466c4",
-                    "rotation": 3.82113647,
+                    "rotation": 3.821136,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -9895,7 +9897,7 @@
                     "m_originalParentID": "00000000-0000-0000-0000-000000000000",
                     "m_serialiseFrozen": false,
                     "name": "inst_379BD822",
-                    "x": 662.233643,
+                    "x": 662.2336,
                     "y": 4597.927,
                     "IsDnD": false,
                     "colour": {
@@ -9906,7 +9908,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_379BD822",
                     "objId": "4dfa5cb1-d4ea-4cc4-a3ba-5a4fbdb466c4",
-                    "rotation": 3.82113647,
+                    "rotation": 3.821136,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -9920,7 +9922,7 @@
                     "m_serialiseFrozen": false,
                     "name": "inst_18BFFC34",
                     "x": 640.967,
-                    "y": 4759.70361,
+                    "y": 4759.704,
                     "IsDnD": false,
                     "colour": {
                         "Value": 4294967295
@@ -9954,7 +9956,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_21C96C37",
                     "objId": "7f703d22-c93e-401d-914f-b79611831321",
-                    "rotation": 100.971184,
+                    "rotation": 100.9712,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -9967,7 +9969,7 @@
                     "m_originalParentID": "00000000-0000-0000-0000-000000000000",
                     "m_serialiseFrozen": false,
                     "name": "inst_4684D17B",
-                    "x": 412.691376,
+                    "x": 412.6914,
                     "y": 4517.61,
                     "IsDnD": false,
                     "colour": {
@@ -9978,7 +9980,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_4684D17B",
                     "objId": "2db79684-96d2-4a95-af3e-a4e5613f1eb9",
-                    "rotation": -20.4920082,
+                    "rotation": -20.49201,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -9992,7 +9994,7 @@
                     "m_serialiseFrozen": false,
                     "name": "inst_78CF27C7",
                     "x": 390.2863,
-                    "y": 4577.56055,
+                    "y": 4577.561,
                     "IsDnD": false,
                     "colour": {
                         "Value": 4294967295
@@ -10002,7 +10004,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_78CF27C7",
                     "objId": "2db79684-96d2-4a95-af3e-a4e5613f1eb9",
-                    "rotation": -20.4920082,
+                    "rotation": -20.49201,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -10016,7 +10018,7 @@
                     "m_serialiseFrozen": false,
                     "name": "inst_7601B604",
                     "x": 439.0341,
-                    "y": 4629.94043,
+                    "y": 4629.94,
                     "IsDnD": false,
                     "colour": {
                         "Value": 4294967295
@@ -10039,8 +10041,8 @@
                     "m_originalParentID": "00000000-0000-0000-0000-000000000000",
                     "m_serialiseFrozen": false,
                     "name": "inst_7408726F",
-                    "x": 431.221954,
-                    "y": 4490.75342,
+                    "x": 431.222,
+                    "y": 4490.753,
                     "IsDnD": false,
                     "colour": {
                         "Value": 4294967295
@@ -10050,7 +10052,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_7408726F",
                     "objId": "ac040c10-8c9e-4171-879c-9955f7d9b752",
-                    "rotation": -15.4009247,
+                    "rotation": -15.40092,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -10098,7 +10100,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_1759D3DA",
                     "objId": "31ba8457-54fa-4ba0-9ab3-19232d57d16f",
-                    "rotation": -31.7618484,
+                    "rotation": -31.76185,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -10112,7 +10114,7 @@
                     "m_serialiseFrozen": false,
                     "name": "inst_119A17A8",
                     "x": 711.0014,
-                    "y": 4866.2627,
+                    "y": 4866.263,
                     "IsDnD": false,
                     "colour": {
                         "Value": 4294967295
@@ -10136,7 +10138,7 @@
                     "m_serialiseFrozen": false,
                     "name": "inst_2BBAF534",
                     "x": 743.0014,
-                    "y": 4898.2627,
+                    "y": 4898.263,
                     "IsDnD": false,
                     "colour": {
                         "Value": 4294967295
@@ -10146,7 +10148,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_2BBAF534",
                     "objId": "4dfa5cb1-d4ea-4cc4-a3ba-5a4fbdb466c4",
-                    "rotation": -34.2271042,
+                    "rotation": -34.2271,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -10160,7 +10162,7 @@
                     "m_serialiseFrozen": false,
                     "name": "inst_74B7630C",
                     "x": 679.0014,
-                    "y": 4930.2627,
+                    "y": 4930.263,
                     "IsDnD": false,
                     "colour": {
                         "Value": 4294967295
@@ -10184,7 +10186,7 @@
                     "m_serialiseFrozen": false,
                     "name": "inst_3DD7D7C3",
                     "x": 679.0014,
-                    "y": 4994.2627,
+                    "y": 4994.263,
                     "IsDnD": false,
                     "colour": {
                         "Value": 4294967295
@@ -10194,7 +10196,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_3DD7D7C3",
                     "objId": "67934ed5-d7f9-40f0-ada4-4617931df01b",
-                    "rotation": -35.8746567,
+                    "rotation": -35.87466,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -10232,7 +10234,7 @@
                     "m_serialiseFrozen": false,
                     "name": "inst_4885BB6D",
                     "x": 583.0014,
-                    "y": 4962.2627,
+                    "y": 4962.263,
                     "IsDnD": false,
                     "colour": {
                         "Value": 4294967295
@@ -10242,7 +10244,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_4885BB6D",
                     "objId": "c7575127-4995-439c-9102-e207ade550b4",
-                    "rotation": -6.28054142,
+                    "rotation": -6.280541,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -10279,8 +10281,8 @@
                     "m_originalParentID": "00000000-0000-0000-0000-000000000000",
                     "m_serialiseFrozen": false,
                     "name": "inst_3EB2A457",
-                    "x": 317.985046,
-                    "y": 4827.69238,
+                    "x": 317.985,
+                    "y": 4827.692,
                     "IsDnD": false,
                     "colour": {
                         "Value": 4294967295
@@ -10304,7 +10306,7 @@
                     "m_serialiseFrozen": false,
                     "name": "inst_40ACD4CF",
                     "x": 307.99,
-                    "y": 4890.90771,
+                    "y": 4890.908,
                     "IsDnD": false,
                     "colour": {
                         "Value": 4294967295
@@ -10328,7 +10330,7 @@
                     "m_serialiseFrozen": false,
                     "name": "inst_7520D3A3",
                     "x": 366.2073,
-                    "y": 4932.51025,
+                    "y": 4932.51,
                     "IsDnD": false,
                     "colour": {
                         "Value": 4294967295
@@ -10338,7 +10340,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_7520D3A3",
                     "objId": "7f703d22-c93e-401d-914f-b79611831321",
-                    "rotation": -88.1893845,
+                    "rotation": -88.18938,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -10386,7 +10388,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_1E642093",
                     "objId": "2db79684-96d2-4a95-af3e-a4e5613f1eb9",
-                    "rotation": -23.735157,
+                    "rotation": -23.73516,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -10410,7 +10412,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_3BDE75C7",
                     "objId": "824c46e5-ff27-4742-8d93-feb50d593138",
-                    "rotation": -2.57488656,
+                    "rotation": -2.574887,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -10423,7 +10425,7 @@
                     "m_originalParentID": "00000000-0000-0000-0000-000000000000",
                     "m_serialiseFrozen": false,
                     "name": "inst_6839A689",
-                    "x": 450.515381,
+                    "x": 450.5154,
                     "y": 4832,
                     "IsDnD": false,
                     "colour": {
@@ -10447,7 +10449,7 @@
                     "m_originalParentID": "00000000-0000-0000-0000-000000000000",
                     "m_serialiseFrozen": false,
                     "name": "inst_F27F5A3",
-                    "x": 438.65033,
+                    "x": 438.6503,
                     "y": 4896.05,
                     "IsDnD": false,
                     "colour": {
@@ -10458,7 +10460,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_F27F5A3",
                     "objId": "4dfa5cb1-d4ea-4cc4-a3ba-5a4fbdb466c4",
-                    "rotation": -22.2257652,
+                    "rotation": -22.22577,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -10472,7 +10474,7 @@
                     "m_serialiseFrozen": false,
                     "name": "inst_4395E776",
                     "x": 411.334,
-                    "y": 4932.13037,
+                    "y": 4932.13,
                     "IsDnD": false,
                     "colour": {
                         "Value": 4294967295
@@ -10482,7 +10484,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_4395E776",
                     "objId": "4dfa5cb1-d4ea-4cc4-a3ba-5a4fbdb466c4",
-                    "rotation": -7.77246475,
+                    "rotation": -7.772465,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -10519,8 +10521,8 @@
                     "m_originalParentID": "00000000-0000-0000-0000-000000000000",
                     "m_serialiseFrozen": false,
                     "name": "inst_3E8608FF",
-                    "x": 376.495483,
-                    "y": 5070.54248,
+                    "x": 376.4955,
+                    "y": 5070.542,
                     "IsDnD": false,
                     "colour": {
                         "Value": 4294967295
@@ -10530,7 +10532,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_3E8608FF",
                     "objId": "7f703d22-c93e-401d-914f-b79611831321",
-                    "rotation": -103.133743,
+                    "rotation": -103.1337,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -10543,8 +10545,8 @@
                     "m_originalParentID": "00000000-0000-0000-0000-000000000000",
                     "m_serialiseFrozen": false,
                     "name": "inst_64473B9",
-                    "x": 277.718567,
-                    "y": 5235.3623,
+                    "x": 277.7186,
+                    "y": 5235.362,
                     "IsDnD": false,
                     "colour": {
                         "Value": 4294967295
@@ -10554,7 +10556,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_64473B9",
                     "objId": "39695ba9-fb16-4652-ab09-2b2a9e82a8c2",
-                    "rotation": -2.44305038,
+                    "rotation": -2.44305,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -10578,7 +10580,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_717853D1",
                     "objId": "67934ed5-d7f9-40f0-ada4-4617931df01b",
-                    "rotation": -35.8746567,
+                    "rotation": -35.87466,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -10650,7 +10652,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_709C41A6",
                     "objId": "c7575127-4995-439c-9102-e207ade550b4",
-                    "rotation": -6.28054142,
+                    "rotation": -6.280541,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -10687,8 +10689,8 @@
                     "m_originalParentID": "00000000-0000-0000-0000-000000000000",
                     "m_serialiseFrozen": false,
                     "name": "inst_5A589D37",
-                    "x": 488.622864,
-                    "y": 5442.24463,
+                    "x": 488.6229,
+                    "y": 5442.245,
                     "IsDnD": false,
                     "colour": {
                         "Value": 4294967295
@@ -10698,7 +10700,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_5A589D37",
                     "objId": "67934ed5-d7f9-40f0-ada4-4617931df01b",
-                    "rotation": -15.179472,
+                    "rotation": -15.17947,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -10712,7 +10714,7 @@
                     "m_serialiseFrozen": false,
                     "name": "inst_FAC86D5",
                     "x": 387.5087,
-                    "y": 5446.23535,
+                    "y": 5446.235,
                     "IsDnD": false,
                     "colour": {
                         "Value": 4294967295
@@ -10722,7 +10724,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_FAC86D5",
                     "objId": "c7575127-4995-439c-9102-e207ade550b4",
-                    "rotation": 14.4146433,
+                    "rotation": 14.41464,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -10736,7 +10738,7 @@
                     "m_serialiseFrozen": false,
                     "name": "inst_3E4716FE",
                     "x": 421.4033,
-                    "y": 5465.21973,
+                    "y": 5465.22,
                     "IsDnD": false,
                     "colour": {
                         "Value": 4294967295
@@ -10746,7 +10748,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_3E4716FE",
                     "objId": "c7575127-4995-439c-9102-e207ade550b4",
-                    "rotation": 20.6951847,
+                    "rotation": 20.69518,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -10808,7 +10810,7 @@
                     "m_serialiseFrozen": false,
                     "name": "inst_5D385901",
                     "x": 704,
-                    "y": 5209.36133,
+                    "y": 5209.361,
                     "IsDnD": false,
                     "colour": {
                         "Value": 4294967295
@@ -10818,7 +10820,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_5D385901",
                     "objId": "59305581-df1d-4d08-9374-2c375ba26ca2",
-                    "rotation": 35.7533646,
+                    "rotation": 35.75336,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -10832,7 +10834,7 @@
                     "m_serialiseFrozen": false,
                     "name": "inst_45FFB8D1",
                     "x": 864,
-                    "y": 5081.36133,
+                    "y": 5081.361,
                     "IsDnD": false,
                     "colour": {
                         "Value": 4294967295
@@ -10856,7 +10858,7 @@
                     "m_serialiseFrozen": false,
                     "name": "inst_2408BE3B",
                     "x": 864,
-                    "y": 5113.36133,
+                    "y": 5113.361,
                     "IsDnD": false,
                     "colour": {
                         "Value": 4294967295
@@ -10866,7 +10868,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_2408BE3B",
                     "objId": "abf1139d-388c-42b9-bc2d-9ccfc28b148c",
-                    "rotation": 45.8521729,
+                    "rotation": 45.85217,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -10879,7 +10881,7 @@
                     "m_originalParentID": "00000000-0000-0000-0000-000000000000",
                     "m_serialiseFrozen": false,
                     "name": "inst_44D2F63B",
-                    "x": 457.664917,
+                    "x": 457.6649,
                     "y": 5152,
                     "IsDnD": false,
                     "colour": {
@@ -10903,7 +10905,7 @@
                     "m_originalParentID": "00000000-0000-0000-0000-000000000000",
                     "m_serialiseFrozen": false,
                     "name": "inst_38E5D4C4",
-                    "x": 661.523438,
+                    "x": 661.5234,
                     "y": 5172.633,
                     "IsDnD": false,
                     "colour": {
@@ -10914,7 +10916,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_38E5D4C4",
                     "objId": "ac040c10-8c9e-4171-879c-9955f7d9b752",
-                    "rotation": -44.4390831,
+                    "rotation": -44.43908,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -10938,7 +10940,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_72075A89",
                     "objId": "abf1139d-388c-42b9-bc2d-9ccfc28b148c",
-                    "rotation": -0.161365509,
+                    "rotation": -0.1613655,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -10962,7 +10964,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_5F33B001",
                     "objId": "ac040c10-8c9e-4171-879c-9955f7d9b752",
-                    "rotation": 27.8537884,
+                    "rotation": 27.85379,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -11154,7 +11156,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_41997C1D",
                     "objId": "824c46e5-ff27-4742-8d93-feb50d593138",
-                    "rotation": -31.0190983,
+                    "rotation": -31.0191,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -11215,8 +11217,8 @@
                     "m_originalParentID": "00000000-0000-0000-0000-000000000000",
                     "m_serialiseFrozen": false,
                     "name": "inst_7BBD625A",
-                    "x": 1000.84839,
-                    "y": 5627.37549,
+                    "x": 1000.848,
+                    "y": 5627.375,
                     "IsDnD": false,
                     "colour": {
                         "Value": 4294967295
@@ -11226,7 +11228,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_7BBD625A",
                     "objId": "7f703d22-c93e-401d-914f-b79611831321",
-                    "rotation": -108.717857,
+                    "rotation": -108.7179,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -11240,7 +11242,7 @@
                     "m_serialiseFrozen": false,
                     "name": "inst_308655AA",
                     "x": 876.0197,
-                    "y": 5700.93262,
+                    "y": 5700.933,
                     "IsDnD": false,
                     "colour": {
                         "Value": 4294967295
@@ -11263,8 +11265,8 @@
                     "m_originalParentID": "00000000-0000-0000-0000-000000000000",
                     "m_serialiseFrozen": false,
                     "name": "inst_12A17694",
-                    "x": 935.929443,
-                    "y": 5740.05859,
+                    "x": 935.9294,
+                    "y": 5740.059,
                     "IsDnD": false,
                     "colour": {
                         "Value": 4294967295
@@ -11298,7 +11300,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_2EEEA05",
                     "objId": "2db79684-96d2-4a95-af3e-a4e5613f1eb9",
-                    "rotation": -22.370224,
+                    "rotation": -22.37022,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -11346,7 +11348,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_377BAD05",
                     "objId": "ac040c10-8c9e-4171-879c-9955f7d9b752",
-                    "rotation": 35.2875748,
+                    "rotation": 35.28757,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -11455,7 +11457,7 @@
                     "m_originalParentID": "00000000-0000-0000-0000-000000000000",
                     "m_serialiseFrozen": false,
                     "name": "inst_3B1EB38D",
-                    "x": 226.782791,
+                    "x": 226.7828,
                     "y": 5760,
                     "IsDnD": false,
                     "colour": {
@@ -11466,7 +11468,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_3B1EB38D",
                     "objId": "59305581-df1d-4d08-9374-2c375ba26ca2",
-                    "rotation": -32.9209366,
+                    "rotation": -32.92094,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -11479,7 +11481,7 @@
                     "m_originalParentID": "00000000-0000-0000-0000-000000000000",
                     "m_serialiseFrozen": false,
                     "name": "inst_36C72D09",
-                    "x": 473.543518,
+                    "x": 473.5435,
                     "y": 5921.707,
                     "IsDnD": false,
                     "colour": {
@@ -11490,7 +11492,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_36C72D09",
                     "objId": "abf1139d-388c-42b9-bc2d-9ccfc28b148c",
-                    "rotation": -42.8319855,
+                    "rotation": -42.83199,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -11514,7 +11516,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_637F3A8B",
                     "objId": "31ba8457-54fa-4ba0-9ab3-19232d57d16f",
-                    "rotation": -2.06350517,
+                    "rotation": -2.063505,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -11527,7 +11529,7 @@
                     "m_originalParentID": "00000000-0000-0000-0000-000000000000",
                     "m_serialiseFrozen": false,
                     "name": "inst_7200A2F6",
-                    "x": 354.616577,
+                    "x": 354.6166,
                     "y": 5856.221,
                     "IsDnD": false,
                     "colour": {
@@ -11538,7 +11540,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_7200A2F6",
                     "objId": "d9c58abb-655c-4dca-b3d3-1a7304a51ce5",
-                    "rotation": 13.6330643,
+                    "rotation": 13.63306,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -11586,7 +11588,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_5EBA8439",
                     "objId": "59305581-df1d-4d08-9374-2c375ba26ca2",
-                    "rotation": -29.509531,
+                    "rotation": -29.50953,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -11610,7 +11612,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_56C34FA6",
                     "objId": "6fbdfcfe-a42b-42b9-b4ef-cdce4f7a3c31",
-                    "rotation": -11.8825245,
+                    "rotation": -11.88252,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -11730,7 +11732,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_78DBCA98",
                     "objId": "13113c7b-8a91-4097-953a-b90c0513c94f",
-                    "rotation": 31.0464954,
+                    "rotation": 31.0465,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -11754,7 +11756,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_16AD1244",
                     "objId": "13113c7b-8a91-4097-953a-b90c0513c94f",
-                    "rotation": -43.1729927,
+                    "rotation": -43.17299,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -11778,7 +11780,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_702B9254",
                     "objId": "13113c7b-8a91-4097-953a-b90c0513c94f",
-                    "rotation": 142.511292,
+                    "rotation": 142.5113,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -11826,7 +11828,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_F4CB5FD",
                     "objId": "13113c7b-8a91-4097-953a-b90c0513c94f",
-                    "rotation": -147.218842,
+                    "rotation": -147.2188,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -11898,7 +11900,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_6558BD05",
                     "objId": "13113c7b-8a91-4097-953a-b90c0513c94f",
-                    "rotation": -143.395676,
+                    "rotation": -143.3957,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -11922,7 +11924,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_1DF50F56",
                     "objId": "13113c7b-8a91-4097-953a-b90c0513c94f",
-                    "rotation": -39.1253242,
+                    "rotation": -39.12532,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -12018,7 +12020,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_62AD30F2",
                     "objId": "13113c7b-8a91-4097-953a-b90c0513c94f",
-                    "rotation": 141.655609,
+                    "rotation": 141.6556,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -12042,7 +12044,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_3E9FE26C",
                     "objId": "13113c7b-8a91-4097-953a-b90c0513c94f",
-                    "rotation": -148.552338,
+                    "rotation": -148.5523,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -12090,7 +12092,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_66644974",
                     "objId": "13113c7b-8a91-4097-953a-b90c0513c94f",
-                    "rotation": 142.195557,
+                    "rotation": 142.1956,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -12138,7 +12140,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_277A770C",
                     "objId": "13113c7b-8a91-4097-953a-b90c0513c94f",
-                    "rotation": 140.980362,
+                    "rotation": 140.9804,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -12162,7 +12164,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_71C2E4FA",
                     "objId": "13113c7b-8a91-4097-953a-b90c0513c94f",
-                    "rotation": -153.997589,
+                    "rotation": -153.9976,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -12210,7 +12212,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_61735645",
                     "objId": "7e807c83-b885-4b3f-bda8-335024d09562",
-                    "rotation": -174.75444,
+                    "rotation": -174.7544,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -12234,7 +12236,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_317FD2B",
                     "objId": "c04a03c9-1a09-4fed-b2d1-758c0662e0e7",
-                    "rotation": 70.6697845,
+                    "rotation": 70.66978,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -12258,7 +12260,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_BDF492D",
                     "objId": "7e807c83-b885-4b3f-bda8-335024d09562",
-                    "rotation": -28.1063137,
+                    "rotation": -28.10631,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -12330,7 +12332,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_25322F29",
                     "objId": "4b0f328c-bb2d-411f-9961-7546b1edf100",
-                    "rotation": -117.939842,
+                    "rotation": -117.9398,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -12402,7 +12404,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_6D4BDB7F",
                     "objId": "7e807c83-b885-4b3f-bda8-335024d09562",
-                    "rotation": -26.1284485,
+                    "rotation": -26.12845,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -12426,7 +12428,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_1D8F45B",
                     "objId": "7e807c83-b885-4b3f-bda8-335024d09562",
-                    "rotation": -117.692482,
+                    "rotation": -117.6925,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -12666,7 +12668,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_5F2DD311",
                     "objId": "7e807c83-b885-4b3f-bda8-335024d09562",
-                    "rotation": 44.2919426,
+                    "rotation": 44.29194,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -12714,7 +12716,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_1565AB8C",
                     "objId": "7e807c83-b885-4b3f-bda8-335024d09562",
-                    "rotation": -103.622772,
+                    "rotation": -103.6228,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -12858,7 +12860,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_68DAD9EA",
                     "objId": "7e807c83-b885-4b3f-bda8-335024d09562",
-                    "rotation": -16.5269585,
+                    "rotation": -16.52696,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -12906,7 +12908,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_2C322A5B",
                     "objId": "4b0f328c-bb2d-411f-9961-7546b1edf100",
-                    "rotation": -41.5488853,
+                    "rotation": -41.54889,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -12930,7 +12932,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_72BA9263",
                     "objId": "7e807c83-b885-4b3f-bda8-335024d09562",
-                    "rotation": 145.495453,
+                    "rotation": 145.4955,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -13098,7 +13100,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_4B58AE71",
                     "objId": "4b0f328c-bb2d-411f-9961-7546b1edf100",
-                    "rotation": 93.4062042,
+                    "rotation": 93.4062,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -13146,7 +13148,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_196DB343",
                     "objId": "4b0f328c-bb2d-411f-9961-7546b1edf100",
-                    "rotation": 139.411163,
+                    "rotation": 139.4112,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -13170,7 +13172,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_25C29734",
                     "objId": "7e807c83-b885-4b3f-bda8-335024d09562",
-                    "rotation": -41.6203766,
+                    "rotation": -41.62038,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -13218,7 +13220,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_1ED3C3B1",
                     "objId": "7e807c83-b885-4b3f-bda8-335024d09562",
-                    "rotation": 147.288483,
+                    "rotation": 147.2885,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -13319,40 +13321,16 @@
                     "scaleY": 1
                 },
                 {
-                    "id": "1f70f6e6-a0fa-4c46-813f-eab0908b2f6e",
+                    "id": "106922e6-623b-40a2-a80c-9445cfb5b2a1",
                     "modelName": "GMRInstance",
                     "mvc": "1.0",
                     "ignore": false,
                     "inheritItemSettings": false,
                     "m_originalParentID": "00000000-0000-0000-0000-000000000000",
                     "m_serialiseFrozen": false,
-                    "name": "inst_172E748B",
-                    "x": 736,
-                    "y": 2432,
-                    "IsDnD": false,
-                    "colour": {
-                        "Value": 4294967295
-                    },
-                    "creationCodeFile": "",
-                    "creationCodeType": "",
-                    "inheritCode": false,
-                    "name_with_no_file_rename": "inst_172E748B",
-                    "objId": "6581d0d0-87ea-41a9-9aa1-44c3bc64852c",
-                    "rotation": 0,
-                    "scaleX": 1,
-                    "scaleY": 1
-                },
-                {
-                    "id": "0ee470df-27d3-4edc-867c-24f598ef0007",
-                    "modelName": "GMRInstance",
-                    "mvc": "1.0",
-                    "ignore": false,
-                    "inheritItemSettings": false,
-                    "m_originalParentID": "00000000-0000-0000-0000-000000000000",
-                    "m_serialiseFrozen": false,
-                    "name": "inst_144EF452",
+                    "name": "inst_384B82F9",
                     "x": 256,
-                    "y": 4544,
+                    "y": 608,
                     "IsDnD": false,
                     "colour": {
                         "Value": 4294967295
@@ -13360,23 +13338,23 @@
                     "creationCodeFile": "",
                     "creationCodeType": "",
                     "inheritCode": false,
-                    "name_with_no_file_rename": "inst_144EF452",
-                    "objId": "6581d0d0-87ea-41a9-9aa1-44c3bc64852c",
+                    "name_with_no_file_rename": "inst_384B82F9",
+                    "objId": "fb006931-5b0b-4acb-9976-71d3314eaf99",
                     "rotation": 0,
                     "scaleX": 1,
                     "scaleY": 1
                 },
                 {
-                    "id": "f289e29d-da09-48c8-8d88-41dbde2a4aeb",
+                    "id": "47cc947d-94ef-4e04-91ce-19b54efc3dc5",
                     "modelName": "GMRInstance",
                     "mvc": "1.0",
                     "ignore": false,
                     "inheritItemSettings": false,
                     "m_originalParentID": "00000000-0000-0000-0000-000000000000",
                     "m_serialiseFrozen": false,
-                    "name": "inst_1A0529DD",
-                    "x": 416,
-                    "y": 192,
+                    "name": "inst_3079A0BA",
+                    "x": 320,
+                    "y": 1536,
                     "IsDnD": false,
                     "colour": {
                         "Value": 4294967295
@@ -13384,23 +13362,23 @@
                     "creationCodeFile": "",
                     "creationCodeType": "",
                     "inheritCode": false,
-                    "name_with_no_file_rename": "inst_1A0529DD",
-                    "objId": "6581d0d0-87ea-41a9-9aa1-44c3bc64852c",
+                    "name_with_no_file_rename": "inst_3079A0BA",
+                    "objId": "40301384-d316-4026-9363-39fb3d1f8c61",
                     "rotation": 0,
                     "scaleX": 1,
                     "scaleY": 1
                 },
                 {
-                    "id": "ecd415b8-b8d3-4289-9500-33da1b99d9f2",
+                    "id": "c8db4ecb-6966-4d4c-b835-e90d8fd62a16",
                     "modelName": "GMRInstance",
                     "mvc": "1.0",
                     "ignore": false,
                     "inheritItemSettings": false,
                     "m_originalParentID": "00000000-0000-0000-0000-000000000000",
                     "m_serialiseFrozen": false,
-                    "name": "inst_2712A3CA",
-                    "x": 256,
-                    "y": 192,
+                    "name": "inst_E86E07E",
+                    "x": 512,
+                    "y": 3232,
                     "IsDnD": false,
                     "colour": {
                         "Value": 4294967295
@@ -13408,8 +13386,80 @@
                     "creationCodeFile": "",
                     "creationCodeType": "",
                     "inheritCode": false,
-                    "name_with_no_file_rename": "inst_2712A3CA",
-                    "objId": "a76043c9-376e-4c90-a9d2-ab2b395f6106",
+                    "name_with_no_file_rename": "inst_E86E07E",
+                    "objId": "fb006931-5b0b-4acb-9976-71d3314eaf99",
+                    "rotation": 0,
+                    "scaleX": 1,
+                    "scaleY": 1
+                },
+                {
+                    "id": "f310ab59-5731-4746-b61b-51f2d53ce566",
+                    "modelName": "GMRInstance",
+                    "mvc": "1.0",
+                    "ignore": false,
+                    "inheritItemSettings": false,
+                    "m_originalParentID": "00000000-0000-0000-0000-000000000000",
+                    "m_serialiseFrozen": false,
+                    "name": "inst_7FAC6F18",
+                    "x": 864,
+                    "y": 5088,
+                    "IsDnD": false,
+                    "colour": {
+                        "Value": 4294967295
+                    },
+                    "creationCodeFile": "",
+                    "creationCodeType": "",
+                    "inheritCode": false,
+                    "name_with_no_file_rename": "inst_7FAC6F18",
+                    "objId": "40301384-d316-4026-9363-39fb3d1f8c61",
+                    "rotation": 0,
+                    "scaleX": 1,
+                    "scaleY": 1
+                },
+                {
+                    "id": "31a65131-2530-49ba-bfa6-64fdaf29719c",
+                    "modelName": "GMRInstance",
+                    "mvc": "1.0",
+                    "ignore": false,
+                    "inheritItemSettings": false,
+                    "m_originalParentID": "00000000-0000-0000-0000-000000000000",
+                    "m_serialiseFrozen": false,
+                    "name": "inst_3CDCE5E8",
+                    "x": 768,
+                    "y": 2400,
+                    "IsDnD": false,
+                    "colour": {
+                        "Value": 4294967295
+                    },
+                    "creationCodeFile": "",
+                    "creationCodeType": "",
+                    "inheritCode": false,
+                    "name_with_no_file_rename": "inst_3CDCE5E8",
+                    "objId": "fb006931-5b0b-4acb-9976-71d3314eaf99",
+                    "rotation": 0,
+                    "scaleX": 1,
+                    "scaleY": 1
+                },
+                {
+                    "id": "2b02d64f-ff7f-4beb-b43f-dc24bc934b9a",
+                    "modelName": "GMRInstance",
+                    "mvc": "1.0",
+                    "ignore": false,
+                    "inheritItemSettings": false,
+                    "m_originalParentID": "00000000-0000-0000-0000-000000000000",
+                    "m_serialiseFrozen": false,
+                    "name": "inst_55440562",
+                    "x": 224,
+                    "y": 4608,
+                    "IsDnD": false,
+                    "colour": {
+                        "Value": 4294967295
+                    },
+                    "creationCodeFile": "",
+                    "creationCodeType": "",
+                    "inheritCode": false,
+                    "name_with_no_file_rename": "inst_55440562",
+                    "objId": "fb006931-5b0b-4acb-9976-71d3314eaf99",
                     "rotation": 0,
                     "scaleX": 1,
                     "scaleY": 1
@@ -13483,7 +13533,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_50B8E5A6",
                     "objId": "48171a01-acb2-415c-b8eb-47ca58321cd9",
-                    "rotation": 10.0247374,
+                    "rotation": 10.02474,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -13497,7 +13547,7 @@
                     "m_serialiseFrozen": false,
                     "name": "inst_76324BFF",
                     "x": 800,
-                    "y": 217.63855,
+                    "y": 217.6385,
                     "IsDnD": false,
                     "colour": {
                         "Value": 4294967295
@@ -13521,7 +13571,7 @@
                     "m_serialiseFrozen": false,
                     "name": "inst_2FF445A1",
                     "x": 768,
-                    "y": 537.63855,
+                    "y": 537.6385,
                     "IsDnD": false,
                     "colour": {
                         "Value": 4294967295
@@ -13545,7 +13595,7 @@
                     "m_serialiseFrozen": false,
                     "name": "inst_16CC5200",
                     "x": 800,
-                    "y": 569.63855,
+                    "y": 569.6385,
                     "IsDnD": false,
                     "colour": {
                         "Value": 4294967295
@@ -13603,7 +13653,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_1888C240",
                     "objId": "48171a01-acb2-415c-b8eb-47ca58321cd9",
-                    "rotation": 4.35136175,
+                    "rotation": 4.351362,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -13617,7 +13667,7 @@
                     "m_serialiseFrozen": false,
                     "name": "inst_2F02C589",
                     "x": 384,
-                    "y": 1063.58728,
+                    "y": 1063.587,
                     "IsDnD": false,
                     "colour": {
                         "Value": 4294967295
@@ -13627,7 +13677,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_2F02C589",
                     "objId": "48171a01-acb2-415c-b8eb-47ca58321cd9",
-                    "rotation": 24.1511765,
+                    "rotation": 24.15118,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -13641,7 +13691,7 @@
                     "m_serialiseFrozen": false,
                     "name": "inst_399ABF6",
                     "x": 608,
-                    "y": 1255.58728,
+                    "y": 1255.587,
                     "IsDnD": false,
                     "colour": {
                         "Value": 4294967295
@@ -13665,7 +13715,7 @@
                     "m_serialiseFrozen": false,
                     "name": "inst_13EF247A",
                     "x": 672,
-                    "y": 1287.58728,
+                    "y": 1287.587,
                     "IsDnD": false,
                     "colour": {
                         "Value": 4294967295
@@ -13689,7 +13739,7 @@
                     "m_serialiseFrozen": false,
                     "name": "inst_DC0C154",
                     "x": 544,
-                    "y": 1287.58728,
+                    "y": 1287.587,
                     "IsDnD": false,
                     "colour": {
                         "Value": 4294967295
@@ -13699,7 +13749,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_DC0C154",
                     "objId": "48171a01-acb2-415c-b8eb-47ca58321cd9",
-                    "rotation": 18.9353027,
+                    "rotation": 18.9353,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -13713,7 +13763,7 @@
                     "m_serialiseFrozen": false,
                     "name": "inst_65006AAB",
                     "x": 288,
-                    "y": 1543.58728,
+                    "y": 1543.587,
                     "IsDnD": false,
                     "colour": {
                         "Value": 4294967295
@@ -13737,7 +13787,7 @@
                     "m_serialiseFrozen": false,
                     "name": "inst_3F7F404C",
                     "x": 224,
-                    "y": 1511.58728,
+                    "y": 1511.587,
                     "IsDnD": false,
                     "colour": {
                         "Value": 4294967295
@@ -13761,7 +13811,7 @@
                     "m_serialiseFrozen": false,
                     "name": "inst_E840BCC",
                     "x": 832,
-                    "y": 1639.58728,
+                    "y": 1639.587,
                     "IsDnD": false,
                     "colour": {
                         "Value": 4294967295
@@ -13785,7 +13835,7 @@
                     "m_serialiseFrozen": false,
                     "name": "inst_3644BF84",
                     "x": 736,
-                    "y": 1671.58728,
+                    "y": 1671.587,
                     "IsDnD": false,
                     "colour": {
                         "Value": 4294967295
@@ -13809,7 +13859,7 @@
                     "m_serialiseFrozen": false,
                     "name": "inst_721A40D9",
                     "x": 384,
-                    "y": 1959.58728,
+                    "y": 1959.587,
                     "IsDnD": false,
                     "colour": {
                         "Value": 4294967295
@@ -13833,7 +13883,7 @@
                     "m_serialiseFrozen": false,
                     "name": "inst_21854ABD",
                     "x": 352,
-                    "y": 1991.58728,
+                    "y": 1991.587,
                     "IsDnD": false,
                     "colour": {
                         "Value": 4294967295
@@ -13857,7 +13907,7 @@
                     "m_serialiseFrozen": false,
                     "name": "inst_731A4ED4",
                     "x": 224,
-                    "y": 2023.58728,
+                    "y": 2023.587,
                     "IsDnD": false,
                     "colour": {
                         "Value": 4294967295
@@ -13867,7 +13917,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_731A4ED4",
                     "objId": "48171a01-acb2-415c-b8eb-47ca58321cd9",
-                    "rotation": 43.2678947,
+                    "rotation": 43.26789,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -13881,7 +13931,7 @@
                     "m_serialiseFrozen": false,
                     "name": "inst_2414FC74",
                     "x": 224,
-                    "y": 2055.5874,
+                    "y": 2055.587,
                     "IsDnD": false,
                     "colour": {
                         "Value": 4294967295
@@ -13905,7 +13955,7 @@
                     "m_serialiseFrozen": false,
                     "name": "inst_7602686C",
                     "x": 288,
-                    "y": 2887.5874,
+                    "y": 2887.587,
                     "IsDnD": false,
                     "colour": {
                         "Value": 4294967295
@@ -13929,7 +13979,7 @@
                     "m_serialiseFrozen": false,
                     "name": "inst_43A75A72",
                     "x": 320,
-                    "y": 2887.5874,
+                    "y": 2887.587,
                     "IsDnD": false,
                     "colour": {
                         "Value": 4294967295
@@ -13939,7 +13989,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_43A75A72",
                     "objId": "48171a01-acb2-415c-b8eb-47ca58321cd9",
-                    "rotation": 19.1768951,
+                    "rotation": 19.1769,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -13953,7 +14003,7 @@
                     "m_serialiseFrozen": false,
                     "name": "inst_22923D43",
                     "x": 704,
-                    "y": 2951.5874,
+                    "y": 2951.587,
                     "IsDnD": false,
                     "colour": {
                         "Value": 4294967295
@@ -13977,7 +14027,7 @@
                     "m_serialiseFrozen": false,
                     "name": "inst_16AFCDE5",
                     "x": 544,
-                    "y": 3399.5874,
+                    "y": 3399.587,
                     "IsDnD": false,
                     "colour": {
                         "Value": 4294967295
@@ -14001,7 +14051,7 @@
                     "m_serialiseFrozen": false,
                     "name": "inst_1278614B",
                     "x": 448,
-                    "y": 3431.5874,
+                    "y": 3431.587,
                     "IsDnD": false,
                     "colour": {
                         "Value": 4294967295
@@ -14011,7 +14061,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_1278614B",
                     "objId": "48171a01-acb2-415c-b8eb-47ca58321cd9",
-                    "rotation": 15.6426945,
+                    "rotation": 15.64269,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -14025,7 +14075,7 @@
                     "m_serialiseFrozen": false,
                     "name": "inst_2FF7F24B",
                     "x": 160,
-                    "y": 3303.5874,
+                    "y": 3303.587,
                     "IsDnD": false,
                     "colour": {
                         "Value": 4294967295
@@ -14049,7 +14099,7 @@
                     "m_serialiseFrozen": false,
                     "name": "inst_6C229804",
                     "x": 896,
-                    "y": 3623.5874,
+                    "y": 3623.587,
                     "IsDnD": false,
                     "colour": {
                         "Value": 4294967295
@@ -14059,7 +14109,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_6C229804",
                     "objId": "48171a01-acb2-415c-b8eb-47ca58321cd9",
-                    "rotation": 44.5143661,
+                    "rotation": 44.51437,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -14073,7 +14123,7 @@
                     "m_serialiseFrozen": false,
                     "name": "inst_69C99EA0",
                     "x": 160,
-                    "y": 3719.5874,
+                    "y": 3719.587,
                     "IsDnD": false,
                     "colour": {
                         "Value": 4294967295
@@ -14097,7 +14147,7 @@
                     "m_serialiseFrozen": false,
                     "name": "inst_628D230C",
                     "x": 608,
-                    "y": 4327.5874,
+                    "y": 4327.587,
                     "IsDnD": false,
                     "colour": {
                         "Value": 4294967295
@@ -14121,7 +14171,7 @@
                     "m_serialiseFrozen": false,
                     "name": "inst_C1F9F31",
                     "x": 480,
-                    "y": 4359.5874,
+                    "y": 4359.587,
                     "IsDnD": false,
                     "colour": {
                         "Value": 4294967295
@@ -14131,7 +14181,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_C1F9F31",
                     "objId": "48171a01-acb2-415c-b8eb-47ca58321cd9",
-                    "rotation": 19.4115143,
+                    "rotation": 19.41151,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -14145,7 +14195,7 @@
                     "m_serialiseFrozen": false,
                     "name": "inst_5FE58E95",
                     "x": 608,
-                    "y": 5127.5874,
+                    "y": 5127.587,
                     "IsDnD": false,
                     "colour": {
                         "Value": 4294967295
@@ -14169,7 +14219,7 @@
                     "m_serialiseFrozen": false,
                     "name": "inst_5E117E7C",
                     "x": 704,
-                    "y": 5159.5874,
+                    "y": 5159.587,
                     "IsDnD": false,
                     "colour": {
                         "Value": 4294967295
@@ -14179,7 +14229,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_5E117E7C",
                     "objId": "48171a01-acb2-415c-b8eb-47ca58321cd9",
-                    "rotation": 35.9982376,
+                    "rotation": 35.99824,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -14193,7 +14243,7 @@
                     "m_serialiseFrozen": false,
                     "name": "inst_7C7DE31A",
                     "x": 832,
-                    "y": 5063.5874,
+                    "y": 5063.587,
                     "IsDnD": false,
                     "colour": {
                         "Value": 4294967295
@@ -14217,7 +14267,7 @@
                     "m_serialiseFrozen": false,
                     "name": "inst_3CB9F19F",
                     "x": 704,
-                    "y": 4775.5874,
+                    "y": 4775.587,
                     "IsDnD": false,
                     "colour": {
                         "Value": 4294967295
@@ -14227,7 +14277,7 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_3CB9F19F",
                     "objId": "48171a01-acb2-415c-b8eb-47ca58321cd9",
-                    "rotation": -27.6974583,
+                    "rotation": -27.69746,
                     "scaleX": 1,
                     "scaleY": 1
                 },
@@ -14241,7 +14291,7 @@
                     "m_serialiseFrozen": false,
                     "name": "inst_23F53B81",
                     "x": 128,
-                    "y": 5703.5874,
+                    "y": 5703.587,
                     "IsDnD": false,
                     "colour": {
                         "Value": 4294967295
@@ -14265,7 +14315,7 @@
                     "m_serialiseFrozen": false,
                     "name": "inst_209D0F06",
                     "x": 192,
-                    "y": 5767.5874,
+                    "y": 5767.587,
                     "IsDnD": false,
                     "colour": {
                         "Value": 4294967295
@@ -14289,7 +14339,7 @@
                     "m_serialiseFrozen": false,
                     "name": "inst_6776E97D",
                     "x": 576,
-                    "y": 5959.5874,
+                    "y": 5959.587,
                     "IsDnD": false,
                     "colour": {
                         "Value": 4294967295
@@ -40036,7 +40086,7 @@
         "mvc": "1.0",
         "clearDisplayBuffer": true,
         "clearViewBackground": true,
-        "enableViews": true,
+        "enableViews": false,
         "inheritViewSettings": false
     },
     "views": [

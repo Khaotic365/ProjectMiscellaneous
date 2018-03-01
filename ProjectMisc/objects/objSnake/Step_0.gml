@@ -11,7 +11,7 @@ if position_meeting(x, y - 32, objCornerTopRight)
 motion_set(270, iPatrolspd);
 }
 */
-
+/*
 randomize();
 
 if position_meeting(x - 32, y, objWallLeftSide1)
@@ -104,3 +104,14 @@ if iPatrolspd != iTargetspd
       iPatrolspd -= .5;
    }
 }
+*/
+
+if bCaughtNet == false && bCaughtNetRand == false
+{
+	sMoveMode = "BackForth";
+}
+
+iInvCounter -= 1;
+iInvCounterRand -= 1;
+
+script_execute(scrNPCMovement,sMoveMode,iMoveSpd,iSpeedTimer,iTargetSpd,iJumpTimer,iStartY,bJumping,bFalling,iMinSpeed,iMaxSpeed,bAfter,iCaughtTimer,bCaughtNet,iInvCounter,bCaughtNetRand,iCaughtTimerRand,iInvCounterRand)

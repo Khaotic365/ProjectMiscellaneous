@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-objCurrentNetShark = instance_nearest(x,y,objShark2);
+/*objCurrentNetShark = instance_nearest(x,y,objShark2);
 
 if other.bCanCollideShark == true && other.bCaughtPlayer == false && other.iNetCollisionTimerShark <= 0 && other.iNetCollisionTimer <= 0
 {
@@ -11,8 +11,14 @@ if other.bCanCollideShark == true && other.bCaughtPlayer == false && other.iNetC
 	iSlowTimerShark = 60;
 	audio_play_sound(sndDamage2, 0, false);
 }
-
+*/
 //if solid == true
 //{
 //audio_play_sound(sndDamage2, 0, false);
 //}
+
+if iInvCounterRand <= 0 && objPlayer.iInvCounterPlayerRand <= 0
+{
+	bCaughtNetRand = true;
+	sMoveMode = "CaughtNetRand";
+}
