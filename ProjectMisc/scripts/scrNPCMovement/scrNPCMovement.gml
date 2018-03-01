@@ -208,7 +208,7 @@ if sMoveMode == "JumpWithoutMoving"
 	
 	if iJumpTimer == 0
 	{
-		iJumpTimer = 100;
+		iJumpTimer = 70;
 		bJumping = true;
 		//bForward = false;
 		//bBackward = false;
