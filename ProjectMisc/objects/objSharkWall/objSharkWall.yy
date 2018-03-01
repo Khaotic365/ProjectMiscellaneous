@@ -1,18 +1,18 @@
 {
-    "id": "5e58751e-2157-40c0-ab00-8efc42f6f542",
+    "id": "231ab361-3b5c-43c0-b25e-3183f3a63db0",
     "modelName": "GMObject",
     "mvc": "1.0",
     "name": "objSharkWall",
     "eventList": [
         {
-            "id": "40248707-b82d-4c8a-ba3f-98c89af8713c",
+            "id": "c7c31f8d-1d07-42d2-80fb-855d2321b5dd",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "5e58751e-2157-40c0-ab00-8efc42f6f542"
+            "m_owner": "231ab361-3b5c-43c0-b25e-3183f3a63db0"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -31,6 +31,6 @@
     "physicsShapePoints": null,
     "physicsStartAwake": true,
     "solid": false,
-    "spriteId": "28445ba2-a94d-40a3-90ad-22fad495bb0e",
+    "spriteId": "2cc879ab-404e-4176-897e-d6e0ce18f386",
     "visible": true
 }

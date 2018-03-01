@@ -3,5 +3,5 @@
 
 if keyboard_check_pressed(vk_anykey)
 {
-	room_goto(rmGradualLevel);
+	room_goto(rmCave);
 }

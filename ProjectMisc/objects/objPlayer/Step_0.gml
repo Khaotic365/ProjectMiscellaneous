@@ -359,7 +359,7 @@ if mouse_check_button_pressed(mb_right) && bCanDash == true
 	iClickRY = mouse_y;
 	iStartX = x;
 	iStartY = y;
-	move_towards_point(iClickRX,iClickRY,2*iSpd);
+	move_towards_point(iClickRX,iClickRY,4*iSpd);
 	bOnly = 1;
 	bCanDash = false;
 	iClickTimer = 0;
@@ -372,7 +372,7 @@ if iClickTimer == 60
 {
 	bCanDash = true;
 }
-if point_distance(iStartX,iStartY,x,y) >= 80 && bOnly == 1
+if point_distance(iStartX,iStartY,x,y) >= 120 && bOnly == 1
 {
 	/*move_towards_point(iClickRX,iClickRY,iSpd);
 	if point_distance(x,y,iClickRX,iClickRY) <= 5
