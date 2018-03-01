@@ -17,7 +17,7 @@ if other.bCanCollide == true && other.bCaughtShark == false && other.iNetCollisi
 //audio_play_sound(sndDamage2, 0, false);
 //}
 
-if iInvCounterPlayer <= 0 && instance_nearest(objPlayer.x,objPlayer.y,objTest).iInvCounter <= 0
+if iInvCounterPlayer <= 0 && instance_nearest(objPlayer.x,objPlayer.y,objShark2).iInvCounter <= 0
 {
 	bCaughtNetPlayer = true;
 }
