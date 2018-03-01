@@ -372,7 +372,7 @@ if iClickTimer == 60
 {
 	bCanDash = true;
 }
-if point_distance(iStartX,iStartY,x,y) >= 100 && bOnly == 1
+if point_distance(iStartX,iStartY,x,y) >= 120 && bOnly == 1
 {
 	/*move_towards_point(iClickRX,iClickRY,iSpd);
 	if point_distance(x,y,iClickRX,iClickRY) <= 5
