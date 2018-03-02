@@ -635,7 +635,10 @@
         "672c80d6-3737-4411-91c7-7fcb918924a0",
         "8d8fa2dc-7472-43e3-b9b7-bf6ef0955d5b",
         "9e9c6196-e298-4a53-a1fa-f74c9cc3e152",
-        "a530a80f-5724-4993-b71e-b21acc1e10e3"
+        "a530a80f-5724-4993-b71e-b21acc1e10e3",
+        "fcf1469b-d141-458c-b796-4a6f0083ede5",
+        "ec67cdad-3601-4091-95a5-389bc5ccfc9c",
+        "cb106807-e7ef-419c-8d15-0c01cd8f8a8d"
     ],
     "layers": [
         {
@@ -13632,7 +13635,7 @@
                     "m_serialiseFrozen": false,
                     "name": "inst_403105C0",
                     "x": 704,
-                    "y": 5728,
+                    "y": 5696,
                     "IsDnD": false,
                     "colour": {
                         "Value": 4294967295
@@ -13810,6 +13813,78 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_3D51CA69",
                     "objId": "231ab361-3b5c-43c0-b25e-3183f3a63db0",
+                    "rotation": 0,
+                    "scaleX": 1,
+                    "scaleY": 1
+                },
+                {
+                    "id": "fcf1469b-d141-458c-b796-4a6f0083ede5",
+                    "modelName": "GMRInstance",
+                    "mvc": "1.0",
+                    "ignore": false,
+                    "inheritItemSettings": false,
+                    "m_originalParentID": "00000000-0000-0000-0000-000000000000",
+                    "m_serialiseFrozen": false,
+                    "name": "inst_66B6C9FD",
+                    "x": 320,
+                    "y": 1376,
+                    "IsDnD": false,
+                    "colour": {
+                        "Value": 4294967295
+                    },
+                    "creationCodeFile": "",
+                    "creationCodeType": "",
+                    "inheritCode": false,
+                    "name_with_no_file_rename": "inst_66B6C9FD",
+                    "objId": "882f9d7d-8ce4-4d86-bf7e-20b9803ce45b",
+                    "rotation": 0,
+                    "scaleX": 1,
+                    "scaleY": 1
+                },
+                {
+                    "id": "ec67cdad-3601-4091-95a5-389bc5ccfc9c",
+                    "modelName": "GMRInstance",
+                    "mvc": "1.0",
+                    "ignore": false,
+                    "inheritItemSettings": false,
+                    "m_originalParentID": "00000000-0000-0000-0000-000000000000",
+                    "m_serialiseFrozen": false,
+                    "name": "inst_65000654",
+                    "x": 352,
+                    "y": 672,
+                    "IsDnD": false,
+                    "colour": {
+                        "Value": 4294967295
+                    },
+                    "creationCodeFile": "",
+                    "creationCodeType": "",
+                    "inheritCode": false,
+                    "name_with_no_file_rename": "inst_65000654",
+                    "objId": "882f9d7d-8ce4-4d86-bf7e-20b9803ce45b",
+                    "rotation": 0,
+                    "scaleX": 1,
+                    "scaleY": 1
+                },
+                {
+                    "id": "cb106807-e7ef-419c-8d15-0c01cd8f8a8d",
+                    "modelName": "GMRInstance",
+                    "mvc": "1.0",
+                    "ignore": false,
+                    "inheritItemSettings": false,
+                    "m_originalParentID": "00000000-0000-0000-0000-000000000000",
+                    "m_serialiseFrozen": false,
+                    "name": "inst_47D313C7",
+                    "x": 736,
+                    "y": 5504,
+                    "IsDnD": false,
+                    "colour": {
+                        "Value": 4294967295
+                    },
+                    "creationCodeFile": "",
+                    "creationCodeType": "",
+                    "inheritCode": false,
+                    "name_with_no_file_rename": "inst_47D313C7",
+                    "objId": "882f9d7d-8ce4-4d86-bf7e-20b9803ce45b",
                     "rotation": 0,
                     "scaleX": 1,
                     "scaleY": 1
@@ -40436,7 +40511,7 @@
         "mvc": "1.0",
         "clearDisplayBuffer": true,
         "clearViewBackground": true,
-        "enableViews": true,
+        "enableViews": false,
         "inheritViewSettings": false
     },
     "views": [

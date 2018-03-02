@@ -235,6 +235,47 @@ if sMoveMode == "JumpWithoutMoving"
 	}
 }
 
+if sMoveMode == "JumpWithoutMovingRand"
+{
+	//if instance_position(x - 32, y, all).sObjType == "NotWall" || instance_position(x + 32, y, all).sObjType == "NotWall"
+	//{
+	//	speed = iMoveSpd;
+	//}
+	
+	if iJumpTimer != 0
+	{
+		iJumpTimer -= 1;
+	}
+	
+	if iJumpTimer == 0
+	{
+		iJumpTimer = irandom_range(30, 70);
+		bJumping = true;
+		//bForward = false;
+		//bBackward = false;
+		move_towards_point(x, iJumpPoint, 20);
+	}
+	
+	if bJumping == true
+	{
+		if point_distance(x, y, x, iJumpPoint) == 0
+		{
+			bJumping = false;
+			bFalling = true;
+			move_towards_point(x, iStartY, 20);
+		}
+	}
+	
+	if bFalling == true
+	{
+		if point_distance(x, y, x, iStartY) == 0
+		{
+			speed = 0;
+			bFalling = false;
+		}
+	}
+}
+
 if sMoveMode == "Triangle"
 {
 	if bAfter == true
@@ -623,7 +664,7 @@ if sMoveMode == "CaughtNet"
 {
 	solid = false;
 	speed = 0.5;
-	iNetNearest = instance_nearest(objPlayer.x,objPlayer.y,objNet);
+	iNetNearest = instance_nearest(self.x,self.y,objNet);
 	iNetNearest.image_alpha = 0.35;
 	iNetNearest.x = self.x;
 	iNetNearest.y = self.y;
@@ -647,7 +688,7 @@ if sMoveMode == "CaughtNetRand"
 {
 	solid = false;
 	speed = 0.5;
-	iNetNearestRand = instance_nearest(objPlayer.x,objPlayer.y,objNetRand);
+	iNetNearestRand = instance_nearest(self.x,self.y,objNetRand);
 	iNetNearestRand.image_alpha = 0.35;
 	iNetNearestRand.x = self.x;
 	iNetNearestRand.y = self.y;
