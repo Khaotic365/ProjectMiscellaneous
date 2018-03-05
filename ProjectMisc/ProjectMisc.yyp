@@ -1703,6 +1703,14 @@
             }
         },
         {
+            "Key": "d32b8c86-a35f-4daf-8741-548365241928",
+            "Value": {
+                "id": "820e1071-f3aa-46c1-80d6-4e44766671e6",
+                "resourcePath": "objects\\objOildrum\\objOildrum.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "d420e0c2-17bd-48d5-88a6-66188f4c5111",
             "Value": {
                 "id": "d2870150-7fe2-4b4f-a0fd-8169b9bbff45",
