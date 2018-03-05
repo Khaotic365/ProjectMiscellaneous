@@ -1839,6 +1839,14 @@
             }
         },
         {
+            "Key": "e26a2f9d-cb87-494a-b8cb-be294595e32b",
+            "Value": {
+                "id": "5f92101e-56b0-418b-8730-43eb4c79a6ac",
+                "resourcePath": "sprites\\sprOilDrum\\sprOilDrum.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "e58bf3ef-332e-4cc0-b0af-f8f7dbb0c27e",
             "Value": {
                 "id": "678deca5-8773-4aed-ba33-46e6286abb6d",
