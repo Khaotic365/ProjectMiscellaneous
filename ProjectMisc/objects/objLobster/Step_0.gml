@@ -2,7 +2,7 @@
 // You can write your code in this editor
 if bCaughtNet == false && bCaughtNetRand == false
 {
-	sMoveMode = "JumpWithoutMoving";
+	sMoveMode = "JumpWithoutMovingRand";
 }
 
 iInvCounter -= 1;
