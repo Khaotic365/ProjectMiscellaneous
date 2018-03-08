@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-randomize();
+/*randomize();
 
 iNetCollisionTimer -= 1;
 iNetCollisionTimerShark -= 1;
@@ -220,7 +220,7 @@ if bCaughtPlayer == false && bCaughtShark == false
 			//show_debug_message("Wall to the right");
 		}
 		*/
-		if position_meeting(x, y + 32, objOuterwall)
+		/*if position_meeting(x, y + 32, objOuterwall)
 		{
 			motion_set(random_range(0, 180), iSpd);
 		}
@@ -230,9 +230,9 @@ if bCaughtPlayer == false && bCaughtShark == false
 			motion_set(random_range(180,260), iSpd);
 		}
 	}
-}
+}*/
 
-if bCaughtPlayer == true
+/*if bCaughtPlayer == true
 {
     if iNetCollisionTimer == 120
 	{
@@ -250,7 +250,7 @@ for (i = 0; i < instance_number(objShark2); i += 1)
 {
 	enemy[i] = instance_find(objShark2,i);
 }*/
-if bCaughtShark == true
+/*if bCaughtShark == true
 {
 	if iNetCollisionTimerShark == 120
 	{
@@ -260,7 +260,11 @@ if bCaughtShark == true
 	bCanCollideShark = false;
 	x = instance_nearest(x,y,objShark2).x;
 	y = instance_nearest(x,y,objShark2).y;
-}
+}*/
+randomize();
+sMoveMode = "Random";
+
+script_execute(scrNPCMovement,sMoveMode,iMoveSpd,iSpeedTimer,iTargetSpd,iJumpTimer,iStartY,bJumping,bFalling,iMinSpeed,iMaxSpeed,bAfter)//,instLeftColl,instRightColl);
 
 
 
