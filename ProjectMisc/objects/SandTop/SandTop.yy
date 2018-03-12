@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "SandTop",
     "eventList": [
-        
+        {
+            "id": "1c431800-3eb9-458f-8f63-88d8b4989481",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "c8d05cf2-54d2-417b-8128-9586c0f44c94"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "parentObjectId": "00000000-0000-0000-0000-000000000000",

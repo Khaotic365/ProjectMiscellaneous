@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "objSandFloor2",
     "eventList": [
-        
+        {
+            "id": "9aa0210d-a9a2-4f55-885f-932750f74485",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "c9beb6eb-093e-46e1-85c0-2f81caa05085"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "parentObjectId": "00000000-0000-0000-0000-000000000000",

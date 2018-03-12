@@ -1,4 +1,4 @@
-randomize();
+ randomize();
 iFollowspd = 2;
 
 //if !is_undefined(instance_position(x - 32, y, all)).sObjType
@@ -400,6 +400,7 @@ if sMoveMode == "Triangle"
 if sMoveMode == "Follow"
 {
 	bAfter = true;
+	
 	if position_meeting(x - 64, y, all)
 	{
 	if instLeftColl.sObjType == "Wall"
@@ -683,51 +684,50 @@ if sMoveMode == "CaughtNet"
 	
 }
 
-//show_debug_message(self.iCaughtTimer);
-
-
 if sMoveMode == "CaughtNetRand"
 {
-	//bCaughtOnce = true;
 	solid = false;
 	speed = 0.5;
 	iNetNearestRand = instance_nearest(self.x,self.y,objNetRand);
-	iNetNearestRand.image_alpha = 1;
+	iNetNearestRand.image_alpha = 0.35;
 	iNetNearestRand.x = self.x;
 	iNetNearestRand.y = self.y;
 	iCaughtTimerRand -= 1;
 	iInvCounterRand = 100;
-	//show_debug_message(iCaughtTimerRand);
 	if iCaughtTimerRand <= 0
 	{
 		iInvCounterRand = 100;
 		iCaughtTimerRand = 100;
 		bCaughtNetRand = false;
-		iNetNearestRand.image_alpha = 0.35;
-		sMoveMode = "Random";
+		iNetNearestRand.image_alpha = 1;
+		sMoveMode = "BackForth";
 		iNetNearestRand.sMoveMode = "Random";
 		iNetNearestRand.x += 0;
 		iNetNearestRand.y += 0;
 	}
 }
-else if iInvCounterRand <= 0 && bCaughtNetRand == false && iCaughtTimerRand == 100
+	if sMoveMode == "CaughtBag"
 {
-	iNetNearestRand = instance_nearest(self.x,self.y,objNetRand);
-	iNetNearestRand.image_alpha = 1;
+	solid = false;
+	speed = 0.5;
+	iBagRand = instance_nearest(self.x,self.y,objBag);
+	iBagRand.image_alpha = 0.35;
+	iBagRand.x = self.x;
+	iBagRand.y = self.y;
+	iCaughtTimerBag -= 1;
+	iInvCounterRand = 100;
+	if iCaughtTimerRand <= 0
+	{
+		iInvCounterRand = 100;
+		iCaughtTimerRand = 100;
+		bBagRand = false;
+		iBagRand.image_alpha = 1;
+		sMoveMode = "BackForth";
+		iBagRand.sMoveMode = "Random";
+		iBagRand.x += 0;
+		iBagRand.y += 0;
+	}
 }
-
-show_debug_message(instance_nearest(objPlayer.x,objPlayer.y,objShark2).iInvCounterRand);
-
-//else if iInvCounterRand <= 0 && bCaughtOnce == true
-//{
-	//iNetNearestRand = instance_nearest(self.x,self.y,objNetRand);
-//	iNetNearestRand.image_alpha = 1;
-//}
-//else if iInvCounterRand <= 0
-//{
-//	iNetNearestRand = instance_nearest(self.x,self.y,objNetRand);
-//	iNetNearestRand.image_alpha = 1;
-//}
 
 //show_debug_message(iCountTimer);
 

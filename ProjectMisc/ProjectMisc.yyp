@@ -47,6 +47,14 @@
             }
         },
         {
+            "Key": "00d1b7cb-5580-450e-b804-9963ff770146",
+            "Value": {
+                "id": "def196da-449f-4a2c-a42d-a32e4be2f41b",
+                "resourcePath": "shaders\\shader0\\shader0.yy",
+                "resourceType": "GMShader"
+            }
+        },
+        {
             "Key": "02e2d82b-ee9d-43b6-aed1-227d71b0a9ea",
             "Value": {
                 "id": "0638901a-ea56-4c3d-bae9-51d490828463",
@@ -507,6 +515,14 @@
             "Value": {
                 "id": "b8f6d139-d3ef-465c-95ba-e3b557f177e7",
                 "resourcePath": "objects\\objEndBlocks\\objEndBlocks.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "43aa8a0b-461d-43eb-a0f5-152e329d3469",
+            "Value": {
+                "id": "64e0bfe3-4748-45f8-8df0-c05bba14281d",
+                "resourcePath": "objects\\objOilSpill\\objOilSpill.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -1404,6 +1420,14 @@
                 "id": "4f191adf-2c4d-48a7-8778-817876f4d981",
                 "resourcePath": "views\\b2d60714-65ee-4f34-8bf7-45b46ae8d4dc.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "b307c96f-b504-4335-8a0a-8eb45225a22a",
+            "Value": {
+                "id": "5d231386-bdbb-4a94-a6b8-4dd8c2334d54",
+                "resourcePath": "sprites\\sprOilSpill\\sprOilSpill.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

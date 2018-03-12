@@ -622,6 +622,7 @@
         "f310ab59-5731-4746-b61b-51f2d53ce566",
         "31a65131-2530-49ba-bfa6-64fdaf29719c",
         "2b02d64f-ff7f-4beb-b43f-dc24bc934b9a",
+        "bd5c2f97-52dc-47f6-9e4b-889480371a5a",
         "55b55f39-0262-4a62-94dc-0b2b884a29c0",
         "70cadce5-177a-4945-a677-ecb49313ba54",
         "87614abc-9874-4cfe-aecc-60699c0293fe",
@@ -636,9 +637,7 @@
         "fcf1469b-d141-458c-b796-4a6f0083ede5",
         "ec67cdad-3601-4091-95a5-389bc5ccfc9c",
         "cb106807-e7ef-419c-8d15-0c01cd8f8a8d",
-        "f5a96a79-e8bc-42ab-9a82-1c49ab57f628",
-        "5a3feadd-6eef-4b32-8f82-2f9824150e43",
-        "bd5c2f97-52dc-47f6-9e4b-889480371a5a"
+        "5a3feadd-6eef-4b32-8f82-2f9824150e43"
     ],
     "layers": [
         {
@@ -11691,7 +11690,7 @@
                     "m_serialiseFrozen": false,
                     "name": "inst_59912A57",
                     "x": 672,
-                    "y": 224,
+                    "y": 256,
                     "IsDnD": false,
                     "colour": {
                         "Value": 4294967295
@@ -12362,8 +12361,8 @@
                     "m_originalParentID": "00000000-0000-0000-0000-000000000000",
                     "m_serialiseFrozen": false,
                     "name": "inst_3154553E",
-                    "x": 480,
-                    "y": 352,
+                    "x": 896,
+                    "y": 384,
                     "IsDnD": false,
                     "colour": {
                         "Value": 4294967295
@@ -12386,8 +12385,8 @@
                     "m_originalParentID": "00000000-0000-0000-0000-000000000000",
                     "m_serialiseFrozen": false,
                     "name": "inst_4D995511",
-                    "x": 480,
-                    "y": 448,
+                    "x": 928,
+                    "y": 320,
                     "IsDnD": false,
                     "colour": {
                         "Value": 4294967295
@@ -13346,8 +13345,8 @@
                     "m_originalParentID": "00000000-0000-0000-0000-000000000000",
                     "m_serialiseFrozen": false,
                     "name": "inst_384B82F9",
-                    "x": 320,
-                    "y": 640,
+                    "x": 512,
+                    "y": 672,
                     "IsDnD": false,
                     "colour": {
                         "Value": 4294967295
@@ -13490,8 +13489,8 @@
                     "m_originalParentID": "00000000-0000-0000-0000-000000000000",
                     "m_serialiseFrozen": false,
                     "name": "inst_B0CF5FE",
-                    "x": 448,
-                    "y": 640,
+                    "x": 544,
+                    "y": 224,
                     "IsDnD": false,
                     "colour": {
                         "Value": 4294967295
@@ -13802,8 +13801,8 @@
                     "m_originalParentID": "00000000-0000-0000-0000-000000000000",
                     "m_serialiseFrozen": false,
                     "name": "inst_65000654",
-                    "x": 512,
-                    "y": 224,
+                    "x": 352,
+                    "y": 672,
                     "IsDnD": false,
                     "colour": {
                         "Value": 4294967295
@@ -13837,30 +13836,6 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_47D313C7",
                     "objId": "882f9d7d-8ce4-4d86-bf7e-20b9803ce45b",
-                    "rotation": 0,
-                    "scaleX": 1,
-                    "scaleY": 1
-                },
-                {
-                    "id": "f5a96a79-e8bc-42ab-9a82-1c49ab57f628",
-                    "modelName": "GMRInstance",
-                    "mvc": "1.0",
-                    "ignore": false,
-                    "inheritItemSettings": false,
-                    "m_originalParentID": "00000000-0000-0000-0000-000000000000",
-                    "m_serialiseFrozen": false,
-                    "name": "inst_409B9F2A",
-                    "x": 544,
-                    "y": 5888,
-                    "IsDnD": false,
-                    "colour": {
-                        "Value": 4294967295
-                    },
-                    "creationCodeFile": "",
-                    "creationCodeType": "",
-                    "inheritCode": false,
-                    "name_with_no_file_rename": "inst_409B9F2A",
-                    "objId": "1ce89e07-df4f-4c0d-aea0-35012ad93657",
                     "rotation": 0,
                     "scaleX": 1,
                     "scaleY": 1
@@ -15837,11 +15812,37 @@
             ]
         },
         {
+            "__type": "GMRAssetLayer_Model:#YoYoStudio.MVCFormat",
+            "id": "8bdde646-72c3-4806-a77e-357e35ad5ce3",
+            "modelName": "GMRAssetLayer",
+            "mvc": "1.0",
+            "depth": 300,
+            "grid_x": 32,
+            "grid_y": 32,
+            "hierarchyFrozen": false,
+            "hierarchyVisible": true,
+            "inheritLayerDepth": false,
+            "inheritLayerSettings": false,
+            "inheritSubLayers": false,
+            "inheritVisibility": false,
+            "layers": [
+                
+            ],
+            "m_parentID": "00000000-0000-0000-0000-000000000000",
+            "m_serialiseFrozen": false,
+            "name": "Assets_1",
+            "userdefined_depth": false,
+            "visible": true,
+            "assets": [
+                
+            ]
+        },
+        {
             "__type": "GMRTileLayer_Model:#YoYoStudio.MVCFormat",
             "id": "205497e5-256f-4129-b027-202a8a19f271",
             "modelName": "GMRTileLayer",
             "mvc": "1.0",
-            "depth": 300,
+            "depth": 400,
             "grid_x": 32,
             "grid_y": 32,
             "hierarchyFrozen": false,
@@ -17689,8 +17690,8 @@
                     9,
                     10,
                     11,
-                    2147483648,
-                    2147483648,
+                    1,
+                    2,
                     13,
                     14,
                     15,
@@ -17753,8 +17754,8 @@
                     13,
                     14,
                     15,
-                    2147483648,
-                    2147483648,
+                    5,
+                    6,
                     5,
                     6,
                     7,
@@ -40452,7 +40453,7 @@
             "id": "b5e73df3-3e9f-4f35-b929-d2b76af906f5",
             "modelName": "GMRBackgroundLayer",
             "mvc": "1.0",
-            "depth": 400,
+            "depth": 500,
             "grid_x": 32,
             "grid_y": 32,
             "hierarchyFrozen": false,

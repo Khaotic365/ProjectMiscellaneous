@@ -3,5 +3,5 @@
 if iInvCounter <= 0 && objPlayer.iInvCounterPlayer <= 0
 {
 	bCaughtNet = true;
-	sMoveMode = "CaughtNet";
+	sMoveMode = "CaughtNetRand";
 }

@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "objSandWall",
     "eventList": [
-        
+        {
+            "id": "6c946e8f-6c36-429c-95ab-5a2020c6d4e0",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "ca61f2d5-49a7-4c42-8804-3bf229094495"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "parentObjectId": "00000000-0000-0000-0000-000000000000",
