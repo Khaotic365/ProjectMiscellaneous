@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "objSandCornerTEST",
     "eventList": [
-        
+        {
+            "id": "2077ba0b-af9c-4086-80a3-e633646ff235",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "95d9b289-a279-4d60-b94d-ed2de96bb441"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "parentObjectId": "00000000-0000-0000-0000-000000000000",

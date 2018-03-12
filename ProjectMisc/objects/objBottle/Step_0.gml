@@ -158,3 +158,7 @@ if bGo == true
 			motion_set(random_range(180,260), iSpd);
 		}
 	}
+
+shader_set(myShader);
+draw_self();
+shader_reset();

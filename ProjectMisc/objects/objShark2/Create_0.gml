@@ -64,3 +64,5 @@ iInvCounter = 0;
 bCaughtNetRand = false;
 iCaughtTimerRand = 100;
 iInvCounterRand = 0;
+iNetNearestRand = instance_nearest(self.x,self.y,objNetRand);
+bCaughtOnce = false;

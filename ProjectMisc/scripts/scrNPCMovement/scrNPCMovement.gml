@@ -1,4 +1,4 @@
-randomize();
+ randomize();
 iFollowspd = 2;
 
 //if !is_undefined(instance_position(x - 32, y, all)).sObjType
@@ -689,23 +689,53 @@ if sMoveMode == "CaughtNetRand"
 	solid = false;
 	speed = 0.5;
 	iNetNearestRand = instance_nearest(self.x,self.y,objNetRand);
-	iNetNearestRand.image_alpha = 0.35;
+	iNetNearestRand.image_alpha = 1;
 	iNetNearestRand.x = self.x;
 	iNetNearestRand.y = self.y;
 	iCaughtTimerRand -= 1;
 	iInvCounterRand = 100;
+	bCaughtNetRand = true;
 	if iCaughtTimerRand <= 0
 	{
+		iNetNearestRand = instance_nearest(self.x,self.y,objNetRand);
 		iInvCounterRand = 100;
 		iCaughtTimerRand = 100;
 		bCaughtNetRand = false;
-		iNetNearestRand.image_alpha = 1;
+		iNetNearestRand.image_alpha = 0.35;
 		sMoveMode = "BackForth";
 		iNetNearestRand.sMoveMode = "Random";
 		iNetNearestRand.x += 0;
 		iNetNearestRand.y += 0;
 	}
-	
+}
+else if iInvCounterRand <= 0 && bCaughtNetRand == false
+{
+	iNetNearestRand = instance_nearest(self.x,self.y,objNetRand);
+	iNetNearestRand.image_alpha = 1;
+}
+
+
+	if sMoveMode == "CaughtBag"
+{
+	solid = false;
+	speed = 0.5;
+	iBagRand = instance_nearest(self.x,self.y,objBag);
+	iBagRand.image_alpha = 0.35;
+	iBagRand.x = self.x;
+	iBagRand.y = self.y;
+	iCaughtTimerBag -= 1;
+	iInvCounterRand = 100;
+	if iCaughtTimerRand <= 0
+	{
+		iInvCounterRand = 100;
+		iCaughtTimerRand = 100;
+		bBagRand = false;
+		iBagRand.image_alpha = 1;
+		sMoveMode = "BackForth";
+		iBagRand.sMoveMode = "Random";
+		iBagRand.x += 0;
+		iBagRand.y += 0;
+	}
 }
 
 //show_debug_message(iCountTimer);

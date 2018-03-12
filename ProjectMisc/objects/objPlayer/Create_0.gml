@@ -24,8 +24,8 @@ iTimesUpRight = 1;
 iTimesUpLeft = 1;
 iTimesUpUp = 1;
 iTimesUpDown = 1;
-iHp = 3;
-iHpmax = 3;
+iHp = 10000000;
+iHpmax = 10000000;
 iSpd = 4;
 iSlowTimer = 0;
 bSpeedDecrease = false;
@@ -74,4 +74,3 @@ iCaughtTimerPlayerRand = 100;
 
 iNetNearest = instance_nearest(objPlayer.x,objPlayer.y,objNet);
 iNetNearestRand = instance_nearest(objPlayer.x,objPlayer.y,objNetRand);
-
