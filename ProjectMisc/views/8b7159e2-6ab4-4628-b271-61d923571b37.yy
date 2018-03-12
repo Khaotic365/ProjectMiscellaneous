@@ -13,7 +13,10 @@
         "783021c0-2ce1-439f-a6b6-69df038cb9f0",
         "feed92a1-8028-4bab-b769-c4c24b0b9fb3",
         "8c113ff1-6910-42d9-8464-e6a8c8d7e0b6",
-        "aa5118e0-41d4-477d-8cb7-c1e123dff76a"
+        "aa5118e0-41d4-477d-8cb7-c1e123dff76a",
+        "78f88fe7-a27c-4f8e-a132-a7878aa76dc8",
+        "eb9e42e4-335f-4845-a1d9-741a45fa0cfb",
+        "98722ef5-dda7-417e-937a-a2a93fa12c36"
     ],
     "filterType": "GMSprite",
     "folderName": "ShoreWalls",
