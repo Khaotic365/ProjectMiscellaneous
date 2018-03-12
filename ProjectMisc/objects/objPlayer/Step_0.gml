@@ -19,6 +19,7 @@ if (keyboard_check(vk_right)) || (keyboard_check(ord("D")))
 
 iInvCounterPlayer -= 1;
 iInvCounterPlayerRand -= 1;
+iInvCounterBagRand -= 1;
 
 //script_execute(scrNPCMovement,sMoveMode,iMoveSpd,iSpeedTimer,iTargetSpd,iJumpTimer,iStartY,bJumping,bFalling,iMinSpeed,iMaxSpeed,bAfter,iCaughtTimer,bCaughtNet,iInvCounter)//,instLeftColl,instRightColl)
 
@@ -29,7 +30,7 @@ if bCaughtNetPlayer == true
 	//speed = 0.5;
 	iSpd = 0.5;
 	iNetNearest = instance_nearest(objPlayer.x,objPlayer.y,objNet);
-	iNetNearest.image_alpha = 0.35;
+	iNetNearest.image_alpha = 1;
 	iNetNearest.x = self.x;
 	iNetNearest.y = self.y;
 	iCaughtTimerPlayer -= 1;
@@ -38,7 +39,7 @@ if bCaughtNetPlayer == true
 		iInvCounterPlayer = 100;
 		iCaughtTimerPlayer = 100;
 		bCaughtNetPlayer = false;
-		iNetNearest.image_alpha = 1;
+		iNetNearest.image_alpha = 0.35;
 		iNetNearest.sMoveMode = "BackForth";
 		iSpd = 4;
 	}
@@ -68,6 +69,32 @@ if bCaughtNetPlayerRand == true
 else if iInvCounterPlayerRand <= 0
 {
 	iNetNearestRand.image_alpha = 1;
+}
+
+if bCaughtBagRand == true
+{
+	solid = false;
+	iSpd = 0.5;
+	iBagRand = instance_nearest(x,y,objBag);
+	iBagRand.image_alpha = 1;
+	iBagRand.x = x;
+	iBagRand.y = y;
+	iCaughtTimerBagRand -= 1;
+	iInvCounterBagRand = 100;
+	if iCaughtTimerBagRand <= 0
+	{
+		iInvCounterBagRand = 100;
+		iCaughtTimerBagRand = 100;
+		bCaughtBagRand = false;
+		//bBagRand = false;
+		iBagRand.image_alpha = 0.35;
+		iBagRand.sMoveMode = "Random";
+		iSpd = 4;
+	}
+}
+else if iInvCounterBagRand <= 0
+{
+	iBagRand.image_alpha = 1;
 }
 
 //show_debug_message(iInvCounterPlayer);

@@ -708,13 +708,14 @@ if sMoveMode == "CaughtNetRand"
 		iNetNearestRand.y += 0;
 	}
 }
+/*
 else if iInvCounterRand <= 0 && bCaughtNetRand == false
 {
 	iNetNearestRand = instance_nearest(self.x,self.y,objNetRand);
 	iNetNearestRand.image_alpha = 1;
 }
-
-
+*/
+/*
 	if sMoveMode == "CaughtBag"
 {
 	solid = false;
@@ -737,7 +738,7 @@ else if iInvCounterRand <= 0 && bCaughtNetRand == false
 		iBagRand.y += 0;
 	}
 }
-
+*/
 //show_debug_message(iCountTimer);
 
 //show_debug_message(iJumpPoint);

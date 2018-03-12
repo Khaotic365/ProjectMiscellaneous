@@ -1,19 +1,10 @@
 {
-    "id": "92a1b586-e576-4030-bc13-55683ecc9802",
+    "id": "7160f84a-3f5d-40a3-b335-95a489ec8464",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "objSixring",
+    "name": "objShoreRock3",
     "eventList": [
-        {
-            "id": "dd9dfa9b-417b-48b5-a35d-d1ffe189b954",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 0,
-            "m_owner": "92a1b586-e576-4030-bc13-55683ecc9802"
-        }
+        
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "parentObjectId": "00000000-0000-0000-0000-000000000000",
@@ -31,6 +22,6 @@
     "physicsShapePoints": null,
     "physicsStartAwake": true,
     "solid": false,
-    "spriteId": "62781edc-d943-4c3f-ba03-8412cac84a90",
+    "spriteId": "98722ef5-dda7-417e-937a-a2a93fa12c36",
     "visible": true
 }

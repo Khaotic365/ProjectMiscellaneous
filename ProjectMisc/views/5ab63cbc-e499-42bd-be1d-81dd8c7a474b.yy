@@ -12,7 +12,10 @@
         "6e13da0f-b375-4a62-ba58-42bc2d7e7c15",
         "c9beb6eb-093e-46e1-85c0-2f81caa05085",
         "fc821e35-deb5-42ee-88bf-04d84ac6791f",
-        "ca61f2d5-49a7-4c42-8804-3bf229094495"
+        "ca61f2d5-49a7-4c42-8804-3bf229094495",
+        "76f64127-20a4-4bf7-9ced-386a0914c640",
+        "55242bab-f2de-41e7-8741-63507d30d2a3",
+        "7160f84a-3f5d-40a3-b335-95a489ec8464"
     ],
     "filterType": "GMObject",
     "folderName": "ShoreWalls",
