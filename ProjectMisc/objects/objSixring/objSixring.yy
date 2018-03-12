@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "objSixring",
     "eventList": [
-        
+        {
+            "id": "dd9dfa9b-417b-48b5-a35d-d1ffe189b954",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "92a1b586-e576-4030-bc13-55683ecc9802"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "parentObjectId": "00000000-0000-0000-0000-000000000000",

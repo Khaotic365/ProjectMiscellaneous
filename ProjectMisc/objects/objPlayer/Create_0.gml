@@ -74,3 +74,10 @@ iCaughtTimerPlayerRand = 100;
 
 iNetNearest = instance_nearest(objPlayer.x,objPlayer.y,objNet);
 iNetNearestRand = instance_nearest(objPlayer.x,objPlayer.y,objNetRand);
+
+bCaughtBagRand = false;
+iBagRand = instance_nearest(x,y,objBag);
+iInvCounterBagRand = 0;
+iCaughtTimerBagRand = 100;
+
+//show_debug_message(iBagRand);
