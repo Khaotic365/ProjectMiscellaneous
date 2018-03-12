@@ -17,8 +17,31 @@ if other.bCanCollideShark == true && other.bCaughtPlayer == false && other.iNetC
 //audio_play_sound(sndDamage2, 0, false);
 //}
 
-if iInvCounterRand <= 0 && objPlayer.iInvCounterPlayerRand <= 0
+//iInvCounterRand -= 1;
+
+if iInvCounterRand <= 0 //&& bCaughtNetRand == false //&& instance_nearest(self.x,self.y,objNetRand).iInvCounterRand <= 0
 {
 	bCaughtNetRand = true;
 	sMoveMode = "CaughtNetRand";
 }
+else 
+{
+	self.solid = false;
+}
+
+//show_debug_message(bCaughtNetRand);
+//else if iInvCounterRand <= 0
+//{
+//	iNetNearestRand = instance_nearest(self.x,self.y,objNetRand);
+//	iNetNearestRand.image_alpha = 1;
+//}
+//show_debug_message(iInvCounterRand);
+//show_debug_message(instance_nearest(self.x,self.y,objShark2).iInvCounterRand);
+
+//how_debug_message(instance_nearest(self.x,self.y,objNetRand).iInvCounterRand);
+
+//else if iInvCounterRand <= 0
+//{
+//	iNetNearestRand = instance_nearest(self.x,self.y,objNetRand);
+//	iNetNearestRand.image_alpha = 1;
+//}

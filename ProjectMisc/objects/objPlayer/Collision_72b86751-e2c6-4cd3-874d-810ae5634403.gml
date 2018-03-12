@@ -20,7 +20,7 @@ if other.bCanCollide == true && other.bCaughtShark == false && other.iNetCollisi
 
 
 
-if iInvCounterPlayerRand <= 0 && instance_nearest(objPlayer.x,objPlayer.y,objShark2).iInvCounterRand <= 0
+if iInvCounterPlayerRand <= 0 //&& instance_nearest(objPlayer.x,objPlayer.y,objNetRand).iInvCounterRand <= 0 //|| instance_nearest(objPlayer.x,objPlayer.y,objShark2) <= 0;
 {
 	bCaughtNetPlayerRand = true;
 }

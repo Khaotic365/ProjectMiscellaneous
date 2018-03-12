@@ -24,3 +24,8 @@ if iInvCounter <= 0 && objPlayer.iInvCounterPlayer <= 0
 	bCaughtNet = true;
 	sMoveMode = "CaughtNet";
 }
+else if iInvCounter <= 0
+{
+	iNetNearest = instance_nearest(self.x,self.y,objNet);
+	iNetNearest.image_alpha = 1;
+}

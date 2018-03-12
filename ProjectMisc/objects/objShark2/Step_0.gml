@@ -378,17 +378,29 @@ solid = true;
 }
 */
 
+//if bCaughtNet == false && iInvCounterRand <= 0 && sMoveMode != "Random" && sMoveMode != "Follow"
+//{
+//	iNetNearestRand = instance_nearest(self.x,self.y,objNetRand);
+//	iNetNearestRand.image_alpha = 1;
+//}
 if bCaughtNet == false && bCaughtNetRand == false && distance_to_object(objPlayer) > iSharkRange
 {
 	sMoveMode = "Random";
 	image_yscale = 1;
 }
-else if distance_to_object(objPlayer) <= iSharkRange
+else if distance_to_object(objPlayer) <= iSharkRange && iInvCounterRand <= 0 && sMoveMode != "CaughtNetRand"
 {
 	sMoveMode = "Follow";
 }
+//else if sMoveMode != "CaughtNetRand" && sMoveMode != "Follow" && sMoveMode != "Random" && iInvCounterRand <= 0
+//{
+//	iNetNearestRand = instance_nearest(self.x,self.y,objNetRand);
+//	iNetNearestRand.image_alpha = 1;	
+//}
+
+//show_debug_message(instance_nearest(objPlayer.x,objPlayer.y,objShark2).iInvCounterRand);
 
 iInvCounter -= 1;
 iInvCounterRand -= 1;
 
-script_execute(scrNPCMovement,sMoveMode,iMoveSpd,iSpeedTimer,iTargetSpd,iJumpTimer,iStartY,bJumping,bFalling,iMinSpeed,iMaxSpeed,bAfter,iCaughtTimer,bCaughtNet,iInvCounter,bCaughtNetRand,iCaughtTimerRand,iInvCounterRand)//,instLeftColl,instRightColl)
+script_execute(scrNPCMovement,sMoveMode,iMoveSpd,iSpeedTimer,iTargetSpd,iJumpTimer,iStartY,bJumping,bFalling,iMinSpeed,iMaxSpeed,bAfter,iCaughtTimer,bCaughtNet,iInvCounter,bCaughtNetRand,iCaughtTimerRand,iInvCounterRand,bCaughtOnce)//,instLeftColl,instRightColl)
