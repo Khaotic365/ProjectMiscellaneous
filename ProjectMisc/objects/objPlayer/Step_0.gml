@@ -74,7 +74,7 @@ else if iInvCounterPlayerRand <= 0
 if bCaughtBagRand == true
 {
 	solid = false;
-	iSpd = 0.5;
+	iSpd = 1.5;
 	iBagRand = instance_nearest(x,y,objBag);
 	iBagRand.image_alpha = 1;
 	iBagRand.x = x;
