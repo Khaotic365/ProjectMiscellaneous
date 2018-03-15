@@ -401,6 +401,11 @@ if sMoveMode == "Follow"
 {
 	bAfter = true;
 	
+	if bFollowspdCheck == true
+	{
+		iFollowspd = 0.5;
+	}
+	
 	if position_meeting(x - 64, y, all)
 	{
 	if instLeftColl.sObjType == "Wall"
@@ -683,7 +688,7 @@ if sMoveMode == "CaughtNet"
 	}
 	
 }
-
+/*
 if sMoveMode == "CaughtNetRand"
 {
 	solid = false;
@@ -694,7 +699,6 @@ if sMoveMode == "CaughtNetRand"
 	iNetNearestRand.y = self.y;
 	iCaughtTimerRand -= 1;
 	iInvCounterRand = 100;
-	bCaughtNetRand = true;
 	if iCaughtTimerRand <= 0
 	{
 		iNetNearestRand = instance_nearest(self.x,self.y,objNetRand);
@@ -708,7 +712,6 @@ if sMoveMode == "CaughtNetRand"
 		iNetNearestRand.y += 0;
 	}
 }
-/*
 else if iInvCounterRand <= 0 && bCaughtNetRand == false
 {
 	iNetNearestRand = instance_nearest(self.x,self.y,objNetRand);

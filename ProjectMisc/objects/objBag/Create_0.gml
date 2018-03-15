@@ -43,3 +43,4 @@ iCaughtTimer = 100;
 bBagRand = false;
 iCaughtTimerRand = 100;
 iInvCounterRand = 0;
+bCaughtNetRand = false;

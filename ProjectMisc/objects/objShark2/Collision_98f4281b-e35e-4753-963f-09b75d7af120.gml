@@ -19,10 +19,9 @@ if other.bCanCollideShark == true && other.bCaughtPlayer == false && other.iNetC
 
 //iInvCounterRand -= 1;
 
-if iInvCounterRand <= 0 //&& bCaughtNetRand == false //&& instance_nearest(self.x,self.y,objNetRand).iInvCounterRand <= 0
+if iInvCounterRand <= 0 && instance_nearest(x,y,objNetRand).iNetDiffPlayer <= 0//objPlayer.iInvCounterPlayerRand <= 0 //|| objPlayer.bNet == true //&& bCaughtNetRand == false //&& instance_nearest(self.x,self.y,objNetRand).iInvCounterRand <= 0
 {
 	bCaughtNetRand = true;
-	sMoveMode = "CaughtNetRand";
 }
 else 
 {
