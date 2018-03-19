@@ -83,3 +83,4 @@ iCaughtTimerBagRand = 100;
 //show_debug_message(iBagRand);
 
 bNet = false;
+iBagRand = instance_nearest(x,y,objBag);
