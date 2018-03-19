@@ -1,5 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
+/*
 bGo = true;
 if bGo == true
 	{
@@ -147,7 +148,7 @@ if bGo == true
 			image_xscale = -1;
 			//show_debug_message("Wall to the right");
 		}
-		*/
+		*//*
 		if position_meeting(x, y + 32, objOuterwall)
 		{
 			motion_set(random_range(0, 180), iSpd);
@@ -158,3 +159,9 @@ if bGo == true
 			motion_set(random_range(180,260), iSpd);
 		}
 	}
+	*/
+	
+randomize();
+sMoveMode = "Random";
+
+script_execute(scrNPCMovement,sMoveMode,iMoveSpd,iSpeedTimer,iTargetSpd,iJumpTimer,iStartY,bJumping,bFalling,iMinSpeed,iMaxSpeed,bAfter,bCaughtNetRand)//,instLeftColl,instRightColl);
