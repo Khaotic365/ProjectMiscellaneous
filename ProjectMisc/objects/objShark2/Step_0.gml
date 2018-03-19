@@ -431,7 +431,7 @@ if bCaughtNetRand == true
 		bCaughtNetRand = false;
 		bFollowspdCheck = false;
 		iNetNearestRand.image_alpha = 0.35;
-		sMoveMode = "BackForth";
+		sMoveMode = "Random";
 		iNetNearestRand.sMoveMode = "Random";
 	}
 }

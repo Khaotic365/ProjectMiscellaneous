@@ -42,6 +42,22 @@ instBotColl = instance_position(x, y + 64, all);
 
 if sMoveMode == "BackForth"
 {
+	
+	if bMoveSpdCheck == true
+	{
+		iMoveSpd = 0.5;
+		iMinSpeed = 0.5;
+		iMaxSpeed = 0.5;
+		iTargetSpd = 0.5;
+		speed = 0.5;
+	}
+	else if bMoveSpdCheck == false
+	{
+		iMinSpeed = 2;
+		iMaxSpeed = 5;
+		iTargetSpd = random_range(iMinSpeed,iMaxSpeed);
+	}
+	
 	if speed == 0
 	{
 		motion_set(choose(0, 180), random_range(iMinSpeed,iMaxSpeed));

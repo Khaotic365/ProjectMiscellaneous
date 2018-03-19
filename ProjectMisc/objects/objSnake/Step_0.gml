@@ -109,14 +109,21 @@ if iPatrolspd != iTargetspd
 if bCaughtNetSnakeRand == true
 {
 	//bNetShark = false;
-	iMoveSpd = 0.5;
 	//bFollowspdCheck = true;
+	bMoveSpdCheck = true;
+	
+	if bMoveSpdCheck == true
+	{
+		iMoveSpd = 0.5;
+		iMinSpeed = 0.5;
+		iMaxSpeed = 0.5;
+	}
+	
 	solid = false;
-	self.speed = 0.5;
 	iNetNearestRand = instance_nearest(self.x,self.y,objNetRand);
 	iNetNearestRand.image_alpha = 1;
-	iNetNearestRand.x = self.x;
-	iNetNearestRand.y = self.y;
+	iNetNearestRand.x = x;
+	iNetNearestRand.y = y;
 	iCaughtTimerSnakeRand -= 1;
 	iInvCounterSnakeRand = 100;
 	bCaughtNetSnakeRand = true;
@@ -128,6 +135,7 @@ if bCaughtNetSnakeRand == true
 		bCaughtNetSnakeRand = false;
 		//bFollowspdCheck = false;
 		iNetNearestRand.image_alpha = 0.35;
+		bMoveSpdCheck = false;
 		sMoveMode = "BackForth";
 		iNetNearestRand.sMoveMode = "Random";
 	}
@@ -145,6 +153,9 @@ if bCaughtNetSnake == false && bCaughtNetSnakeRand == false
 }
 
 //iInvCounter -= 1;
-iInvCounterSnakeRand -= 1;
+iSnakeNearest = instance_nearest(objPlayer.x,objPlayer.y,objSnake)
+iSnakeNearest.iInvCounterSnakeRand -= 1;
 
-script_execute(scrNPCMovement,sMoveMode,iMoveSpd,iSpeedTimer,iTargetSpd,iJumpTimer,iStartY,bJumping,bFalling,iMinSpeed,iMaxSpeed,bAfter,iCaughtTimer,bCaughtNet,iInvCounter,bCaughtNetSnakeRand,iCaughtTimerSnakeRand,iInvCounterSnakeRand, bCaughtOnce)
+show_debug_message(iInvCounterSnakeRand);
+
+script_execute(scrNPCMovement,sMoveMode,iMoveSpd,iSpeedTimer,iTargetSpd,iJumpTimer,iStartY,bJumping,bFalling,iMinSpeed,iMaxSpeed,bAfter,iCaughtTimer,bCaughtNet,iInvCounter,bCaughtNetSnakeRand,iCaughtTimerSnakeRand,iInvCounterSnakeRand, bCaughtOnce, bMoveSpdCheck)

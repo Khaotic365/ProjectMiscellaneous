@@ -84,3 +84,6 @@ iCaughtTimerBagRand = 100;
 
 bNet = false;
 iBagRand = instance_nearest(x,y,objBag);
+
+bKeyboard = false;
+bMouse = false;

@@ -37,3 +37,4 @@ iCaughtTimerSnakeRand = 100;
 iInvCounterSnakeRand = 0;
 bCaughtOnce = false;
 iNetNearestRand = instance_nearest(self.x,self.y,objNetRand);
+bMoveSpdCheck = false;

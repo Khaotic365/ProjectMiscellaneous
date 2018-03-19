@@ -106,9 +106,18 @@ else if iInvCounterBagRand <= 0
 //show_debug_message(iInvCounterPlayerRand);
 //show_debug_message(iCaughtTimerPlayerRand);
 
-
+if keyboard_check_pressed(ord("K"))
+{
+	bKeyboard = true;
+	bMouse = false;
+}
+if bKeyboard == true
+{
 if (keyboard_check(vk_right)) || (keyboard_check(ord("D")))
 {
+	image_angle = 0;
+	image_xscale = 1;
+	image_yscale = 1;
 	//if keyboard_check_pressed(vk_shift)
 	//{
 	//	x = x + iSpd;
@@ -328,7 +337,7 @@ else
 			}
 		}
 }
-
+}
 //show_debug_message(iDashTimerRight);
 //show_debug_message(iDashTimerLeft);
 //show_debug_message(iDashTimerUp);
@@ -340,6 +349,17 @@ if y <= iRmMinY	y = 0;
 if y >= iRmMaxY	y = iRmMaxY;
  
 //show_debug_message(x);
+if keyboard_check(ord("M"))
+{
+	bMouse = true;
+	bKeyboard = false;
+}
+if bMouse == true
+{
+
+	image_angle = 0;
+	image_xscale = 1;
+	image_yscale = 1;
 
 if point_direction(x,y,mouse_x,mouse_y) > 270 || point_direction(x,y,mouse_x,mouse_y) < 90
 {
@@ -440,7 +460,7 @@ if point_distance(iStartX,iStartY,x,y) >= 120 && bOnly == 1
 		bClicked = 0;
 	}
 }
-
+}
 //show_debug_message(iClickTimer);
 //show_debug_message(bClicked);
 /*
