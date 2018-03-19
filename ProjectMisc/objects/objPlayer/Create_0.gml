@@ -81,3 +81,5 @@ iInvCounterBagRand = 0;
 iCaughtTimerBagRand = 100;
 
 //show_debug_message(iBagRand);
+
+bNet = false;

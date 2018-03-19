@@ -264,7 +264,7 @@ for (i = 0; i < instance_number(objShark2); i += 1)
 randomize();
 sMoveMode = "Random";
 
-script_execute(scrNPCMovement,sMoveMode,iMoveSpd,iSpeedTimer,iTargetSpd,iJumpTimer,iStartY,bJumping,bFalling,iMinSpeed,iMaxSpeed,bAfter)//,instLeftColl,instRightColl);
+script_execute(scrNPCMovement,sMoveMode,iMoveSpd,iSpeedTimer,iTargetSpd,iJumpTimer,iStartY,bJumping,bFalling,iMinSpeed,iMaxSpeed,bAfter,bCaughtNetRand)//,instLeftColl,instRightColl);
 
 
 

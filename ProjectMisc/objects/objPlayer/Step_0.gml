@@ -31,8 +31,8 @@ if bCaughtNetPlayer == true
 	iSpd = 0.5;
 	iNetNearest = instance_nearest(objPlayer.x,objPlayer.y,objNet);
 	iNetNearest.image_alpha = 1;
-	iNetNearest.x = self.x;
-	iNetNearest.y = self.y;
+	iNetNearest.x = x;
+	iNetNearest.y = y;
 	iCaughtTimerPlayer -= 1;
 	if iCaughtTimerPlayer <= 0
 	{
@@ -47,14 +47,15 @@ if bCaughtNetPlayer == true
 
 if bCaughtNetPlayerRand == true
 {
+	//bNet = false;
 	iInvCounterPlayerRand = 100;
 	solid = false;
 	//speed = 0.5;
 	iSpd = 0.5;
 	iNetNearestRand = instance_nearest(objPlayer.x,objPlayer.y,objNetRand);
 	iNetNearestRand.image_alpha = 1;
-	iNetNearestRand.x = self.x;
-	iNetNearestRand.y = self.y;
+	iNetNearestRand.x = x;
+	iNetNearestRand.y = y;
 	iCaughtTimerPlayerRand -= 1;
 	if iCaughtTimerPlayerRand <= 0
 	{
@@ -66,10 +67,14 @@ if bCaughtNetPlayerRand == true
 		iSpd = 4;
 	}
 }
-else if iInvCounterPlayerRand <= 0
+else if iInvCounterPlayerRand <= 0 && instance_nearest(x,y,objShark2).iInvCounterRand <= 0
 {
 	iNetNearestRand.image_alpha = 1;
+	//bNet = true;
 }
+
+//show_debug_message(iCaughtTimerPlayerRand);
+//show_debug_message(iInvCounterPlayerRand);
 
 if bCaughtBagRand == true
 {

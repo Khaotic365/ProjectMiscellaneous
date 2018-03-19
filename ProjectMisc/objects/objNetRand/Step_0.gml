@@ -272,6 +272,25 @@ if bCaughtShark == true
 //show_debug_message(iTimer);
 //show_debug_message(iNetCollisionTimer);
 
+iNetNearestRand = instance_nearest(x,y,objNetRand);
+if instance_nearest(objPlayer.x,objPlayer.y,objNetRand) == instance_nearest(instance_nearest(x,y,objShark2).x,instance_nearest(x,y,objShark2).y,objNetRand)
+{
+	iNetNearestRand.iNetDiffPlayer = objPlayer.iInvCounterPlayerRand;
+	iNetNearestRand.iNetDiffShark = instance_nearest(x,y,objShark2).iInvCounterRand;
+}
+if instance_nearest(objPlayer.x,objPlayer.y,objNetRand) != instance_nearest(instance_nearest(x,y,objShark2).x,instance_nearest(x,y,objShark2).y,objNetRand)
+{
+	iNetNearestRand.iNetDiffPlayer = 0;
+	iNetNearestRand.iNetDiffShark = 0;
+}
+
+/*
+if instance_nearest(x,y,objPlayer) != instance_nearest(x,y,objShark2)
+{
+	iNetNearest.iNetDiffPlayer = objPlayer.iInvCounterPlayerRand;
+	iNetNearest.iNetDiffShark = instance_nearest(x,y,objShark2).iInvCounterRand;
+}
+*/
 sMoveMode = "Random";
 
 script_execute(scrNPCMovement,sMoveMode,iMoveSpd,iSpeedTimer,iTargetSpd,iJumpTimer,iStartY,bJumping,bFalling,iMinSpeed,iMaxSpeed,bAfter)//,instLeftColl,instRightColl);
