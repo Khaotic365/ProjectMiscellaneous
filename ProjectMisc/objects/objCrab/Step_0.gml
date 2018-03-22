@@ -198,12 +198,44 @@ if iPatrolspd != iTargetspd
 //show_debug_message("Jump point: " + string(jumppoint));
 //show_debug_message("Start Y: " + string(starty));
 
-if bCaughtNet == false && bCaughtNetRand == false
+if bCaughtNetCrabRand == true
+{
+	//bNetShark = false;
+	iMoveSpd = 0.5;
+	bFollowspdCheck = true;
+	solid = false;
+	speed = 0.5;
+	iNetNearestRand = instance_nearest(self.x,self.y,objNetRand);
+	iNetNearestRand.image_alpha = 1;
+	iNetNearestRand.x = self.x;
+	iNetNearestRand.y = self.y;
+	iCaughtTimerCrabRand -= 1;
+	iInvCounterCrabRand = 100;
+	bCaughtNetCrabRand = true;
+	if iCaughtTimerCrabRand <= 0
+	{
+		iNetNearestRand = instance_nearest(self.x,self.y,objNetRand);
+		iInvCounterCrabRand = 100;
+		iCaughtTimerCrabRand = 100;
+		bCaughtNetCrabRand = false;
+		bFollowspdCheck = false;
+		iNetNearestRand.image_alpha = 0.35;
+		sMoveMode = "Jump";
+		iNetNearestRand.sMoveMode = "Random";
+	}
+}
+else if iInvCounterCrabRand <= 0 && objPlayer.iInvCounterPlayerRand <= 0
+{
+	iNetNearestRand.image_alpha = 1;
+	//bNetShark = true;
+}
+
+if bCaughtNetCrab == false && bCaughtNetCrabRand == false
 {
 	sMoveMode = "Jump";
 }
 
-iInvCounter -= 1;
-iInvCounterRand -= 1;
+iInvCounterCrab -= 1;
+iInvCounterCrabRand -= 1;
 
-script_execute(scrNPCMovement,sMoveMode,iMoveSpd,iSpeedTimer,iTargetSpd,iJumpTimer,iStartY,bJumping,bFalling,iMinSpeed,iMaxSpeed,bAfter,iCaughtTimer,bCaughtNet,iInvCounter,bCaughtNetRand,iCaughtTimerRand,iInvCounterRand, bCaughtOnce)//,instLeftColl,instRightColl)
+script_execute(scrNPCMovement,sMoveMode,iMoveSpd,iSpeedTimer,iTargetSpd,iJumpTimer,iStartY,bJumping,bFalling,iMinSpeed,iMaxSpeed,bAfter,iCaughtTimerCrab,bCaughtNetCrab,iInvCounterCrab,bCaughtNetCrabRand,iCaughtTimerCrabRand,iInvCounterCrabRand, bCaughtOnce)//,instLeftColl,instRightColl)

@@ -26,5 +26,5 @@ if iInvCounterPlayerRand <= 0 && instance_nearest(x,y,objNetRand).iNetDiffShark 
 }
 else
 {
-	objPlayer.solid = false;
+	solid = false;
 }
