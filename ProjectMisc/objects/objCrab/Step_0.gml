@@ -198,6 +198,38 @@ if iPatrolspd != iTargetspd
 //show_debug_message("Jump point: " + string(jumppoint));
 //show_debug_message("Start Y: " + string(starty));
 
+if bCaughtNetCrab == true
+{
+	//bNetShark = false;
+	iMoveSpd = 0.5;
+	bFollowspdCheck = true;
+	solid = false;
+	speed = 0.5;
+	iNetNearest = instance_nearest(self.x,self.y,objNet);
+	iNetNearest.image_alpha = 1;
+	iNetNearest.x = self.x;
+	iNetNearest.y = self.y;
+	iCaughtTimerCrab -= 1;
+	iInvCounterCrab = 100;
+	bCaughtNetCrab = true;
+	if iCaughtTimerCrab <= 0
+	{
+		iNetNearest = instance_nearest(self.x,self.y,objNet);
+		iInvCounterCrab = 100;
+		iCaughtTimerCrab = 100;
+		bCaughtNetCrab = false;
+		bFollowspdCheck = false;
+		iNetNearest.image_alpha = 0.35;
+		sMoveMode = "Jump";
+		iNetNearest.sMoveMode = "BackForth";
+	}
+}
+else if iInvCounterCrab <= 0 && objPlayer.iInvCounterPlayer <= 0
+{
+	iNetNearest.image_alpha = 1;
+	//bNetShark = true;
+}
+
 if bCaughtNetCrabRand == true
 {
 	//bNetShark = false;

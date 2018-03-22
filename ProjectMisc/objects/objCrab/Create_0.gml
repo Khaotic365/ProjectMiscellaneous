@@ -48,4 +48,5 @@ iCaughtTimerCrabRand = 100;
 bCaughtOnce = false;
 iInvCounterCrabRand = 0;
 
+iNetNearest = instance_nearest(self.x,self.y,objNet);
 iNetNearestRand = instance_nearest(self.x,self.y,objNetRand);

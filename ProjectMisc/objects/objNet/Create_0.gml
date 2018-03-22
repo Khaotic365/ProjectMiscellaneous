@@ -52,3 +52,4 @@ iSharkRange = 300;
 bAfter = false;
 bCaughtNet = false;
 iCaughtTimer = 100;
+bMoveSpdCheck = false;
