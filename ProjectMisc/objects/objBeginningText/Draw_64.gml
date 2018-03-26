@@ -3,6 +3,5 @@
 
 if iCountdown >= 0
 {
-	
-	draw_text_colour(50, 600, "Press 'K' to use keyboard controls\n and 'M' to use mouse controls.\n Use Shift or Right Mouse Button\n to dash.", c_green, c_green, c_green, c_green, 1);
+	draw_text_colour(50, 600, "Press 'K' to use keyboard controls\n and 'M' to use mouse controls.\nUse WASD or Arrow Keys to move.\n Use Shift or Right Mouse Button\n to dash.", c_green, c_green, c_green, c_green, 1);
 }
