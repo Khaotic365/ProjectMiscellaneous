@@ -1,8 +1,8 @@
 {
-    "id": "d32b8c86-a35f-4daf-8741-548365241928",
+    "id": "c5e78f42-8533-4463-8591-51d4d6daeecf",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "objOildrum",
+    "name": "objBarnacles1",
     "eventList": [
         
     ],
@@ -22,6 +22,6 @@
     "physicsShapePoints": null,
     "physicsStartAwake": true,
     "solid": false,
-    "spriteId": "e26a2f9d-cb87-494a-b8cb-be294595e32b",
+    "spriteId": "378abf3f-6b7b-4946-9f03-2927da81f3a1",
     "visible": true
 }

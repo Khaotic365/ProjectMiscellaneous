@@ -1695,6 +1695,14 @@
             }
         },
         {
+            "Key": "c5e78f42-8533-4463-8591-51d4d6daeecf",
+            "Value": {
+                "id": "528824cd-4c7d-4360-91b2-00dd8f5ee638",
+                "resourcePath": "objects\\objBarnacles1\\objBarnacles1.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "c5f2d14d-e317-4fcb-816d-224b55e8c6fc",
             "Value": {
                 "id": "1e2a3d54-2135-47a1-b9ce-b5c39932eb57",
@@ -1836,14 +1844,6 @@
                 "id": "d7c6ac42-540a-4690-8b65-bd9be23aeb19",
                 "resourcePath": "sprites\\sprCaveBGParallax2\\sprCaveBGParallax2.yy",
                 "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "d32b8c86-a35f-4daf-8741-548365241928",
-            "Value": {
-                "id": "820e1071-f3aa-46c1-80d6-4e44766671e6",
-                "resourcePath": "objects\\objOildrum\\objOildrum.yy",
-                "resourceType": "GMObject"
             }
         },
         {
