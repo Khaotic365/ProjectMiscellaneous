@@ -599,13 +599,13 @@ if iCollideTimerCrab > 0 || iCollideTimer2 > 0 || iCollideTimer > 0 || iCollideT
 
 if (iHp <= 0) 
 {
-	if 
-	{
-		room_goto(rmGameOverNonStretch);
-	}
-	else
+	if room_get_name(room) == "rmShore3"
 	{
 		room_goto(rmGameOverNonStretchShore);
+	}
+	else if room_get_name(room) == "rmCave"
+	{
+		room_goto(rmGameOverNonStretch);
 	}
 }
 
