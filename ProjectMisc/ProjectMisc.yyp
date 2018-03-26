@@ -1143,6 +1143,14 @@
             }
         },
         {
+            "Key": "8427ea9c-3c8d-4ab1-aa8b-2105d1e4c75e",
+            "Value": {
+                "id": "a8c80b2c-478b-4baf-b691-c7ad183102b3",
+                "resourcePath": "objects\\objBeginningText\\objBeginningText.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "882f9d7d-8ce4-4d86-bf7e-20b9803ce45b",
             "Value": {
                 "id": "5b20ca2d-e716-44e6-a3b0-fe92b8be315e",

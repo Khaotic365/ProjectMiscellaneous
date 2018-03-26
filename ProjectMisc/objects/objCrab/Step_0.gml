@@ -230,6 +230,8 @@ else if iInvCounterCrab <= 0 && objPlayer.iInvCounterPlayer <= 0
 	//bNetShark = true;
 }
 
+//show_debug_message(iInvCounterCrab);
+
 if bCaughtNetCrabRand == true
 {
 	//bNetShark = false;
