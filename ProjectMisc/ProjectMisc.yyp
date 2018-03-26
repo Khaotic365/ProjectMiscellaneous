@@ -71,6 +71,14 @@
             }
         },
         {
+            "Key": "068f6300-051d-47f4-ba38-dd5ef09dc6ec",
+            "Value": {
+                "id": "0d660821-b8b1-4a42-a94e-883a4abade5f",
+                "resourcePath": "sprites\\sprNettle\\sprNettle.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "06f115f7-1701-4274-a815-15d27e58b3b3",
             "Value": {
                 "id": "cdf63fc5-1bfc-4b81-ad72-993227f90b93",
@@ -439,6 +447,14 @@
             }
         },
         {
+            "Key": "378abf3f-6b7b-4946-9f03-2927da81f3a1",
+            "Value": {
+                "id": "7be9de36-e57d-4597-a9ff-e0c2e7e9bc95",
+                "resourcePath": "sprites\\sprBarnacles\\sprBarnacles.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "39695ba9-fb16-4652-ab09-2b2a9e82a8c2",
             "Value": {
                 "id": "50656533-bfe2-454b-8721-8846e50226f5",
@@ -615,6 +631,14 @@
             }
         },
         {
+            "Key": "4f08be9a-90e8-42cc-ac1c-07aa954f60df",
+            "Value": {
+                "id": "582248cb-31f8-492c-8b84-a9b1b534ea08",
+                "resourcePath": "objects\\objBarnacles\\objBarnacles.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "4f7f651a-f9df-4a1d-9967-a4ac6abcf267",
             "Value": {
                 "id": "79e4ec7e-8a64-44c0-89bf-959596f37e77",
@@ -692,6 +716,14 @@
                 "id": "d18a6333-2439-4adc-9c28-aed97998c137",
                 "resourcePath": "sprites\\sprBackground4\\sprBackground4.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "57fda53e-4422-4d0b-9f68-88f2bf2d898f",
+            "Value": {
+                "id": "c7230d3f-8d72-438d-8ccb-794c8e63ab60",
+                "resourcePath": "rooms\\rmShore3\\rmShore3.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -876,14 +908,6 @@
                 "id": "9824a1ec-8cc5-459b-b157-d6936d9b9a10",
                 "resourcePath": "sprites\\sprBigBarnacle4\\sprBigBarnacle4.yy",
                 "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "6b6b0059-6424-437c-82ab-2c936ae06ee5",
-            "Value": {
-                "id": "cd900027-e7ab-4922-9b2c-377a4ba26dfa",
-                "resourcePath": "rooms\\rmShore2\\rmShore2.yy",
-                "resourceType": "GMRoom"
             }
         },
         {
