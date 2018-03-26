@@ -42,6 +42,22 @@ instBotColl = instance_position(x, y + 64, all);
 
 if sMoveMode == "BackForth"
 {
+	
+	if bMoveSpdCheck == true
+	{
+		iMoveSpd = 0.5;
+		iMinSpeed = 0.5;
+		iMaxSpeed = 0.5;
+		iTargetSpd = 0.5;
+		speed = 0.5;
+	}
+	else if bMoveSpdCheck == false
+	{
+		iMinSpeed = 2;
+		iMaxSpeed = 10;
+		iTargetSpd = random_range(iMinSpeed,iMaxSpeed);
+	}
+	
 	if speed == 0
 	{
 		motion_set(choose(0, 180), random_range(iMinSpeed,iMaxSpeed));
@@ -401,6 +417,11 @@ if sMoveMode == "Follow"
 {
 	bAfter = true;
 	
+	if bFollowspdCheck == true
+	{
+		iFollowspd = 0.5;
+	}
+	
 	if position_meeting(x - 64, y, all)
 	{
 	if instLeftColl.sObjType == "Wall"
@@ -683,7 +704,7 @@ if sMoveMode == "CaughtNet"
 	}
 	
 }
-
+/*
 if sMoveMode == "CaughtNetRand"
 {
 	solid = false;
@@ -694,7 +715,6 @@ if sMoveMode == "CaughtNetRand"
 	iNetNearestRand.y = self.y;
 	iCaughtTimerRand -= 1;
 	iInvCounterRand = 100;
-	bCaughtNetRand = true;
 	if iCaughtTimerRand <= 0
 	{
 		iNetNearestRand = instance_nearest(self.x,self.y,objNetRand);
@@ -713,8 +733,8 @@ else if iInvCounterRand <= 0 && bCaughtNetRand == false
 	iNetNearestRand = instance_nearest(self.x,self.y,objNetRand);
 	iNetNearestRand.image_alpha = 1;
 }
-
-
+*/
+/*
 	if sMoveMode == "CaughtBag"
 {
 	solid = false;
@@ -737,7 +757,7 @@ else if iInvCounterRand <= 0 && bCaughtNetRand == false
 		iBagRand.y += 0;
 	}
 }
-
+*/
 //show_debug_message(iCountTimer);
 
 //show_debug_message(iJumpPoint);

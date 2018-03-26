@@ -11,3 +11,12 @@ if other.bCanCollide == true
 	iSlowTimer = 60;
 	audio_play_sound(sndDamage2, 0, false);
 }
+*/
+if iInvCounterBagRand <= 0 //&& instance_nearest(objPlayer.x,objPlayer.y,objNetRand).iInvCounterRand <= 0 //|| instance_nearest(objPlayer.x,objPlayer.y,objShark2) <= 0;
+{
+	bCaughtBagRand = true;
+}
+else
+{
+	solid = false;
+}

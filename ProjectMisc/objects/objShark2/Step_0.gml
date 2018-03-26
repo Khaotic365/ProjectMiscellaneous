@@ -383,6 +383,64 @@ solid = true;
 //	iNetNearestRand = instance_nearest(self.x,self.y,objNetRand);
 //	iNetNearestRand.image_alpha = 1;
 //}
+/*
+if sMoveMode == "CaughtNetRand"
+{
+	solid = false;
+	speed = 0.5;
+	iNetNearestRand = instance_nearest(self.x,self.y,objNetRand);
+	iNetNearestRand.image_alpha = 1;
+	iNetNearestRand.x = self.x;
+	iNetNearestRand.y = self.y;
+	iCaughtTimerRand -= 1;
+	iInvCounterRand = 100;
+	if iCaughtTimerRand <= 0
+	{
+		iNetNearestRand = instance_nearest(self.x,self.y,objNetRand);
+		iInvCounterRand = 100;
+		iCaughtTimerRand = 100;
+		bCaughtNetRand = false;
+		iNetNearestRand.image_alpha = 0.35;
+		sMoveMode = "BackForth";
+		iNetNearestRand.sMoveMode = "Random";
+		iNetNearestRand.x += 0;
+		iNetNearestRand.y += 0;
+	}
+}
+*/
+
+if bCaughtNetRand == true
+{
+	//bNetShark = false;
+	iMoveSpd = 0.5;
+	bFollowspdCheck = true;
+	solid = false;
+	speed = 0.5;
+	iNetNearestRand = instance_nearest(self.x,self.y,objNetRand);
+	iNetNearestRand.image_alpha = 1;
+	iNetNearestRand.x = self.x;
+	iNetNearestRand.y = self.y;
+	iCaughtTimerRand -= 1;
+	iInvCounterRand = 100;
+	bCaughtNetRand = true;
+	if iCaughtTimerRand <= 0
+	{
+		iNetNearestRand = instance_nearest(self.x,self.y,objNetRand);
+		iInvCounterRand = 100;
+		iCaughtTimerRand = 100;
+		bCaughtNetRand = false;
+		bFollowspdCheck = false;
+		iNetNearestRand.image_alpha = 0.35;
+		sMoveMode = "Random";
+		iNetNearestRand.sMoveMode = "Random";
+	}
+}
+else if iInvCounterRand <= 0 && objPlayer.iInvCounterPlayerRand <= 0
+{
+	iNetNearestRand.image_alpha = 1;
+	//bNetShark = true;
+}
+
 if bCaughtNet == false && bCaughtNetRand == false && distance_to_object(objPlayer) > iSharkRange
 {
 	sMoveMode = "Random";

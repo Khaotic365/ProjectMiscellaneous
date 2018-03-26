@@ -71,14 +71,6 @@
             }
         },
         {
-            "Key": "068f6300-051d-47f4-ba38-dd5ef09dc6ec",
-            "Value": {
-                "id": "0d660821-b8b1-4a42-a94e-883a4abade5f",
-                "resourcePath": "sprites\\sprNettle\\sprNettle.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "06f115f7-1701-4274-a815-15d27e58b3b3",
             "Value": {
                 "id": "cdf63fc5-1bfc-4b81-ad72-993227f90b93",
@@ -279,6 +271,14 @@
             }
         },
         {
+            "Key": "2148628d-d5f0-4c89-a519-2a6ec63d44ce",
+            "Value": {
+                "id": "20677fe8-c630-40aa-b70f-a51d235fb38d",
+                "resourcePath": "sprites\\sprSecretWall\\sprSecretWall.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "228c69fe-d4c5-421e-b469-5e2f0d7fe9cb",
             "Value": {
                 "id": "3addba48-c3b7-416e-860a-1d149a840d4d",
@@ -375,6 +375,14 @@
             }
         },
         {
+            "Key": "2d7fe582-309b-4c3c-951b-ab96dd513749",
+            "Value": {
+                "id": "fb3923ec-0c34-4bfe-b7ba-62c4a525db12",
+                "resourcePath": "sprites\\sprInvisBox\\sprInvisBox.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "2db79684-96d2-4a95-af3e-a4e5613f1eb9",
             "Value": {
                 "id": "54cfc56f-ea7b-4f7c-8845-0da1f72d494d",
@@ -447,11 +455,11 @@
             }
         },
         {
-            "Key": "378abf3f-6b7b-4946-9f03-2927da81f3a1",
+            "Key": "38c3d46b-b25e-4fb4-89a4-5ad6148e0c5b",
             "Value": {
-                "id": "7be9de36-e57d-4597-a9ff-e0c2e7e9bc95",
-                "resourcePath": "sprites\\sprBarnacles\\sprBarnacles.yy",
-                "resourceType": "GMSprite"
+                "id": "4ed48111-8ecd-47d6-a890-f51b12e6bf89",
+                "resourcePath": "rooms\\rmTestNet\\rmTestNet.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -631,14 +639,6 @@
             }
         },
         {
-            "Key": "4f08be9a-90e8-42cc-ac1c-07aa954f60df",
-            "Value": {
-                "id": "582248cb-31f8-492c-8b84-a9b1b534ea08",
-                "resourcePath": "objects\\objBarnacles\\objBarnacles.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "4f7f651a-f9df-4a1d-9967-a4ac6abcf267",
             "Value": {
                 "id": "79e4ec7e-8a64-44c0-89bf-959596f37e77",
@@ -716,14 +716,6 @@
                 "id": "d18a6333-2439-4adc-9c28-aed97998c137",
                 "resourcePath": "sprites\\sprBackground4\\sprBackground4.yy",
                 "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "57fda53e-4422-4d0b-9f68-88f2bf2d898f",
-            "Value": {
-                "id": "c7230d3f-8d72-438d-8ccb-794c8e63ab60",
-                "resourcePath": "rooms\\rmShore3\\rmShore3.yy",
-                "resourceType": "GMRoom"
             }
         },
         {
@@ -908,6 +900,14 @@
                 "id": "9824a1ec-8cc5-459b-b157-d6936d9b9a10",
                 "resourcePath": "sprites\\sprBigBarnacle4\\sprBigBarnacle4.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "6b6b0059-6424-437c-82ab-2c936ae06ee5",
+            "Value": {
+                "id": "cd900027-e7ab-4922-9b2c-377a4ba26dfa",
+                "resourcePath": "rooms\\rmShore2\\rmShore2.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -1772,6 +1772,14 @@
                 "id": "ed84fe57-4de5-4baf-8a4b-bd3542e49599",
                 "resourcePath": "views\\cd7cc6f4-ba5f-48c3-ae6b-f1685333b77c.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "cd99e971-bb76-4a79-a56f-e81004b5d81d",
+            "Value": {
+                "id": "88a3cfcc-c7ab-4a54-8b83-572d2778a896",
+                "resourcePath": "objects\\objInvisBox\\objInvisBox.yy",
+                "resourceType": "GMObject"
             }
         },
         {

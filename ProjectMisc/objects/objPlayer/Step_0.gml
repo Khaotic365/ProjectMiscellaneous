@@ -19,6 +19,7 @@ if (keyboard_check(vk_right)) || (keyboard_check(ord("D")))
 
 iInvCounterPlayer -= 1;
 iInvCounterPlayerRand -= 1;
+iInvCounterBagRand -= 1;
 
 //script_execute(scrNPCMovement,sMoveMode,iMoveSpd,iSpeedTimer,iTargetSpd,iJumpTimer,iStartY,bJumping,bFalling,iMinSpeed,iMaxSpeed,bAfter,iCaughtTimer,bCaughtNet,iInvCounter)//,instLeftColl,instRightColl)
 
@@ -29,16 +30,16 @@ if bCaughtNetPlayer == true
 	//speed = 0.5;
 	iSpd = 0.5;
 	iNetNearest = instance_nearest(objPlayer.x,objPlayer.y,objNet);
-	iNetNearest.image_alpha = 0.35;
-	iNetNearest.x = self.x;
-	iNetNearest.y = self.y;
+	iNetNearest.image_alpha = 1;
+	iNetNearest.x = x;
+	iNetNearest.y = y;
 	iCaughtTimerPlayer -= 1;
 	if iCaughtTimerPlayer <= 0
 	{
 		iInvCounterPlayer = 100;
 		iCaughtTimerPlayer = 100;
 		bCaughtNetPlayer = false;
-		iNetNearest.image_alpha = 1;
+		iNetNearest.image_alpha = 0.35;
 		iNetNearest.sMoveMode = "BackForth";
 		iSpd = 4;
 	}
@@ -46,14 +47,15 @@ if bCaughtNetPlayer == true
 
 if bCaughtNetPlayerRand == true
 {
+	//bNet = false;
 	iInvCounterPlayerRand = 100;
 	solid = false;
 	//speed = 0.5;
 	iSpd = 0.5;
 	iNetNearestRand = instance_nearest(objPlayer.x,objPlayer.y,objNetRand);
 	iNetNearestRand.image_alpha = 1;
-	iNetNearestRand.x = self.x;
-	iNetNearestRand.y = self.y;
+	iNetNearestRand.x = x;
+	iNetNearestRand.y = y;
 	iCaughtTimerPlayerRand -= 1;
 	if iCaughtTimerPlayerRand <= 0
 	{
@@ -65,18 +67,57 @@ if bCaughtNetPlayerRand == true
 		iSpd = 4;
 	}
 }
-else if iInvCounterPlayerRand <= 0
+else if iInvCounterPlayerRand <= 0 && instance_nearest(x,y,objShark2).iInvCounterRand <= 0
 {
 	iNetNearestRand.image_alpha = 1;
+	//bNet = true;
+}
+
+//show_debug_message(iCaughtTimerPlayerRand);
+//show_debug_message(iInvCounterPlayerRand);
+
+if bCaughtBagRand == true
+{
+	solid = false;
+	iSpd = 1.5;
+	iBagRand = instance_nearest(x,y,objBag);
+	iBagRand.image_alpha = 1;
+	iBagRand.x = x;
+	iBagRand.y = y;
+	iCaughtTimerBagRand -= 1;
+	iInvCounterBagRand = 100;
+	if iCaughtTimerBagRand <= 0
+	{
+		iInvCounterBagRand = 100;
+		iCaughtTimerBagRand = 100;
+		bCaughtBagRand = false;
+		//bBagRand = false;
+		iBagRand.image_alpha = 0.35;
+		iBagRand.sMoveMode = "Random";
+		iSpd = 4;
+	}
+}
+else if iInvCounterBagRand <= 0
+{
+	iBagRand.image_alpha = 1;
 }
 
 //show_debug_message(iInvCounterPlayer);
 //show_debug_message(iInvCounterPlayerRand);
 //show_debug_message(iCaughtTimerPlayerRand);
 
-
+if keyboard_check_pressed(ord("K"))
+{
+	bKeyboard = true;
+	bMouse = false;
+}
+if bKeyboard == true
+{
 if (keyboard_check(vk_right)) || (keyboard_check(ord("D")))
 {
+	image_angle = 0;
+	image_xscale = 1;
+	image_yscale = 1;
 	//if keyboard_check_pressed(vk_shift)
 	//{
 	//	x = x + iSpd;
@@ -296,7 +337,7 @@ else
 			}
 		}
 }
-
+}
 //show_debug_message(iDashTimerRight);
 //show_debug_message(iDashTimerLeft);
 //show_debug_message(iDashTimerUp);
@@ -308,6 +349,17 @@ if y <= iRmMinY	y = 0;
 if y >= iRmMaxY	y = iRmMaxY;
  
 //show_debug_message(x);
+if keyboard_check(ord("M"))
+{
+	bMouse = true;
+	bKeyboard = false;
+}
+if bMouse == true
+{
+
+	image_angle = 0;
+	image_xscale = 1;
+	image_yscale = 1;
 
 if point_direction(x,y,mouse_x,mouse_y) > 270 || point_direction(x,y,mouse_x,mouse_y) < 90
 {
@@ -408,7 +460,7 @@ if point_distance(iStartX,iStartY,x,y) >= 120 && bOnly == 1
 		bClicked = 0;
 	}
 }
-
+}
 //show_debug_message(iClickTimer);
 //show_debug_message(bClicked);
 /*

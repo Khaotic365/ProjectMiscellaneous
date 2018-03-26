@@ -272,6 +272,69 @@ if bCaughtShark == true
 //show_debug_message(iTimer);
 //show_debug_message(iNetCollisionTimer);
 
+iNetNearestRand = instance_nearest(x,y,objNetRand);
+if instance_nearest(objPlayer.x,objPlayer.y,objNetRand) == instance_nearest(instance_nearest(x,y,objShark2).x,instance_nearest(x,y,objShark2).y,objNetRand)
+{
+	iNetNearestRand.iNetDiffPlayer = objPlayer.iInvCounterPlayerRand;
+	iNetNearestRand.iNetDiffShark = instance_nearest(x,y,objShark2).iInvCounterRand;
+}
+if instance_nearest(objPlayer.x,objPlayer.y,objNetRand) != instance_nearest(instance_nearest(x,y,objShark2).x,instance_nearest(x,y,objShark2).y,objNetRand)
+{
+	iNetNearestRand.iNetDiffPlayer = 0;
+	iNetNearestRand.iNetDiffShark = 0;
+}
+
+if instance_nearest(objPlayer.x,objPlayer.y,objNetRand) == instance_nearest(instance_nearest(x,y,objSnake).x,instance_nearest(x,y,objSnake).y,objNetRand)
+{
+	iNetNearestRand.iNetDiffPlayer = objPlayer.iInvCounterPlayerRand;
+	iNetNearestRand.iNetDiffSnake = instance_nearest(x,y,objSnake).iInvCounterSnakeRand;
+}
+if instance_nearest(objPlayer.x,objPlayer.y,objNetRand) != instance_nearest(instance_nearest(x,y,objSnake).x,instance_nearest(x,y,objSnake).y,objNetRand)
+{
+	iNetNearestRand.iNetDiffPlayer = 0;
+	iNetNearestRand.iNetDiffSnake = 0;
+}
+
+if instance_nearest(objPlayer.x,objPlayer.y,objNetRand) == instance_nearest(instance_nearest(x,y,objCrab).x,instance_nearest(x,y,objCrab).y,objNetRand)
+{
+	iNetNearestRand.iNetDiffPlayer = objPlayer.iInvCounterPlayerRand;
+	iNetNearestRand.iNetDiffCrab = instance_nearest(x,y,objCrab).iInvCounterCrabRand;
+}
+if instance_nearest(objPlayer.x,objPlayer.y,objNetRand) != instance_nearest(instance_nearest(x,y,objCrab).x,instance_nearest(x,y,objCrab).y,objNetRand)
+{
+	iNetNearestRand.iNetDiffPlayer = 0;
+	iNetNearestRand.iNetDiffCrab = 0;
+}
+
+if instance_nearest(objPlayer.x,objPlayer.y,objNetRand) == instance_nearest(instance_nearest(x,y,objLobster).x,instance_nearest(x,y,objLobster).y,objNetRand)
+{
+	iNetNearestRand.iNetDiffPlayer = objPlayer.iInvCounterPlayerRand;
+	iNetNearestRand.iNetDiffCrab = instance_nearest(x,y,objLobster).iInvCounterLobsterRand;
+}
+if instance_nearest(objPlayer.x,objPlayer.y,objNetRand) != instance_nearest(instance_nearest(x,y,objLobster).x,instance_nearest(x,y,objLobster).y,objNetRand)
+{
+	iNetNearestRand.iNetDiffPlayer = 0;
+	iNetNearestRand.iNetDiffLobster = 0;
+}
+
+if instance_nearest(instance_nearest(x,y,objSnake).x,instance_nearest(x,y,objSnake).y,objNetRand) == instance_nearest(instance_nearest(x,y,objShark2).x,instance_nearest(x,y,objShark2).y,objNetRand)
+{
+	iNetNearestRand.iNetDiffSnake = instance_nearest(x,y,objSnake).iInvCounterSnakeRand;
+	iNetNearestRand.iNetDiffShark = instance_nearest(x,y,objShark2).iInvCounterRand;
+}
+if instance_nearest(instance_nearest(x,y,objSnake).x,instance_nearest(x,y,objSnake.y),objNetRand) != instance_nearest(instance_nearest(x,y,objShark2).x,instance_nearest(x,y,objShark2).y,objNetRand)
+{
+	iNetNearestRand.iNetDiffSnake = 0;
+	iNetNearestRand.iNetDiffShark = 0;
+}
+
+/*
+if instance_nearest(x,y,objPlayer) != instance_nearest(x,y,objShark2)
+{
+	iNetNearest.iNetDiffPlayer = objPlayer.iInvCounterPlayerRand;
+	iNetNearest.iNetDiffShark = instance_nearest(x,y,objShark2).iInvCounterRand;
+}
+*/
 sMoveMode = "Random";
 
 script_execute(scrNPCMovement,sMoveMode,iMoveSpd,iSpeedTimer,iTargetSpd,iJumpTimer,iStartY,bJumping,bFalling,iMinSpeed,iMaxSpeed,bAfter)//,instLeftColl,instRightColl);

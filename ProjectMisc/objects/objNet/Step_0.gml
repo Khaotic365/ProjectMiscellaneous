@@ -128,7 +128,18 @@ if bCaughtPlayer == true
 	y = objPlayer.y;
 }
 */
+iNetNearest = instance_nearest(x,y,objNet);
+if instance_nearest(objPlayer.x,objPlayer.y,objNet) == instance_nearest(instance_nearest(x,y,objCrab).x,instance_nearest(x,y,objCrab).y,objNet)
+{
+	iNetNearest.iNetDiffPlayerNorm = objPlayer.iInvCounterPlayer;
+	iNetNearest.iNetDiffCrabNorm = instance_nearest(x,y,objCrab).iInvCounterCrab;
+}
+if instance_nearest(objPlayer.x,objPlayer.y,objNet) != instance_nearest(instance_nearest(x,y,objCrab).x,instance_nearest(x,y,objCrab).y,objNet)
+{
+	iNetNearest.iNetDiffPlayerNorm = 0;
+	iNetNearest.iNetDiffCrabNorm = 0;
+}
 
 sMoveMode = "BackForth";
 
-script_execute(scrNPCMovement,sMoveMode,iMoveSpd,iSpeedTimer,iTargetSpd,iJumpTimer,iStartY,bJumping,bFalling,iMinSpeed,iMaxSpeed,bAfter)//,instLeftColl,instRightColl);
+script_execute(scrNPCMovement,sMoveMode,iMoveSpd,iSpeedTimer,iTargetSpd,iJumpTimer,iStartY,bJumping,bFalling,iMinSpeed,iMaxSpeed,bAfter,bMoveSpdCheck)//,instLeftColl,instRightColl);

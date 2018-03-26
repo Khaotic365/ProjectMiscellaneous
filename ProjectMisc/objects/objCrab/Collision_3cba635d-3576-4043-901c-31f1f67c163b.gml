@@ -1,7 +1,10 @@
 /// @description Insert description here
 // You can write your code in this editor
-if iInvCounter <= 0 && objPlayer.iInvCounterPlayer <= 0
+if iInvCounterCrab <= 0 && instance_nearest(x,y,objNet).iNetDiffPlayerNorm <= 0
 {
-	bCaughtNet = true;
-	sMoveMode = "CaughtNet";
+	bCaughtNetCrab = true;
+}
+else 
+{
+	solid = false;
 }
