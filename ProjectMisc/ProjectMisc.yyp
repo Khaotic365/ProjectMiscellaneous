@@ -457,7 +457,7 @@
         {
             "Key": "378abf3f-6b7b-4946-9f03-2927da81f3a1",
             "Value": {
-                "id": "d52db34e-b4fe-4364-a4cc-b886e031d369",
+                "id": "2b2e2b44-9328-49d8-8828-3e3c675e77b0",
                 "resourcePath": "sprites\\sprBarnacles\\sprBarnacles.yy",
                 "resourceType": "GMSprite"
             }
@@ -649,7 +649,7 @@
         {
             "Key": "4f08be9a-90e8-42cc-ac1c-07aa954f60df",
             "Value": {
-                "id": "63feae2b-20b8-45ef-acd2-e3e3795f8d3b",
+                "id": "b45f749e-1d84-400c-af81-a8b9ff923917",
                 "resourcePath": "objects\\objBarnacles\\objBarnacles.yy",
                 "resourceType": "GMObject"
             }
