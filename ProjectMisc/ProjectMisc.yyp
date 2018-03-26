@@ -1127,6 +1127,14 @@
             }
         },
         {
+            "Key": "7db5b820-27b9-4c77-8a76-a7a446104ba2",
+            "Value": {
+                "id": "08ddd768-72f2-4055-80d9-15bc0df623c7",
+                "resourcePath": "objects\\objGameOverNonStretchShore\\objGameOverNonStretchShore.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "7dee36f2-3b2c-4f58-a07b-03d633ac26a9",
             "Value": {
                 "id": "a9b2cb3c-806c-43f1-985c-f17661690e63",
@@ -1716,6 +1724,14 @@
                 "id": "1e2a3d54-2135-47a1-b9ce-b5c39932eb57",
                 "resourcePath": "sounds\\sndVictory\\sndVictory.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "c64def4c-1974-492a-b039-2671538a3477",
+            "Value": {
+                "id": "c48fb339-26cf-4da8-8c0c-3033374b13db",
+                "resourcePath": "rooms\\rmGameOverNonStretchShore\\rmGameOverNonStretchShore.yy",
+                "resourceType": "GMRoom"
             }
         },
         {

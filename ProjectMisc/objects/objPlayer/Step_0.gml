@@ -599,7 +599,14 @@ if iCollideTimerCrab > 0 || iCollideTimer2 > 0 || iCollideTimer > 0 || iCollideT
 
 if (iHp <= 0) 
 {
-	room_goto(rmGameOverNonStretch);
+	if 
+	{
+		room_goto(rmGameOverNonStretch);
+	}
+	else
+	{
+		room_goto(rmGameOverNonStretchShore);
+	}
 }
 
 /*
