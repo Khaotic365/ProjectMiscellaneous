@@ -54,7 +54,7 @@ if sMoveMode == "BackForth"
 	else if bMoveSpdCheck == false
 	{
 		iMinSpeed = 2;
-		iMaxSpeed = 5;
+		iMaxSpeed = 10;
 		iTargetSpd = random_range(iMinSpeed,iMaxSpeed);
 	}
 	
