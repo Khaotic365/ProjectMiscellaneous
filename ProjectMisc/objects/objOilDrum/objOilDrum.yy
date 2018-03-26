@@ -1,18 +1,18 @@
 {
-    "id": "4f08be9a-90e8-42cc-ac1c-07aa954f60df",
+    "id": "7ae365f1-476c-428b-b4c5-ee8808a31f27",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "objBarnacles",
+    "name": "objOilDrum",
     "eventList": [
         {
-            "id": "3f57f18e-a812-41ba-98ec-76b10a0350d3",
+            "id": "a559d8e2-ac75-46f4-8e5f-22b3da6c412c",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "4f08be9a-90e8-42cc-ac1c-07aa954f60df"
+            "m_owner": "7ae365f1-476c-428b-b4c5-ee8808a31f27"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -31,6 +31,6 @@
     "physicsShapePoints": null,
     "physicsStartAwake": true,
     "solid": false,
-    "spriteId": "378abf3f-6b7b-4946-9f03-2927da81f3a1",
+    "spriteId": "e26a2f9d-cb87-494a-b8cb-be294595e32b",
     "visible": true
 }

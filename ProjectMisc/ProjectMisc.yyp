@@ -1119,6 +1119,14 @@
             }
         },
         {
+            "Key": "7ae365f1-476c-428b-b4c5-ee8808a31f27",
+            "Value": {
+                "id": "a949ad13-4129-4ccc-b809-2b327aec4ea4",
+                "resourcePath": "objects\\objOilDrum\\objOilDrum.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "7dee36f2-3b2c-4f58-a07b-03d633ac26a9",
             "Value": {
                 "id": "a9b2cb3c-806c-43f1-985c-f17661690e63",
