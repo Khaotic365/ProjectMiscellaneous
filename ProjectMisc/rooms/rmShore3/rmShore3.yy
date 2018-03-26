@@ -31278,8 +31278,8 @@
                     "m_originalParentID": "00000000-0000-0000-0000-000000000000",
                     "m_serialiseFrozen": false,
                     "name": "inst_596F3758",
-                    "x": 288,
-                    "y": 160,
+                    "x": 544,
+                    "y": 6048,
                     "IsDnD": false,
                     "colour": {
                         "Value": 4294967295
