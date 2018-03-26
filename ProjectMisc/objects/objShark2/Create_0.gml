@@ -69,3 +69,4 @@ bCaughtOnce = false;
 
 bNetShark = false;
 bFollowspdCheck = false;
+bMoveSpdCheck = false;
