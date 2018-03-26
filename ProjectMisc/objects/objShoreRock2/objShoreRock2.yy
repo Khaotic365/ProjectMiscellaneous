@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "objShoreRock2",
     "eventList": [
-        
+        {
+            "id": "15e3dfb7-144e-4206-bdda-e7895487daf1",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "55242bab-f2de-41e7-8741-63507d30d2a3"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "parentObjectId": "00000000-0000-0000-0000-000000000000",
