@@ -1,4 +1,4 @@
- randomize();
+randomize();
 iFollowspd = 2;
 
 //if !is_undefined(instance_position(x - 32, y, all)).sObjType
