@@ -1215,6 +1215,14 @@
             }
         },
         {
+            "Key": "88f7273a-b933-4724-8845-c0723084a304",
+            "Value": {
+                "id": "0927fec3-4762-4568-bb47-3988cf360c65",
+                "resourcePath": "objects\\objCoin\\objCoin.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "8a2fe761-e54d-4dd2-8752-bc45e4e35c16",
             "Value": {
                 "id": "c01aa43e-fdac-43fd-afde-0ea708a11122",
@@ -1636,6 +1644,14 @@
                 "id": "2300cb6b-e12c-4839-9e89-4dd5447afadf",
                 "resourcePath": "tilesets\\tilSand\\tilSand.yy",
                 "resourceType": "GMTileSet"
+            }
+        },
+        {
+            "Key": "bcddb0ed-5801-4e0d-8921-a29b5843c0d1",
+            "Value": {
+                "id": "95cd66a7-4e7e-4374-a014-db2ff6a66154",
+                "resourcePath": "sounds\\sndHealth\\sndHealth.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -2099,6 +2115,14 @@
             "Value": {
                 "id": "a658eced-4765-4bf0-aa4d-2d46ba040cd5",
                 "resourcePath": "sprites\\sprShoreRock2\\sprShoreRock2.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "ee0f9b21-9489-40d7-992b-91bfd3026056",
+            "Value": {
+                "id": "76cd8670-04ee-4e8d-8d7c-805e64c0a057",
+                "resourcePath": "sprites\\sprCoin\\sprCoin.yy",
                 "resourceType": "GMSprite"
             }
         },
