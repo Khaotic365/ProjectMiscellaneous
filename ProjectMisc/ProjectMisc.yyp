@@ -231,6 +231,14 @@
             }
         },
         {
+            "Key": "1ba04c86-7d40-4915-a588-53be9aa40e47",
+            "Value": {
+                "id": "68329df3-c037-4661-b269-0968211ea018",
+                "resourcePath": "views\\1ba04c86-7d40-4915-a588-53be9aa40e47.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "1ce89e07-df4f-4c0d-aea0-35012ad93657",
             "Value": {
                 "id": "c1ddd206-034f-41a0-ae8c-f13552f19ade",
@@ -547,6 +555,14 @@
             "Value": {
                 "id": "b8f6d139-d3ef-465c-95ba-e3b557f177e7",
                 "resourcePath": "objects\\objEndBlocks\\objEndBlocks.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "43aa8a0b-461d-43eb-a0f5-152e329d3469",
+            "Value": {
+                "id": "25e39591-50eb-40f5-b78c-af80486b0a6b",
+                "resourcePath": "objects\\objOilSpill\\objOilSpill.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -1551,6 +1567,14 @@
             }
         },
         {
+            "Key": "b307c96f-b504-4335-8a0a-8eb45225a22a",
+            "Value": {
+                "id": "2ca629fc-19e6-4a7d-a009-8681845ab17b",
+                "resourcePath": "sprites\\sprOilSpill\\sprOilSpill.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "b456e86d-e60f-40fe-a684-808577c31452",
             "Value": {
                 "id": "9ff0f4cf-1d35-46b8-b4f2-747a401cec0e",
@@ -1903,6 +1927,14 @@
             }
         },
         {
+            "Key": "d5ae5f4a-f20a-4163-a945-dce42fcbfd27",
+            "Value": {
+                "id": "86451e20-632f-4ad1-a938-bcb40a98080e",
+                "resourcePath": "views\\d5ae5f4a-f20a-4163-a945-dce42fcbfd27.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "d5dc07b1-e96f-488b-969a-28a998c7fb1f",
             "Value": {
                 "id": "f1e80292-9eae-4998-a8ee-1918139384c8",
@@ -2043,6 +2075,14 @@
             "Value": {
                 "id": "47d43a40-946a-4f49-8282-985f79e5b651",
                 "resourcePath": "sprites\\sprBackground\\sprBackground.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "e5e957ef-ed17-45da-9bea-4d19103503c8",
+            "Value": {
+                "id": "9d41e3ba-b295-4341-afde-b8d4c6affef3",
+                "resourcePath": "sprites\\sprNettle\\sprNettle.yy",
                 "resourceType": "GMSprite"
             }
         },
