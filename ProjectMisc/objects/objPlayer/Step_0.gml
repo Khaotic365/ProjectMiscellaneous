@@ -138,7 +138,7 @@ if (keyboard_check(vk_right)) || (keyboard_check(ord("D")))
 	}
 	if keyboard_check(vk_shift) && iDashTimerRight >= 40 && iDashTimerLeft >= 60 && iDashTimerUp >= 60 && iDashTimerDown >= 60 && iTimesUpRight == 0
 	{
-		x = x + 2*iSpd;
+		x = x + 4*iSpd;
 		image_xscale = 1;
 		iDashTimerRight -= 2;
 		if iTimesUpRight == 0 && iDashTimerRight == 40
@@ -192,7 +192,7 @@ if (keyboard_check(vk_left)) || (keyboard_check(ord("A")))
 	}
 	if keyboard_check(vk_shift) && iDashTimerRight >= 60 && iDashTimerLeft >= 40 && iDashTimerUp >= 60 && iDashTimerDown >= 60 && iTimesUpLeft == 0
 	{
-		x = x - 2*iSpd;
+		x = x - 4*iSpd;
 		image_xscale = -1;
 		iDashTimerLeft -= 2;
 		if iTimesUpLeft == 0 && iDashTimerLeft == 40
@@ -246,7 +246,7 @@ if (keyboard_check(vk_up)) || (keyboard_check(ord("W")))
 	}
 	if keyboard_check(vk_shift) && iDashTimerRight >= 60 && iDashTimerLeft >= 60 && iDashTimerUp >= 40 && iDashTimerDown >= 60 && iTimesUpUp == 0
 	{
-		y = y - 2*iSpd;
+		y = y - 4*iSpd;
 		iDashTimerUp -= 2;
 		if iTimesUpUp == 0 && iDashTimerUp == 40
 		{
@@ -296,7 +296,7 @@ if (keyboard_check(vk_down)) || (keyboard_check(ord("S")))
 	}
 	if keyboard_check(vk_shift) && iDashTimerRight >= 60 && iDashTimerLeft >= 60 && iDashTimerUp >= 60 && iDashTimerDown >= 40 && iTimesUpDown == 0
 	{
-		y = y + 2*iSpd;
+		y = y + 4*iSpd;
 		iDashTimerDown -= 2;
 		if iTimesUpDown == 0 && iDashTimerDown == 40
 		{
