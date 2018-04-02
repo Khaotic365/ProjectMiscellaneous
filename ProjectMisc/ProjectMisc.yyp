@@ -559,14 +559,6 @@
             }
         },
         {
-            "Key": "43aa8a0b-461d-43eb-a0f5-152e329d3469",
-            "Value": {
-                "id": "64e0bfe3-4748-45f8-8df0-c05bba14281d",
-                "resourcePath": "objects\\objOilSpill\\objOilSpill.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "441a6784-287f-46d3-b517-70665aa1aae9",
             "Value": {
                 "id": "8090f010-13a6-491a-a81d-7e04dc0fe340",
@@ -1567,14 +1559,6 @@
             }
         },
         {
-            "Key": "b307c96f-b504-4335-8a0a-8eb45225a22a",
-            "Value": {
-                "id": "5d231386-bdbb-4a94-a6b8-4dd8c2334d54",
-                "resourcePath": "sprites\\sprOilSpill\\sprOilSpill.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "b456e86d-e60f-40fe-a684-808577c31452",
             "Value": {
                 "id": "9ff0f4cf-1d35-46b8-b4f2-747a401cec0e",
@@ -1652,6 +1636,14 @@
                 "id": "2300cb6b-e12c-4839-9e89-4dd5447afadf",
                 "resourcePath": "tilesets\\tilSand\\tilSand.yy",
                 "resourceType": "GMTileSet"
+            }
+        },
+        {
+            "Key": "bcddb0ed-5801-4e0d-8921-a29b5843c0d1",
+            "Value": {
+                "id": "95cd66a7-4e7e-4374-a014-db2ff6a66154",
+                "resourcePath": "sounds\\sndHealth\\sndHealth.yy",
+                "resourceType": "GMSound"
             }
         },
         {
