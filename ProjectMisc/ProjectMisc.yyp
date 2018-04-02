@@ -1639,6 +1639,14 @@
             }
         },
         {
+            "Key": "bcddb0ed-5801-4e0d-8921-a29b5843c0d1",
+            "Value": {
+                "id": "95cd66a7-4e7e-4374-a014-db2ff6a66154",
+                "resourcePath": "sounds\\sndHealth\\sndHealth.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "bce57d37-59bb-4d78-bc36-ae001bdfa26c",
             "Value": {
                 "id": "5334b66d-f0e1-491f-b47c-ecd877b26e66",
