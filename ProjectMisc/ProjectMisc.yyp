@@ -1303,6 +1303,14 @@
             }
         },
         {
+            "Key": "92c43d4b-62cf-4265-ad8f-6283b41f1fec",
+            "Value": {
+                "id": "1574e8db-5b0b-4c4e-ae46-0e251d6ab681",
+                "resourcePath": "sounds\\msCave\\msCave.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "932e5234-ad56-4332-9165-01403056e3b1",
             "Value": {
                 "id": "ea3d318b-482e-4159-aa9a-239507b87676",
@@ -1539,6 +1547,14 @@
             "Value": {
                 "id": "dec56f20-ecf3-4f3f-aff6-d949132851ec",
                 "resourcePath": "objects\\objCornerBarnBotRIght\\objCornerBarnBotRIght.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "ac339729-743d-49b8-87ac-1cfc714c95b2",
+            "Value": {
+                "id": "b692b41e-e68e-44fa-929b-3a9f3f44771b",
+                "resourcePath": "objects\\objMusicCave\\objMusicCave.yy",
                 "resourceType": "GMObject"
             }
         },
