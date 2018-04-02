@@ -559,14 +559,6 @@
             }
         },
         {
-            "Key": "43aa8a0b-461d-43eb-a0f5-152e329d3469",
-            "Value": {
-                "id": "25e39591-50eb-40f5-b78c-af80486b0a6b",
-                "resourcePath": "objects\\objOilSpill\\objOilSpill.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "441a6784-287f-46d3-b517-70665aa1aae9",
             "Value": {
                 "id": "8090f010-13a6-491a-a81d-7e04dc0fe340",
@@ -1564,14 +1556,6 @@
                 "id": "4f191adf-2c4d-48a7-8778-817876f4d981",
                 "resourcePath": "views\\b2d60714-65ee-4f34-8bf7-45b46ae8d4dc.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "b307c96f-b504-4335-8a0a-8eb45225a22a",
-            "Value": {
-                "id": "2ca629fc-19e6-4a7d-a009-8681845ab17b",
-                "resourcePath": "sprites\\sprOilSpill\\sprOilSpill.yy",
-                "resourceType": "GMSprite"
             }
         },
         {
