@@ -1,10 +1,10 @@
 //write your messages in an array, starting at 0, like so
-message[0] = "Melvin Marmaduke was \n  down on his luck.";
+message[0] = "Melvin Marmaduke was \ndown on his luck.\n \n \n \n \n \n \n \n  press spacebar to \n      continue\n   press s to skip";
 message[1] = "He was drowning in \ngambling debt and \nhis wife left him \nbecause of it.";
-message[2] = "As a historian, Melvin began researching ancient legends to cure him of his financial woes.";
-message[3] = "While looking through an oceanographic text, an old map fell out with 'ATLANTIS' written across it.";
-message[4] = "Melvin then digs out an old diving suit and sails his houseboat on the path the map describes.";
-message[5] = "Melvin then dives into the ocean, determined to emerge a wealthy man.";
+message[2] = "As a historian, Melvin \nbegan researching \nancient legends to \ncure him of his \nfinancial woes.";
+message[3] = "While looking through \nan oceanographic text, \nan old map fell out \nwith 'ATLANTIS' \nwritten across it.";
+message[4] = "Melvin then digs out \nan old diving suit and \nsails his houseboat on \nthe path the map \ndescribes.";
+message[5] = "Melvin then dives into \nthe ocean, determined \nto emerge a wealthy \nman.";
 
 index = 0;
 
@@ -16,3 +16,5 @@ characters = 0; //how many characters have already been drawn
 hold = 0; //if we hold 'Z', the text will render faster
 
 message_length = string_length(message[message_current]); //number of characters in first messaged * interval;
+
+audio_play_sound(msTitle,10,true);

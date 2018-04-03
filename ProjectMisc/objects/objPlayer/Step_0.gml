@@ -17,8 +17,6 @@ if (keyboard_check(vk_right)) || (keyboard_check(ord("D")))
 }
 */
 
-effect_create_above(ef_ellipse,1,1,15,c_white);
-
 iInvCounterPlayer -= 1;
 iInvCounterPlayerRand -= 1;
 iInvCounterBagRand -= 1;
