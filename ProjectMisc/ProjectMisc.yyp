@@ -119,14 +119,6 @@
             }
         },
         {
-            "Key": "0df89440-6eb9-4811-85b2-6f0836d9f3a6",
-            "Value": {
-                "id": "286105c4-3f59-45e0-8f6d-849a6552e809",
-                "resourcePath": "rooms\\rmStoryActive1\\rmStoryActive1.yy",
-                "resourceType": "GMRoom"
-            }
-        },
-        {
             "Key": "0ebe2fee-beef-46ac-a4db-84152ab4e8e9",
             "Value": {
                 "id": "8743d7ca-620d-4e8c-a8e6-13877bb2b69a",
@@ -180,14 +172,6 @@
                 "id": "5609f018-bceb-4d89-b564-716620ac689c",
                 "resourcePath": "objects\\objSeaGrass\\objSeaGrass.yy",
                 "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "157c92c5-85f2-4a5e-89e3-70a4463d6f48",
-            "Value": {
-                "id": "92f805ee-68cb-4afd-aac8-371c4686295e",
-                "resourcePath": "sounds\\sndText3\\sndText3.yy",
-                "resourceType": "GMSound"
             }
         },
         {
@@ -1167,14 +1151,6 @@
             }
         },
         {
-            "Key": "7be04585-7149-453d-9ceb-753f4b371b9f",
-            "Value": {
-                "id": "090e3b98-17c4-4136-95c3-b4d1a5907204",
-                "resourcePath": "sounds\\sndText1\\sndText1.yy",
-                "resourceType": "GMSound"
-            }
-        },
-        {
             "Key": "7db5b820-27b9-4c77-8a76-a7a446104ba2",
             "Value": {
                 "id": "08ddd768-72f2-4055-80d9-15bc0df623c7",
@@ -1431,6 +1407,14 @@
             }
         },
         {
+            "Key": "9c3edab1-cf4f-467f-abdf-b4cd200f104f",
+            "Value": {
+                "id": "d7f11f39-d55c-4f48-8ea5-26230d29639e",
+                "resourcePath": "sounds\\sndTreasure\\sndTreasure.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "9c913ebb-7109-4550-b7a4-3896155c8373",
             "Value": {
                 "id": "9a8fec82-e579-46f7-89a4-716e0602bddd",
@@ -1467,14 +1451,6 @@
             "Value": {
                 "id": "bf418cc6-65d6-4dfa-af69-e005a0338609",
                 "resourcePath": "sounds\\sndDamage3\\sndDamage3.yy",
-                "resourceType": "GMSound"
-            }
-        },
-        {
-            "Key": "a36393d2-7041-4925-9d26-7ba38f8cbe94",
-            "Value": {
-                "id": "99f72f62-bafb-40a0-8456-2053055bbd31",
-                "resourcePath": "sounds\\sndText2\\sndText2.yy",
                 "resourceType": "GMSound"
             }
         },
@@ -1628,14 +1604,6 @@
                 "id": "4f191adf-2c4d-48a7-8778-817876f4d981",
                 "resourcePath": "views\\b2d60714-65ee-4f34-8bf7-45b46ae8d4dc.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "b3731ef5-32d1-436d-884e-c170c6934b2d",
-            "Value": {
-                "id": "9feda2c7-d490-49fd-b296-21eed96deec8",
-                "resourcePath": "objects\\objTextEffect2\\objTextEffect2.yy",
-                "resourceType": "GMObject"
             }
         },
         {
@@ -1884,14 +1852,6 @@
                 "id": "d97967b9-4ff5-4603-9e65-26f4f431c7a7",
                 "resourcePath": "views\\c92bc648-03fc-4f30-bc24-40e64a158307.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "c92f0a6b-2977-47cb-9009-d7750c0de582",
-            "Value": {
-                "id": "1d0c91fd-1a23-4aab-b489-aeed7f63889c",
-                "resourcePath": "sprites\\sprTextBG\\sprTextBG.yy",
-                "resourceType": "GMSprite"
             }
         },
         {
@@ -2183,10 +2143,10 @@
             }
         },
         {
-            "Key": "e7d2f786-bbf2-4d05-ab07-12b72bdbc03a",
+            "Key": "e86198fd-32e3-4a1a-9957-543b73882a6a",
             "Value": {
-                "id": "d410f899-74f8-47a3-a91f-694cb0a75da7",
-                "resourcePath": "sounds\\sndText4\\sndText4.yy",
+                "id": "885dbc09-797f-40e1-9a4e-af27eb0e6854",
+                "resourcePath": "sounds\\msShore\\msShore.yy",
                 "resourceType": "GMSound"
             }
         },
