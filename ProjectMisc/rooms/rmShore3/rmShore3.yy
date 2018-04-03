@@ -31450,7 +31450,7 @@
                     "m_originalParentID": "00000000-0000-0000-0000-000000000000",
                     "m_serialiseFrozen": false,
                     "name": "inst_596F3758",
-                    "x": 576,
+                    "x": 512,
                     "y": 96,
                     "IsDnD": false,
                     "colour": {
