@@ -87,3 +87,5 @@ iBagRand = instance_nearest(x,y,objBag);
 
 bKeyboard = false;
 bMouse = false;
+
+iTreasureCollect = 0;

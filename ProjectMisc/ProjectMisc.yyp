@@ -119,6 +119,14 @@
             }
         },
         {
+            "Key": "0df89440-6eb9-4811-85b2-6f0836d9f3a6",
+            "Value": {
+                "id": "2fca72a3-9a4f-44d6-9577-e136d5042e9e",
+                "resourcePath": "rooms\\rmStoryActive1\\rmStoryActive1.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "0ebe2fee-beef-46ac-a4db-84152ab4e8e9",
             "Value": {
                 "id": "8743d7ca-620d-4e8c-a8e6-13877bb2b69a",
@@ -1407,6 +1415,14 @@
             }
         },
         {
+            "Key": "9c3edab1-cf4f-467f-abdf-b4cd200f104f",
+            "Value": {
+                "id": "d7f11f39-d55c-4f48-8ea5-26230d29639e",
+                "resourcePath": "sounds\\sndTreasure\\sndTreasure.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "9c913ebb-7109-4550-b7a4-3896155c8373",
             "Value": {
                 "id": "9a8fec82-e579-46f7-89a4-716e0602bddd",
@@ -1596,6 +1612,14 @@
                 "id": "4f191adf-2c4d-48a7-8778-817876f4d981",
                 "resourcePath": "views\\b2d60714-65ee-4f34-8bf7-45b46ae8d4dc.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "b3731ef5-32d1-436d-884e-c170c6934b2d",
+            "Value": {
+                "id": "c4fc58bc-d424-46fb-a66b-680b4f2948ad",
+                "resourcePath": "objects\\objTextEffect2\\objTextEffect2.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1844,6 +1868,14 @@
                 "id": "d97967b9-4ff5-4603-9e65-26f4f431c7a7",
                 "resourcePath": "views\\c92bc648-03fc-4f30-bc24-40e64a158307.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "c92f0a6b-2977-47cb-9009-d7750c0de582",
+            "Value": {
+                "id": "8b9f6ee1-e2f2-41ab-8b2e-8b74623df746",
+                "resourcePath": "sprites\\sprTextBG\\sprTextBG.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -2132,6 +2164,14 @@
                 "id": "ec957939-a98a-4610-89d1-5bb6cf5b5b1b",
                 "resourcePath": "sprites\\sprBigBarnacle2\\sprBigBarnacle2.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "e86198fd-32e3-4a1a-9957-543b73882a6a",
+            "Value": {
+                "id": "885dbc09-797f-40e1-9a4e-af27eb0e6854",
+                "resourcePath": "sounds\\msShore\\msShore.yy",
+                "resourceType": "GMSound"
             }
         },
         {
