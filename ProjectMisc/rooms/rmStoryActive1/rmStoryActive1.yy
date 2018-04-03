@@ -45,7 +45,7 @@
                     "m_serialiseFrozen": false,
                     "name": "inst_78E9BA95",
                     "x": 64,
-                    "y": 288,
+                    "y": 256,
                     "IsDnD": false,
                     "colour": {
                         "Value": 4294967295
