@@ -9,7 +9,7 @@
     "inheritCreationOrder": false,
     "inheritLayers": false,
     "instanceCreationOrderIDs": [
-        "a2dcca3a-9858-4318-82ec-a13abf889659"
+        "bebbeeb4-3301-4d14-917e-674e30cd71f7"
     ],
     "layers": [
         {
@@ -36,16 +36,16 @@
             "visible": true,
             "instances": [
                 {
-                    "id": "a2dcca3a-9858-4318-82ec-a13abf889659",
+                    "id": "bebbeeb4-3301-4d14-917e-674e30cd71f7",
                     "modelName": "GMRInstance",
                     "mvc": "1.0",
                     "ignore": false,
                     "inheritItemSettings": false,
                     "m_originalParentID": "00000000-0000-0000-0000-000000000000",
                     "m_serialiseFrozen": false,
-                    "name": "inst_315F4448",
-                    "x": 32,
-                    "y": 224,
+                    "name": "inst_78E9BA95",
+                    "x": 64,
+                    "y": 288,
                     "IsDnD": false,
                     "colour": {
                         "Value": 4294967295
@@ -53,7 +53,7 @@
                     "creationCodeFile": "",
                     "creationCodeType": "",
                     "inheritCode": false,
-                    "name_with_no_file_rename": "inst_315F4448",
+                    "name_with_no_file_rename": "inst_78E9BA95",
                     "objId": "b3731ef5-32d1-436d-884e-c170c6934b2d",
                     "rotation": 0,
                     "scaleX": 1,
@@ -90,7 +90,7 @@
             },
             "hspeed": 0,
             "htiled": false,
-            "spriteId": "c92f0a6b-2977-47cb-9009-d7750c0de582",
+            "spriteId": "187539b3-8e67-4e6f-91ba-01984729f33a",
             "stretch": false,
             "userdefined_animFPS": false,
             "vspeed": 0,

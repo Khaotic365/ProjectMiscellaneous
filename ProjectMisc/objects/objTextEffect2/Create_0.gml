@@ -1,6 +1,6 @@
 //write your messages in an array, starting at 0, like so
-message[0] = "Melvin Marmaduke was down on \n his luck.";
-message[1] = "He was drowning in gambling \n debt and his wife left him \n because of it.";
+message[0] = "Melvin Marmaduke was \n  down on his luck.";
+message[1] = "He was drowning in \ngambling debt and \nhis wife left him \nbecause of it.";
 message[2] = "As a historian, Melvin began researching ancient legends to cure him of his financial woes.";
 message[3] = "While looking through an oceanographic text, an old map fell out with 'ATLANTIS' written across it.";
 message[4] = "Melvin then digs out an old diving suit and sails his houseboat on the path the map describes.";

@@ -191,11 +191,27 @@
             }
         },
         {
+            "Key": "187539b3-8e67-4e6f-91ba-01984729f33a",
+            "Value": {
+                "id": "b9e449d6-b8d5-4d5c-af21-9f51570d7ce7",
+                "resourcePath": "sprites\\sprBGText\\sprBGText.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "1944e37e-c3a7-4e89-aacd-1ee8c9bee0c9",
             "Value": {
                 "id": "72e019d8-9740-493e-9b89-756a4d017363",
                 "resourcePath": "rooms\\rmGameOverNonStretch\\rmGameOverNonStretch.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "1971e104-7554-4f1d-a320-07fe8dcea485",
+            "Value": {
+                "id": "2a38abc6-9bb2-4524-b41f-7c62c0150555",
+                "resourcePath": "sounds\\sndText1\\sndText1.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -460,6 +476,14 @@
                 "id": "a733b466-9d55-4fd8-8b9e-98fd24f67b5d",
                 "resourcePath": "rooms\\rmStory3\\rmStory3.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "3448826a-cb82-45a0-b3a3-8a617d169588",
+            "Value": {
+                "id": "bc58b323-d0cc-4de6-b33d-7f9265c4550e",
+                "resourcePath": "sounds\\sndText3\\sndText3.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -1871,14 +1895,6 @@
             }
         },
         {
-            "Key": "c92f0a6b-2977-47cb-9009-d7750c0de582",
-            "Value": {
-                "id": "8b9f6ee1-e2f2-41ab-8b2e-8b74623df746",
-                "resourcePath": "sprites\\sprTextBG\\sprTextBG.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "c9beb6eb-093e-46e1-85c0-2f81caa05085",
             "Value": {
                 "id": "68a28b24-c335-4969-9e33-908e482b785f",
@@ -2020,6 +2036,14 @@
                 "id": "0bbe3f2f-7919-47c3-a615-ecf236449b03",
                 "resourcePath": "objects\\objESC\\objESC.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "d9779516-5787-401f-9520-25134d7db191",
+            "Value": {
+                "id": "530da06a-d779-43e5-9a77-10a956bdd63e",
+                "resourcePath": "sounds\\sndText2\\sndText2.yy",
+                "resourceType": "GMSound"
             }
         },
         {
