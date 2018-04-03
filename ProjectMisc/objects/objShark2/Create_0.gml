@@ -41,7 +41,7 @@ if direction > 90 && direction < 270
 }
 */
 randomize();
-sMoveMode = "BackForth";
+sMoveMode = "Random";
 //sMoveMode = "Jump";
 iMinSpeed = 2;
 iMaxSpeed = 5;
@@ -69,3 +69,4 @@ bCaughtOnce = false;
 
 bNetShark = false;
 bFollowspdCheck = false;
+bMoveSpdCheck = false;

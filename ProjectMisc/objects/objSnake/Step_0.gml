@@ -156,6 +156,6 @@ if bCaughtNetSnake == false && bCaughtNetSnakeRand == false
 iSnakeNearest = instance_nearest(objPlayer.x,objPlayer.y,objSnake)
 iSnakeNearest.iInvCounterSnakeRand -= 1;
 
-show_debug_message(iInvCounterSnakeRand);
+//show_debug_message(iInvCounterSnakeRand);
 
 script_execute(scrNPCMovement,sMoveMode,iMoveSpd,iSpeedTimer,iTargetSpd,iJumpTimer,iStartY,bJumping,bFalling,iMinSpeed,iMaxSpeed,bAfter,iCaughtTimer,bCaughtNet,iInvCounter,bCaughtNetSnakeRand,iCaughtTimerSnakeRand,iInvCounterSnakeRand, bCaughtOnce, bMoveSpdCheck)

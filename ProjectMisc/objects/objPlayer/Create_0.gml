@@ -4,7 +4,7 @@ sObjType = "NotWall";
 bClicked = 0;
 iDashTimer = 0;
 bNormal = true;
-iClickTimer = 0;
+iClickTimer = 60;
 bCanDash = true;
 bOnly = 0;
 iStartX = 0;
@@ -24,8 +24,8 @@ iTimesUpRight = 1;
 iTimesUpLeft = 1;
 iTimesUpUp = 1;
 iTimesUpDown = 1;
-iHp = 10000000;
-iHpmax = 10000000;
+iHp = 3;
+iHpmax = 3;
 iSpd = 4;
 iSlowTimer = 0;
 bSpeedDecrease = false;
@@ -87,3 +87,5 @@ iBagRand = instance_nearest(x,y,objBag);
 
 bKeyboard = false;
 bMouse = false;
+
+iTreasureCollect = 0;
