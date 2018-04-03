@@ -167,6 +167,14 @@
             }
         },
         {
+            "Key": "121c97e5-2a4b-449b-91b3-23d285b609d2",
+            "Value": {
+                "id": "d5521413-fd40-4ddb-aff5-d16cf18216aa",
+                "resourcePath": "sounds\\msNight\\msNight.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "123843a7-93b4-4c15-872a-db681183a8d5",
             "Value": {
                 "id": "1bad20ed-5e31-40d9-b8c7-9d00e458af4c",
@@ -308,6 +316,14 @@
                 "id": "5926a0ac-be31-4f59-866a-a127feed1ea4",
                 "resourcePath": "sprites\\sprSmallBarnacle3\\sprSmallBarnacle3.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "1fe91a60-2cfa-4dc6-ab3a-fe99a4b2ccbf",
+            "Value": {
+                "id": "9e6be590-3c3d-4acc-b75c-9ede0b14ad70",
+                "resourcePath": "sounds\\msTitle\\msTitle.yy",
+                "resourceType": "GMSound"
             }
         },
         {
