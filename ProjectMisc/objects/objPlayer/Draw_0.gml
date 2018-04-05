@@ -7,6 +7,6 @@ draw_self();
 
 if iBubbleTimer <= 0
 {
-	effect_create_below(ef_smoke,x,y - 20,0,c_white);
+	effect_create_below(ef_ellipse,x,y - 20,0,c_white);
 	iBubbleTimer = 60;
 }
