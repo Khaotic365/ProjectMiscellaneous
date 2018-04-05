@@ -1,9 +1,9 @@
 sentences = ds_list_create();
-ds_list_add(sentences, "Melvin Marmaduke was down on his luck.");
+ds_list_add(sentences, "Melvin Marmaduke was down on \n his luck.");
 
 index = 0;
 
-//randomize();
+randomize();
 var i = irandom(ds_list_size(sentences) - 1);
 sentence = ds_list_find_value(sentences, i);
 
