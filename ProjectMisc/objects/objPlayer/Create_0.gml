@@ -89,3 +89,4 @@ bKeyboard = false;
 bMouse = false;
 
 iTreasureCollect = 0;
+iBubbleTimer = 60;
