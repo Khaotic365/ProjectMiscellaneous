@@ -601,11 +601,11 @@ if (iHp <= 0)
 {
 	if room_get_name(room) == "rmShore3"
 	{
-		room_goto(rmGameOverNonStretchShore);
+		room_goto(rmGameOverActiveShore);
 	}
 	else if room_get_name(room) == "rmCave"
 	{
-		room_goto(rmGameOverNonStretch);
+		room_goto(rmGameOverActiveCave);
 	}
 }
 
