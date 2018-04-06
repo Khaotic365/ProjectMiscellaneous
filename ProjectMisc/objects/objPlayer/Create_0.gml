@@ -90,3 +90,6 @@ bMouse = false;
 
 iTreasureCollect = 0;
 iBubbleTimer = 60;
+
+layer_id1 = layer_get_id("Backgrounds_2");
+layer_id2 = layer_get_id("Background");

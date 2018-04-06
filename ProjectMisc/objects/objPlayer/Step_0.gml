@@ -27,9 +27,9 @@ if (keyboard_check(vk_right)) || (keyboard_check(ord("D")))
 //layer_y("Background", _cam_y * 0.25);
 //layer_y("Backgrounds_1", _cam_y * 0.5);
 
-var _cam_x = camera_get_view_x(view_camera[0]) ;
-layer_x("Background", _cam_x * 0.25); // Change the background layer name to whatever you use in the room editor
-layer_x("Backgrounds_2", _cam_x * 0.5);
+//var _cam_x = camera_get_view_x(view_camera[0]) ;
+//layer_x("Background", _cam_x * 0.25); // Change the background layer name to whatever you use in the room editor
+//layer_x("Backgrounds_2", _cam_x * 0.5);
 
 //var layer_id1 = layer_get_id("Background");
 //var layer_id2 = layer_get_id("Backgrounds_1");
@@ -41,6 +41,9 @@ layer_x("Backgrounds_2", _cam_x * 0.5);
 //layer_y(layer_id2, lerp(0, camera_get_view_y(view_camera[0]),.25));
 //layer_x(layer_id1, lerp(0, camera_get_view_x(view_camera[0]),.5));
 //layer_x(layer_id3, lerp(0, camera_get_view_x(view_camera[0]),.25));
+
+layer_x(layer_id1, camera_get_view_x(view_camera[0]) * .5);
+layer_x(layer_id2, camera_get_view_x(view_camera[0]) * .25);
 
 //var _cam_x = camera_get_view_x(view_camera[0]) ;
 //layer_x("Background", _cam_x * 0.25); // Change the background layer name to whatever you use in the room editor
