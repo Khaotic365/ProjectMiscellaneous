@@ -16,3 +16,5 @@ characters = 0; //how many characters have already been drawn
 hold = 0; //if we hold 'Z', the text will render faster
 
 message_length = string_length(message[message_current]); //number of characters in first messaged * interval;
+
+audio_play_sound(msTitle,10,true);

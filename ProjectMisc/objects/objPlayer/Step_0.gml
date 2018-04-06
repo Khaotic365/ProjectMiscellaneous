@@ -601,11 +601,11 @@ if (iHp <= 0)
 {
 	if room_get_name(room) == "rmShore3"
 	{
-		room_goto(rmGameOverNonStretchShore);
+		room_goto(rmGameOverActiveShore);
 	}
 	else if room_get_name(room) == "rmCave"
 	{
-		room_goto(rmGameOverNonStretch);
+		room_goto(rmGameOverActiveCave);
 	}
 }
 
@@ -619,3 +619,7 @@ if iCollideTimer == 60 && bSharkCollide == true
 //Debug
 //show_debug_message(objCurrentNet);
 //show_debug_message(solid);
+
+//effect_create_above(ef_firework,x,y,0,c_white);
+
+iBubbleTimer -= 1;
