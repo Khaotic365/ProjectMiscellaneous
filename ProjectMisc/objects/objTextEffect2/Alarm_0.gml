@@ -12,6 +12,6 @@ if (index < string_length(message_length))
 }
 else
 {
-	alarm[1] = room_speed * 2;
+	alarm[1] = room_speed * 1;
 }
 
