@@ -999,6 +999,14 @@
             }
         },
         {
+            "Key": "65f4a0b1-1091-4937-a68b-40a8a4031cbb",
+            "Value": {
+                "id": "566e1290-a890-4ca5-8cd6-ae2ac134068f",
+                "resourcePath": "objects\\objParallax\\objParallax.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "673cd245-bdde-4897-b3a8-f5f89911c43e",
             "Value": {
                 "id": "b5882751-d144-4f66-b462-944f25a55f59",
