@@ -17,6 +17,35 @@ if (keyboard_check(vk_right)) || (keyboard_check(ord("D")))
 }
 */
 
+//var _cam_x = camera_get_view_x(view_camera[0]);
+//layer_x("Background", _cam_x * 0.25);
+//layer_x("Backgrounds_1", _cam_x * 0.5);
+//layer_x("Instances_1", _cam_x + 0.25);
+// Change the background layer name to whatever you use in the room editor
+//layer_x("parallax_background_2", _cam_x * 0.5);
+//var _cam_y = camera_get_view_y(view_camera[0]) ;
+//layer_y("Background", _cam_y * 0.25);
+//layer_y("Backgrounds_1", _cam_y * 0.5);
+
+//var layer_id1 = layer_get_id("Background");
+//var layer_id2 = layer_get_id("Backgrounds_1");
+//var layer_id3 = layer_get_id("Backgrounds_2");
+//var layer_id2 = layer_get_id("Instances_1");
+//var layer_id3 = layer_get_id("Tiles_1");
+
+//layer_y(layer_id1, lerp(0, camera_get_view_y(view_camera[0]),.5));
+//layer_y(layer_id2, lerp(0, camera_get_view_y(view_camera[0]),.25));
+//layer_x(layer_id1, lerp(0, camera_get_view_x(view_camera[0]),.5));
+//layer_x(layer_id3, lerp(0, camera_get_view_x(view_camera[0]),.25));
+
+//var _cam_x = camera_get_view_x(view_camera[0]) ;
+//layer_x("Background", _cam_x * 0.25); // Change the background layer name to whatever you use in the room editor
+//layer_x("Backgrounds_1", _cam_x * 0.5); 
+
+//var _cam_y = camera_get_view_y(view_camera[0]) ;
+//layer_x("Background", _cam_y * 0.25); // Change the background layer name to whatever you use in the room editor
+//layer_x("Backgrounds_1", _cam_y * 0.5);
+
 iInvCounterPlayer -= 1;
 iInvCounterPlayerRand -= 1;
 iInvCounterBagRand -= 1;
@@ -601,11 +630,11 @@ if (iHp <= 0)
 {
 	if room_get_name(room) == "rmShore3"
 	{
-		room_goto(rmGameOverActiveShore);
+		room_goto(rmGameOverNonStretchShore);
 	}
 	else if room_get_name(room) == "rmCave"
 	{
-		room_goto(rmGameOverActiveCave);
+		room_goto(rmGameOverNonStretch);
 	}
 }
 
@@ -619,7 +648,3 @@ if iCollideTimer == 60 && bSharkCollide == true
 //Debug
 //show_debug_message(objCurrentNet);
 //show_debug_message(solid);
-
-//effect_create_above(ef_firework,x,y,0,c_white);
-
-iBubbleTimer -= 1;
