@@ -1,18 +1,18 @@
 {
-    "id": "cd2583d2-6434-44f0-80b4-a9d3947c2553",
+    "id": "65f4a0b1-1091-4937-a68b-40a8a4031cbb",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "objParticle",
+    "name": "objParallax",
     "eventList": [
         {
-            "id": "aa6821dc-5471-48a5-b154-00a6b9ed4215",
+            "id": "2708ec30-7e62-460d-93ec-5202c8ced4c2",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 3,
-            "m_owner": "cd2583d2-6434-44f0-80b4-a9d3947c2553"
+            "m_owner": "65f4a0b1-1091-4937-a68b-40a8a4031cbb"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",

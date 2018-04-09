@@ -1,6 +1,6 @@
 if (characters < message_length) 
 { //if current character count is less than the amount in current message* 
-    hold = keyboard_check(vk_space); //hold is true or false if we hold 'Z' or not
+	hold = keyboard_check(vk_space); //hold is true or false if we hold 'Z' or not
     characters += increase * (2 + hold); //increase speed based on hold
     message_draw = string_copy(message[message_current], 0, characters); //copy string to current character
 } 
