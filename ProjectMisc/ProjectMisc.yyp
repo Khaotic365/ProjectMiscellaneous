@@ -959,6 +959,14 @@
             }
         },
         {
+            "Key": "6310016c-9c86-448c-96eb-944c424bda50",
+            "Value": {
+                "id": "38ae3fb1-dea1-4428-847c-70de3c282b1b",
+                "resourcePath": "sprites\\sprParallax\\sprParallax.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "64b10ec2-23bb-42df-bc59-dec08804ca2e",
             "Value": {
                 "id": "b3034968-67e8-4722-af1a-b1b62bb0b0c0",
@@ -1300,6 +1308,14 @@
                 "id": "ff2ffa80-9e42-4397-99e6-985f83ad2ba5",
                 "resourcePath": "objects\\objWallRoof1\\objWallRoof1.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "7faba727-ed9b-43cf-8e4f-65ec1cf3e9c7",
+            "Value": {
+                "id": "121f3c8f-b329-4a39-9628-36b4db5c3423",
+                "resourcePath": "sprites\\sprParallax2\\sprParallax2.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
