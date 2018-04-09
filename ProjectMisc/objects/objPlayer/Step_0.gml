@@ -623,3 +623,7 @@ if iCollideTimer == 60 && bSharkCollide == true
 //effect_create_above(ef_firework,x,y,0,c_white);
 
 iBubbleTimer -= 1;
+
+
+part_emitter_region(bubbles, bubble_emitter, x+5, x+10, y-10, y - 20, pt_shape_ring, ps_distr_linear);
+part_emitter_stream(bubbles, bubble_emitter, global.bubble, 1);
