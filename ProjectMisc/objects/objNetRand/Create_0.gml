@@ -27,7 +27,7 @@ motion_set(fRand, iSpd);
 
 //objNet variables
 randomize();
-sMoveMode = "BackForth";
+sMoveMode = "Random";
 //sMoveMode = "Jump";
 iMinSpeed = 2;
 iMaxSpeed = 5;

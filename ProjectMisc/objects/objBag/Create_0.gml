@@ -21,7 +21,7 @@ fRand = random_range(0,360);
 
 motion_set(fRand, iSpd);*/
 randomize();
-sMoveMode = "BackForth";
+sMoveMode = "Random";
 //sMoveMode = "Jump";
 iMinSpeed = 2;
 iMaxSpeed = 5;

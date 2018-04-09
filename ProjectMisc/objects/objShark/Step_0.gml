@@ -10,7 +10,7 @@ if distance_to_object(objPlayer) != 20
 
 //Checking to see if the player is within range of the shark. 
 //If it is the shark will follow the player.
-
+/*
 randomize();
 
 if distance_to_object(objPlayer) > iSharkrange
@@ -49,7 +49,7 @@ if position_meeting(x, y - 32, objOuterwall)
 	motion_set(215, iPatrolspd);
 }
 
-
+*/
 //Making the shark patrol toward the right edge of the screen.
 
 /*if bForward == true
@@ -92,6 +92,7 @@ if bBackward == true
 
 //Makes the shark follow the player until he or she is out of range.
 */
+/*
 if bFollow == true
 {
    move_towards_point(objPlayer.x, objPlayer.y, iFollowspd);
@@ -109,8 +110,30 @@ if y >= 768
 {
 	motion_set(145, iPatrolspd);
 }
-
+*/
 //Place debug messages below
 //show_debug_message(string(id) + ": " + string(distance_to_point(startx, starty)));
 //show_debug_message(distance_to_object(objPlayer));
 //show_debug_message(y);
+
+if bCaughtNet == false && bCaughtNetRand == false && distance_to_object(objPlayer) > iSharkRange
+{
+	sMoveMode = "BackForth";
+	image_yscale = 1;
+}
+else if distance_to_object(objPlayer) <= iSharkRange && iInvCounterRand <= 0 && sMoveMode != "CaughtNetRand"
+{
+	sMoveMode = "Follow";
+}
+//else if sMoveMode != "CaughtNetRand" && sMoveMode != "Follow" && sMoveMode != "Random" && iInvCounterRand <= 0
+//{
+//	iNetNearestRand = instance_nearest(self.x,self.y,objNetRand);
+//	iNetNearestRand.image_alpha = 1;	
+//}
+
+//show_debug_message(instance_nearest(objPlayer.x,objPlayer.y,objShark2).iInvCounterRand);
+
+iInvCounter -= 1;
+iInvCounterRand -= 1;
+
+script_execute(scrNPCMovement,sMoveMode,iMoveSpd,iSpeedTimer,iTargetSpd,iJumpTimer,iStartY,bJumping,bFalling,iMinSpeed,iMaxSpeed,bAfter,iCaughtTimer,bCaughtNet,iInvCounter,bCaughtNetRand,iCaughtTimerRand,iInvCounterRand,bCaughtOnce,bMoveSpdCheck)//,instLeftColl,instRightColl)

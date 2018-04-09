@@ -704,6 +704,7 @@ if sMoveMode == "CaughtNet"
 	}
 	
 }
+
 /*
 if sMoveMode == "CaughtNetRand"
 {
