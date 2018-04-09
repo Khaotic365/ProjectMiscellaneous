@@ -487,6 +487,14 @@
             }
         },
         {
+            "Key": "2fd1a0b8-5f51-4b91-93c7-f8b239719bf2",
+            "Value": {
+                "id": "380ac08e-d71e-43bf-861a-f98afeca6897",
+                "resourcePath": "views\\9feb4815-f0ea-4d58-8e53-581411f67bb6-room.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "300825a5-1062-4a21-a71a-194c5b9616bd",
             "Value": {
                 "id": "5170dff0-4340-4f2e-b865-5eb060e80998",
@@ -2119,6 +2127,14 @@
             }
         },
         {
+            "Key": "d1584f83-cf58-49ae-b982-5df8de3d87f0",
+            "Value": {
+                "id": "7ce4a37f-5ecd-4d30-a5b5-c33661351d78",
+                "resourcePath": "views\\57fda53e-4422-4d0b-9f68-88f2bf2d898f-room.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "d420e0c2-17bd-48d5-88a6-66188f4c5111",
             "Value": {
                 "id": "d2870150-7fe2-4b4f-a0fd-8169b9bbff45",
@@ -2244,6 +2260,14 @@
                 "id": "a4913a09-b6f6-4a95-b9ff-76272a2b0009",
                 "resourcePath": "sprites\\sprSmallBarnacle1\\sprSmallBarnacle1.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "ddc133ea-e3bd-4a4b-9a6e-b50b7676a710",
+            "Value": {
+                "id": "4d064e44-2cb3-4b58-9647-2ff863d6360d",
+                "resourcePath": "rooms\\rmTestCollision\\rmTestCollision.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
