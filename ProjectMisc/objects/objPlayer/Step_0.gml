@@ -1,4 +1,23 @@
- //Setting up keyboard controls for player
+/*if iHp == 3 && bHpG == true
+{
+	object_set_sprite(objPlayer, sprGreen);
+	instance_create_layer(x,y,"Instances_1",objPlayer);
+	bHp = false;
+}
+if iHp == 2 && bHpY == true
+{
+	object_set_sprite(objPlayer, sprYellow);
+	instance_create_layer(x,y,"Instances_1",objPlayer);
+	bHpY = false;
+}
+if iHp == 1 && bHpR == true
+{
+	object_set_sprite(objPlayer, sprRed);
+	instance_create_layer(x,y,"Instances_1",objPlayer);
+	bHpR = false;
+}
+*/
+//Setting up keyboard controls for player
 /*
 if (keyboard_check(vk_right)) || (keyboard_check(ord("D")))
 {
