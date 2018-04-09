@@ -90,3 +90,25 @@ bMouse = false;
 
 iTreasureCollect = 0;
 iBubbleTimer = 60;
+
+
+bubbles = part_system_create();
+part_system_depth(bubbles,400);
+//part_system_position(bubbles, x, y);
+
+global.bubble = part_type_create();
+part_type_shape(global.bubble, pt_shape_ring);
+part_type_size(global.bubble, 0.1, 0.6, 0, 0.3);
+part_type_scale(global.bubble, 0.17, 0.17);
+part_type_colour1(global.bubble, c_white);
+part_type_alpha2(global.bubble, 0.1, 0.8);
+part_type_speed(global.bubble, 1, 3, 0, 0.1);
+part_type_direction(global.bubble, 90, 90, 0, 1);
+//part_type_gravity(global.p1, 0.20, 270);
+part_type_orientation(global.bubble, 0, 0, 0, 0, 1);
+//part_type_blend(global.p1, 1);
+part_type_life(global.bubble, 8, 20);
+
+bubble_emitter = part_emitter_create(bubbles);
+//part_emitter_region(bubbles, bubble_emitter, x, x+10, y, y + 10, pt_shape_ring, ps_distr_linear);
+//part_emitter_stream(bubbles, bubble_emitter, global.bubble, 1);
