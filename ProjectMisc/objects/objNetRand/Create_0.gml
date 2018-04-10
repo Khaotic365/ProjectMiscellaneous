@@ -51,6 +51,6 @@ iCaughtTimerRand = 100;
 iInvCounterRand = 0;
 iInvCounterCrabRand = 0;
 bCaughtOnce = false;
-iNetDiffPlayer = objPlayer.iInvCounterPlayerRand;
+//iNetDiffPlayer = objPlayer.iInvCounterPlayerRand;
 //iNetDiffShark = instance_nearest(x,y,objShark2).iInvCounterRand;
 //iNetDiffCrab = instance_nearest(x,y,objCrab).iInvCounterCrabRand;
