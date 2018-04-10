@@ -4,7 +4,7 @@ if (characters < message_length)
     characters += increase * (2 + hold); //increase speed based on hold
     message_draw = string_copy(message[message_current], 0, characters); //copy string to current character
 } 
-else 
+else
 { //if current character is more than the amount in the current message
     if keyboard_check_pressed(vk_anykey)
 {

@@ -112,3 +112,7 @@ part_type_life(global.bubble, 8, 20);
 bubble_emitter = part_emitter_create(bubbles);
 //part_emitter_region(bubbles, bubble_emitter, x, x+10, y, y + 10, pt_shape_ring, ps_distr_linear);
 //part_emitter_stream(bubbles, bubble_emitter, global.bubble, 1);
+
+bHpG = true;
+bHpY = true;
+bHpR = true;
