@@ -5,7 +5,7 @@
     "name": "objEndBlocks",
     "eventList": [
         {
-            "id": "047444b9-b6c4-42a9-9db7-9bbbceb61d92",
+            "id": "932a834d-18c6-46ac-8c7d-053c94c72e64",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
