@@ -1,5 +1,8 @@
 randomize();
+iMinSpeed = 2;
+iMaxSpeed = 5;
 iFollowspd = 2;
+iMoveSpd = random_range(iMinSpeed,iMaxSpeed);
 
 //if !is_undefined(instance_position(x - 32, y, all)).sObjType
 //{
@@ -613,6 +616,114 @@ if sMoveMode == "Random"
 		image_xscale = 1;
 	}
 	
+	if position_meeting(x - 64, y, all)
+	{
+	if instLeftColl.sObjType == "Wall"
+	{ 
+		motion_set(random_range(-90,90), iMoveSpd);
+		//image_xscale = -1;
+	}
+	}
+	if position_meeting(x - 64, y - 64, all)
+	{
+	if instTopLeftColl.sObjType == "Wall"
+	{
+		motion_set(random_range(-225,45), iMoveSpd);
+		//image_xscale = -1;
+	}
+	}
+	if position_meeting(x - 64, y + 64, all)
+	{
+	if instBotLeftColl.sObjType == "Wall"
+	{
+		motion_set(random_range(-45,135), iMoveSpd);
+		//image_xscale = -1;
+	}
+	}
+	if position_meeting(x + 64, y, all)
+	{
+	if instRightColl.sObjType == "Wall"
+	{
+		motion_set(random_range(90,270), iMoveSpd);
+		//image_xscale = 1;
+	}
+	}
+	if position_meeting(x + 64, y - 64, all)
+	{
+	if instTopRightColl.sObjType == "Wall"
+	{
+		motion_set(random_range(135,315), iMoveSpd);
+		//image_xscale = 1;
+	}
+	}
+	if position_meeting(x + 64, y + 64, all)
+	{
+	if instBotRightColl.sObjType == "Wall"
+	{
+		motion_set(random_range(45,225), iMoveSpd);
+		//image_xscale = 1;
+	}
+	}
+	if position_meeting(x, y - 64, all)
+	{
+	if instTopColl.sObjType == "Wall"
+	{
+		motion_set(random_range(180,360), iMoveSpd);
+		//image_xscale = 1;
+	}
+	}
+	if position_meeting(x, y + 64, all)
+	{
+	if instBotColl.sObjType == "Wall"
+	{
+		motion_set(random_range(0,180), iMoveSpd);
+		//image_xscale = 1;
+	}
+	}
+	
+}
+
+if sMoveMode == "RandomShark"
+{
+	
+	if bAfter == true
+	{
+		image_angle = 0;
+		motion_set(choose(0, 180), iMoveSpd);
+		if direction == 0
+		{
+			image_xscale = -1;
+		}
+
+		if direction == 180
+		{
+			image_xscale = 1;
+		}
+		bAfter = false;
+	}
+	
+	if bFollowspdCheck == true
+	{
+		iFollowspd = 0.5;
+	}
+	
+	if speed == 0
+	{
+		motion_set(random_range(0,360), iMoveSpd);
+	}
+	if direction > 270 || direction < 90
+	{
+		image_xscale = -1;
+	}
+	if direction > 90 && direction < 270
+	{
+		image_xscale = 1;
+	}
+	
+	if distance_to_object(objPlayer) <= iSharkRange
+	{
+		move_towards_point(objPlayer.x, objPlayer.y, iFollowspd);
+	}
 	
 	if position_meeting(x - 64, y, all)
 	{
@@ -679,6 +790,80 @@ if sMoveMode == "Random"
 	}
 	}
 	
+	if distance_to_object(objPlayer) <= iSharkRange
+	{
+	if point_direction(x,y,objPlayer.x,objPlayer.y) > 0 && point_direction(x,y,objPlayer.x,objPlayer.y) < 90
+	{
+		if point_direction(x,y,objPlayer.x,objPlayer.y) > 0 && point_direction(x,y,objPlayer.x,objPlayer.y) < 25
+		{
+			image_angle = point_direction(x,y,objPlayer.x,objPlayer.y);
+			image_xscale = -1;
+			image_yscale = 1;
+		}
+	}
+	if point_direction(x,y,objPlayer.x,objPlayer.y) > 25 && point_direction(x,y,objPlayer.x,objPlayer.y) < 90
+	{
+		image_angle = 25;
+		image_xscale = -1;
+		image_yscale = 1;
+	}
+	if point_direction(x,y,objPlayer.x,objPlayer.y) > 90 && point_direction(x,y,objPlayer.x,objPlayer.y) < 180
+	{
+		if point_direction(x,y,objPlayer.x,objPlayer.y) > 155 && point_direction(x,y,objPlayer.x,objPlayer.y) < 180
+		{
+			image_angle = point_direction(x,y,objPlayer.x,objPlayer.y);
+			image_xscale = -1;
+			image_yscale = -1;
+		}
+	}
+	if point_direction(x,y,objPlayer.x,objPlayer.y) > 90 && point_direction(x,y,objPlayer.x,objPlayer.y) < 155
+	{
+		image_angle = 155;
+		image_xscale = -1;
+		image_yscale = -1;
+	}
+	if point_direction(x,y,objPlayer.x,objPlayer.y) > 180 && point_direction(x,y,objPlayer.x,objPlayer.y) < 270
+	{
+		if point_direction(x,y,objPlayer.x,objPlayer.y) > 180 && point_direction(x,y,objPlayer.x,objPlayer.y) < 205
+		{
+			image_angle = point_direction(x,y,objPlayer.x,objPlayer.y);
+			image_xscale = 1;
+			image_yscale = -1;
+		}
+	}
+	if point_direction(x,y,objPlayer.x,objPlayer.y) > 205 && point_direction(x,y,objPlayer.x,objPlayer.y) < 270
+	{
+		image_angle = 205;
+		image_xscale = 1;
+		image_yscale = -1;
+	}
+	if point_direction(x,y,objPlayer.x,objPlayer.y) > 270 && point_direction(x,y,objPlayer.x,objPlayer.y) < 360
+	{
+		if point_direction(x,y,objPlayer.x,objPlayer.y) > 335 && point_direction(x,y,objPlayer.x,objPlayer.y) < 360
+		{
+			image_angle = point_direction(x,y,objPlayer.x,objPlayer.y);
+			image_xscale = -1;
+			image_yscale = 1;
+		}
+	}
+	if point_direction(x,y,objPlayer.x,objPlayer.y) > 270 && point_direction(x,y,objPlayer.x,objPlayer.y) < 335
+	{
+		image_angle = 335;
+		image_xscale = -1;
+		image_yscale = 1;
+	}
+
+   if x >= objPlayer.x 
+   {
+      image_xscale = -1;
+   }
+   if x <= objPlayer.x 
+   {
+      image_xscale = -1;
+   }
+   
+   bAfter = true;
+	}
 }
 
 if sMoveMode == "CaughtNet"
