@@ -1503,6 +1503,14 @@
             }
         },
         {
+            "Key": "8f311848-0c6c-4d4f-a893-19fcec65d297",
+            "Value": {
+                "id": "be96d089-5959-4e67-9711-40f408f2a32f",
+                "resourcePath": "sprites\\sprHealthPack2\\sprHealthPack2.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "9099975f-1b13-417f-89a0-ce5fdf7ed134",
             "Value": {
                 "id": "c47207cc-f4b0-43a0-b0a6-695a55c7d2fa",
