@@ -463,4 +463,4 @@ iInvCounterRand -= 1;
 
 script_execute(scrNPCMovement,sMoveMode,iMoveSpd,iSpeedTimer,iTargetSpd,iJumpTimer,iStartY,bJumping,bFalling,iMinSpeed,iMaxSpeed,bAfter,iCaughtTimer,bCaughtNet,iInvCounter,bCaughtNetRand,iCaughtTimerRand,iInvCounterRand,bCaughtOnce,bMoveSpdCheck,iSharkRange)//,instLeftColl,instRightColl)
 
-show_debug_message(distance_to_object(objPlayer));
+//show_debug_message(distance_to_object(objPlayer));
