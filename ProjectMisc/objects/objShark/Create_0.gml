@@ -29,7 +29,7 @@ if direction == 180
 }
 */
 //randomize();
-sMoveMode = "BackForth";
+sMoveMode = "BackForthShark";
 //sMoveMode = "Jump";
 iMinSpeed = 2;
 iMaxSpeed = 5;

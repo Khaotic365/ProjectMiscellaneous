@@ -41,7 +41,7 @@ if direction > 90 && direction < 270
 }
 */
 randomize();
-sMoveMode = "Random";
+sMoveMode = "RandomShark";
 //sMoveMode = "Jump";
 iMinSpeed = 2;
 iMaxSpeed = 5;

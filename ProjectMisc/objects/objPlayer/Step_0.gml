@@ -658,3 +658,6 @@ if iCollideTimer == 60 && bSharkCollide == true
 //Debug
 //show_debug_message(objCurrentNet);
 //show_debug_message(solid);
+
+part_emitter_region(bubbles, bubble_emitter, x+5, x+10, y-10, y - 20, pt_shape_ring, ps_distr_linear);
+part_emitter_stream(bubbles, bubble_emitter, global.bubble, 1);
