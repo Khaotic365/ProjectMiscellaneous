@@ -1,28 +1,28 @@
 {
-    "id": "9c2b4261-4535-4ad5-bb19-f0afc5dc3061",
+    "id": "239d5404-561a-4e2d-aa06-dc089d855377",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "objSunBeams",
+    "name": "objSunBeams1",
     "eventList": [
         {
-            "id": "dc3dd6f8-0230-4a5f-b723-1f1a0a34a04e",
+            "id": "28c0ef21-a00f-40d2-a222-923c553c4c8b",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "9c2b4261-4535-4ad5-bb19-f0afc5dc3061"
+            "m_owner": "239d5404-561a-4e2d-aa06-dc089d855377"
         },
         {
-            "id": "6d9d348e-5edf-48f2-b310-8b314d7ff9a4",
+            "id": "870080fd-bc12-4d73-adc2-ffc27e9945f3",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 3,
-            "m_owner": "9c2b4261-4535-4ad5-bb19-f0afc5dc3061"
+            "m_owner": "239d5404-561a-4e2d-aa06-dc089d855377"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
