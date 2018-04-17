@@ -118,13 +118,13 @@ if y >= 768
 
 if bCaughtNet == false && bCaughtNetRand == false && distance_to_object(objPlayer) > iSharkRange
 {
-	sMoveMode = "BackForth";
+	sMoveMode = "BackForthShark";
 	image_yscale = 1;
 }
-else if distance_to_object(objPlayer) <= iSharkRange && iInvCounterRand <= 0 && sMoveMode != "CaughtNetRand"
-{
-	sMoveMode = "Follow";
-}
+//else if distance_to_object(objPlayer) <= iSharkRange && iInvCounterRand <= 0 && sMoveMode != "CaughtNetRand"
+//{
+//	sMoveMode = "Follow";
+//}
 //else if sMoveMode != "CaughtNetRand" && sMoveMode != "Follow" && sMoveMode != "Random" && iInvCounterRand <= 0
 //{
 //	iNetNearestRand = instance_nearest(self.x,self.y,objNetRand);

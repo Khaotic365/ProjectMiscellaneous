@@ -111,6 +111,14 @@
             }
         },
         {
+            "Key": "0bbfeab3-c656-4bf5-8e48-54c64f256c53",
+            "Value": {
+                "id": "d5b7ba9a-6f35-4272-9f46-57b52cae481b",
+                "resourcePath": "objects\\objCaveBGParallaxSmall1\\objCaveBGParallaxSmall1.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "0d8d51a3-353b-4973-b58f-96031e54fd6e",
             "Value": {
                 "id": "1e8c6ee1-65e3-49ad-9b2b-8ce4165910f1",
@@ -164,6 +172,14 @@
                 "id": "a6eb5918-f9b1-4c40-8bd3-6b5ade1b44e6",
                 "resourcePath": "views\\1179d420-c7df-45bc-9e14-91d2bde4eb8e.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "117f8ce6-fcef-4226-9186-c8cbedc721e9",
+            "Value": {
+                "id": "3f419a2b-9d38-4c44-887b-490f0b229f24",
+                "resourcePath": "objects\\objShoreBGParallax\\objShoreBGParallax.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -284,6 +300,14 @@
                 "id": "68329df3-c037-4661-b269-0968211ea018",
                 "resourcePath": "views\\1ba04c86-7d40-4915-a588-53be9aa40e47.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "1c2f0282-5f03-4159-a254-419200ae9fcb",
+            "Value": {
+                "id": "856311b9-19d7-4a1f-b484-8c70a9cd2bb3",
+                "resourcePath": "sprites\\sprShoreBGParallxSmall\\sprShoreBGParallxSmall.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -519,6 +543,14 @@
             }
         },
         {
+            "Key": "32b91187-7863-477e-9615-6f7c7bfb184a",
+            "Value": {
+                "id": "e84d48e7-0471-4ad8-97b8-1a9c96bd5e0d",
+                "resourcePath": "sprites\\sprShoreBGParallax\\sprShoreBGParallax.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "3448826a-cb82-45a0-b3a3-8a617d169588",
             "Value": {
                 "id": "bc58b323-d0cc-4de6-b33d-7f9265c4550e",
@@ -668,6 +700,22 @@
                 "id": "8090f010-13a6-491a-a81d-7e04dc0fe340",
                 "resourcePath": "sprites\\sprStory3\\sprStory3.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "447b27f6-61d0-45c2-82a2-01f55f4c1c0d",
+            "Value": {
+                "id": "d680848b-57db-4d55-b7e8-8165a3d13063",
+                "resourcePath": "objects\\objShoreBGParallaxSmall1\\objShoreBGParallaxSmall1.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "455c4fdd-c878-4408-8d44-a56fddde17fb",
+            "Value": {
+                "id": "e4414ce7-3b96-4eea-b888-8bbe54f31e82",
+                "resourcePath": "objects\\objShoreBGParallaxSmall3\\objShoreBGParallaxSmall3.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -919,6 +967,14 @@
             }
         },
         {
+            "Key": "602f1bfd-88a8-4067-9fbd-90fbce0b6b26",
+            "Value": {
+                "id": "96a712a9-3e73-43cb-89ce-da793e55a751",
+                "resourcePath": "sprites\\sprSunBeams\\sprSunBeams.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "6094f9e9-b640-48c8-afd0-906ad2be2265",
             "Value": {
                 "id": "f508951a-ab1c-42c0-85f9-07ddc69592ce",
@@ -975,6 +1031,14 @@
             }
         },
         {
+            "Key": "64dcb786-013a-4301-b577-ae469c8c80b7",
+            "Value": {
+                "id": "9607296c-32f7-47cc-99e6-347e99c9ee5d",
+                "resourcePath": "objects\\objBotCorner\\objBotCorner.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "650c8f31-3053-410f-b7ba-de79e5164bb3",
             "Value": {
                 "id": "1d5f717b-aca2-44ed-97a6-eb2cce8304c0",
@@ -1011,6 +1075,14 @@
             "Value": {
                 "id": "566e1290-a890-4ca5-8cd6-ae2ac134068f",
                 "resourcePath": "objects\\objParallax\\objParallax.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "66caafb6-103c-4524-ae67-0884234856c4",
+            "Value": {
+                "id": "1f2d8d75-8cd0-4c7f-a918-039553bbe901",
+                "resourcePath": "objects\\objShoreBG\\objShoreBG.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -1423,11 +1495,27 @@
             }
         },
         {
+            "Key": "8caff578-fe63-4032-9736-5f83d9454abe",
+            "Value": {
+                "id": "a8f71e64-63f0-47e6-9974-84676c38e507",
+                "resourcePath": "sprites\\sprCaveBGParallaxSmall\\sprCaveBGParallaxSmall.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "8eeea076-67b8-4b46-9f7e-4117be148d1c",
             "Value": {
                 "id": "50a2f4de-4ba9-495e-a80b-08e97d56fc25",
                 "resourcePath": "rooms\\rmGameOverActiveShore\\rmGameOverActiveShore.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "8f311848-0c6c-4d4f-a893-19fcec65d297",
+            "Value": {
+                "id": "be96d089-5959-4e67-9711-40f408f2a32f",
+                "resourcePath": "sprites\\sprHealthPack2\\sprHealthPack2.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1539,6 +1627,14 @@
             "Value": {
                 "id": "ccdcfab9-b83e-4a40-aebf-7a41efa0ad9e",
                 "resourcePath": "objects\\objStoryAspect4\\objStoryAspect4.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "9c2b4261-4535-4ad5-bb19-f0afc5dc3061",
+            "Value": {
+                "id": "6811e578-8088-4565-80cd-4bd5efa2e15c",
+                "resourcePath": "objects\\objSunBeams\\objSunBeams.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -1815,6 +1911,14 @@
             }
         },
         {
+            "Key": "b7f1cfff-4b85-4c24-871e-d6040210a6cf",
+            "Value": {
+                "id": "efc0d4ad-308b-43ca-b420-15e7fda06882",
+                "resourcePath": "objects\\objCaveBGParallaxSmall2\\objCaveBGParallaxSmall2.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "ba5e05db-265d-4da7-a832-6cce5dac7ca0",
             "Value": {
                 "id": "2300cb6b-e12c-4839-9e89-4dd5447afadf",
@@ -1892,6 +1996,14 @@
                 "id": "9b452355-53e0-4642-91f4-5651d75e061c",
                 "resourcePath": "rooms\\rmLevel3\\rmLevel3.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "c25c109e-5c44-4340-8e75-a5f5c57f2599",
+            "Value": {
+                "id": "5314fad7-ab17-419a-bccf-4ddb313ceb91",
+                "resourcePath": "objects\\objShoreBGParallaxSmall\\objShoreBGParallaxSmall.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -2103,6 +2215,14 @@
             }
         },
         {
+            "Key": "d1c48d89-333b-4728-9e8f-b7d9c3c5f824",
+            "Value": {
+                "id": "73db7140-7357-4e73-aea0-4eab1b4a8761",
+                "resourcePath": "objects\\objCaveBGParallaxSmall\\objCaveBGParallaxSmall.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "d420e0c2-17bd-48d5-88a6-66188f4c5111",
             "Value": {
                 "id": "d2870150-7fe2-4b4f-a0fd-8169b9bbff45",
@@ -2124,6 +2244,14 @@
                 "id": "86451e20-632f-4ad1-a938-bcb40a98080e",
                 "resourcePath": "views\\d5ae5f4a-f20a-4163-a945-dce42fcbfd27.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "d5c5aa2f-becd-4927-bd0d-e76a53b36ecd",
+            "Value": {
+                "id": "be5b32e9-3d6b-4218-8f15-9eea93afea2f",
+                "resourcePath": "sprites\\sprShoreBGPara\\sprShoreBGPara.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -2196,6 +2324,14 @@
                 "id": "d4a498bc-f6f4-4edb-a5c2-d4489db13924",
                 "resourcePath": "fonts\\fntMain\\fntMain.yy",
                 "resourceType": "GMFont"
+            }
+        },
+        {
+            "Key": "db79fc09-7cc1-42eb-8a72-c3e1cae1845a",
+            "Value": {
+                "id": "f3145a8f-837b-4eb3-9648-4ca7e8fdef6b",
+                "resourcePath": "objects\\objShoreBGParallaxSmall2\\objShoreBGParallaxSmall2.yy",
+                "resourceType": "GMObject"
             }
         },
         {
