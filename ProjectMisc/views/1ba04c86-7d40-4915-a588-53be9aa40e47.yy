@@ -5,7 +5,8 @@
     "name": "1ba04c86-7d40-4915-a588-53be9aa40e47",
     "children": [
         "ee0f9b21-9489-40d7-992b-91bfd3026056",
-        "48661232-1562-4bd5-9419-4891417c58a6"
+        "48661232-1562-4bd5-9419-4891417c58a6",
+        "8f311848-0c6c-4d4f-a893-19fcec65d297"
     ],
     "filterType": "GMSprite",
     "folderName": "Collectables",

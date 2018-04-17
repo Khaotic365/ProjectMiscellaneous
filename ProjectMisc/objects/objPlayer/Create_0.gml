@@ -1,4 +1,4 @@
- //Creating hitpoints for player
+//Creating hitpoints for player
 
 sObjType = "NotWall";
 bClicked = 0;
