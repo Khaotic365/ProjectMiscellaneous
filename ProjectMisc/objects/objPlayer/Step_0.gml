@@ -17,6 +17,10 @@ if (keyboard_check(vk_right)) || (keyboard_check(ord("D")))
 }
 */
 
+//camera_set_view_pos(view_camera[0], x - camera_get_view_width(view_camera[0]) * 0.5, y - camera_get_view_height(view_camera[0]) * 0.5)
+//var _cam_y = camera_get_view_y(view_camera[0]) ;
+//layer_y("Background", _cam_y * 25); // Change the background layer name to whatever you use in the room editor
+
 var layer_id1 = layer_get_id("Instances_3");
 layer_x(layer_id1, lerp(0, camera_get_view_x(view_camera[0]),.5));
 

@@ -2223,6 +2223,14 @@
             }
         },
         {
+            "Key": "d5c5aa2f-becd-4927-bd0d-e76a53b36ecd",
+            "Value": {
+                "id": "be5b32e9-3d6b-4218-8f15-9eea93afea2f",
+                "resourcePath": "sprites\\sprShoreBGPara\\sprShoreBGPara.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "d5dc07b1-e96f-488b-969a-28a998c7fb1f",
             "Value": {
                 "id": "f1e80292-9eae-4998-a8ee-1918139384c8",
