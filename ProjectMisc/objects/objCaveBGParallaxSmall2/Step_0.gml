@@ -1,4 +1,4 @@
-s/// @description Insert description here
+/// @description Insert description here
 // You can write your code in this editor
 fPlayerx = objPlayer.x / room_width;
 fMultx = fPlayerx * fBGPercentx;
