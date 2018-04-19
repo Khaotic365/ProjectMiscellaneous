@@ -5,4 +5,4 @@ fMultx = fPlayerx * fBGPercentx;
 x = -1 * fMultx;
 fPlayery = objCamera.y / room_height;
 fMulty = fPlayery * fBGPrecenty;
-y = sprite_height * 2 + 1 * fMulty;
+y = sprite_height * 1 + 0.75 * fMulty;

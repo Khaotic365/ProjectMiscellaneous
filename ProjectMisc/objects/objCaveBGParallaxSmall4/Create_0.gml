@@ -1,8 +1,9 @@
 /// @description Insert description here
 // You can write your code in this editor
+sObjType = "NotWall";
+fBGPercentx = (sprite_width - room_width) / -3;
 fPlayerx = objCamera.x / room_width;
-fMultx = fPlayerx * fBGPercentx;
-x = -1 * fMultx;
+fMultx = 0;
+fBGPercenty = (sprite_height - room_height) / -3;
 fPlayery = objCamera.y / room_height;
-fMulty = fPlayery * fBGPrecenty;
-y = sprite_height + 1 * fMulty;
+fMulty = 0;
