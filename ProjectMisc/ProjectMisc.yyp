@@ -399,6 +399,14 @@
             }
         },
         {
+            "Key": "239d5404-561a-4e2d-aa06-dc089d855377",
+            "Value": {
+                "id": "778a170e-1ec9-4385-ad10-f2e75f174705",
+                "resourcePath": "objects\\objSunBeams1\\objSunBeams1.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "243d1c6c-1821-4e04-b0ed-fb02fde6b8e7",
             "Value": {
                 "id": "3028b74c-e22c-41f1-87e0-2086c8379961",
@@ -547,6 +555,14 @@
             "Value": {
                 "id": "e84d48e7-0471-4ad8-97b8-1a9c96bd5e0d",
                 "resourcePath": "sprites\\sprShoreBGParallax\\sprShoreBGParallax.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "341c50e0-89c3-4b19-8c19-d448bc872848",
+            "Value": {
+                "id": "abf06965-d445-4e02-b1bb-7ab0819396de",
+                "resourcePath": "sprites\\sprSunBeams2\\sprSunBeams2.yy",
                 "resourceType": "GMSprite"
             }
         },
