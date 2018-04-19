@@ -1,5 +1,5 @@
 //write your messages in an array, starting at 0, like so
-message[0] = "Melvin Marmaduke was \ndown on his luck.\n \n \n \n \n \n \n \n  press spacebar to \n      continue\n   press s to skip ";
+message[0] = "Melvin Marmaduke was \ndown on his luck.\n \n \n \n \n \n \n \n    left click to \n      continue\n right click to skip ";
 message[1] = "He was drowning in \ngambling debt and \nhis wife left him \nbecause of it. ";
 message[2] = "As a historian, Melvin \nbegan researching \nancient legends to \ncure him of his \nfinancial woes. ";
 message[3] = "While looking through \nan oceanographic text, \nan old map fell out \nwith 'ATLANTIS' \nwritten across it. ";
