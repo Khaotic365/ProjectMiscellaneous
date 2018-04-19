@@ -1,5 +1,5 @@
 //write your messages in an array, starting at 0, like so
-message[0] = "    GAME OVER\n \n \n \n \n \n \n  press any key";
+message[0] = "    GAME OVER\n \n \n \n \n \n \n   right click \n   to continue";
 
 
 message_current = 0; //0 is the first number in our array, and the message we are currently at
