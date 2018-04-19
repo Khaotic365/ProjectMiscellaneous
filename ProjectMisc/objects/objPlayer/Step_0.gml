@@ -17,6 +17,10 @@ if (keyboard_check(vk_right)) || (keyboard_check(ord("D")))
 }
 */
 
+//camera_set_view_pos(view_camera[0], x - camera_get_view_width(view_camera[0]) * 0.5, y - camera_get_view_height(view_camera[0]) * 0.5)
+//var _cam_y = camera_get_view_y(view_camera[0]) ;
+//layer_y("Background", _cam_y * 25); // Change the background layer name to whatever you use in the room editor
+
 var layer_id1 = layer_get_id("Instances_3");
 layer_x(layer_id1, lerp(0, camera_get_view_x(view_camera[0]),.5));
 
@@ -144,7 +148,7 @@ else if iInvCounterBagRand <= 0
 //show_debug_message(iInvCounterPlayer);
 //show_debug_message(iInvCounterPlayerRand);
 //show_debug_message(iCaughtTimerPlayerRand);
-
+/*
 if keyboard_check_pressed(ord("K"))
 {
 	bKeyboard = true;
@@ -381,24 +385,24 @@ else
 //show_debug_message(iDashTimerLeft);
 //show_debug_message(iDashTimerUp);
 //show_debug_message(iDashTimerDown);
-
+*/
 if (x <= iRmMinX) x = 0;
 if (x >= iRmMaxX) x = iRmMaxX;
 if y <= iRmMinY	y = 0;
 if y >= iRmMaxY	y = iRmMaxY;
  
 //show_debug_message(x);
-if keyboard_check(ord("M"))
-{
-	bMouse = true;
-	bKeyboard = false;
-}
-if bMouse == true
-{
+//if keyboard_check(ord("M"))
+//{
+//	bMouse = true;
+//	bKeyboard = false;
+//}
+//if bMouse == true
+//{
 
-	image_angle = 0;
-	image_xscale = 1;
-	image_yscale = 1;
+//	image_angle = 0;
+//	image_xscale = 1;
+//	image_yscale = 1;
 
 if point_direction(x,y,mouse_x,mouse_y) > 270 || point_direction(x,y,mouse_x,mouse_y) < 90
 {
@@ -499,7 +503,7 @@ if point_distance(iStartX,iStartY,x,y) >= 120 && bOnly == 1
 		bClicked = 0;
 	}
 }
-}
+//}
 //show_debug_message(iClickTimer);
 //show_debug_message(bClicked);
 /*
