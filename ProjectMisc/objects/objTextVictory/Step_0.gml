@@ -6,7 +6,7 @@ if (characters < message_length)
 } 
 else
 { //if current character is more than the amount in the current message
-    if mouse_check_button_released(mb_right)
+    if mouse_check_button_released(mb_right) || mouse_check_button_released(mb_left)
 {
 	room_goto(rmCreditsActive);
 }
