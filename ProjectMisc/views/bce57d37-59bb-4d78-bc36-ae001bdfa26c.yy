@@ -11,7 +11,8 @@
         "58eb43b6-545e-498d-b952-fdececf01346",
         "1af1cfbb-c6d3-43df-b21f-9df30f387b07",
         "228c69fe-d4c5-421e-b469-5e2f0d7fe9cb",
-        "6fdab801-b13f-4a2a-8820-e04a3a6bd195"
+        "6fdab801-b13f-4a2a-8820-e04a3a6bd195",
+        "22612e43-3686-4fab-b099-9f7ff5e19a17"
     ],
     "filterType": "GMSprite",
     "folderName": "Title Cards",
