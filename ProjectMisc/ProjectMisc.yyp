@@ -1815,6 +1815,14 @@
             }
         },
         {
+            "Key": "a9f767c5-7246-4e66-8ac2-63341dc22f08",
+            "Value": {
+                "id": "1d35b911-9f56-4476-9f04-4821731572d9",
+                "resourcePath": "objects\\objFadeVictory\\objFadeVictory.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "aa5118e0-41d4-477d-8cb7-c1e123dff76a",
             "Value": {
                 "id": "3c75194d-c29f-4edc-9dab-6abb5da75131",
