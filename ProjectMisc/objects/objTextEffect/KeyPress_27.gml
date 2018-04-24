@@ -1,4 +1,3 @@
 /// @description Insert description here
 // You can write your code in this editor
-sObjType="NotWall";
-image_alpha = 0.90;
+if (keyboard_check_direct(vk_escape)) game_end();
