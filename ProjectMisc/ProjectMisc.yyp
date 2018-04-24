@@ -2271,6 +2271,14 @@
             }
         },
         {
+            "Key": "d5a228ce-dbfa-46b6-8709-c5590725e0c8",
+            "Value": {
+                "id": "a2c9a586-1939-48a2-9249-56110888b203",
+                "resourcePath": "sprites\\sprCaveFade\\sprCaveFade.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "d5ae5f4a-f20a-4163-a945-dce42fcbfd27",
             "Value": {
                 "id": "86451e20-632f-4ad1-a938-bcb40a98080e",
