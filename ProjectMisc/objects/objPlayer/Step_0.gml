@@ -651,6 +651,8 @@ if (iHp <= 0)
 	{
 		room_goto(rmGameOverActiveCave);
 	}
+	
+	part_system_destroy(bubbles);
 }
 
 /*
