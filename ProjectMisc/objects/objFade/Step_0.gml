@@ -1,7 +1,9 @@
 /// @description Insert description here
 // You can write your code in this editor
-sObjType="Wall"
-bDisappear = 0;
-iAlpha = 1;
-bNext = 0;
-bNextRoom = 0;
+if bReappear == 1
+{
+	if iAlpha <= 1
+	{
+		iAlpha += 0.02;
+	}
+}

@@ -567,6 +567,14 @@
             }
         },
         {
+            "Key": "32fd24b3-231d-4f31-9c7f-65c246a84ee1",
+            "Value": {
+                "id": "5c14499c-5076-4ecd-83dd-3a87f0b6988c",
+                "resourcePath": "objects\\objFade\\objFade.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "341c50e0-89c3-4b19-8c19-d448bc872848",
             "Value": {
                 "id": "abf06965-d445-4e02-b1bb-7ab0819396de",
