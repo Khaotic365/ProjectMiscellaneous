@@ -1655,6 +1655,14 @@
             }
         },
         {
+            "Key": "9a4c4420-17b3-4092-9307-5865d736b0e5",
+            "Value": {
+                "id": "0b66fe2e-d6b9-4e52-a2c8-f8eba06c101d",
+                "resourcePath": "objects\\objBeginningTextCave\\objBeginningTextCave.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "9b8f923e-630c-4253-b42c-36ed6bdab6fd",
             "Value": {
                 "id": "14b2cd9a-3979-4193-82cb-f2e9beff6e7a",

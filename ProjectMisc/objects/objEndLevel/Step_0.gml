@@ -23,7 +23,7 @@ if bDisappear == 1
 
 if bNextRoom == 1
 {
-	room_goto(rmCave);
+	room_goto_next();
 }
 
 show_debug_message(iAlpha);
